@@ -1,0 +1,32 @@
+name: Déploiement sur GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Déclenche l'action lorsque des modifications sont poussées sur `main`
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Étape 1 : Cloner le dépôt principal
+      - name: Checkout du dépôt principal
+        uses: actions/checkout@v3
+
+      # Étape 2 : Déployer les fichiers
+      - name: Déployer vers GitHub Pages
+        run: |
+          echo "Clonage du dépôt de déploiement..."
+          git clone https://github.com/Mobifer/mobifer.github.io.git deploy
+
+          echo "Copie des fichiers..."
+          rsync -av --delete ./ deploy/ --exclude .git --exclude .github
+
+          echo "Commit et push..."
+          cd deploy
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Déploiement automatique via GitHub Actions"
+          git push
