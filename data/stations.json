@@ -1,0 +1,312 @@
+{
+	"La Defense": {
+		"nom": "La Défense",
+		"ptinteret": "Grande Arche",
+		"lignes": [
+			{ "type": "metro", "lines": ["1"] },
+			{ "type": "RER", "lines": ["A", "E"] },
+			{ "type": "train", "lines": ["L", "U"] },
+			{ "type": "tram", "lines": ["T2"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Acc%C3%A8s_Station_M%C3%A9tro_D%C3%A9fense_Parvis_D%C3%A9fense_-_Puteaux_%28FR92%29_-_2022-01-30_-_15.jpg/1280px-Acc%C3%A8s_Station_M%C3%A9tro_D%C3%A9fense_Parvis_D%C3%A9fense_-_Puteaux_%28FR92%29_-_2022-01-30_-_15.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Acc%C3%A8s_Station_M%C3%A9tro_D%C3%A9fense_Parvis_D%C3%A9fense_-_Puteaux_(FR92)_-_2022-01-30_-_15.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1"] }
+				],
+				"ouverture": "1<sup>er</sup> avril 1992",
+				"inaugural": "Grande Arche de La Défense",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "3",
+				"accessible": "Oui",
+				"communes": ["Puteaux"],
+				"frequentation": "9 256 802 voyageurs (2021)"
+			},
+			{
+				"lignes": [
+					{ "type": "RER", "lines": ["A", "E"] },
+					{ "type": "train", "lines": ["L", "U"] },
+					{ "type": "tram", "lines": ["T2"] }
+				],
+				"ouverture": "Avril 1959 (SNCF)<br>19 janvier 1970 (RATP)<br>2 juillet 1997 (Tramway T2)<br>6 mai 2024 (RER E)",
+				"voies": "4 (RATP)<br>6 (SNCF)<br>2 (Tramway T2)",
+				"quais": "2 centraux (RER A)<br>2 centraux (Transilien L et U)<br>1 central (Tramway T2)<br>1 central (RER E)",
+				"zone_tarifaire": "3",
+				"accessible": "Oui",
+				"communes": ["Puteaux"],
+				"frequentation": "64,3 millions de voyageurs (2019)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "ptinteret": "Grande Arche"},
+			{"numero": "2", "description": "Dôme – Valmy", "ptinteret": "Arena"},
+			{"numero": "3", "description": "Boieldieu"},
+			{"numero": "4", "description": "Parvis – Esplanade"},
+			{"numero": "5", "description": "Calder – Miró"},
+			{"numero": "6", "description": "Coupole – Regnault"},
+			{"numero": "7", "description": "place Carpeaux"},
+			{"numero": "8", "description": "salle des Colonnes"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=La%20D%C3%A9fense&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=470549&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"},
+			{"style": "sncf", "link": "https://enrail.org/sncf/?mode=Departures&station=La%20D%C3%A9fense"}
+		]
+	},
+
+	"Esplanade de La Defense": {
+		"nom": "Esplanade de La Défense",
+		"lignes": [
+			{ "type": "metro", "lines": ["1"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Acc%C3%A8s_Station_M%C3%A9tro_Esplanade_D%C3%A9fense_Axe_D%C3%A9fense_-_Puteaux_%28FR92%29_-_2022-01-30_-_2.jpg/1024px-Acc%C3%A8s_Station_M%C3%A9tro_Esplanade_D%C3%A9fense_Axe_D%C3%A9fense_-_Puteaux_%28FR92%29_-_2022-01-30_-_2.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Acc%C3%A8s_Station_M%C3%A9tro_Esplanade_D%C3%A9fense_Axe_D%C3%A9fense_-_Puteaux_(FR92)_-_2022-01-30_-_2.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1"] }
+				],
+				"ouverture": "1<sup>er</sup> avril 1992",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "3",
+				"accessible": "Oui",
+				"communes": ["Courbevoie", "Puteaux"],
+				"frequentation": "4 708 183 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "Courbevoie", "repere": "Quartier Iris"},
+			{"numero": "2", "description": "Puteaux", "repere": "Quartier Michelet"},
+			{"numero": "3", "description": "quai De Dion-Bouton", "repere": "Quartier Bellini"},
+			{"numero": "4", "description": "quai Paul Doumer", "repere": "Quartier Saisons"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Esplanade%20de%20la%20D%C3%A9fense&line=1&sens=La%20D%C3%A9fense&stationcode=42962&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Esplanade%20de%20la%20D%C3%A9fense&line=1&sens=Ch%C3%A2teau%20de%20Vincennes&stationcode=42962&linecode=C01371&destcode=Ch%C3%A2teau:b:de%20Vincennes&destcodealt=false"}
+		]
+	},
+
+	"Pont de Neuilly": {
+		"nom": "Pont de Neuilly",
+		"lignes": [
+			{ "type": "metro", "lines": ["1"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Acc%C3%A8s_Station_M%C3%A9tro_Pont_Neuilly_Avenue_Charles_Gaulle_-_Neuilly-sur-Seine_%28FR92%29_-_2022-01-30_-_6.jpg/1024px-Acc%C3%A8s_Station_M%C3%A9tro_Pont_Neuilly_Avenue_Charles_Gaulle_-_Neuilly-sur-Seine_%28FR92%29_-_2022-01-30_-_6.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Acc%C3%A8s_Station_M%C3%A9tro_Pont_Neuilly_Avenue_Charles_Gaulle_-_Neuilly-sur-Seine_(FR92)_-_2022-01-30_-_6.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1"] }
+				],
+				"ouverture": "29 avril 1937",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "2",
+				"accessible": "Non",
+				"communes": ["Neuilly-sur-Seine"],
+				"frequentation": "4 822 599 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "rue du Château"},
+			{"numero": "2", "description": "avenue de Madrid"},
+			{"numero": "3", "description": "rue de l’Église"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Pont%20de%20Neuilly&line=1&sens=La%20D%C3%A9fense&stationcode=44479&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Pont%20de%20Neuilly&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=44479&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"}
+		]
+	},
+
+	"Les Sablons": {
+		"nom": "Les Sablons",
+		"ptinteret": "Jardin d’Acclimatation",
+		"lignes": [
+			{ "type": "metro", "lines": ["1"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Acc%C3%A8s_Station_M%C3%A9tro_Sablons_Avenue_Charles_Gaulle_-_Neuilly-sur-Seine_%28FR92%29_-_2022-01-30_-_4.jpg/1024px-Acc%C3%A8s_Station_M%C3%A9tro_Sablons_Avenue_Charles_Gaulle_-_Neuilly-sur-Seine_%28FR92%29_-_2022-01-30_-_4.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Acc%C3%A8s_Station_M%C3%A9tro_Sablons_Avenue_Charles_Gaulle_-_Neuilly-sur-Seine_(FR92)_-_2022-01-30_-_4.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1"] }
+				],
+				"ouverture": "29 avril 1937",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "2",
+				"accessible": "Non",
+				"communes": ["Neuilly-sur-Seine"],
+				"frequentation": "3 954 920 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "rue Louis-Philippe"},
+			{"numero": "2", "ptinteret": "Jardin d’Acclimatation"},
+			{"numero": "3", "description": "rue Jacques Dulud"},
+			{"numero": "4", "description": "place du Marché"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Les%20Sablons&line=1&sens=La%20D%C3%A9fense&stationcode=43785&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Les%20Sablons&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=43785&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"}
+		]
+	},
+
+	"Argentine": {
+		"nom": "Argentine",
+		"lignes": [
+			{ "type": "metro", "lines": ["1"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Accès_Station_Métro_Argentine_Avenue_Grande_Armée_-_Paris_XVI_(FR75)_-_2022-01-30_-_1.jpg/1024px-Accès_Station_Métro_Argentine_Avenue_Grande_Armée_-_Paris_XVI_(FR75)_-_2022-01-30_-_1.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Accès_Station_Métro_Argentine_Avenue_Grande_Armée_-_Paris_XVI_(FR75)_-_2022-01-30_-_1.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1"] }
+				],
+				"ouverture": "1<sup>er</sup> septembre 1900",
+				"inaugural":"Obligado",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (XVI<sup>e</sup>, XVII<sup>e</sup>)"],
+				"frequentation": "2 079 212 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "rue des Acacias"},
+			{"numero": "2", "description": "avenue de la Grande Armée"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Argentine&line=1&sens=La%20Défense&stationcode=42213&linecode=C01371&destcode=La%20Défense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Argentine&line=1&sens=Château:b:de%20Vincennes&stationcode=42213&linecode=C01371&destcode=Château%20de%20Vincennes&destcodealt=false"}
+		]
+	},
+
+	"Reuilly-Diderot": {
+		"nom": "Reuilly – Diderot",
+		"lignes": [
+			{ "type": "metro", "lines": ["1", "8"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Acc%C3%A8s_Station_M%C3%A9tro_Reuilly_Diderot_Boulevard_Diderot_-_Paris_XII_%28FR75%29_-_2021-12-21_-_2.jpg/1280px-Acc%C3%A8s_Station_M%C3%A9tro_Reuilly_Diderot_Boulevard_Diderot_-_Paris_XII_%28FR75%29_-_2021-12-21_-_2.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Acc%C3%A8s_Station_M%C3%A9tro_Reuilly_Diderot_Boulevard_Diderot_-_Paris_XII_(FR75)_-_2021-12-21_-_2.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1", "8"] }
+				],
+				"ouverture": "20 août 1900",
+				"voies": "4",
+				"quais": "4",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (XII<sup>e</sup>)"],
+				"frequentation": "4 580 091 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "boulevard Diderot"},
+			{"numero": "2", "description": "rue Claude Tillier"},
+			{"numero": "3", "description": "rue de Reuilly"},
+			{"numero": "4", "description": "rue de Chaligny"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Reuilly-Diderot&line=1&sens=La%20D%C3%A9fense&stationcode=44637&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Reuilly-Diderot&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=44637&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Reuilly-Diderot&line=8&sens=Balard&stationcode=44637&linecode=C01378&destcode=Balard&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Reuilly-Diderot&line=8&sens=Cr%C3%A9teil&stationcode=44637&linecode=C01378&destcode=Pointe%20du%20Lac&destcodealt=false"}
+		   ]
+	},
+
+	"George V": {
+		"nom": "George V",
+		"lignes": [
+			{ "type": "metro", "lines": ["1"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Entrée_Station_Métro_George_V_Paris_6.jpg/1024px-Entrée_Station_Métro_George_V_Paris_6.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Entrée_Station_Métro_George_V_Paris_6.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1"] }
+				],
+				"ouverture": "13 août 1900",
+				"inaugural":"Alma",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (VIII<sup>e</sup>)"],
+				"frequentation": "3 842 260 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "Champs-Élysées"},
+			{"numero": "2", "description": "avenue George V"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=George%20V&line=1&sens=La%20D%C3%A9fense&stationcode=43283&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=George%20V&line=1&sens=Château:b:de%20Vincennes&stationcode=43283&linecode=C01371&destcode=Château%20de%20Vincennes&destcodealt=false"}
+		]
+	},
+
+	"Porte Maillot": {
+		"nom": "Porte Maillot",
+		"ptinteret": "Palais des Congrès",
+		"lignes": [
+			{ "type": "metro", "lines": ["1"] },
+			{ "type": "RER", "lines": ["C", "E"] },
+			{ "type": "tram", "lines": ["T3b"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Edicule_d%27entr%C3%A9e_de_la_gare_RER_E_de_Neuilly_-_Porte_Maillot_%282%29.jpg/1280px-Edicule_d%27entr%C3%A9e_de_la_gare_RER_E_de_Neuilly_-_Porte_Maillot_%282%29.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Edicule_d%27entr%C3%A9e_de_la_gare_RER_E_de_Neuilly_-_Porte_Maillot_(2).jpg",
+		"imageauthor": "Remontees",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1"] }
+				],
+				"ouverture": "19 juillet 1900",
+				"voies": "4",
+				"quais": "4",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (XVI<sup>e</sup>, XVII<sup>e</sup>)"],
+				"frequentation": "4 138 301 voyageurs (2021)"
+			},
+			{
+				"lignes": [
+					{ "type": "RER", "lines": ["C", "E"] }
+				],
+				"ouverture": "2 mai 1854",
+				"voies": "4",
+				"quais": "1 central<br>2 latéraux",
+				"zone_tarifaire": "1",
+				"accessible": "Oui",
+				"communes": ["Paris (XVII<sup>e</sup>)"],
+				"frequentation": "3 875 725 voyageurs (2022)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "avenue de la Grande Armée"},
+			{"numero": "2", "description": "avenue de Malakoff"},
+			{"numero": "3", "description": "boulevard André Maurois"},
+			{"numero": "4", "description": "avenue Charles de Gaulle", "ptinteret": "Palais des Congrès"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Porte%20Maillot&line=1&sens=La%20D%C3%A9fense&stationcode=415093&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Porte%20Maillot&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=415093&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"},
+			{"style": "sncf", "link": "https://enrail.org/sncf/?mode=Departures&station=Neuilly%20-%20Porte%20Maillot"}
+		]
+	}
+}

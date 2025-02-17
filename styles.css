@@ -64,6 +64,25 @@ a {
 	margin: 8px 8px 0px 0px;
 }
 
+.container {
+	display: grid;
+	grid-template-columns: auto 1fr; /* Deux colonnes : icônes (auto) + texte (1fr) */
+	align-items: center; /* Alignement vertical au centre */
+	gap: 0.5em; /* Espacement entre les colonnes */
+}
+
+.container .integrated {
+	display: flex;
+	gap: 0.3em; /* Espacement entre les icônes */
+	height: 1.75em; /* Hauteur de 2 lignes pour les icônes */
+	align-items: stretch; /* Etire les icônes à la hauteur spécifiée */
+}
+
+.container .integrated img {
+	height: 100%; /* Les icônes prendront 100% de la hauteur du conteneur */
+	width: auto; /* Ajuste la largeur en fonction de la hauteur */
+}
+
 .integrated img {
 	height: 1em;
 	width: 1em;
@@ -101,7 +120,13 @@ a {
 	display: block;
 	width: 100%; /* S'adapte à la largeur de la boîte */
 	height: auto; /* Garde les proportions */
-	aspect-ratio: 58/27; /* Définit un ratio large standard pour les vidéos */
+	aspect-ratio: 58/27;
+	border-radius: 10px;
+	margin-bottom: 5px !important;
+}
+
+.sncf {
+	aspect-ratio: 16/9 !important;
 }
 
 .wip-box {
@@ -157,32 +182,33 @@ a {
 }
 
 .gallery img {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
-    max-height: 200px;
-    aspect-ratio: 1 / 1; /* Les images seront carrées */
-    object-fit: cover; /* Remplissage sans déformation */
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
+	width: 100%;
+	height: auto;
+	max-width: 300px;
+	max-height: 200px;
+	aspect-ratio: 1 / 1; /* Les images seront carrées */
+	object-fit: cover; /* Remplissage sans déformation */
+	border-radius: 10px;
+	cursor: pointer;
+	transition: transform 0.2s, box-shadow 0.2s;
 	margin: 5px;
 }
 
 .gallery img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transform: scale(1.1);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .blue-box {
 	background-color: #0a0082;
 	color: white !important;
-	border-radius: 10px;
+	border-radius: 5px;
 	font-weight: bold;
-	padding: 5px;
+	padding: 6px;
 	display: inline-block;
 	word-break: break-word;
 	margin-bottom: 10px;
+	width: fit-content;
 }
 
 .repere {
@@ -196,6 +222,20 @@ a {
 	background-color: #6e4823 !important;
 	border-radius: 5px;
 	font-style: italic;
+	font-weight: bold;
+	color: white !important;
+	padding: 6px;
+	display: inline-block;
+}
+.num-sortie {
+	border: 1px solid white;
+	padding: 3px;
+	display: inline-block;
+}
+
+.blue-box .ptinteret {
+	padding: 4px !important;
+	border-radius: 0px;
 }
 
 .hovereffect {
@@ -251,4 +291,19 @@ a {
 .discord:hover {
 	background-color: #4752c4;
 	transform: scale(1.1);
+}
+.metropolitor {
+	background-color: #0a0082;
+}
+.metropolitor:hover {
+	background-color: #05003e;
+	transform: scale(1.1);
+}
+.metropolitor .integrated img {
+	height: 2.5em;
+	width: auto !important;
+}
+
+.shadowed {
+	filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
 }

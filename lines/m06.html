@@ -12,8 +12,8 @@
 <body>
 	<a href="/"><h1 class="header">MobiFer</h1></a>
 	<p class="centered"><strong>Métropolitain</strong><br>
-	<span style="font-size: 80px;"><span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_6_couleur_RVB.svg" alt="6"></span></span><br>
-	<span class="centered" style="font-size: 50px;"><strong>Charles de Gaulle – Étoile <span class="integrated"><img src="/assets/text/double_fleche.svg" alt="Double flèche"></span> Nation</strong></span></p>
+	<span style="font-size: 80px;" class="shadowed"><span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_6_couleur_RVB.svg" alt="6"></span></span><br>
+	<span class="centered" style="font-size: 50px;"><strong>Charles de Gaulle – Étoile <span class="integrated"><img src="/assets/icons/double_fleche.svg" alt="Double flèche"></span> Nation</strong></span></p>
 	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Paris_M%C3%A9tro_Ligne_6_crossing_the_Pont_de_Bir-Hakeim_20140410_1.jpg/1024px-Paris_M%C3%A9tro_Ligne_6_crossing_the_Pont_de_Bir-Hakeim_20140410_1.jpg" alt="Illustration de la ligne" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">
 	<div class="license">© DXR sur <a href="https://commons.wikimedia.org/wiki/File:Paris_M%C3%A9tro_Ligne_6_crossing_the_Pont_de_Bir-Hakeim_20140410_1.jpg">Wikimedia Commons</a></div>
 	<div class="box image-center">
@@ -23,7 +23,7 @@
 		<!-- <img src="/assets/maps/m06web.svg" alt="Plan de la ligne 6" class="image-center"> -->
 		<object type="image/svg+xml" data="/assets/maps/m06web.svg" class="image-center"></object>
 		<p style="margin-top: 5px !important;">Les nombres figurant à droite de la ligne représentent le temps de marche entre deux stations. Quand celui-ci est inférieur à 10 minutes, privilégiez la marche.</p>
-		<p><a href="/assets/maps/prod/m06.pdf">Télécharger le plan (PDF, 95 Ko)<span class="integrated"><img src="/assets/icons/download.svg" alt="Télécharger"></span></a></p>
+		<p><a href="/assets/maps/prod/m06.pdf">Télécharger le plan (PDF, 99 Ko)<span class="integrated"><img src="/assets/icons/download.svg" alt="Télécharger"></span></a></p>
 	</div>
 	<div class="box image-center">
 		<h2 class="centered">Statistiques et données</h2>
@@ -41,7 +41,7 @@
 				<td>MP 73 (23 rames au 27 décembre 2024)<br>MP 89 CC (20 rames au 19 décembre 2024)</td>
 			</tr>
       		<tr>
-        		<td class="title">Conduite<br>(système)</td>
+        		<td class="title">Conduite (système)</td>
         		<td>Conducteur avec pilotage automatique</td>
 			</tr>
 			<tr>
@@ -89,13 +89,7 @@
 		<p class="centered"><br>Cliquez sur une image pour l’agrandir.</p>
 		<p class="license">© ArsTC</p>
 	</div>
-	<div class="footer-buttons">
-		<div class="image-center"><img src="/assets/banner.svg" alt="Bannière Mobifer" style="border-radius: 10px; width: 100%; max-width: 200px;"></div>
-		<h3>Vous souhaitez contribuer, poser une question ou signaler une erreur&nbsp;?<br>Rejoignez le serveur Discord pour plus d’informations&nbsp;!</h3>
-		<div class="buttons">
-			<a href="https://github.com/Mobifer/mobifer" target="_blank" class="button github"><span class="integrated"><img src="/assets/icons/github.svg" alt="Logo GitHub"></span> GitHub</a>
-			<a href="https://discord.gg/zWraJq5eE5" target="_blank" class="button discord"><span class="integrated"><img src="/assets/icons/discord.svg" alt="Logo GitHub"></span> Discord</a>
-		</div>
-		<p class="centered" style="font-size: 12px;">2024 - 2025 <a href="https://github.com/illavoluntas/">illavoluntas</a>. Ce site est proposé sous la <a href="/LICENSE.md">licence MIT</a>.<br>Ce site n’est en aucun cas affilié à <a href="https://www.iledefrance-mobilites.fr/">Île-de-France Mobilités</a> ou à la <a href="https://www.ratp.fr">RATP</a>. Ces noms déposés appartiennent à leurs propriétaires respectifs.</p>
-	</div>	<script src="/assets/script/galleryhandle.js"></script>
+	<div id="footer-container"></div>
+	<script src="/addons/footer.js"></script>
+	<script src="/assets/script/galleryhandle.js"></script>
 </body>

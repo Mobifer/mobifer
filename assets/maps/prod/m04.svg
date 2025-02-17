@@ -931,7 +931,7 @@
        id="path88213"
        style="font-style:italic;font-weight:bold;font-size:13.3333px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';fill:#ffffff;stroke-width:1.88976" /><a
        id="a23"
-       xlink:href="/stations/Porte+de+Clignanourt.html"
+       xlink:href="/stations.html?station=Porte+de+Clignanourt.html"
        target="_parent"
        transform="translate(33.46418)"><circle
          style="fill:#000000;stroke-width:0.332857"
@@ -1997,7 +1997,7 @@
        x="305.59012"
        y="1110.4724" /><a
        id="a36907"
-       xlink:href="/stations/Bagneux-Lucie+Aubrac.html"
+       xlink:href="/stations.html?station=Bagneux-Lucie+Aubrac.html"
        target="_parent"
        transform="translate(33.46418,1087.7952)"><circle
          style="fill:#000000;stroke-width:0.332857"

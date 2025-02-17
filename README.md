@@ -12,6 +12,9 @@ This GitHub repository hosts the source code for the website https://mobifer.git
   - [x] Ligne 3<sup>bis</sup>
   - [x] Ligne 4
   - [x] Ligne 5
+  - [x] Ligne 6
+  - [x] Ligne 7
+  - [x] Ligne 7<sup>bis</sup>
 
 ----
 **To do list**

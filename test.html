@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       .container {
+            display: grid;
+            grid-template-columns: auto 1fr; /* Deux colonnes : icônes (auto) + texte (1fr) */
+            align-items: center; /* Alignement vertical au centre */
+            gap: 0.5em; /* Espacement entre les colonnes */
+        }
+
+        .integrated {
+            display: flex;
+            gap: 0.3em; /* Espacement entre les icônes */
+            height: 1.75em; /* Hauteur de 2 lignes pour les icônes */
+            align-items: stretch; /* Etire les icônes à la hauteur spécifiée */
+        }
+
+        .integrated img {
+            height: 100%; /* Les icônes prendront 100% de la hauteur du conteneur */
+            width: auto; /* Ajuste la largeur en fonction de la hauteur */
+        }
+    </style>
+    <title>Test</title>
+</head>
+<body>
+    <p class="container">
+        <span class="integrated">
+            <img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro">
+            <img src="/assets/icons/metro_1_couleur_RVB.svg" alt="1">
+        </span>
+        <strong>La Défense<br>Château de Vincennes</strong>
+    </p>
+    
+</body>
+</html>

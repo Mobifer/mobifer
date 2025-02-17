@@ -1,0 +1,74 @@
+body {
+	background-color: #1e1e1e !important;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+	margin: 0;
+	font-family: "parisine-std", sans-serif;
+}
+.container {
+	max-width: 600px;
+	padding: 20px;
+	margin: 20px;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
+	box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(10px);
+}
+h1 {
+	font-size: 2.5em;
+	margin-bottom: 10px;
+}
+p {
+	font-size: 1.2em;
+	opacity: 0.8;
+}
+.integrated img {
+	height: 1em;
+	width: 1em;
+	vertical-align: middle;
+	position: relative;
+	top: -0.1em;
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+.button {
+	display: flex; /* Permet d'aligner les éléments */
+	align-items: center; /* Centre verticalement */
+	gap: 8px; /* Ajoute un espace entre l'icône et le texte */
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.github {
+	background-color: black;
+}
+.github:hover {
+	background-color: #333;
+	transform: scale(1.1);
+}
+.discord {
+	background-color: #5865F2;
+}
+.discord:hover {
+	background-color: #4752c4;
+	transform: scale(1.1);
+}
+.home {
+	background-color: #0a0082;
+}
+.home:hover {
+	background-color: #090068;
+	transform: scale(1.1);
+}
