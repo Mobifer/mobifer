@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal MobiFer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .container {
+            width: 85%;
+            margin: 20px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        .article {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .article img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 38px;
+            color: #003366;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 26px;
+            color: #0055aa;
+            margin-bottom: 5px;
+        }
+        p {
+            font-size: 18px;
+            color: #444;
+            line-height: 1.8;
+        }
+        .date, .author, .sources {
+            font-size: 16px;
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+    <script>
+        async function loadArticles() {
+            try {
+                const response = await fetch('data/articles.json');
+                const data = await response.json();
+                displayArticles(data.articles);
+            } catch (error) {
+                console.error('Erreur de chargement des articles :', error);
+            }
+        }
+
+        function displayArticles(articles) {
+            const container = document.querySelector('.published-articles');
+            container.innerHTML = '<h2>Articles publiés</h2>';
+            
+            articles.forEach(article => {
+                const articleElement = document.createElement('div');
+                articleElement.classList.add('article');
+                
+                articleElement.innerHTML = `
+                    <h1>${article.title}</h1>
+                    <img src="${article.titleImage}" alt="Image principale">
+                    <p class="author">Écrit par : ${article.author}</p>
+                    <p class="date">Publié le : ${article.date}</p>
+                    ${article.paragraphs.map(p => `
+                        <h3>${p.title}</h3>
+                        <p>${p.content}</p>
+                        <img src="${p.image}" alt="Image du paragraphe">
+                    `).join('')}
+                    <p class="sources">${article.sources}</p>
+                `;
+                
+                container.appendChild(articleElement);
+            });
+        }
+
+        window.onload = loadArticles;
+    </script>
+</head>
+<body>
+    <div class="header">Journal Métropolitain</div>
+    <div class="container">
+        <div class="published-articles">
+            <h2>Articles publiés</h2>
+        </div>
+    </div>
+</body>
+</html>
