@@ -1,0 +1,23 @@
+{
+    "articles": [
+        {
+            "title": "L'inauguration du Métro de Paris",
+            "titleImage": "images/metro.jpg",
+            "author": "Jean Dupont",
+            "date": "18 février 2025",
+            "paragraphs": [
+                {
+                    "title": "Un projet ambitieux",
+                    "content": "Le métro parisien a été inauguré en 1900 pour faciliter les déplacements dans la capitale.",
+                    "image": "images/projet.jpg"
+                },
+                {
+                    "title": "Une expansion rapide",
+                    "content": "Depuis, le réseau s'est considérablement développé pour atteindre plus de 200 km de lignes.",
+                    "image": "images/expansion.jpg"
+                }
+            ],
+            "sources": "Sources: Archives de la RATP"
+        }
+    ]
+}
