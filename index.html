@@ -7,10 +7,101 @@
 	<link rel="stylesheet" href="https://use.typekit.net/euw0chn.css">
 	<link rel="icon" href="/assets/favicon.png" type="image/x-icon">
 	<meta name="google-site-verification" content="xSYfibs_AKhXuCPTi1UalemeTaH308E4-UZ9pm56FwM" />
+	 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+        body { margin: 0; overflow: hidden; }
+        .slider { position: relative; width: 100vw; height: 100vh; overflow: hidden; }
+        .slides { display: flex; transition: transform 0.5s ease-in-out; height: 100%; }
+        .slide { min-width: 100vw; height: 100vh; transition: opacity 1s; }
+        .slide img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        .prev, .next {
+            position: absolute; top: 50%; transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.6); color: white; border: none;
+            padding: 12px; cursor: pointer; font-size: 20px; border-radius: 50%;
+            transition: opacity 0.3s ease;
+            opacity: 0;
+        }
+        .slider:hover .prev, .slider:hover .next { opacity: 1; }
+        .prev { left: 15px; }
+        .next { right: 15px; }
+        .dots { text-align: center; padding: 10px; position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); }
+        .dot { height: 12px; width: 12px; margin: 0 5px; background-color: rgba(255, 255, 255, 0.5); border-radius: 50%; display: inline-block; cursor: pointer; transition: background 0.3s; }
+        .dot.active { background-color: white; }
+    </style>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="assets/slider/slider1.jpg" alt="Image 1"></div>
+            <div class="slide"><img src="assets/slider/slider2.jpg" alt="Image 2"></div>
+            <div class="slide"><img src="assets/slider/slider3.jpg" alt="Image 3"></div>
+            <div class="slide"><img src="assets/slider/slider5.jpg" alt="Image 4"></div>
+            <div class="slide"><img src="assets/slider/slider6.jpg" alt="Image 5"></div>
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+        <div class="dots"></div>
+    </div>
+    
+    <script>
+        let index = 0;
+        const slides = document.querySelector(".slides");
+        const totalSlides = document.querySelectorAll(".slide").length;
+        const dotsContainer = document.querySelector(".dots");
+        let autoSlide = true;
+        let timer;
+        
+        for (let i = 0; i < totalSlides; i++) {
+            let dot = document.createElement("span");
+            dot.classList.add("dot");
+            dot.addEventListener("click", () => switchToManual(() => showSlide(i)));
+            dotsContainer.appendChild(dot);
+        }
+        
+        const dots = document.querySelectorAll(".dot");
+        function showSlide(i) {
+            if (i >= totalSlides) index = 0;
+            else if (i < 0) index = totalSlides - 1;
+            else index = i;
+            
+            slides.style.transform = `translateX(${-index * 100}%)`;
+            dots.forEach(dot => dot.classList.remove("active"));
+            dots[index].classList.add("active");
+        }
+        
+        function switchToManual(action) {
+            autoSlide = false;
+            clearTimeout(timer);
+            action();
+            timer = setTimeout(() => autoSlide = true, 5000);
+        }
+        
+        document.querySelector(".prev").addEventListener("click", () => switchToManual(() => showSlide(index - 1)));
+        document.querySelector(".next").addEventListener("click", () => switchToManual(() => showSlide(index + 1)));
+        
+        function autoSlideShow() {
+            if (autoSlide) showSlide(index + 1);
+            setTimeout(autoSlideShow, 3000);
+        }
+        
+        autoSlideShow();
+        showSlide(0);
+    </script>
+    
+    </script>
 	<title>Accueil - MobiFer</title>
 	<meta name="description" content="Découvrez tout sur les transports en commun ferrés d’Île-de-France avec MobiFer : lignes, stations et matériels roulants. Bon voyage&nbsp;!">
-</head>
-<body>
+    </script>	
+    <p class="centered"><strong>Attention !</strong> Ce site en est encore à ses débuts. Beaucoup de pages n’ont pas encore été créées et certains fichiers risquent de manquer.</p>
+    <p class="centered">Bienvenue sur <strong>MobiFer</strong> ! Découvrez tout sur les transports en commun ferrés d’Île-de-France : lignes, stations et matériels roulants. Bon voyage !</p>
+    <p class="centered">Le saviez-vous ? Le nom <strong><em>MobiFer</em></strong> vient d’un jeu de mots avec les trains dits <strong>MF</strong> (<strong>M</strong>atériel roulant <strong>F</strong>er) circulant sur le métro de Paris.</p>
+	</head>
+    
+    <div id="footer-container"></div>
+    <script src="/addons/footer.js"></script>
+</body>
 	<a href="/"><h1 class="header">MobiFer</h1></a>
 	<p class="centered"><span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="En cours de construction"></span> <strong>Attention&nbsp;!</strong> Ce site en est encore à ses débuts. Beaucoup de pages n’ont pas encore été créées et certains fichiers risquent de manquer. À terme, le site vous assurera une navigation sans interruption entre lignes et stations. <span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="En cours de construction"></span></p>
 	<p class="centered">Bienvenue sur <strong>MobiFer</strong>&nbsp;! Découvrez tout sur les transports en commun ferrés d’Île-de-France&nbsp;: lignes, stations et matériels roulants. Bon voyage&nbsp;!</p>
