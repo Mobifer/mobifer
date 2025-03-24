@@ -1,23 +1,28 @@
 {
     "articles": [
         {
-            "title": "L'inauguration du Métro de Paris",
-            "titleImage": "images/metro.jpg",
-            "author": "Jean Dupont",
-            "date": "18 février 2025",
+            "title": "L'arrivée rocambolesque du MF 19",
+            "titleImage": "assets/photos/mf19tp_journal.jpg",
+            "author": "Zoric",
+            "date": "20 février 2025",
             "paragraphs": [
                 {
-                    "title": "Un projet ambitieux",
-                    "content": "Le métro parisien a été inauguré en 1900 pour faciliter les déplacements dans la capitale.",
-                    "image": "images/projet.jpg"
+                    "title": "Un début déjà mouvementé",
+                    "content": "Le MF 19 vient à peine d'arriver à l'atelier d'Auteuil pour ses essais sur la ligne 10 qu'il suscite déjà de nombreuses réactions, malgré ses prouesses techniques. Alstom a livré le train d’essai, et la production en série va suivre : un train sera livré par mois cette année, puis deux par mois l’année suivante, et ainsi de suite. En octobre 2025, les deux premiers MF 19 devraient entrer en service.",
+                    "image": ""
                 },
                 {
-                    "title": "Une expansion rapide",
-                    "content": "Depuis, le réseau s'est considérablement développé pour atteindre plus de 200 km de lignes.",
-                    "image": "images/expansion.jpg"
+                    "title": "Une prouesse technologique ?",
+                    "content": "Le MF 19 va moderniser la ligne 10, qui était restée figée dans les années 70, ce qui faisait aussi son charme. Les voyageurs vont découvrir un métro de type 'boa', permettant de circuler librement entre les voitures sans avoir à descendre du train. Le confort sera grandement amélioré avec une insonorisation optimisée, un éclairage LED, la climatisation et des prises USB-A. Cependant, un problème subsiste : le train a été commandé en 2019, à une époque où l’USB-A était la norme. Aujourd’hui, l’Union Européenne impose l’USB-C comme standard pour les chargeurs. La RATP a annoncé que les premiers trains ne pourront pas être modifiés, mais que les suivants pourraient être équipés de prises USB-C. Autre nouveauté : le MF 19 embarquera un système Dilidam, similaire à celui du MP 14, avec davantage d’écrans dynamiques pour améliorer l'information voyageurs.",
+                    "image": "assets/photos/mf19p2_journal.png"
+                },
+                {
+                    "title": "Moins de places assises, plus d’espace debout",
+                    "content": "Île-de-France Mobilités assume une décision controversée : le MF 19 offrira 40% de places assises en moins afin d’augmenter la capacité totale du train en privilégiant les espaces debout. Les avis sont partagés sur ce choix. Certains usagers estiment qu’il est déjà difficile de trouver une place assise dans le métro, et que cette modification ne changera donc pas grand-chose. D'autres regrettent cette réduction du confort, surtout pour les longs trajets.",
+                    "image": "assets/photos/mf19p3_journal.png"
                 }
             ],
-            "sources": "Sources: Archives de la RATP"
+            "sources": "Sources : Île-de-France Mobilités"
         }
     ]
 }
