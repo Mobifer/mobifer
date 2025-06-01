@@ -38,9 +38,20 @@ document.addEventListener("DOMContentLoaded", function () {
 				html += `<br><span class="repere" style="font-size: 30px; border: 5px solid black !important; font-weight: bold; border-radius: 5px;">${station.repere}</span>`;
 			}
 
-			html += `</p>
-				<img src="${station.image}" alt="Photo de la station" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">
-				<div class="license">© ${station.imageauthor} sur <a href="${station.imagepage}">Wikimedia Commons</a></div>`;
+			if (Array.isArray(station.image) && station.image.length > 0) {
+				html += '<div class="slideshow-container">'
+				station.image.forEach((img, index) => {
+					html += `<div class="slide fade">
+						<img src="${img}" alt="Photo de la station" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">
+						<div class="license">© ${station.imageauthor[index]} sur <a href="${station.imagepage}">Wikimedia Commons</a></div>
+					</div>`;
+				});
+				html += '</div>'
+			} else {
+				html += `</p>
+					<img src="${station.image}" alt="Photo de la station" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">
+					<div class="license">© ${station.imageauthor} sur <a href="${station.imagepage}">Wikimedia Commons</a></div>`;
+			}
 			
 			html += `<div class="box image-center">
 				<h2 class="centered">Statistiques et données</h2>`;
@@ -125,6 +136,29 @@ document.addEventListener("DOMContentLoaded", function () {
 			}
 
 			document.getElementById("station-content").innerHTML = html;
+
+			// Initialize slideshow after DOM update
+			if (Array.isArray(station.image) && station.image.length > 0) {
+				let slideIndex = 0;
+				const slides = document.getElementsByClassName("slide");
+
+				function showSlides(slide) {
+					for (let i = 0; i < slides.length; i++) {
+						slides[i].classList.remove("active");
+					}
+
+					slideIndex++;
+					if (slideIndex > slides.length) { slideIndex = 1; }
+
+					if (slides.length > 0) {
+						slides[slideIndex - 1].classList.add("active");
+					}
+
+					setTimeout(showSlides, 3000); // or any interval you like
+				}
+
+				showSlides();
+			}
 		})
 		.catch(error => console.error("Erreur de chargement des données:", error));
 });
