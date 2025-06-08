@@ -58,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 				// Affichage des autres données de la station
 				const donnees = [
+					{ label: "Lignes", valeur: stats.lignes },
 					{ label: "Ouverture", valeur: stats.ouv },
 					// Add line "Nom inaugural" if the value stats.inaugural != "undefined", otherwise do not add the line
 					...(stats.inaug !== undefined ? [{ label: "Nom inaugural", valeur: stats.inaug }] : []),
