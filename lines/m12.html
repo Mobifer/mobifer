@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/styles.css">
+	<link rel="stylesheet" href="/newstyles.css">
 	<link rel="stylesheet" href="https://use.typekit.net/euw0chn.css">
 	<link rel="icon" href="/assets/favicon.png" type="image/x-icon">
 	<title>Métro 12 - MobiFer</title>
@@ -11,11 +11,27 @@
 </head>
 <body>
 	<a href="/"><h1 class="header">MobiFer</h1></a>
-	<p class="centered"><strong>Métropolitain</strong><br>
-	<span style="font-size: 80px;" class="shadowed"><span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_12_couleur_RVB.svg" alt="12"></span></span><br>
-	<span class="image-center terminus-box">Mairie d’Aubervilliers <span class="integrated"><img src="/assets/icons/double_fleche.svg" alt="Double flèche"></span> Mairie d’Issy</strong></span></p>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Station_Concorde_M%C3%A9tro_Paris_Ligne_12_-_Paris_VIII_%28FR75%29_-_2022-07-02_-_6.jpg/1024px-Station_Concorde_M%C3%A9tro_Paris_Ligne_12_-_Paris_VIII_%28FR75%29_-_2022-07-02_-_6.jpg" alt="Illustration de la ligne" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">
-	<div class="license">© Mohamed SY sur <a href="https://commons.wikimedia.org/wiki/File:Station_Concorde_M%C3%A9tro_Paris_Ligne_12_-_Paris_VIII_%28FR75%29_-_2022-07-02_-_6.jpg">Wikimedia Commons</a></div>
+
+	<div class="row">
+		<div class="column self-center">
+			<div>
+				<p class="centered"><strong>Métropolitain</strong><br>
+				<span style="font-size: 80px;" class="shadowed"><span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_12_couleur_RVB.svg" alt="12"></span></span><br>
+				<span class="image-center terminus-box">Mairie d’Aubervilliers <span class="integrated"><img src="/assets/icons/double_fleche.svg" alt="Double flèche"></span> Mairie d’Issy</span></p>
+			</div>
+			<div class="box image-center info-trafic">
+				<h2 class="centered">Information trafic <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_12_couleur_RVB.svg" alt="12"></span></h2>
+				<div id="infotrafic"><p>Aucune information trafic disponible.</p></div>
+			</div>
+		</div>
+		<div class="column self-center">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Station_Concorde_M%C3%A9tro_Paris_Ligne_12_-_Paris_VIII_%28FR75%29_-_2022-07-02_-_6.jpg/1024px-Station_Concorde_M%C3%A9tro_Paris_Ligne_12_-_Paris_VIII_%28FR75%29_-_2022-07-02_-_6.jpg" alt="Illustration de la ligne" style="width: 100%; border-radius: 10px;" class="image-center">
+				<div class="license">© Mohamed SY sur <a href="https://commons.wikimedia.org/wiki/File:Station_Concorde_M%C3%A9tro_Paris_Ligne_12_-_Paris_VIII_%28FR75%29_-_2022-07-02_-_6.jpg">Wikimedia Commons</a></div>
+		</div>
+	</div>
+
+	<div class="row">
+	<div class="column">
 	<div class="box image-center">
 		<h2 class="centered">Plan de la ligne<br><span class="p"></span></h2>
 		<p class="centered">Cliquez sur la puce d’une station ou l’icône d’une ligne pour consulter sa page dédiée.</p>
@@ -23,9 +39,11 @@
 		<!-- <img src="/assets/maps/m11web.svg" alt="Plan de la ligne 12" class="image-center"> -->
 		<object type="image/svg+xml" data="/assets/maps/m12web.svg" class="image-center"></object>
 		<p style="margin-top: 5px !important;">Les nombres figurant à droite de la ligne représentent le temps de marche entre deux stations. Quand celui-ci est inférieur à 10 minutes, privilégiez la marche.</p>
-		<p><a href="/assets/maps/prod/m12.pdf">Télécharger le plan (PDF, 46 Ko)<span class="integrated"><img src="/assets/icons/download.svg" alt="Télécharger"></span></a>
-		<br><a href="/assets/maps/prod/clean/m12clean.pdf">Télécharger le plan sans temps de marche (PDF, 44 Ko)<span class="integrated"><img src="/assets/icons/download.svg" alt="Télécharger"></span></a></p>
+		<p><a href="/assets/maps/prod/m12.pdf">Télécharger le plan (PDF, 45 Ko)<span class="integrated"><img src="/assets/icons/download.svg" alt="Télécharger"></span></a>
+		<br><a href="/assets/maps/prod/clean/m12clean.pdf">Télécharger le plan sans temps de marche (PDF, 43 Ko)<span class="integrated"><img src="/assets/icons/download.svg" alt="Télécharger"></span></a></p>
 	</div>
+	</div>
+	<div class="column">
 	<div class="box image-center">
 		<h2 class="centered">Statistiques et données</h2>
 		<table>
@@ -73,7 +91,7 @@
 	</div>
 	<div class="box image-center">
 		<h2 class="centered">Le saviez-vous ?</h2>
-		<p>La ligne 12 est dotée de la station la plus <strong>profonde</strong> de Paris, Abbesses, avec une profondeur de <strong>36 mètres</strong>.</p>
+		<p>La ligne <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_12_couleur_RVB.svg" alt="12"></span> est dotée de la station la plus <strong>profonde</strong> de Paris, Abbesses, avec une profondeur de <strong>36 mètres</strong>.</p>
 	</div>
 	<div class="box image-center">
 		<h2 class="centered">Bilan carbone <span class="integrated"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Leaf_icon_03.svg" alt="Feuille verte, symbolisant l’écologie."></span></h2>
@@ -81,15 +99,27 @@
 		<p>Une voiture émet en moyenne <strong>134&nbsp;g/km</strong> de GES. Les mêmes trajets effectués cette fois-ci en voiture émettraient alors environ <strong>190&thinsp;837&nbsp;tonnes</strong> de GES, soit <strong>35 fois plus</strong> qu’en prenant le métro.</p>
 		<p>Ainsi, on voit l’impact positif qu’a le fait de privilégier les transports en commun à la voiture. En effet, même si les calculs et nombres sont approximatifs, ils donnent l’idée représentative que prendre les transports en commun est un geste pour l’environnement.</p>
 	</div>
+	<div class="box image-center">
+		<h2 class="centered">Informations trafic</h2>
+		<iframe src="https://departs.leon.gp/screen/ratp_trafic/stop/fr-idf:IDFM:71264/line/fr-idf:IDFM:C01371/pos/48.8577611,2.3478374" class="sncf" frameborder="0" scrolling="no"></iframe>
+		<div class="license" style="margin-top: 2px !important; margin-bottom: 8px;">
+			Reproduction du visuel officiel, proposée par Léon Edmee sur <a href="https://departs.leon.gp">departs.leon.gp</a>
+		</div>
+	</div>
 	<div class="box image-center" style="color: white; background-color: #05003e !important;">
 		<h2 class="centered">Galerie photo</h2>
 		<div class="gallery">
-			<img src="/assets/photos/m12-1.webp" alt="Photo 1">
+			<img src="https://raw.githubusercontent.com/Mobifer/mobifer-images/refs/heads/main/arstc/m12-1.webp" alt="Photo 1">
 		</div>
 		<p class="centered"><br>Cliquez sur une image pour l’agrandir.</p>
 		<p class="license">© ArsTC</p>
 	</div>
+	</div>
+	</div>
+
 	<div id="footer-container"></div>
+
+	<script src="/assets/script/infotrafic.js"></script>
 	<script src="/addons/footer.js"></script>
 	<script src="/assets/script/galleryhandle.js"></script>
 </body>

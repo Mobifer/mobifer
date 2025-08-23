@@ -22,7 +22,7 @@ export function genererLignesHTML(lignes) {
 				} else {
 					return `/lines/m${numero.padStart(2, "0")}.html`; // Métro 1 -> m01
 				}
-			case "rer":
+			case "RER":
 				return `/lines/rer${numero}.html`; // RER A -> rerA
 			case "train":
 				return `/lines/train${numero}.html`; // Transilien L -> trainL

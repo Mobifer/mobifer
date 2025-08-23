@@ -30,23 +30,24 @@
 			font-family: 'Parisine-2', sans-serif;
 			width: 100%;
 			height: auto;
-			border-bottom: 25px solid black;
+			border-bottom: 4vmax solid black;
 			-webkit-touch-callout: none; /* iOS Safari */
 			-webkit-user-select: none; /* Safari */
 	 		-khtml-user-select: none; /* Konqueror HTML */
 	   		-moz-user-select: none; /* Old versions of Firefox */
 			-ms-user-select: none; /* Internet Explorer/Edge */
 			user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+			
 		}
 
 		@media (max-width: 500px) {
 			#horaires {
-				font-size: 20px;
+				font-size: 6vw;
 			}
 		}
 		@media (min-width: 501px) {
 			#horaires {
-				font-size: 30px;
+				font-size: 4vw;
 			}
 		}
 
@@ -164,7 +165,7 @@
 
 							const destSpan = document.createElement('span');
 							destSpan.classList.add('destination');
-							destSpan.textContent = passage.MonitoredVehicleJourney.DestinationName[0].value;
+							destSpan.textContent = passage.MonitoredVehicleJourney.DestinationName[0].value.replace(' - Hôpital Européen G. Pompidou', '').replace(' - Parc de la Villette', '');
 
 							const timeSpan = document.createElement('span');
 							timeSpan.classList.add('temps');

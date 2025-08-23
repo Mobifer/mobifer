@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 			let lignesHTML = genererLignesHTML(station.lignes);
 
-			let html = `
+			let html = `<div class="centered">
 				<p class="centered"><strong>Station</strong><br>
 				<span style="font-size: 80px;" class="shadowed">${lignesHTML}</span><br>
 				<span class="centered terminus-box">${station.nom}</span>`;
@@ -38,21 +38,97 @@ document.addEventListener("DOMContentLoaded", function () {
 				html += `<br><span class="repere" style="font-size: 30px; border: 5px solid black !important; font-weight: bold; border-radius: 5px;">${station.rep}</span>`;
 			}
 
+
 			html += `</p>
-				<img src="${station.img}" alt="Photo de la station" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">
-				<div class="license">© ${station.imga} sur <a href="${station.imgp}">Wikimedia Commons</a></div>`;
-			
-			html += `<div class="box image-center">
+				<div class="row">
+				<div class="item">
+				<img src="${station.img}" alt="Photo de la station" style="width: 100% !important; border-radius: 10px; margin-top: 10px;" class="image-center">
+				<div class="license">© ${station.imga} sur <a href="${station.imgp}">Wikimedia Commons</a></div>
+				</div>`;
+
+			// Génération des sorties
+			html += `<div class="item">
+					<div class="box image-center">
+					<h2 class="centered">Accès</h2>
+					<div class="centered"><span class="blue-box" style="padding: 10px !important; text-align: left;">`;
+			var sortieNum = 0;
+			station.sorties.forEach(sortie => {
+				sortieNum += 1;
+				html += `<span class="num-sortie">${sortie.num}</span>`;
+				if (sortie.desc) {
+					html += ` ${sortie.desc}`;
+					html += `<span style="font-size: 1.25em">`
+					if (sortie.acc) {
+						html += ` <span class="integrated"><img src="/assets/icons/info.svg"></span> <span class="integrated"><img src="/assets/icons/tickets.svg"></span>`;
+					}
+					if (sortie.asc) {
+						html += ` <span class="integrated"><img src="/assets/icons/ascenseur.svg"></span>`;
+					}
+					if (sortie.esc) {
+						html += ` <span class="integrated"><img src="/assets/icons/escalator.svg"></span>`;
+					}
+					html += `</span><br>`;
+					var hasDescription = "style='margin-top: 5px !important;'";
+				}
+				else {
+					var hasDescription = "";
+				}
+				if (sortie.rep) {
+					html += ` <span class="repere" ${hasDescription}>${sortie.rep}</span>`;
+					if (!sortie.desc) {
+						html += `<span style="font-size: 1.25em">`
+						if (sortie.acc) {
+							html += ` <span class="integrated"><img src="/assets/icons/info.svg"></span> <span class="integrated"><img src="/assets/icons/tickets.svg"></span>`;
+						}
+						if (sortie.asc) {
+							html += ` <span class="integrated"><img src="/assets/icons/ascenseur.svg"></span>`;
+						}
+						if (sortie.esc) {
+							html += ` <span class="integrated"><img src="/assets/icons/escalator.svg"></span>`;
+						}
+						html += `</span>`
+					}
+					html += `<br>`;
+				}
+				if (sortie.pti) {
+					html += ` <span class="ptinteret" ${hasDescription}>${sortie.pti}</span>`;
+					if (!sortie.desc) {
+						html += `<span style="font-size: 1.25em">`
+						if (sortie.acc) {
+							html += ` <span class="integrated"><img src="/assets/icons/info.svg"></span> <span class="integrated"><img src="/assets/icons/tickets.svg"></span>`;
+						}
+						if (sortie.serv) {
+							html += ` <span class="integrated"><img src="/assets/icons/info.svg"></span>`;
+						}
+						if (sortie.asc) {
+							html += ` <span class="integrated"><img src="/assets/icons/ascenseur.svg"></span>`;
+						}
+						if (sortie.esc) {
+							html += ` <span class="integrated"><img src="/assets/icons/escalator.svg"></span>`;
+						}
+						html += `</span>`
+					}
+					html += `<br>`;
+				}
+				if (sortieNum < station.sorties.length) {
+					html += `<br>`
+				}
+			});
+			html += `</span></div>\n`;
+			html += `</div></div>`;
+
+			html += `<div class="item">
+				<div class="box image-center">
 				<h2 class="centered">Statistiques et données</h2>`;
 			
 			// Génération des statistiques
 			station.stats.forEach(stats => {
 				let lignesTable = genererLignesHTML(stats.lignes); // Génération des icônes des lignes
 
-				html += `<table>`;
+				html += `<table style="text-align: left;">`;
 
 				// Affichage des lignes si elles existent
-				if (stats.lignes && stats.lignes.length > 0) {
+				if (stats.lignes) {
 					html += `<tr><td class="title">Ligne(s)</td><td style="font-size: 1.4em;">${lignesTable}</td></tr>`;
 				}
 
@@ -83,50 +159,50 @@ document.addEventListener("DOMContentLoaded", function () {
 				}
 			});
 
-			html += `</div>`;
+			html += `</div></div>`;
 
-			// Génération des sorties
-			html += `<div class="box image-center">
-						<h2 class="centered">Sorties</h2>`;
-			station.sorties.forEach(sortie => {
-				html += `<span class="blue-box"><span class="num-sortie">${sortie.num}</span>`;
-				if (sortie.desc) {
-					html += ` ${sortie.desc}`;
-					html += `<br>`;
-					var hasDescription = "style='margin-top: 5px !important;'";
-				}
-				else {
-					var hasDescription = "";
-				}
-				if (sortie.rep) {
-					html += ` <span class="repere" ${hasDescription}>${sortie.rep}</span>`;
-				}
-				if (sortie.pti) {
-					html += ` <span class="ptinteret" ${hasDescription}>${sortie.pti}</span>`;
-				}
-				
-				html += `</span>\n`;
-			});
-			html += `</div>`;
-
-			// Ajout des liens Enrail uniquement pour le métro
+			// Add SIV panels
 			if (station.siv && station.siv.length > 0) {
-				html += `<div class="box image-center">`;
-				station.siv.forEach(link => {
-					if (link.metro) {
-						html += `<iframe src="${link.metro}" class="ratp" frameborder="0"></iframe>`;
-					}
-					if (link.train) {
-						html += `<iframe src="${link.train}" class="sncf" frameborder="0"></iframe>`;
-					}
-					if (link.tram) {
-						html += `<iframe src="/addons/sieltram.html?stop=${link.tram}&line=${link.line}" class="tram"></iframe>`;
-					}
-				});
-				html += `</div>
-					<div class="license" style="margin-top: 2px !important; margin-bottom: 8px;">
-						Reproduction du visuel officiel, proposée par <a href="https://enrail.org">enrail.org</a> (Métro, RER et Transilien) et MobiFer (Tramway)
-					</div>`;
+			const transportTypes = {
+				metro: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>' },
+				train: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_RER_RVB.svg" alt="RER"></span> et <span class="integrated"><img src="/assets/icons/symbole_train_RVB.svg" alt="Transilien"></span>' },
+				tram: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_tram_RVB.svg" alt="Tramway"></span>' }
+			};
+			
+			// Group by transport type
+			station.siv.forEach(link => {
+				if (link.metro) transportTypes.metro.items.push(link);
+				if (link.train) transportTypes.train.items.push(link);
+				if (link.tram) transportTypes.tram.items.push(link);
+			});
+			
+			// Create a box for each type that has items
+			Object.entries(transportTypes).forEach(([type, data]) => {
+				if (data.items.length > 0) {
+					html += `<div class="item"><div class="box image-center">`;
+					html += `<h2 class="centered">${data.title}</h2>`;
+					
+					data.items.forEach(link => {
+						if (type === 'metro' && link.metro) {
+							html += `<iframe src="${link.metro}" class="ratp" frameborder="0"></iframe>`;
+						}
+						if (type === 'train' && link.train) {
+							html += `<iframe src="${link.train}" class="sncf" frameborder="0" scrolling="no"></iframe>`;
+						}
+						if (type === 'tram' && link.tram) {
+							html += `<iframe src="/addons/sieltram.html?stop=${link.tram}&line=${link.line}" class="tram"></iframe>`;
+						}
+					});
+					
+					html += `</div></div>`;
+				}
+			});
+
+			// Add license at the end, after all boxes
+			html += `</div>
+						<div class="license" style="margin-top: 0px !important; margin-bottom: 10px !important;">
+							Reproductions des panneaux officiels proposées par <a href="https://enrail.org">enrail.org</a> (Métro), <a href="https://prochainstrains.arno.cl">Prochains Trains</a> (RER et Transilien) et MobiFer (Tramway)
+						</div></div></div>`;
 			}
 
 			document.getElementById("station-content").innerHTML = html;

@@ -7,7 +7,7 @@
    version="1.1"
    id="svg2"
    sodipodi:docname="tram_T14_couleur_RVB.svg"
-   inkscape:version="1.4 (e7c3feb, 2024-10-09)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,31 +23,45 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="3.264"
-     inkscape:cx="124.54044"
-     inkscape:cy="125"
+     inkscape:zoom="1.0309653"
+     inkscape:cx="507.29157"
+     inkscape:cy="26.189048"
      inkscape:window-width="1920"
-     inkscape:window-height="1024"
+     inkscape:window-height="1008"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="svg2"
+     showgrid="false" />
   <title
      id="title1">Paris transit icons - Tram T14</title>
-  <rect
-     width="283.46"
-     height="42.52"
-     rx="14.17"
-     id="rect1" />
-  <rect
-     width="283.46"
-     height="42.52"
-     rx="14.17"
-     y="240.94"
-     id="rect2" />
-  <path
-     fill="#25303B"
-     d="M67.06,107.45V197H42.93v-89.55H9.37V87.81h91.24v19.64H67.06zM155.02,197v-85.84c-6.65,5.25-17.16,10.05-24.43,13.62l-7.43-16.71c11.45-4.8,25.21-12.06,36.03-20.26h19.03v109.18h-23.2ZM261.26,174.26v22.73h-21.66v-22.73h-49.17v-20.26l42.37-66.19h28.46v69.43h12.84v17.01h-12.84ZM239.6,106.99h-.31c-.45,1.84-3.55,8.5-7.88,15.32l-22.27,34.94h30.46v-50.25Z"
-     id="path2"
-     style="fill:#000000;fill-opacity:1" />
+  <g
+     id="g4152">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:4.55616"
+       id="rect346"
+       width="283.45999"
+       height="235.43578"
+       x="0"
+       y="24.012112"
+       ry="0" />
+    <rect
+       width="283.46"
+       height="42.52"
+       rx="14.17"
+       id="rect1"
+       style="fill:#00a88f;fill-opacity:1" />
+    <rect
+       width="283.46"
+       height="42.52"
+       rx="14.17"
+       y="240.94"
+       id="rect2"
+       style="fill:#00a88f;fill-opacity:1" />
+    <path
+       fill="#25303B"
+       d="M67.06,107.45V197H42.93v-89.55H9.37V87.81h91.24v19.64H67.06zM155.02,197v-85.84c-6.65,5.25-17.16,10.05-24.43,13.62l-7.43-16.71c11.45-4.8,25.21-12.06,36.03-20.26h19.03v109.18h-23.2ZM261.26,174.26v22.73h-21.66v-22.73h-49.17v-20.26l42.37-66.19h28.46v69.43h12.84v17.01h-12.84ZM239.6,106.99h-.31c-.45,1.84-3.55,8.5-7.88,15.32l-22.27,34.94h30.46v-50.25Z"
+       id="path2"
+       style="fill:#000000;fill-opacity:1" />
+  </g>
 </svg>

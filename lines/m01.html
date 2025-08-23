@@ -3,31 +3,48 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/styles.css">
+	<link rel="stylesheet" href="/newstyles.css">
 	<link rel="stylesheet" href="https://use.typekit.net/euw0chn.css">
 	<link rel="icon" href="/assets/favicon.png" type="image/x-icon">
 	<!-- <script src="/assets/script/pdftreatment.js"></script> -->	
 	<title>Métro 1 - MobiFer</title>
 	<meta name="description" content="La ligne 1 du métropolitain de Paris relie La Défense à Château de Vincennes.">
-	<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/MP_05_-_Bastille_-_Ligne_1.jpg/1024px-MP_05_-_Bastille_-_Ligne_1.jpg">
+	<meta property="og:image" content="https://raw.githubusercontent.com/Mobifer/mobifer-images/refs/heads/main/arstc/m01-3.jpg">
 </head>
 <body>
 	<a href="/"><h1 class="header">MobiFer</h1></a>
-	<p class="centered"><strong>Métropolitain</strong><br>
-		<span style="font-size: 80px;" class="shadowed"><span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_1_couleur_RVB.svg" alt="1"></span></span><br>
-	<span class="image-center terminus-box">La Défense <span class="integrated"><img src="/assets/icons/double_fleche.svg" alt="Double flèche"></span> Château de Vincennes</span></p>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/MP_05_-_Bastille_-_Ligne_1.jpg/1024px-MP_05_-_Bastille_-_Ligne_1.jpg" alt="Illustration de la ligne" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">
-	<div class="license">© Capitaine AdBlock sur <a href="https://commons.wikimedia.org/wiki/File:MP_05_-_Bastille_-_Ligne_1.jpg">Wikimedia Commons</a></div>
-	<div class="box image-center">
+	<div class="row">
+		<div class="column self-center" >
+			<div>
+				<p class="centered"><strong>Métropolitain</strong><br>
+				<span style="font-size: 80px;" class="shadowed"><span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_1_couleur_RVB.svg" alt="1"></span></span><br>
+				<span class="image-center terminus-box">La Défense <span class="integrated"><img src="/assets/icons/double_fleche.svg" alt="Double flèche"></span> Château de Vincennes</span></p>
+			</div>
+			<div class="box image-center info-trafic">
+				<h2 class="centered">Information trafic <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_1_couleur_RVB.svg" alt="1"></span></h2>
+				<div id="infotrafic"><p>Aucune information trafic disponible.</p></div>
+			</div>
+		</div>
+		<div class="column self-center">
+			<img src="https://raw.githubusercontent.com/Mobifer/mobifer-images/refs/heads/main/arstc/m01-3.jpg" alt="Illustration de la ligne" style="width: 100% !important; border-radius: 10px;" class="image-center">
+			<div class="license" style="margin-bottom: 10px;">© ArsTC</div>
+		</div>
+	</div>
+
+	<div class="row">
+	<div class="column">
+	<div class="box image-center sticky-left">
 		<h2 class="centered">Plan de la ligne<br><span class="p"></span></h2>
 		<p class="centered">Cliquez sur la puce d’une station ou l’icône d’une ligne pour consulter sa page dédiée.</p>
 		<p class="centered">Ce plan a été conçu verticalement pour permettre une navigation optimale sur le web et les appareils mobiles.</p>
 		<!-- <img src="/assets/maps/m01web.svg" alt="Plan de la ligne 1" class="image-center"> -->
 		<object type="image/svg+xml" data="/assets/maps/m01web.svg" class="image-center"></object>
 		<p style="margin-top: 10px !important;">Les nombres figurant à droite de la ligne représentent le temps de marche entre deux stations. Quand celui-ci est inférieur à 10 minutes, privilégiez la marche.</p>
-		<p><a href="/assets/maps/prod/m01.pdf">Télécharger le plan (PDF, 62 Ko)<span class="integrated"><img src="/assets/icons/download.svg" alt="Télécharger"></span></a>
-		<br><a href="/assets/maps/prod/clean/m01clean.pdf">Télécharger le plan sans temps de marche (PDF, 59 Ko)<span class="integrated"><img src="/assets/icons/download.svg" alt="Télécharger"></span></a></p>
+		<p><a href="/assets/maps/prod/m01.pdf">Télécharger le plan (PDF, 64 Ko)<span class="integrated"><img src="/assets/icons/download.svg" alt="Télécharger"></span></a>
+		<br><a href="/assets/maps/prod/clean/m01clean.pdf">Télécharger le plan sans temps de marche (PDF, 62 Ko)<span class="integrated"><img src="/assets/icons/download.svg" alt="Télécharger"></span></a></p>
 	</div>
+	</div>
+	<div class="column">
 	<div class="box image-center">
 		<h2 class="centered">Statistiques et données</h2>
 		<table>
@@ -75,7 +92,7 @@
 	</div>
 	<div class="box image-center">
 		<h2 class="centered">Le saviez-vous ?</h2>
-		<p>La ligne 1 du métro est la <strong>première</strong> ligne de métro de France à avoir été inaugurée. Elle a été construite en 2 ans à l’occasion de l’exposition universelle de 1900 et a été un véritable succès&nbsp;!</p>
+		<p>La ligne <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_1_couleur_RVB.svg" alt="1"></span> est la <strong>première</strong> ligne de métro de France à avoir été inaugurée. Elle a été construite en 2 ans à l’occasion de l’exposition universelle de 1900 et a été un véritable succès&nbsp;!</p>
 	</div>
 	<div class="box image-center">
 		<h2 class="centered">Bilan carbone <span class="integrated"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Leaf_icon_03.svg" alt="Feuille verte, symbolisant l’écologie."></span></h2>
@@ -83,22 +100,32 @@
 		<p>Une voiture émet en moyenne <strong>134&nbsp;g/km</strong> de GES. Les mêmes trajets effectués cette fois-ci en voiture émetteraient alors environ <strong>369&thinsp;000&nbsp;tonnes</strong> de GES, soit <strong>35 fois plus</strong> qu’en prenant le métro.</p>
 		<p>Ainsi, on voit l’impact positif qu’a le fait de privilégier les transports en commun à la voiture. En effet, même si les calculs et nombres sont approximatifs, ils donnent l’idée représentative que prendre les transports en commun est un geste pour l’environnement.</p>
 	</div>
+	<div class="box image-center">
+		<h2 class="centered">Informations trafic</h2>
+		<iframe src="https://departs.leon.gp/screen/ratp_trafic/stop/fr-idf:IDFM:71264/line/fr-idf:IDFM:C01371/pos/48.8577611,2.3478374" class="sncf" frameborder="0" scrolling="no"></iframe>
+		<div class="license" style="margin-top: 2px !important; margin-bottom: 8px;">
+			Reproduction du visuel officiel, proposée par Léon Edmee sur <a href="https://departs.leon.gp">departs.leon.gp</a>
+		</div>
+	</div>
 	<div class="box image-center" style="color: white; background-color: #05003e !important;">
 		<h2 class="centered">Galerie photo</h2>
 		<div class="gallery">
-			<img src="/assets/photos/m01-1.webp" alt="Photo 1">
-			<img src="/assets/photos/m01-2.webp" alt="Photo 2">
-			<img src="/assets/photos/m01-3.jpg" alt="Photo 3">
-			<img src="/assets/photos/m01-4.jpg" alt="Photo 4">
-			<img src="/assets/photos/m01-5.jpg" alt="Photo 4">
+			<img src="https://raw.githubusercontent.com/Mobifer/mobifer-images/refs/heads/main/zoric/m01-1.webp" alt="Photo 1">
+			<img src="https://raw.githubusercontent.com/Mobifer/mobifer-images/refs/heads/main/zoric/m01-2.webp" alt="Photo 2">
+			<img src="https://raw.githubusercontent.com/Mobifer/mobifer-images/refs/heads/main/arstc/m01-4.jpg" alt="Photo 3">
+			<img src="https://raw.githubusercontent.com/Mobifer/mobifer-images/refs/heads/main/arstc/m01-5.jpg" alt="Photo 4">
 		</div>
 		<p class="centered"><br>Cliquez sur une image pour l’agrandir.</p>
 		<p class="license">De gauche à droite, et de haut en bas</p>
 		<p class="license">Photos 1 et 2&nbsp;: © Zoric</p>
-		<p class="license">Photos 3 à 5&nbsp;: © ArsTC</p>
+		<p class="license">Photos 3 et 4&nbsp;: © ArsTC</p>
+	</div>
+	</div>
 	</div>
 	<div id="footer-container"></div>
-	<script src="/addons/footer.js"></script>
 
+	<script src="/assets/script/infotrafic.js"></script>
+	<script src="/addons/footer.js"></script>
 	<script src="/assets/script/galleryhandle.js"></script>
+
 </body>

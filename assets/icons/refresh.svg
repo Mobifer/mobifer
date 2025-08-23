@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="none"
+   viewBox="0 0 16 16"
+   id="Refresh--Streamline-Rounded-Material"
+   height="16"
+   width="16"
+   version="1.1"
+   sodipodi:docname="refresh.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="34.75"
+     inkscape:cx="5.0071942"
+     inkscape:cy="8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Refresh--Streamline-Rounded-Material" />
+  <desc
+     id="desc2">
+    Refresh Streamline Icon: https://streamlinehq.com
+  </desc>
+  <path
+     fill="#000000"
+     d="M 8,16 C 5.78335,16 3.89585,15.22085 2.3375,13.6625 0.779165,12.10415 0,10.21665 0,8 0,5.78335 0.779165,3.89585 2.3375,2.3375 3.89585,0.779165 5.78335,0 8,0 9.41665,0 10.65835,0.2875 11.725,0.8625 12.79165,1.4375 13.71665,2.225 14.5,3.225 V 0.75 C 14.5,0.533335 14.57085,0.354165 14.7125,0.2125 14.85415,0.070835 15.03335,0 15.25,0 15.46665,0 15.64585,0.070835 15.7875,0.2125 15.92915,0.354165 16,0.533335 16,0.75 V 5.6 C 16,5.81665 15.92915,5.99585 15.7875,6.1375 15.64585,6.27915 15.46665,6.35 15.25,6.35 H 10.4 C 10.18335,6.35 10.00415,6.27915 9.8625,6.1375 9.72085,5.99585 9.65,5.81665 9.65,5.6 9.65,5.38335 9.72085,5.20415 9.8625,5.0625 10.00415,4.92085 10.18335,4.85 10.4,4.85 h 3.45 C 13.21665,3.85 12.40835,3.04165 11.425,2.425 10.44165,1.80835 9.3,1.5 8,1.5 6.18335,1.5 4.64585,2.12915 3.3875,3.3875 2.12915,4.64585 1.5,6.18335 1.5,8 1.5,9.81665 2.12915,11.35415 3.3875,12.6125 4.64585,13.87085 6.18335,14.5 8,14.5 c 1.25,0 2.41665,-0.32915 3.5,-0.9875 1.08335,-0.65835 1.89165,-1.54585 2.425,-2.6625 0.08335,-0.18335 0.22085,-0.32085 0.4125,-0.4125 0.19165,-0.09165 0.37915,-0.09585 0.5625,-0.0125 0.2,0.08335 0.33335,0.22085 0.4,0.4125 0.06665,0.19165 0.05835,0.3875 -0.025,0.5875 -0.65,1.4 -1.62915,2.5125 -2.9375,3.3375 C 11.02915,15.5875 9.58335,16 8,16 Z"
+     stroke-width="0.5"
+     id="path4"
+     style="fill:#0a0082;fill-opacity:1" />
+</svg>
