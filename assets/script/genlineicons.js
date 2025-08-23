@@ -22,12 +22,11 @@ export function genererLignesHTML(lignes) {
 				} else {
 					return `/lines/m${numero.padStart(2, "0")}.html`; // Métro 1 -> m01
 				}
-			case "RER":
+			case "rer":
 				return `/lines/rer${numero}.html`; // RER A -> rerA
 			case "train":
 				return `/lines/train${numero}.html`; // Transilien L -> trainL
 			case "tram":
-				// If numero == "T3a" or "T3b", return 03a ou 03b
 				if (numero.endsWith("a") || numero.endsWith("b")) {
 					return `/lines/t0${numero.replace("T", "")}.html`;
 				}
@@ -43,29 +42,28 @@ export function genererLignesHTML(lignes) {
 
 	// On parcourt les types de transport dans l'ordre défini
 	ordreModes.forEach(mode => {
-		let lignesFiltrees = lignes.filter(ligne => ligne.type === mode);
+		let lignesFiltrees = lignes[mode.toLowerCase()] || [];
 		if (lignesFiltrees.length > 0) {
 			let iconeMode = `<span class="integrated"><img src="${iconesModes[mode]}" alt="${mode}"></span>`;
 
-			let htmlLignes = lignesFiltrees.flatMap(ligne => 
-				ligne.lines.map(numero => {
-					if (numero === "cgv") {
-						var iconeLigne = `/assets/icons/LIG_IDFM_C00563.svg`
-					} else if (numero === "orv") {
-						var iconeLigne = `/assets/icons/LIG_IDFM_C01388.svg`
-					} else if (numero === "fun") {
-						var iconeLigne = `/assets/icons/funiculaire_montmartre_couleur_RVB.svg`
-					} else {
-						var iconeLigne = `/assets/icons/${mode}_${numero}_couleur_RVB.svg`; // Génération automatique
-					}
-					let lien = getLienLigne(mode, numero);
-					return `<span class="integrated"><a href="${lien}"><img src="${iconeLigne}" alt="${numero}"></a></span>`;
-				})
-			).join("&thinsp;");
+			let htmlLignes = lignesFiltrees.map(numero => {
+				let iconeLigne;
+				if (numero === "cgv") {
+					iconeLigne = `/assets/icons/LIG_IDFM_C00563.svg`;
+				} else if (numero === "orv") {
+					iconeLigne = `/assets/icons/LIG_IDFM_C01388.svg`;
+				} else if (numero === "fun") {
+					iconeLigne = `/assets/icons/funiculaire_montmartre_couleur_RVB.svg`;
+				} else {
+					iconeLigne = `/assets/icons/${mode}_${numero}_couleur_RVB.svg`; // Génération automatique
+				}
+				let lien = getLienLigne(mode, numero);
+				return `<span class="integrated"><a href="${lien}"><img src="${iconeLigne}" alt="${numero}"></a></span>`;
+			}).join("&thinsp;");
 
 			result.push(`${iconeMode}&thinsp;${htmlLignes}`); // Ajout du mode et des lignes
 		}
 	});
 
 	return result.join(" ");
-};
+}

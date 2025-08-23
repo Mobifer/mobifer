@@ -30,23 +30,23 @@ document.addEventListener("DOMContentLoaded", function () {
 				<span style="font-size: 80px;" class="shadowed">${lignesHTML}</span><br>
 				<span class="centered terminus-box">${station.nom}</span>`;
 
-			if (station.ptinteret) {
-				html += `<br><span class="ptinteret" style="font-size: 30px;">${station.ptinteret}</span>`;
+			if (station.pti) {
+				html += `<br><span class="ptinteret" style="font-size: 30px;">${station.pti}</span>`;
 			}
 
-			if (station.repere) {
-				html += `<br><span class="repere" style="font-size: 30px; border: 5px solid black !important; font-weight: bold; border-radius: 5px;">${station.repere}</span>`;
+			if (station.rep) {
+				html += `<br><span class="repere" style="font-size: 30px; border: 5px solid black !important; font-weight: bold; border-radius: 5px;">${station.rep}</span>`;
 			}
 
 			html += `</p>
-				<img src="${station.image}" alt="Photo de la station" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">
-				<div class="license">© ${station.imageauthor} sur <a href="${station.imagepage}">Wikimedia Commons</a></div>`;
+				<img src="${station.img}" alt="Photo de la station" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">
+				<div class="license">© ${station.imga} sur <a href="${station.imgp}">Wikimedia Commons</a></div>`;
 			
 			html += `<div class="box image-center">
 				<h2 class="centered">Statistiques et données</h2>`;
 			
 			// Génération des statistiques
-			station.statistiques.forEach(stats => {
+			station.stats.forEach(stats => {
 				let lignesTable = genererLignesHTML(stats.lignes); // Génération des icônes des lignes
 
 				html += `<table>`;
@@ -58,15 +58,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 				// Affichage des autres données de la station
 				const donnees = [
-					{ label: "Ouverture", valeur: stats.ouverture },
+					{ label: "Lignes", valeur: stats.lignes },
+					{ label: "Ouverture", valeur: stats.ouv },
 					// Add line "Nom inaugural" if the value stats.inaugural != "undefined", otherwise do not add the line
-					...(stats.inaugural !== undefined ? [{ label: "Nom inaugural", valeur: stats.inaugural }] : []),
+					...(stats.inaug !== undefined ? [{ label: "Nom inaugural", valeur: stats.inaug }] : []),
 					{ label: "Voies", valeur: stats.voies },
 					{ label: "Quais", valeur: stats.quais },
-					{ label: "Zone tarifaire", valeur: stats.zone_tarifaire },
-					{ label: "Accessible", valeur: stats.accessible },
+					{ label: "Zone tarifaire", valeur: stats.zt },
+					{ label: "Accessible", valeur: stats.ufr },
 					{ label: "Communes desservies", valeur: stats.communes.join(", ") },
-					{ label: "Fréquentation", valeur: stats.frequentation }
+					{ label: "Fréquentation", valeur: stats.freq }
 				];
 
 				donnees.forEach(row => {
@@ -77,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 				html += `</table>`;
 				// If it is NOT the last iteration, add <br>
-				if (station.statistiques.indexOf(stats) < station.statistiques.length - 1) {
+				if (station.stats.indexOf(stats) < station.stats.length - 1) {
 					html += `<br>`;
 				}
 			});
@@ -88,20 +89,20 @@ document.addEventListener("DOMContentLoaded", function () {
 			html += `<div class="box image-center">
 						<h2 class="centered">Sorties</h2>`;
 			station.sorties.forEach(sortie => {
-				html += `<span class="blue-box"><span class="num-sortie">${sortie.numero}</span>`;
-				if (sortie.description) {
-					html += ` ${sortie.description}`;
+				html += `<span class="blue-box"><span class="num-sortie">${sortie.num}</span>`;
+				if (sortie.desc) {
+					html += ` ${sortie.desc}`;
 					html += `<br>`;
 					var hasDescription = "style='margin-top: 5px !important;'";
 				}
 				else {
 					var hasDescription = "";
 				}
-				if (sortie.repere) {
-					html += ` <span class="repere" ${hasDescription}>${sortie.repere}</span>`;
+				if (sortie.rep) {
+					html += ` <span class="repere" ${hasDescription}>${sortie.rep}</span>`;
 				}
-				if (sortie.ptinteret) {
-					html += ` <span class="ptinteret" ${hasDescription}>${sortie.ptinteret}</span>`;
+				if (sortie.pti) {
+					html += ` <span class="ptinteret" ${hasDescription}>${sortie.pti}</span>`;
 				}
 				
 				html += `</span>\n`;
@@ -109,13 +110,17 @@ document.addEventListener("DOMContentLoaded", function () {
 			html += `</div>`;
 
 			// Ajout des liens Enrail uniquement pour le métro
-			if (station.enrail_links && station.enrail_links.length > 0) {
+			if (station.siv && station.siv.length > 0) {
 				html += `<div class="box image-center">`;
-				station.enrail_links.forEach(link => {
-					if (link.style === "tram") {
-						html += `<iframe src="/addons/sieltram.html?stop=${link.link}&line=${link.line}" class="tram"></iframe>`
-					} else {
-						html += `<iframe src="${link.link}" class="${link.style} frameborder="0"></iframe>`;
+				station.siv.forEach(link => {
+					if (link.metro) {
+						html += `<iframe src="${link.metro}" class="ratp" frameborder="0"></iframe>`;
+					}
+					if (link.train) {
+						html += `<iframe src="${link.train}" class="sncf" frameborder="0"></iframe>`;
+					}
+					if (link.tram) {
+						html += `<iframe src="/addons/sieltram.html?stop=${link.tram}&line=${link.line}" class="tram"></iframe>`;
 					}
 				});
 				html += `</div>
