@@ -263,6 +263,30 @@ a {
     background-color: white;;
 }
 
+.repere-station {
+	border: 2px solid white;
+	font-style: italic;
+	display: inline-block;
+	padding: 3px;
+    background-color: white;
+}
+
+@media (max-width: 500px) {
+	.repere-station {
+		font-size: 20px;
+	}
+}
+@media (min-width: 501px) {
+	.repere-station {
+		font-size: 4vw;
+	}
+}
+@media (min-width: 800px) {
+	.repere-station {
+		font-size: 30px;
+	}
+}
+
 .blue-box .repere {
 	background-color: unset;
 }
@@ -276,6 +300,33 @@ a {
 	padding: 6px;
 	display: inline-block;
 }
+
+.ptinteret-station {
+	background-color: #6e4823 !important;
+	border-radius: 5px;
+	font-style: italic;
+	font-weight: bold;
+	color: white !important;
+	padding: 6px;
+	display: inline-block;
+}
+
+@media (max-width: 500px) {
+	.ptinteret-station  {
+		font-size: 20px;
+	}
+}
+@media (min-width: 501px) {
+	.ptinteret-station  {
+		font-size: 4vw;
+	}
+}
+@media (min-width: 800px) {
+	.ptinteret-station  {
+		font-size: 30px;
+	}
+}
+
 .num-sortie {
 	border: 1px solid white;
 	padding: 3px;

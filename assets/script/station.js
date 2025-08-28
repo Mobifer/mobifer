@@ -31,11 +31,11 @@ document.addEventListener("DOMContentLoaded", function () {
 				<span class="centered terminus-box">${station.nom}</span>`;
 
 			if (station.pti) {
-				html += `<br><span class="ptinteret" style="font-size: 30px;">${station.pti}</span>`;
+				html += `<br><span class="ptinteret-station">${station.pti}</span>`;
 			}
 
 			if (station.rep) {
-				html += `<br><span class="repere" style="font-size: 30px; border: 5px solid black !important; font-weight: bold; border-radius: 5px;">${station.rep}</span>`;
+				html += `<br><span class="repere-station" style="border: 5px solid black !important; font-weight: bold; border-radius: 5px;">${station.rep}</span>`;
 			}
 
 			
