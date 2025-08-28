@@ -583,17 +583,35 @@ a {
     padding: 0 4px;
 }
 
+.iframes-container {
+	container-type: inline-size;
+}
+
+.iframes {
+    display: grid;
+	grid-template-columns: repeat(2, 1fr); /* 2 columns */
+	gap: 8px; /* spacing like your column-gap */
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 0 4px;
+	break-inside: avoid;
+}
+
 .item {
-    break-inside: avoid;
     margin-bottom: 8px;
-    display: inline-block;
     width: 100%;
 }
 
 @media (max-width: 800px) {
-.row {
-    column-count: 1;
+	.row {
+		column-count: 1;
+	}
 }
+
+@container (max-width: 600px) {
+	.iframes {
+		grid-template-columns: 1fr; /* stack into 1 column */
+	}
 }
 
 .box {
@@ -607,6 +625,7 @@ a {
 	background-color: white !important;
 	box-sizing: border-box;
 	max-width: none;
+	break-inside: avoid;
 }
 
 .box.sticky-left {

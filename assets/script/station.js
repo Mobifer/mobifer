@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				});
 				html += '</div>'
 			} else {
-				html += `<img src="${station.img}" alt="Photo de la station" style="width: 100%; max-width: 800px; border-radius: 10px; margin-top: 10px;" class="image-center">`
+				html += `<img src="${station.img}" alt="Photo de la station" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">`
 				if (station.imgsrc) {
 					html += `<div class="license">© ${station.imga} sur ${station.imgsrc}</div>`
 				} else {
@@ -200,10 +200,13 @@ document.addEventListener("DOMContentLoaded", function () {
 				if (data.items.length > 0) {
 					html += `<div class="item"><div class="box image-center">`;
 					html += `<h2 class="centered">${data.title}</h2>`;
+					if (type === 'metro') {
+						html += `<div class="iframes-container"><div class="iframes">`;
+					}
 					
 					data.items.forEach(link => {
 						if (type === 'metro' && link.metro) {
-							html += `<iframe src="${link.metro}" class="ratp" frameborder="0"></iframe>`;
+							html += `<div class="item"><iframe src="${link.metro}" class="ratp" frameborder="0"></iframe></div>`;
 						}
 						if (type === 'train' && link.train) {
 							html += `<iframe src="${link.train}" class="sncf" frameborder="0" scrolling="no"></iframe>`;
@@ -213,6 +216,10 @@ document.addEventListener("DOMContentLoaded", function () {
 						}
 					});
 					
+					if (type === 'metro') {
+						html += `</div></div>`;
+					}
+
 					html += `</div></div>`;
 				}
 			});
