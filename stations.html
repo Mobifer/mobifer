@@ -38,6 +38,20 @@
 				container.classList.remove("active");
 			}
 		}
+
+
+		function switchToPANAM() {
+			document.querySelectorAll("iframe").forEach(iframe => {
+				iframe.src = iframe.src.replace("?style=siel", "?style=panam");
+			});
+		}
+
+		function switchToPIQ() {
+			document.querySelectorAll("iframe").forEach(iframe => {
+				iframe.src = iframe.src.replace("?style=panam", "?style=siel");
+			});
+		}
+
 	</script>
 	<script src="/addons/footer.js"></script>
 </body>
