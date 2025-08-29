@@ -1,23 +1,30 @@
 {
     "articles": [
         {
-            "title": "L'inauguration du Métro de Paris",
-            "titleImage": "images/metro.jpg",
-            "author": "Jean Dupont",
-            "date": "18 février 2025",
+            "id": "inauguration-periscofer-journal-mobifer",
+            "title": "Inauguration de PériscoFer, le Journal de MobiFer&nbsp;!",
+            "titleImage": "assets/periscofer-vector.svg",
+            "author": "Aluminium (aluminium3355)",
+            "date": "26 août 2025 à 18:00",
+            "lastMod": "26 août 2025 à 18:27",
             "paragraphs": [
                 {
-                    "title": "Un projet ambitieux",
-                    "content": "Le métro parisien a été inauguré en 1900 pour faciliter les déplacements dans la capitale.",
-                    "image": "images/projet.jpg"
+                    "title": "Origines du Projet MobiFer <span class='integrated'><img src='/assets/favicon.svg'></span>",
+                    "content": "Initialement un projet personnel, <strong><a href='/'>MobiFer</a></strong> est né en juillet 2024 sur la plate-forme collaborative GitHub, sous le doux nom de <em>Paris Métro Line Maps</em>. L’idée d’origine&nbsp;? Partager au travers de ce site des plans de ligne des transports en commun ferrés (guidés par rail) d’Île-de-France (<span class='integrated'><img src='/assets/icons/symbole_metro_RVB.svg'></span> Métro, <span class='integrated'><img src='/assets/icons/symbole_tram_RVB.svg'></span> Tramway, <span class='integrated'><img src='/assets/icons/symbole_RER_RVB.svg'></span> RER et <span class='integrated'><img src='/assets/icons/symbole_train_RVB.svg'></span> Transilien), en mettant en valeur les temps de trajet à pied ou à vélo (selon le mode de transport) entre les stations, ainsi que d’éventuels prolongements à venir.<br>Le site a véritablement pris sa dimension open-source après avoir été rendu public en décembre 2024. Depuis, il a changé de nom, et une dizaine de passionnés contribuent activement au projet, coordonné dans le <strong><a href='/discord'>serveur Discord</a></strong> du projet. Chacun peut ainsi proposer des améliorations, partager des photos à afficher sur le site, ou compléter les pages manquantes&nbsp;: MobiFer est pensé comme un projet collectif et transparent, ouvert à tous."
                 },
                 {
-                    "title": "Une expansion rapide",
-                    "content": "Depuis, le réseau s'est considérablement développé pour atteindre plus de 200 km de lignes.",
-                    "image": "images/expansion.jpg"
+                    "title": "PériscoFer, un premier pas vers une relative «&nbsp;utilité&nbsp;» de MobiFer&nbsp;?",
+                    "content": "MobiFer tente tant bien que mal de se démarquer d’autres sites dans le domaine des transports en commun, notamment <strong><a href='https://metropolitor.fr'>Métropolitor</a></strong>, qui offre à ses visiteurs des informations à jour sur le parc des lignes du métro parisien. MobiFer a une vocation «&nbsp;encyclopédique&nbsp;»&nbsp;: c’est-à-dire que nous ne produisons pas d’informations&nbsp;; nous tentons de les rassembler en un point unique d’Internet pour les rendre plus facilement accessible. Notre objectif actuel est de <strong>mettre en contexte</strong> les données existantes&nbsp;: sorties de stations, présence d’escaliers mécaniques ou d’ascenseurs, etc. Ces informations existent déjà sur d’autres sites comme <a href='https://www.sortiesdumetro.fr'>Sorties du Métro</a> ou <a href='https://prim.iledefrance-mobilites.fr'>PRIM</a>, la plateforme open-data d’Île-de-France Mobilités, mais MobiFer les réunit et les relie à des données complémentaires comme les temps d’attente (grâce aux représentations des panneaux officiels d’Amélie A. sur <strong><a href='https://enrail.org'>Enrail.org</a></strong> et d’Arno Cellarier et Léon Edmee sur <strong><a href='https://prochainstrains.arno.cl'>Prochains Trains</a></strong>). En un clic supplémentaire, vous obtenez directement le plan d’une des lignes desservant la station dont vous venez de consulter la page.<br><br><strong>PériscoFer</strong>, le journal de MobiFer, serait donc un premier pas vers une production (ou bien une reformulation unique) de l’information, à travers l’expérience de ses propres contributeurs&nbsp;; d’où le jeu de mots entre «&nbsp;périscope&nbsp;» et «&nbsp;MobiFer&nbsp;»&nbsp;: il s’agira d’un œil directement tourné vers le réseau francilien et ses nouveautés."
+                },
+                {
+                    "title": "Quel avenir pour MobiFer&nbsp;?",
+                    "content": "MobiFer reste avant tout un projet en construction, et ne sera pas terminé avant longtemps. Néanmoins, nous prévoyons d’implémenter sur le (très) long terme une carte interactive et en temps réel du réseau d’Île-de-France, fluidement intégrée à la charte graphique du site et permettant de consulter «&nbsp;en temps réel&nbsp;» la position des trains. Notre but n’étant pas d’entrer en concurrence avec les sites ferroviaires, nous souhaitons donc renforcer l’interconnectivité entre sites de passionnés, notamment en renvoyant vers des sources sûres créées par des ferrovipathes (ou «&nbsp;<a href='https://archive.is/dOh2L'>trainfluenceurs</a>&nbsp;») comme Métropolitor ou <a href='http://stations.albertguillaumes.cat'>Stations and transfers</a> d’Albert Guillaumes."
+                },
+                {
+                    "title": "Remerciements",
+                    "content": "Un grand merci à celles et ceux qui contribuent au projet et qui rendent ce site vivant, ainsi qu’à nos partenaires&nbsp;:<br><ul><li>Vincent (super_vin)</li><li>Zoric (zoric6002)</li><li>Foster G (fosterg0726)</li><li>Doumsdu19 (doums_19)</li><li>ArsTC (ars546789)</li><li>Toineau (valloire94)</li><li>Laura (_lau290)</li><li>Amélie (aisaka_pmd)</li><li>TFB (thefrenchbidouilleur)</li><li>TrainS (trainsupermetros_888)</li><li>MrCoco59 (mrcoco59)</li><li>Jouca (jouca)</li><li>Victoria (victoria180725)</li><li>Arnø (arnocl)</li><li>__gwadz__ (gwadz_)</li></ul>"
                 }
-            ],
-            "sources": "Sources: Archives de la RATP"
+            ]
         }
     ]
 }

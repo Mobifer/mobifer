@@ -31,20 +31,40 @@ document.addEventListener("DOMContentLoaded", function () {
 				<span class="centered terminus-box">${station.nom}</span>`;
 
 			if (station.pti) {
-				html += `<br><span class="ptinteret" style="font-size: 30px;">${station.pti}</span>`;
+				html += `<br><span class="ptinteret-station">${station.pti}</span>`;
 			}
 
 			if (station.rep) {
-				html += `<br><span class="repere" style="font-size: 30px; border: 5px solid black !important; font-weight: bold; border-radius: 5px;">${station.rep}</span>`;
+				html += `<br><span class="repere-station" style="border: 5px solid black !important; font-weight: bold; border-radius: 5px;">${station.rep}</span>`;
 			}
 
-
+			
 			html += `</p>
 				<div class="row">
-				<div class="item">
-				<img src="${station.img}" alt="Photo de la station" style="width: 100% !important; border-radius: 10px; margin-top: 10px;" class="image-center">
-				<div class="license">© ${station.imga} sur <a href="${station.imgp}">Wikimedia Commons</a></div>
-				</div>`;
+				<div class="item">`
+			
+			if (Array.isArray(station.img) && station.img.length > 0) {
+				html += `<div class="slideshow-container">`
+				station.img.forEach((img, index) => {
+					html += `<div class="slide fade">
+						<img src="${img}" alt="Photo de la station">`
+					if (station.imgsrc?.[index]) { // Only run if station.imgsrc[index] exists
+						html += `<div class="caption">© ${station.imga[index]} sur ${station.imgsrc[index]}</div>`
+					} else {
+						html += `<div class="caption">© ${station.imga[index]} sur <a href="${station.imgp}">Wikimedia Commons</a></div>`
+					}
+					html += `</div>`
+				});
+				html += '</div>'
+			} else {
+				html += `<img src="${station.img}" alt="Photo de la station" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">`
+				if (station.imgsrc) {
+					html += `<div class="license">© ${station.imga} sur ${station.imgsrc}</div>`
+				} else {
+					html += `<div class="license">© ${station.imga} sur <a href="${station.imgp}">Wikimedia Commons</a></div>`
+				}
+			}
+			html += `</div>`
 
 			// Génération des sorties
 			html += `<div class="item">
@@ -54,7 +74,12 @@ document.addEventListener("DOMContentLoaded", function () {
 			var sortieNum = 0;
 			station.sorties.forEach(sortie => {
 				sortieNum += 1;
-				html += `<span class="num-sortie">${sortie.num}</span>`;
+				html += `<div class="sortie-row">`;
+
+				html += `<div class="sortie-left"><span class="num-sortie">${sortie.num}</span></div>`;
+
+				html += `<div class="sortie-right">`;
+
 				if (sortie.desc) {
 					html += ` ${sortie.desc}`;
 					html += `<span style="font-size: 1.25em">`
@@ -74,7 +99,18 @@ document.addEventListener("DOMContentLoaded", function () {
 					var hasDescription = "";
 				}
 				if (sortie.rep) {
-					html += ` <span class="repere" ${hasDescription}>${sortie.rep}</span>`;
+					// If sortie.rep is an array
+					if (Array.isArray(sortie.rep)) {
+						sortie.rep.forEach((repere, index) => {
+							html += ` <span class="repere" ${hasDescription}>${repere}</span>`;
+							// If last pti, do not add a line break
+							if (index < sortie.rep.length - 1) {
+								html += `<br>`;
+							}
+						})
+					} else {
+						html += ` <span class="repere" ${hasDescription}>${sortie.rep}</span>`;
+					}
 					if (!sortie.desc) {
 						html += `<span style="font-size: 1.25em">`
 						if (sortie.acc) {
@@ -91,7 +127,19 @@ document.addEventListener("DOMContentLoaded", function () {
 					html += `<br>`;
 				}
 				if (sortie.pti) {
-					html += ` <span class="ptinteret" ${hasDescription}>${sortie.pti}</span>`;
+					// If sortie.pti is an array
+					if (Array.isArray(sortie.pti)) {
+						sortie.pti.forEach((pti, index) => {
+							html += ` <span class="ptinteret" ${hasDescription}>${pti}</span>`;
+							// If last pti, do not add a line break
+							if (index < sortie.pti.length - 1) {
+								html += `<br>`;
+							}
+						})
+					} else {
+						html += ` <span class="ptinteret" ${hasDescription}>${sortie.pti}</span>`;
+					}
+					
 					if (!sortie.desc) {
 						html += `<span style="font-size: 1.25em">`
 						if (sortie.acc) {
@@ -110,11 +158,9 @@ document.addEventListener("DOMContentLoaded", function () {
 					}
 					html += `<br>`;
 				}
-				if (sortieNum < station.sorties.length) {
-					html += `<br>`
-				}
+				html += `</div></div>`
 			});
-			html += `</span></div>\n`;
+			html += `</span></div>`;
 			html += `</div></div>`;
 
 			html += `<div class="item">
@@ -148,7 +194,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 				donnees.forEach(row => {
 					if (row.valeur) { // Vérifie que la valeur existe
-						html += `<tr><td class="title">${row.label}</td><td>${row.valeur}</td></tr>`;
+						html += `<tr><td class="title">${row.label}</td><td style="font-weight: normal;">${row.valeur}</td></tr>`;
 					}
 				});
 
@@ -164,9 +210,9 @@ document.addEventListener("DOMContentLoaded", function () {
 			// Add SIV panels
 			if (station.siv && station.siv.length > 0) {
 			const transportTypes = {
-				metro: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>' },
-				train: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_RER_RVB.svg" alt="RER"></span> et <span class="integrated"><img src="/assets/icons/symbole_train_RVB.svg" alt="Transilien"></span>' },
-				tram: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_tram_RVB.svg" alt="Tramway"></span>' }
+				metro: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro" title="Métro"></span> <div class="btn-group" title="Modifiez le style des SIEL"><button onclick="switchToPANAM();"><img src="/assets/icons/panam.svg" alt="PANAM" style="height: 1.25em;" id="panam"></button><button onclick="switchToPIQ();"><img src="/assets/icons/piq.svg" alt="PIQ" style="height: 1.25em;" id="piq"></button></div>' },
+				train: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_RER_RVB.svg" alt="RER" title="RER"></span> et <span class="integrated"><img src="/assets/icons/symbole_train_RVB.svg" alt="Transilien" title="Transilien"></span>' },
+				tram: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_tram_RVB.svg" alt="Tramway" title="Tramway"></span>' }
 			};
 			
 			// Group by transport type
@@ -181,10 +227,13 @@ document.addEventListener("DOMContentLoaded", function () {
 				if (data.items.length > 0) {
 					html += `<div class="item"><div class="box image-center">`;
 					html += `<h2 class="centered">${data.title}</h2>`;
+					if (type === 'metro') {
+						html += `<div class="iframes-container"><div class="iframes">`;
+					}
 					
 					data.items.forEach(link => {
 						if (type === 'metro' && link.metro) {
-							html += `<iframe src="${link.metro}" class="ratp" frameborder="0"></iframe>`;
+							html += `<div class="item"><iframe src="${link.metro}" class="ratp" frameborder="0"></iframe></div>`;
 						}
 						if (type === 'train' && link.train) {
 							html += `<iframe src="${link.train}" class="sncf" frameborder="0" scrolling="no"></iframe>`;
@@ -194,6 +243,10 @@ document.addEventListener("DOMContentLoaded", function () {
 						}
 					});
 					
+					if (type === 'metro') {
+						html += `</div></div>`;
+					}
+
 					html += `</div></div>`;
 				}
 			});
@@ -206,6 +259,29 @@ document.addEventListener("DOMContentLoaded", function () {
 			}
 
 			document.getElementById("station-content").innerHTML = html;
+
+			// Initialize slideshow after DOM update
+			if (Array.isArray(station.img) && station.img.length > 0) {
+				let slideIndex = 0;
+				const slides = document.getElementsByClassName("slide");
+
+				function showSlides(slide) {
+					for (let i = 0; i < slides.length; i++) {
+						slides[i].classList.remove("active");
+					}
+
+					slideIndex++;
+					if (slideIndex > slides.length) { slideIndex = 1; }
+
+					if (slides.length > 0) {
+						slides[slideIndex - 1].classList.add("active");
+					}
+
+					setTimeout(showSlides, 3000); // or any interval you like
+				}
+
+				showSlides();
+			}
 		})
 		.catch(error => console.error("Erreur de chargement des données:", error));
 });

@@ -263,6 +263,30 @@ a {
     background-color: white;;
 }
 
+.repere-station {
+	border: 2px solid white;
+	font-style: italic;
+	display: inline-block;
+	padding: 3px;
+    background-color: white;
+}
+
+@media (max-width: 500px) {
+	.repere-station {
+		font-size: 20px;
+	}
+}
+@media (min-width: 501px) {
+	.repere-station {
+		font-size: 4vw;
+	}
+}
+@media (min-width: 800px) {
+	.repere-station {
+		font-size: 30px;
+	}
+}
+
 .blue-box .repere {
 	background-color: unset;
 }
@@ -276,10 +300,31 @@ a {
 	padding: 6px;
 	display: inline-block;
 }
-.num-sortie {
-	border: 1px solid white;
-	padding: 3px;
+
+.ptinteret-station {
+	background-color: #6e4823 !important;
+	border-radius: 5px;
+	font-style: italic;
+	font-weight: bold;
+	color: white !important;
+	padding: 6px;
 	display: inline-block;
+}
+
+@media (max-width: 500px) {
+	.ptinteret-station  {
+		font-size: 20px;
+	}
+}
+@media (min-width: 501px) {
+	.ptinteret-station  {
+		font-size: 4vw;
+	}
+}
+@media (min-width: 800px) {
+	.ptinteret-station  {
+		font-size: 30px;
+	}
 }
 
 .blue-box .ptinteret {
@@ -352,6 +397,55 @@ a {
 	height: 2.5em;
 	width: auto !important;
 }
+.journal {
+	background-color: #ff5a00;
+}
+.journal:hover {
+	background-color: #b43f00;
+	transform: scale(1.1);
+}
+
+.btn-group {
+  display: inline-flex;
+  border-radius: 10px;
+  overflow: hidden; /* ensures buttons follow group radius */
+  margin-top: 5px;
+  margin-left: auto;
+}
+
+.btn-group button {
+  border-radius: 0; /* reset */
+  border: 1.5px solid #fff;
+  background: #000;
+  color: orange;
+  padding: 10px 24px;
+  cursor: pointer;
+  font-family: 'parisine-std', sans-serif;
+}
+
+.btn-group button:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.btn-group button:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  	background-color: #3d3d3d;
+	outline-color: orange;
+	outline: auto;
+}
 
 .shadowed {
 	filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
@@ -414,6 +508,7 @@ a {
 	height: 70vh;
 	overflow: hidden;
 	border-radius: 10px;
+	margin-top: 10px;
   }
 
 .slide {
@@ -439,6 +534,14 @@ a {
 	object-fit: cover;
 }
 
+.slide div {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+}
+
 .fade {
 	animation: fadeEffect 0.75s ease-in-out;
 }
@@ -450,8 +553,8 @@ a {
 
 .caption {
 	position: absolute;
-	bottom: 20px;
-	left: 20px;
+	bottom: 2px;
+	left: 2px;
 	background-color: rgba(0,0,0,0.5);
 	color: white;
 	padding: 8px 12px;
@@ -525,17 +628,68 @@ a {
     padding: 0 4px;
 }
 
+.sortie-row {
+	display: flex;
+	align-items: stretch; /* hauteur égale sur les 2 colonnes */
+	margin-bottom: 10px;
+}
+
+.sortie-row:last-child {
+	margin-bottom: 0px;
+}
+
+.sortie-left {
+	flex-shrink: 0;
+	padding-right: 8px;
+	display: flex;
+}
+
+.num-sortie {
+	border: 1px solid white;
+	padding: 3px;
+	flex: 1;            /* étire pour s'adapter à la hauteur de la colonne droite */
+	display: flex;      
+	align-items: flex-start; /* aligne le texte en haut */
+	justify-content: center; /* centre le texte */
+}
+
+.sortie-right {
+	flex: 1;
+}
+
+.sortie-right:last-child {
+	margin-bottom: 0px;
+}
+
+.iframes-container {
+	container-type: inline-size;
+}
+
+.iframes {
+    display: grid;
+	grid-template-columns: repeat(2, 1fr); /* 2 columns */
+	gap: 8px; /* spacing like your column-gap */
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 0 4px;
+	break-inside: avoid;
+}
+
 .item {
-    break-inside: avoid;
     margin-bottom: 8px;
-    display: inline-block;
     width: 100%;
 }
 
 @media (max-width: 800px) {
-.row {
-    column-count: 1;
+	.row {
+		column-count: 1;
+	}
 }
+
+@container (max-width: 600px) {
+	.iframes {
+		grid-template-columns: 1fr; /* stack into 1 column */
+	}
 }
 
 .box {
@@ -549,6 +703,7 @@ a {
 	background-color: white !important;
 	box-sizing: border-box;
 	max-width: none;
+	break-inside: avoid;
 }
 
 .box.sticky-left {

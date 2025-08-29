@@ -1,138 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>https://mobifer.github.io/</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m01.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m02.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m03.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m03b.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m04.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m05.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m06.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m07.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m07b.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m08.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m09.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m10.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m11.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m12.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m13.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/m14.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/rerA.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/rerB.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/rerC.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/rerD.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/rerE.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/t01.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/t02.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/t03a.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/t03b.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/t04.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/t05.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/t06.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/t07.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/t08.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/t09.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/t10.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/trainH.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/trainJ.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/trainK.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/trainL.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/trainN.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/trainP.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/trainR.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/trainU.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/trainV.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/lines/trainH.html</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/stations.html?station=La+Defense</loc>
-  </url>
-  <url>
-    <loc>https://mobifer.github.io/stations.html?station=Esplanade+de+La+Defense</loc>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://mobifer.github.io/</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m01.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m02.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m03.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m03b.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m04.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m05.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m06.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m07.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m07b.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m08.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m09.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m10.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m11.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m12.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m13.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m14.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/m15.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/orv.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/rerA.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/rerB.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/rerC.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/rerD.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/rerE.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/trainH.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/trainJ.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/trainK.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/trainL.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/trainN.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/trainP.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/trainR.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/trainU.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/trainV.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/t01.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/t02.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/t03a.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/t03b.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/t04.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/t05.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/t06.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/t07.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/t08.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/t09.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/t10.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mobifer.github.io/lines/t11.html</loc>
+  <lastmod>2025-08-27T13:17:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 </urlset>

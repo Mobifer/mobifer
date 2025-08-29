@@ -2,24 +2,20 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Journal MobiFer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/styles.css">
+	<link rel="stylesheet" href="https://use.typekit.net/euw0chn.css">
+	<link rel="icon" href="/assets/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <meta property="og:title" content="PériscoFer – Le Journal de MobiFer" />
+	<meta property="og:description" content="PériscoFer – Le Journal de MobiFer est un journal visant à donner la voix à la communauté MobiFer pour partager l’actualité ferroviaire francilienne ou des expériences personnelles." />
+    <meta property="og:image" content="https://mobifer.github.io/assets/periscofer.png" />
+    <title>PériscoFer – Le Journal de MobiFer</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        .header {
-            background-color: #003366;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            font-size: 32px;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 2px;
+        .published-articles {
+            font-family: 'Source Serif 4', serif;
         }
         .container {
             width: 85%;
@@ -34,26 +30,12 @@
             padding-bottom: 20px;
             margin-bottom: 20px;
         }
-        .article img {
+        .article-img {
             max-width: 100%;
             height: auto;
-            border-radius: 5px;
+            border-radius: 10px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        h1 {
-            font-size: 38px;
-            color: #003366;
             margin-bottom: 10px;
-        }
-        h3 {
-            font-size: 26px;
-            color: #0055aa;
-            margin-bottom: 5px;
-        }
-        p {
-            font-size: 18px;
-            color: #444;
-            line-height: 1.8;
         }
         .date, .author, .sources {
             font-size: 16px;
@@ -81,16 +63,17 @@
                 articleElement.classList.add('article');
                 
                 articleElement.innerHTML = `
-                    <h1>${article.title}</h1>
-                    <img src="${article.titleImage}" alt="Image principale">
-                    <p class="author">Écrit par : ${article.author}</p>
-                    <p class="date">Publié le : ${article.date}</p>
+                    <h1 id="${article.id}">${article.title}</h1>
+                    <img src="${article.titleImage}" alt="Image principale" class="article-img">
+                    <p class="author">Écrit par&nbsp;: ${article.author}</p>
+                    <p class="date">Publié le&nbsp;: ${article.date}</p>
+                    ${article.lastMod ? `<p class="date">Dernière modification le&nbsp;: ${article.lastMod}</p>` : ''}
                     ${article.paragraphs.map(p => `
                         <h3>${p.title}</h3>
-                        <p>${p.content}</p>
-                        <img src="${p.image}" alt="Image du paragraphe">
+                        <p style='text-align: justify'>${p.content}</p>
+                        ${p.image ? `<img src="${p.image}" alt="Illustration du paragraphe" class="article-img">` : ''}
                     `).join('')}
-                    <p class="sources">${article.sources}</p>
+                    ${article.sources ? `<p class="sources">Sources&nbsp;:${article.sources}</p>` : ''}
                 `;
                 
                 container.appendChild(articleElement);
@@ -101,11 +84,13 @@
     </script>
 </head>
 <body>
-    <div class="header">Journal Métropolitain</div>
-    <div class="container">
+    <a href="/"><h1 class="header">MobiFer</h1></a>
+    <div class="box image-center" id="Lignes" style="max-width: 1200px !important;">
         <div class="published-articles">
             <h2>Articles publiés</h2>
         </div>
     </div>
+    <div id="footer-container"></div>
+	<script src="/addons/footer.js"></script>
 </body>
 </html>

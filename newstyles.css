@@ -338,14 +338,31 @@ a {
 }
 .metropolitor {
 	background-color: #0a0082;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	display: inline-block;
+	color: white;
 }
 .metropolitor:hover {
 	background-color: #05003e;
-	transform: scale(1.1);
+	color: white;
 }
 .metropolitor .integrated img {
-	height: 2.5em;
+	height: 1.5em;
 	width: auto !important;
+}
+.metropolitor a {
+	text-decoration: none;
+	color: white;
+}
+.journal {
+	background-color: #ff5a00;
+}
+.journal:hover {
+	background-color: #b43f00;
+	transform: scale(1.1);
 }
 
 .shadowed {

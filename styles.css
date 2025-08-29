@@ -351,6 +351,13 @@ a {
 	height: 2.5em;
 	width: auto !important;
 }
+.journal {
+	background-color: #ff5a00;
+}
+.journal:hover {
+	background-color: #b43f00;
+	transform: scale(1.1);
+}
 
 .shadowed {
 	filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
