@@ -327,12 +327,6 @@ a {
 	}
 }
 
-.num-sortie {
-	border: 1px solid white;
-	padding: 3px;
-	display: inline-block;
-}
-
 .blue-box .ptinteret {
 	padding: 4px !important;
 	border-radius: 0px;
@@ -632,6 +626,39 @@ a {
     max-width: 1500px;
     margin: 0 auto;
     padding: 0 4px;
+}
+
+.sortie-row {
+	display: flex;
+	align-items: stretch; /* hauteur égale sur les 2 colonnes */
+	margin-bottom: 10px;
+}
+
+.sortie-row:last-child {
+	margin-bottom: 0px;
+}
+
+.sortie-left {
+	flex-shrink: 0;
+	padding-right: 8px;
+	display: flex;
+}
+
+.num-sortie {
+	border: 1px solid white;
+	padding: 3px;
+	flex: 1;            /* étire pour s'adapter à la hauteur de la colonne droite */
+	display: flex;      
+	align-items: flex-start; /* aligne le texte en haut */
+	justify-content: center; /* centre le texte */
+}
+
+.sortie-right {
+	flex: 1;
+}
+
+.sortie-right:last-child {
+	margin-bottom: 0px;
 }
 
 .iframes-container {

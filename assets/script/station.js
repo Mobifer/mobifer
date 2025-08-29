@@ -74,7 +74,12 @@ document.addEventListener("DOMContentLoaded", function () {
 			var sortieNum = 0;
 			station.sorties.forEach(sortie => {
 				sortieNum += 1;
-				html += `<span class="num-sortie">${sortie.num}</span>`;
+				html += `<div class="sortie-row">`;
+
+				html += `<div class="sortie-left"><span class="num-sortie">${sortie.num}</span></div>`;
+
+				html += `<div class="sortie-right">`;
+
 				if (sortie.desc) {
 					html += ` ${sortie.desc}`;
 					html += `<span style="font-size: 1.25em">`
@@ -130,11 +135,9 @@ document.addEventListener("DOMContentLoaded", function () {
 					}
 					html += `<br>`;
 				}
-				if (sortieNum < station.sorties.length) {
-					html += `<br>`
-				}
+				html += `</div></div>`
 			});
-			html += `</span></div>\n`;
+			html += `</span></div>`;
 			html += `</div></div>`;
 
 			html += `<div class="item">
