@@ -339,7 +339,8 @@ a {
 .metropolitor {
 	background-color: #0a0082;
 	padding: 7px;
-	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	border-radius: 10px;
 	display: inline-block;
 	color: white;
