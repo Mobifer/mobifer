@@ -99,7 +99,18 @@ document.addEventListener("DOMContentLoaded", function () {
 					var hasDescription = "";
 				}
 				if (sortie.rep) {
-					html += ` <span class="repere" ${hasDescription}>${sortie.rep}</span>`;
+					// If sortie.rep is an array
+					if (Array.isArray(sortie.rep)) {
+						sortie.rep.forEach((repere, index) => {
+							html += ` <span class="repere" ${hasDescription}>${repere}</span>`;
+							// If last pti, do not add a line break
+							if (index < sortie.rep.length - 1) {
+								html += `<br>`;
+							}
+						})
+					} else {
+						html += ` <span class="repere" ${hasDescription}>${sortie.rep}</span>`;
+					}
 					if (!sortie.desc) {
 						html += `<span style="font-size: 1.25em">`
 						if (sortie.acc) {
@@ -116,7 +127,19 @@ document.addEventListener("DOMContentLoaded", function () {
 					html += `<br>`;
 				}
 				if (sortie.pti) {
-					html += ` <span class="ptinteret" ${hasDescription}>${sortie.pti}</span>`;
+					// If sortie.pti is an array
+					if (Array.isArray(sortie.pti)) {
+						sortie.pti.forEach((pti, index) => {
+							html += ` <span class="ptinteret" ${hasDescription}>${pti}</span>`;
+							// If last pti, do not add a line break
+							if (index < sortie.pti.length - 1) {
+								html += `<br>`;
+							}
+						})
+					} else {
+						html += ` <span class="ptinteret" ${hasDescription}>${sortie.pti}</span>`;
+					}
+					
 					if (!sortie.desc) {
 						html += `<span style="font-size: 1.25em">`
 						if (sortie.acc) {
