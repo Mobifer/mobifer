@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				<div class="row">
 				<div class="item">`
 			
+			html += `<div style="break-inside: avoid;">`
 			if (Array.isArray(station.img) && station.img.length > 0) {
 				html += `<div class="slideshow-container">`
 				station.img.forEach((img, index) => {
@@ -64,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					html += `<div class="license">© ${station.imga} sur <a href="${station.imgp}">Wikimedia Commons</a></div>`
 				}
 			}
-			html += `</div>`
+			html += `</div></div>`
 
 			// Génération des sorties
 			html += `<div class="item">
@@ -209,7 +210,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			// Add SIV panels
 			if (station.siv && station.siv.length > 0) {
 			const transportTypes = {
-				metro: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro" title="Métro"></span> <div class="btn-group" title="Modifiez le style des SIEL"><button onclick="switchToPANAM();"><img src="/assets/icons/panam.svg" alt="PANAM" style="height: 1.25em;" id="panam"></button><button onclick="switchToPIQ();"><img src="/assets/icons/piq.svg" alt="PIQ" style="height: 1.25em;" id="piq"></button></div>' },
+				metro: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro" title="Métro"></span> <div class="btn-group" title="Modifiez le style des SIEL"><button onclick="switchToPANAM();"><img src="/assets/icons/panam.svg" alt="PANAM" style="height: 1.25em;" id="panam"></button><button onclick="switchToPIQ();"><img src="/assets/icons/piq.svg" alt="PIQ" style="height: 1.25em;" id="piq"></button><button onclick="switchToPIQDark();"><img src="/assets/icons/piq.svg" alt="PIQ" style="height: 1.25em;" id="piq"> (sombre)</button></div>' },
 				train: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_RER_RVB.svg" alt="RER" title="RER"></span> et <span class="integrated"><img src="/assets/icons/symbole_train_RVB.svg" alt="Transilien" title="Transilien"></span>' },
 				tram: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_tram_RVB.svg" alt="Tramway" title="Tramway"></span>' }
 			};
@@ -232,7 +233,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					
 					data.items.forEach(link => {
 						if (type === 'metro' && link.metro) {
-							html += `<div class="item"><iframe src="${link.metro}" class="ratp" frameborder="0"></iframe></div>`;
+							html += `<div class="item"><iframe src="${link.metro}+&rivoli=false" class="ratp" frameborder="0"></iframe></div>`;
 						}
 						if (type === 'train' && link.train) {
 							html += `<iframe src="${link.train}" class="sncf" frameborder="0" scrolling="no"></iframe>`;
