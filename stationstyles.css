@@ -741,3 +741,11 @@ a {
 .self-center {
 	align-self: center;
 }
+
+.ratp.panam {
+    aspect-ratio: 58/27 !important;
+}
+
+.ratp.piq {
+    aspect-ratio: 72/31 !important;
+}
