@@ -252,10 +252,9 @@ document.addEventListener("DOMContentLoaded", function () {
 			});
 
 			// Add license at the end, after all boxes
-			html += `</div>
-						<div class="license" style="margin-top: 0px !important; margin-bottom: 10px !important;">
+			html += `<div class="license" style="padding-bottom: 10px;">
 							Reproductions des panneaux officiels proposées par <a href="https://enrail.org">enrail.org</a> (Métro), <a href="https://prochainstrains.arno.cl">Prochains Trains</a> (RER et Transilien) et MobiFer (Tramway)
-						</div></div></div>`;
+					</div></div></div></div>`;
 			}
 
 			document.getElementById("station-content").innerHTML = html;
