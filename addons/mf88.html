@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simulateur moteur MF 88</title>
+</head>
+<body>
+  <h2>Expérimentation : simulation du moteur du MF 88 numériquement, grâce à 2 fichiers seulement.</h2>
+
+	<label>Acceleration: <span id="accelLabel">0</span></label><br>
+	<input type="range" id="accelerator" min="-5" max="5" value="0" step="1" />
+	<br>
+	<label>Speed: <span id="speedLabel">0.0</span> km/h</label>
+
+  <button id="startBtn">Start Sound</button>
+  <button id="stopBtn">Stop Sound</button>
+
+  <script>
+	let audioCtx, buffer1, buffer2;
+	let source1, source2, gain1, gain2;
+	let isPlaying = false;
+
+	async function loadSample(url) {
+		const resp = await fetch(url);
+		const arrayBuffer = await resp.arrayBuffer();
+		return await audioCtx.decodeAudioData(arrayBuffer);
+	}
+
+	async function startAudio() {
+		if (isPlaying) return;
+
+		audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+		buffer1 = await loadSample("mf88.wav");      // boucle de base
+		buffer2 = await loadSample("mf88_slow.wav"); // boucle à vitesses faibles
+
+		// create sources + gains
+		source1 = audioCtx.createBufferSource();
+		source1.buffer = buffer1;
+		source1.loop = true;
+		gain1 = audioCtx.createGain();
+		gain1.gain.value = 0;
+
+		source2 = audioCtx.createBufferSource();
+		source2.buffer = buffer2;
+		source2.loop = true;
+		gain2 = audioCtx.createGain();
+		gain2.gain.value = 1;
+
+		source1.connect(gain1).connect(audioCtx.destination);
+		source2.connect(gain2).connect(audioCtx.destination);
+
+		source1.start();
+		source2.start();
+
+		isPlaying = true;
+	}
+
+	function stopAudio() {
+		if (!isPlaying) return;
+		source1.stop();
+		source2.stop();
+		audioCtx.close();
+		isPlaying = false;
+	}
+
+	function updateSound(speedKmh) {
+	  if (!isPlaying) return;
+	  if (speedKmh === 0) {
+		gain1.gain.value = 0;
+		gain2.gain.value = 0;
+		return;
+	  } else if (speedKmh < 5) {
+		// passe à la boucle faible
+		// léger fondu
+		let t = speedKmh / 5; // 0 → 0, 4 → 1
+		gain1.gain.value = 0;
+		gain2.gain.linearRampToValueAtTime(t, audioCtx.currentTime + 0.2);
+		source2.playbackRate.setValueAtTime(1.0, audioCtx.currentTime);
+		return;
+	  } else {
+		// passe à la boucle de base
+		gain1.gain.value = 1;
+		gain2.gain.value = 0;
+		if (speedKmh < 10) {
+			source1.playbackRate.setValueAtTime(1.0, audioCtx.currentTime);
+			return;
+		} else if (speedKmh < 21) {
+			let rate = 1.0 + (speedKmh - 12) / 30;
+			source1.playbackRate.setValueAtTime(rate, audioCtx.currentTime);
+			return;
+		} else if (speedKmh < 30) {
+			let rate = 0.94 + (speedKmh - 31) / 30;
+			source1.playbackRate.setValueAtTime(rate, audioCtx.currentTime);
+			return;
+		} else if (speedKmh < 39) {
+			let rate = 1.0 + (speedKmh - 50) / 60;
+			source1.playbackRate.setValueAtTime(rate, audioCtx.currentTime);
+			return;
+		}
+	  } 
+	}
+
+	// gère l'UI
+	document.getElementById("startBtn").onclick = startAudio;
+	document.getElementById("stopBtn").onclick = stopAudio;
+	
+	let currentSpeed = 0; // km/h
+	let acceleration = 0; // -5 à +5
+
+	// met à jour l'accélération selon le slider
+	document.getElementById("accelerator").oninput = (e) => {
+	acceleration = parseFloat(e.target.value);
+	document.getElementById("accelLabel").innerText = acceleration.toFixed(1);
+	};
+
+	// mise à jour continue de la vitesse
+	function updateSpeed() {
+	// applique l'accélération
+	currentSpeed += acceleration * 0.05; // pour ajuster la vitesse
+	if (currentSpeed < 0) currentSpeed = 0;
+	if (currentSpeed > 40) currentSpeed = 40; // vitesse max
+
+	document.getElementById("speedLabel").innerText = currentSpeed.toFixed(1);
+	updateSound(currentSpeed);
+	}
+
+	// mettre à jour continuement
+	setInterval(updateSpeed, 50); // met à jour chaque 50ms
+
+  </script>
+</body>
+</html>
