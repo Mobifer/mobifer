@@ -6,13 +6,13 @@
 <body>
   <h2>Expérimentation : simulation du moteur du MF 88 numériquement, grâce à 2 fichiers seulement.</h2>
 
-	<label>Acceleration: <span id="accelLabel">0</span></label><br>
+	<label>Accelération : <span id="accelLabel">0</span></label><br>
 	<input type="range" id="accelerator" min="-5" max="5" value="0" step="1" />
 	<br>
-	<label>Speed: <span id="speedLabel">0.0</span> km/h</label>
+	<label>Vitesse : <span id="speedLabel">0.0</span> km/h</label>
 
-  <button id="startBtn">Start Sound</button>
-  <button id="stopBtn">Stop Sound</button>
+  <button id="startBtn">Démarrer le son</button>
+  <button id="stopBtn">Arrêter le son</button>
 
   <script>
 	let audioCtx, buffer1, buffer2;
