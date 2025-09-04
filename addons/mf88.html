@@ -74,7 +74,7 @@
 		// léger fondu
 		let t = speedKmh / 5; // 0 → 0, 4 → 1
 		gain1.gain.value = 0;
-		gain2.gain.linearRampToValueAtTime(t, audioCtx.currentTime + 0.2);
+		gain2.gain.linearRampToValueAtTime(t, audioCtx.currentTime);
 		source2.playbackRate.setValueAtTime(1.0, audioCtx.currentTime);
 		return;
 	  } else {

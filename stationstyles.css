@@ -578,8 +578,7 @@ a {
 	background-color: white;
 	border: 2px solid black;
 	opacity: 0;
-	visibility: hidden;
-	transition: opacity 0.4s ease, visibility 0.4s ease;
+	transition: opacity 0.4s ease;
 	pointer-events: none;
 }
 
@@ -590,7 +589,6 @@ a {
 
 .stationinput.active {
 	opacity: 1;
-	visibility: visible;
 	pointer-events: auto;
 }
 

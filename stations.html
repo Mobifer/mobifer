@@ -26,19 +26,18 @@
 	<script src="/assets/script/stationsearch.js" type="module"></script>
 	<script>
 		function hidesearch() {
-			var container = document.getElementById("search");
-			var input = container.querySelector("input");
+			var input = document.getElementById("search");
 			var results = document.getElementById("search-results");
 
-			if (!container.classList.contains("active")) {
-				container.classList.add("active");
+			if (!input.classList.contains("active")) {
+				input.classList.add("active");
+				input.focus();
 			} else {
 				if (input) input.value = "";
 				if (results) results.innerHTML = "";
-				container.classList.remove("active");
+				input.classList.remove("active");
 			}
 		}
-
 
 		function switchToPANAM() {
 			document.querySelectorAll("iframe.ratp").forEach(iframe => {
