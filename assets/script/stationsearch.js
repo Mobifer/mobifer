@@ -30,25 +30,48 @@ searchInput.addEventListener("input", () => {
 	const query = normalizeString(searchInput.value);
 	resultsList.innerHTML = "";
 
-	if (query.length < 2) return;
-
-	const h2 = document.createElement("h2");
-	h2.textContent = `Résultats pour ${searchInput.value}`;
-	h2.style.textAlign = "center";
-	h2.style.paddingBottom = "10px";
-	resultsList.appendChild(h2);
-
-	const matches = allStations.filter(station => normalizeString(station.nom).includes(query));
-	matches.sort((a, b) => a.id.localeCompare(b.id));
-	if (matches.length === 0) {
-		const p = document.createElement("p");
-		p.textContent = "Aucun résultat.";
-		resultsList.appendChild(p);
+	if (query.length === 1) {
+		const h3 = document.createElement("h3");
+		h3.textContent = "Veuillez entrer au moins deux caractères.";
+		h3.style.textAlign = "center";
+		h3.style.paddingBottom = "10px";
+		h3.style.marginTop = "0px";
+		resultsList.appendChild(h3);
 		return;
 	}
-	matches.slice(0, 10).forEach(station => {
+
+	if (query.length < 2) return;
+
+	const matches = allStations.filter(station => normalizeString(station.nom).includes(query));
+	
+	const h2 = document.createElement("h2");
+
+	if (matches.length === 0) {
+		h2.textContent = `Aucun résultat pour ${searchInput.value}`;
+		h2.style.textAlign = "center";
+		h2.style.paddingBottom = "10px";
+		h2.style.marginTop = "0px";
+		resultsList.appendChild(h2);
+		return;
+	}
+
+	h2.textContent = `${matches.length} résultat${matches.length === 1 ? "" : "s"} pour ${searchInput.value}`;
+	h2.style.textAlign = "center";
+	h2.style.paddingBottom = "10px";
+	h2.style.marginTop = "0px";
+	resultsList.appendChild(h2);
+
+
+	matches.sort((a, b) => a.id.localeCompare(b.id));
+
+	matches.slice(0, 15).forEach(station => {
 		const p = document.createElement("p");
 		p.innerHTML = `<a href="/stations.html?station=${station.id}" style="color: inherit;"><strong>${station.nom}</strong></a> ${genererLignesHTML(station.lignes)}`;
 		resultsList.appendChild(p);
 	});
+	if (matches.length > 15) {
+		const p = document.createElement("p");
+		p.innerHTML = `<em>15 résultats sur ${matches.length} affichés.</em>`;
+		resultsList.appendChild(p);
+	}
 });

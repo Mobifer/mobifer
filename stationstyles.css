@@ -1,5 +1,4 @@
 html, body{
-	height: 100%;
 	margin: 0;
 	padding: 0 5px;
 	font-family: "parisine-std", sans-serif;
@@ -13,17 +12,24 @@ html, body{
 }
 
 .header {
-	background-color: #0a0082;
+	background-color: #0b0082;
 	color: #fff;
 	padding: 10px;
 	text-align: center;
-	border-radius: 10px;
 	text-decoration: none;
+	position: sticky !important;
+	top: 0px;
+	z-index: 1000; 
+	display: block;
+	text-decoration: none;
+	margin-bottom: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	width: 100% + 10px;
 }
 
-.header a, a:hover, a:focus, a:active {
-	text-decoration: none;
-	color: inherit;
+.header h1 {
+	margin: 0;
 }
 
 a {
@@ -78,7 +84,6 @@ a {
 
 .integrated img {
 	height: 1em;
-	width: 1em;
 	vertical-align: middle;
 	position: relative;
 	top: -0.1em;
@@ -170,6 +175,7 @@ a {
 	border-collapse: collapse;
 	border-radius: 10px;
 	overflow: hidden;
+	word-break: keep-all;
 }
 
 /* Suppression des bordures */
@@ -505,11 +511,10 @@ a {
 .slideshow-container {
 	position: relative;
 	max-width: 100%;
-	height: 70vh;
+	height: 50vh;
 	overflow: hidden;
 	border-radius: 10px;
-	margin-top: 10px;
-  }
+}
 
 .slide {
 	position: absolute;
@@ -702,6 +707,7 @@ a {
 	box-sizing: border-box;
 	max-width: none;
 	break-inside: avoid;
+	word-break: break-word;
 }
 
 .box.sticky-left {

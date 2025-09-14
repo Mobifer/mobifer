@@ -5,65 +5,93 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="/newstyles.css">
 	<link rel="stylesheet" href="https://use.typekit.net/euw0chn.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
 	<link rel="icon" href="/assets/favicon.png" type="image/x-icon">
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<meta name="google-site-verification" content="xSYfibs_AKhXuCPTi1UalemeTaH308E4-UZ9pm56FwM" />
 	<title>Accueil - MobiFer</title>
 	<meta name="description" content="Découvrez tout sur les transports en commun ferrés d’Île-de-France avec MobiFer : lignes, stations et matériels roulants. Bon voyage&nbsp;!">
+
+	<style>
+		.row-home {
+			direction: rtl;
+		}
+		.row-home > * {
+			direction: ltr;
+		}
+		@media (max-width: 400px) {
+		.row-journal {
+			column-count: 1;
+		}
+}
+	</style>
 </head>
 <body>
-	<a href="/"><h1 class="header">MobiFer</h1></a>
+	<a href="/" class="header"><h1>MobiFer</h1></a>
 
-	<div class="searchbox">
-		<div class="searchbtn" onclick="hidesearch()">
-			<span class="integrated"><img src="/assets/icons/search.svg" alt="chercher"></span>
+	<div class="slideshow-container" style="max-width: 1200px !important; margin: auto; margin-bottom: 10px;">
+		<div class="slide fade">
+			<img src="assets/slider/slider1.webp" alt="Slide 1">
+			<div class="caption">© ArsTC</div>
 		</div>
-		<input type="search" class="stationinput" id="search" placeholder="Rechercher une station...">
+		<div class="slide fade">
+			<img src="assets/slider/slider2.webp" alt="Slide 2">
+			<div class="caption">© Doums_19</div>
+		</div>
+		<div class="slide fade">
+			<img src="assets/slider/slider3.webp" alt="Slide 3">
+			<div class="caption">© ArsTC</div>
+		</div>
+		<div class="slide fade">
+			<img src="assets/slider/slider4.webp" alt="Slide 4">
+			<div class="caption">© ArsTC</div>
+		</div>
+		<div class="slide fade">
+			<img src="assets/slider/slider5.webp" alt="Slide 5">
+			<div class="caption">© Lau290</div>
+		</div>
+		<div class="slide fade">
+			<img src="assets/slider/slider6.webp" alt="Slide 6">
+			<div class="caption">© ArsTC</div>
+		</div>
+		<div class="slide fade">
+			<img src="assets/slider/slider7.jpg" alt="Slide 7">
+			<div class="caption">© Aluminium</div>
+		</div>
 	</div>
-	<div class="box image-center" id="search-results" style="max-width: 1200px !important;"></div>
-
-	<div class="box image-center" style="max-width: 1200px !important;">
-		<h2 class="centered" id="Accueil">Accueil</h2>
-		<h3 class="centered">Bienvenue dans ce site Internet dédié aux transports en commun ferrés d’Île-de-France&nbsp;!</h3>
+	<div class="row-home">
+		<div class="item">
+	<div class="box image-center" style="max-width: 1200px !important; margin-top: 0px;">
+		<h2 class="centered" id="Accueil">Accueil <span class="integrated"><img src="/assets/favicon.svg" alt="de MobiFer" title="MobiFer"></span></h2>
+		<h3 class="centered">Bienvenue sur MobiFer, un site Internet dédié aux transports en commun ferrés d’Île-de-France&nbsp;!</h3>
 		<p class="justified">Ici, vous pourrez consulter de nombreuses informations sur les transports en commun d’Île-de-France <strong>guidés par rail</strong> (Métro, Tramway, RER et Transilien). Après avoir débuté votre navigation en choisissant parmi l’une des lignes ci-dessous, vous pourrez consulter les <strong>pages des stations</strong> par l’intermédiaire des plans de ligne.</p>
 		<p class="justified"><span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span> <strong>Attention&nbsp;!</strong> Ce site est encore en construction active. Certaines pages n’ont pas encore été créées. Vous rencontrerez donc probablement des erreurs 404. À terme, le site vous assurera une navigation sans interruption entre lignes, stations et matériels roulants. <span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span></p>
-		<p class="justified">Le saviez-vous ? Le nom <strong><em>MobiFer</em></strong> tient d’un jeu de mots avec la nomenclature des trains de type <strong>MF</strong> (<strong>M</strong>atériel roulant <strong>F</strong>er) en circulation sur le métro de Paris.</p>
-		<div class="slideshow-container">
-			<div class="slide fade">
-				<img src="assets/slider/slider1.webp" alt="Slide 1">
-				<div class="caption">© ArsTC</div>
-			</div>
-			<div class="slide fade">
-				<img src="assets/slider/slider2.webp" alt="Slide 2">
-				<div class="caption">© Doums_19</div>
-			</div>
-			<div class="slide fade">
-				<img src="assets/slider/slider3.webp" alt="Slide 3">
-				<div class="caption">© ArsTC</div>
-			</div>
-			<div class="slide fade">
-				<img src="assets/slider/slider4.webp" alt="Slide 4">
-				<div class="caption">© ArsTC</div>
-			</div>
-			<div class="slide fade">
-				<img src="assets/slider/slider5.webp" alt="Slide 5">
-				<div class="caption">© Lau290</div>
-			</div>
-			<div class="slide fade">
-				<img src="assets/slider/slider6.webp" alt="Slide 6">
-				<div class="caption">© ArsTC</div>
-			</div>
-			<div class="slide fade">
-				<img src="assets/slider/slider7.jpg" alt="Slide 7">
-				<div class="caption">© Aluminium</div>
-			</div>
+		<p class="justified">Le saviez-vous ? Le nom <strong><em>MobiFer</em></strong> tient d’un jeu de mots avec la nomenclature des trains de type <strong>MF</strong> (<strong>M</strong>atériel roulant <strong>F</strong>er) en circulation sur le métro de Paris (comme le MF 67 ou le MF 01).
+	</div>
+
+	<div class="box image-center" id="Stations" style="max-width: 1200px !important;">
+		<h2 class="centered">Stations</h2>
+		<div class="searchbox">
+			<input type="search" class="stationinput" id="search" placeholder="Rechercher une station..." style="pointer-events: all; cursor: text; opacity: 1; margin-bottom: 20px;">
+		</div>
+		<div id="search-results"></div>
+		<!-- <a href="/stations.html"><p class="centered">Voir la liste des stations disponibles</p></a> -->
+	</div>
+
+	<div class="box image-center" id="Stations" style="max-width: 1200px !important;">
+		<h2 class="centered">À la une</h2>
+		<div id="journal">
 		</div>
 	</div>
+
+	</div>
+	<div class="item">
 	<!-- <p class="centered"><em>You can also visit this website in <a href="/en/">English</a>!</em></p> -->
-	 <div class="box image-center" id="Lignes" style="max-width: 1200px !important;">
-		<h2 class="centered">Lignes</h2>
-		<p class="justified">Sélectionnez une ligne parmi celles ci-dessous pour en découvrir les détails.</p>
-		<h2><span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span> Métropolitain <span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="En cours de construction"></span></h2>
+	<div class="box image-center" id="Métro" style="max-width: 1200px !important;">
+		<h2 class="centered"><span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro" title="Métro"></span> Métropolitain</h2>
+		<p class="justified">Sélectionnez une ligne parmi celles ci-dessous pour en savoir plus&nbsp;: plan, informations générales et bilan carbone.</p>
 		<div class="svg-container">
 			<a href="lines/m01.html"><img src="/assets/icons/metro_1_couleur_RVB.svg" alt="Ligne 1" class="hovereffect"></a>
 			<a href="lines/m02.html"><img src="/assets/icons/metro_2_couleur_RVB.svg" alt="Ligne 2" class="hovereffect"></a>
@@ -86,13 +114,17 @@
 			<a href="lines/m16.html"><img src="/assets/icons/metro_16_couleur_RVB.svg" alt="Ligne 16" class="hovereffect"></a>
 			<a href="lines/m17.html"><img src="/assets/icons/metro_17_couleur_RVB.svg" alt="Ligne 17" class="hovereffect"></a>
 			<a href="lines/m18.html"><img src="/assets/icons/metro_18_couleur_RVB.svg" alt="Ligne 18" class="hovereffect"></a>
-			<br>
-			<a href="lines/orv.html"><img src="/assets/icons/LIG_IDFM_C01388.svg" alt="Orlyval" class="hovereffect"></a>
-			<a href="lines/cgv.html"><img src="/assets/icons/LIG_IDFM_C00563.svg" alt="CDG Val" class="hovereffect"></a>
-			<a href="lines/fun.html"><img src="/assets/icons/funiculaire_montmartre_couleur_RVB.svg" alt="Funiculaire de Montmartre" class="hovereffect"></a>
 		</div>
-		<br>
-		<h2><span class="integrated"><img src="/assets/icons/symbole_train_RER_RVB.svg" alt="RER, Transilien"></span> RER et Transilien <span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="En cours de construction"></span></h2>
+		<h3 style="margin-bottom: 0px;">Lignes spéciales</h3>
+		<div class="svg-container">
+			<a href="lines/orv.html"><img src="/assets/icons/LIG_IDFM_C01388.svg" alt="Orlyval" class="hovereffect" title="OrlyVal"></a>
+			<a href="lines/cgv.html"><img src="/assets/icons/LIG_IDFM_C00563.svg" alt="CDG Val" class="hovereffect" title="CDG Val"></a>
+			<a href="lines/fun.html"><img src="/assets/icons/funiculaire_montmartre_couleur_RVB.svg" alt="Funiculaire de Montmartre" class="hovereffect" title="Funiculaire de Montmartre"></a>
+		</div>
+	</div>
+		<div class="box image-center" id="Train" style="max-width: 1200px !important;">
+		<h2 class="centered"><span class="integrated"><img src="/assets/icons/symbole_RER_RVB.svg" alt="RER" title="RER"></span>&nbsp;Réseau Express Régional (RER) et <span class="integrated"><img src="/assets/icons/symbole_train_RVB.svg" alt="Transilien" title="Transilien"></span>&nbsp;Transilien</h2>
+		<p class="justified">Sélectionnez une ligne parmi celles ci-dessous pour en savoir plus&nbsp;: plan et informations générales.</p>
 		<div class="svg-container">
 			<a href="lines/rerA.html"><img src="/assets/icons/RER_A_couleur_RVB.svg" alt="RER A" class="hovereffect"></a>
 			<a href="lines/rerB.html"><img src="/assets/icons/RER_B_couleur_RVB.svg" alt="RER B" class="hovereffect"></a>
@@ -110,8 +142,10 @@
 			<a href="lines/trainU.html"><img src="/assets/icons/train_U_couleur_RVB.svg" alt="Transilien U" class="hovereffect"></a>
 			<a href="lines/trainV.html"><img src="/assets/icons/train_V_couleur_RVB.svg" alt="Transilien V" class="hovereffect"></a>
 		</div>
-		<br>
-		<h2><span class="integrated"><img src="/assets/icons/symbole_tram_RVB.svg" alt="Tram"></span> Tramway <span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="En cours de construction"></span></h2>
+		</div>
+		<div class="box image-center" id="Tramway" style="max-width: 1200px !important;">
+		<h2 class="centered"><span class="integrated"><img src="/assets/icons/symbole_tram_RVB.svg" alt="Tramway" title="Tramway"></span> Tramway</h2>
+		<p class="justified">Sélectionnez une ligne parmi celles ci-dessous pour en savoir plus&nbsp;: plan et informations générales et bilan carbone.</p>
 		<div class="svg-container">
 			<a href="lines/t01.html"><img src="/assets/icons/tram_T1_couleur_RVB.svg" alt="Tramway T1" class="hovereffect"></a>
 			<a href="lines/t02.html"><img src="/assets/icons/tram_T2_couleur_RVB.svg" alt="Tramway T2" class="hovereffect"></a>
@@ -129,8 +163,10 @@
 			<a href="lines/t13.html"><img src="/assets/icons/tram_T13_couleur_RVB.svg" alt="Tramway T13" class="hovereffect"></a>
 			<a href="lines/t14.html"><img src="/assets/icons/tram_T14_couleur_RVB.svg" alt="Tramway T14" class="hovereffect"></a>
 		</div>
+		</div>
 	</div>
-	<div id="footer-container"></div>
+	</div>
+	<div id="footer-container" style="margin-top: 10px;"></div>
 	<script src="/addons/footer.js"></script>
 	<script>
 		let slideIndex = 0;
@@ -151,21 +187,61 @@
 
 		showSlides();
 	</script>
-	<script src="/assets/script/stationsearch.js" type="module"></script>
 	<script>
-		function hidesearch() {
-			var input = document.getElementById("search");
-			var results = document.getElementById("search-results");
-
-			if (!input.classList.contains("active")) {
-				input.classList.add("active");
-				input.focus();
-			} else {
-				if (input) input.value = "";
-				if (results) results.innerHTML = "";
-				input.classList.remove("active");
+		const container = document.getElementById("journal");
+		
+		async function loadArticles() {
+			try {
+				const response = await fetch('data/articles.json');
+				const data = await response.json();
+				displayArticles(data.articles);
+			} catch (error) {
+				console.error('Erreur de chargement des articles :', error);
+				container.innerHTML = '<p>Erreur de chargement des articles</p>';
 			}
 		}
+
+		function displayArticles(articles) {
+			const article = articles[0];
+			const articleElement = document.createElement('div');
+			articleElement.classList.add('article');
+
+			const p = article.paragraphs[0];
+			// Limit article to the 20 first words
+			const words = p.content.split(' ');
+			if (words.length > 50) {
+				p.content = words.slice(0, 50).join(' ') + '…';
+			}
+
+
+			let html = `
+			<h2>${article.title}</h2>
+			<div class='row-home row-journal'>
+				<div class='item'>
+				<img src="${article.titleImage}" alt="Image principale" class="article-img">
+				<p class="author">Écrit par&nbsp;: ${article.author}
+				${article.lastMod ? `<br>Dernière modification le&nbsp;: ${article.lastMod}</p>` : `<br>Dernière modification le&nbsp;: ${article.date}</p>`}
+				</div>
+				<div class='item'>
+				<h3>${p.title}</h3>
+				<p style='text-align: justify'>
+					${p.content} <a href="/journal.html#${article.id}"><br><strong><em>Lire la suite</em></strong></a>
+				</p>
+				${p.image ? `<img src="${p.image}" alt="Illustration du paragraphe" class="article-img">` : ''}
+				${article.sources ? `<p class="sources">Sources&nbsp;:${article.sources}</p>` : ''}
+				</div>
+			</div>
+			`;
+
+			articleElement.innerHTML += html;
+				
+			container.appendChild(articleElement);
+		}
+
+		window.onload = loadArticles;
 	</script>
+
+	<script src="/assets/script/stationsearch.js" type="module"></script>
+
 </body>
 </html>
