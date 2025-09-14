@@ -21,37 +21,58 @@
 	<div class="box image-center" id="search-results" style="max-width: 700px !important;"></div>
 	<div id="station-content">
 	</div>
-	<div id="footer-container"></div>
+	<div id="footer-container" style="padding-top: 10px;"></div>
 	<script src="/assets/script/station.js" type="module"></script>
 	<script src="/assets/script/stationsearch.js" type="module"></script>
 	<script>
 		function hidesearch() {
-			var container = document.getElementById("search");
-			var input = container.querySelector("input");
+			var input = document.getElementById("search");
 			var results = document.getElementById("search-results");
 
-			if (!container.classList.contains("active")) {
-				container.classList.add("active");
+			if (!input.classList.contains("active")) {
+				input.classList.add("active");
+				input.focus();
 			} else {
 				if (input) input.value = "";
 				if (results) results.innerHTML = "";
-				container.classList.remove("active");
+				input.classList.remove("active");
 			}
 		}
 
-
 		function switchToPANAM() {
-			document.querySelectorAll("iframe").forEach(iframe => {
+			document.querySelectorAll("iframe.ratp").forEach(iframe => {
 				iframe.src = iframe.src.replace("?style=siel", "?style=panam");
+				iframe.classList.remove("piq");
+				iframe.classList.add("panam");
 			});
 		}
 
 		function switchToPIQ() {
-			document.querySelectorAll("iframe").forEach(iframe => {
-				iframe.src = iframe.src.replace("?style=panam", "?style=siel");
+			document.querySelectorAll("iframe.ratp").forEach(iframe => {
+				iframe.src = iframe.src.replace("?style=panam", "?style=siel").replace("&rivoli=true", "&rivoli=false");
+				iframe.classList.remove("panam");
+				iframe.classList.add("piq");
 			});
 		}
 
+		function switchToPIQDark() {
+			document.querySelectorAll("iframe.ratp").forEach(iframe => {
+				iframe.src = iframe.src.replace("?style=panam", "?style=siel").replace("&rivoli=false", "&rivoli=true");
+				iframe.classList.remove("panam");
+				iframe.classList.add("piq");
+			});
+		}
+		
+		function detecterStyleInitial() {
+			document.querySelectorAll("iframe.ratp").forEach(iframe => {
+				if (iframe.src.includes('style=panam')) {
+					iframe.classList.add("panam");
+				} else {
+					iframe.classList.add("piq");
+				}
+			});
+		}
+		setTimeout(detecterStyleInitial, 1000);
 	</script>
 	<script src="/addons/footer.js"></script>
 </body>

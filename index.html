@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/styles.css">
+	<link rel="stylesheet" href="/newstyles.css">
 	<link rel="stylesheet" href="https://use.typekit.net/euw0chn.css">
 	<link rel="icon" href="/assets/favicon.png" type="image/x-icon">
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -25,9 +25,6 @@
 	<div class="box image-center" style="max-width: 1200px !important;">
 		<h2 class="centered" id="Accueil">Accueil</h2>
 		<h3 class="centered">Bienvenue dans ce site Internet dédié aux transports en commun ferrés d’Île-de-France&nbsp;!</h3>
-		<!-- <p class="justified">MobiFer se veut être un <strong>hub d’information</strong> sur les transports ferroviaires de passagers en Île-de-France (Métro, RER, Transilien et Tramway). À l’origine un projet personnel créé en juillet 2024, MobiFer a été rendu public en décembre 2024. Depuis, <strong>une dizaine de contributeurs</strong> participe activement au projet, coordonné dans le <strong><a href="https://discord.com/https://discord.gg/zWraJq5eE5">serveur Discord</a></strong> du projet.<br>
-			Inspiré de <strong><a href="https://metropolitor.fr">Métropolitor</a></strong>, MobiFer tente de proposer une approche différente. Le site est plutôt un lieu destiné aux curieux et à un usage plus pratique. En effet, en complément des informations techniques des lignes, les plans interactifs et les pages de stations ont été pensés pour être utilisés dans la vie réelle. Mais MobiFer est également tourné vers le <strong>développement durable</strong>. Les plans de ligne indiquent les temps de trajet à pied ou en vélo selon l’envergure de la ligne, invitant les voyageurs à réfléchir sur leur usage des transports en commun, surtout pour des trajets courts. Les bilans carbone, eux, font prendre conscience de l’atout écologique des transports en commun par rapport à la voiture personnelle.</p>
-            	<p class="justified">MobiFer ne pourrait pas exister sans ses contributeurs. Un <strong>grand merci</strong> à eux, ainsi qu’à <strong>Amélie A.</strong> pour l’IV (information voyageur) Métro, <strong>Arno C.</strong> pour l’IV RER (SNCF) et Transilien, et <strong>Léon E.</strong> pour l’IV RER (RATP) et l’information trafic globale.</p> -->
 		<p class="justified">Ici, vous pourrez consulter de nombreuses informations sur les transports en commun d’Île-de-France <strong>guidés par rail</strong> (Métro, Tramway, RER et Transilien). Après avoir débuté votre navigation en choisissant parmi l’une des lignes ci-dessous, vous pourrez consulter les <strong>pages des stations</strong> par l’intermédiaire des plans de ligne.</p>
 		<p class="justified"><span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span> <strong>Attention&nbsp;!</strong> Ce site est encore en construction active. Certaines pages n’ont pas encore été créées. Vous rencontrerez donc probablement des erreurs 404. À terme, le site vous assurera une navigation sans interruption entre lignes, stations et matériels roulants. <span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span></p>
 		<p class="justified">Le saviez-vous ? Le nom <strong><em>MobiFer</em></strong> tient d’un jeu de mots avec la nomenclature des trains de type <strong>MF</strong> (<strong>M</strong>atériel roulant <strong>F</strong>er) en circulation sur le métro de Paris.</p>
@@ -157,16 +154,16 @@
 	<script src="/assets/script/stationsearch.js" type="module"></script>
 	<script>
 		function hidesearch() {
-			var container = document.getElementById("search");
-			var input = container.querySelector("input");
+			var input = document.getElementById("search");
 			var results = document.getElementById("search-results");
 
-			if (!container.classList.contains("active")) {
-				container.classList.add("active");
+			if (!input.classList.contains("active")) {
+				input.classList.add("active");
+				input.focus();
 			} else {
 				if (input) input.value = "";
 				if (results) results.innerHTML = "";
-				container.classList.remove("active");
+				input.classList.remove("active");
 			}
 		}
 	</script>

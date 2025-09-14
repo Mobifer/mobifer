@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="/assets/favicon.png" type="image/x-icon">
 	<link rel="stylesheet" href="https://use.typekit.net/euw0chn.css">
 	<style>
 		@font-face {
@@ -145,7 +146,7 @@
 
 				if (passages && passages.length > 0) {
 					passages.slice(0, 2).forEach(passage => {
-						const horaire = new Date(passage.MonitoredVehicleJourney.MonitoredCall.ExpectedArrivalTime);
+						const horaire = new Date(passage.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime);
 						const now = new Date();
 						const minutesRestantes = Math.max(0, Math.round((horaire - now) / 60000));
 
