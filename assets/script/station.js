@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 			let html = `<div class="centered">
 				<p class="centered"><strong>Station</strong><br>
-				<span style="font-size: 80px;" class="shadowed">${lignesHTML}</span><br>
+				<span class="shadowed pictos">${lignesHTML}</span><br>
 				<span class="centered terminus-box">${station.nom}</span>`;
 
 			if (station.pti) {

@@ -35,7 +35,6 @@ searchInput.addEventListener("input", () => {
 		h3.textContent = "Veuillez entrer au moins deux caractères.";
 		h3.style.textAlign = "center";
 		h3.style.paddingBottom = "10px";
-		h3.style.marginTop = "0px";
 		resultsList.appendChild(h3);
 		return;
 	}
@@ -50,7 +49,6 @@ searchInput.addEventListener("input", () => {
 		h2.textContent = `Aucun résultat pour ${searchInput.value}`;
 		h2.style.textAlign = "center";
 		h2.style.paddingBottom = "10px";
-		h2.style.marginTop = "0px";
 		resultsList.appendChild(h2);
 		return;
 	}
@@ -58,7 +56,6 @@ searchInput.addEventListener("input", () => {
 	h2.textContent = `${matches.length} résultat${matches.length === 1 ? "" : "s"} pour ${searchInput.value}`;
 	h2.style.textAlign = "center";
 	h2.style.paddingBottom = "10px";
-	h2.style.marginTop = "0px";
 	resultsList.appendChild(h2);
 
 

@@ -753,3 +753,14 @@ a {
 .ratp.piq {
     aspect-ratio: 72/31 !important;
 }
+
+@media (min-width: 800px) {
+	.pictos {
+		font-size: 80px;
+	}
+}
+@media (max-width: 800px) {
+	.pictos {
+		font-size: 50px;
+	}
+}
