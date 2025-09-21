@@ -764,3 +764,27 @@ a {
 		font-size: 50px;
 	}
 }
+
+.integrated {
+	margin-right: 0.2em;
+}
+
+.pictos .integrated:last-of-type {
+	margin-right: 0px;
+}
+
+.inseparable {
+	white-space: nowrap;
+}
+
+.pictos .inseparable {
+	margin-right: 0.2em;
+}
+
+.inseparable:last-of-type {
+	margin-right: 0px;
+}
+
+.inseparable:first-of-type {
+	margin-left: 0px;
+}

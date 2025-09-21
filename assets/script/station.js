@@ -82,16 +82,16 @@ document.addEventListener("DOMContentLoaded", function () {
 				html += `<div class="sortie-right">`;
 
 				if (sortie.desc) {
-					html += ` ${sortie.desc}`;
+					html += ` ${sortie.desc} `;
 					html += `<span style="font-size: 1.25em">`
 					if (sortie.acc) {
-						html += ` <span class="integrated"><img src="/assets/icons/info.svg"></span> <span class="integrated"><img src="/assets/icons/tickets.svg"></span>`;
+						html += `<span class="integrated"><img src="/assets/icons/info.svg"></span><span class="integrated"><img src="/assets/icons/tickets.svg"></span>`;
 					}
 					if (sortie.asc) {
-						html += ` <span class="integrated"><img src="/assets/icons/ascenseur.svg"></span>`;
+						html += `<span class="integrated"><img src="/assets/icons/ascenseur.svg"></span>`;
 					}
 					if (sortie.esc) {
-						html += ` <span class="integrated"><img src="/assets/icons/escalator.svg"></span>`;
+						html += `<span class="integrated"><img src="/assets/icons/escalator.svg"></span>`;
 					}
 					html += `</span><br>`;
 					var hasDescription = "style='margin-top: 5px !important;'";
