@@ -89,6 +89,30 @@ a {
 	top: -0.1em;
 }
 
+#search-results .integrated {
+	margin-right: 0.2em;
+}
+
+#search-results .integrated:last-of-type {
+	margin-right: 0px;
+}
+
+.inseparable {
+	white-space: nowrap;
+}
+
+#search-results .inseparable {
+	margin-right: 0.2em;
+}
+
+.inseparable:last-of-type {
+	margin-right: 0px;
+}
+
+.inseparable:first-of-type {
+	margin-left: 0px;
+}
+
 .box object {
 	display: block;
 	width: 100%;
