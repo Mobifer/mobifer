@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			// Generate the HTML for the station list
 			const stationListHTML = stationList.map(station => {
 				const lignesHTML = genererLignesHTML(station.lignes);
-				return `<tr><td style="font-size: 1.4em;">${lignesHTML}</td><td><a href="/stations.html?station=${station.id}" style="text-decoration: none; color: inherit;">${station.nom}</a></td></tr>`;
+				return `<tr><td style="font-size: 1.4em;">${lignesHTML}</td><td><a href="/stations.html?station=${station.id}" style="text-decoration: none; color: inherit; font-size: 1.2em;">${station.nom}</a></td></tr>`;
 			}).join("");
 
 			const allHTML = `<div class="box image-center" style="max-width: 800px !important;">
@@ -47,13 +47,14 @@ document.addEventListener("DOMContentLoaded", function () {
 				<p class="centered"><strong>Erreur 404</strong><br>
 				<span class="centered terminus-box">Haxo</span></p>
 				<img src="https://raw.githubusercontent.com/Mobifer/mobifer-images/refs/heads/main/vincent/haxo-1.webp" alt="Photo de la station fantôme Haxo" style="width: auto; max-width: 800px; max-height: 40vh; border-radius: 10px;" class="image-center">
-				<div class="license">CC-BY-SA Vincent sur MobiFer</div>
+				<div class="license">CC-BY-SA Vincent</div>
 				<div class="box image-center" style="max-width: 800px !important;">
 				<h2 class="centered">Vous êtes dans un lieu bien étrange.</h2>
 				<p class="justified">Il semblerait que vous vous soyiez perdu. La station que vous recherchée n’a pas été trouvée, soit parce qu’elle n’a pas encore été ajoutée au site, soit parce qu’elle n’existe tout simplement pas.</p>
 				<p class="justified">Revenez à l’accueil en cliquant sur le bouton ci-dessous ou cherchez une autre station à l’aide du bouton situé en-dessous de l’en-tête.
 				<div class="buttons">
 				<a href="/" class="button home"><span class="integrated"><img src="/assets/favicon.svg" alt="Logo MobiFer"></span> Revenir à l’accueil</a>
+				<a href="/stations.html" class="button home">Voir la liste des stations</a>
 				</div></p>
 				</div>`
 				document.getElementById("station-content").innerHTML = html;
