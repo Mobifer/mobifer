@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			}).join("");
 
 			const allHTML = `<div class="box image-center" style="max-width: 800px !important;">
-			<h2 class="centered">Liste des stations disponibles</h2>
+			<h2 class="centered">Liste des ${stationList.length} stations disponibles</h2>
 			<p class="centered">Cliquez sur le nom d’une station pour en savoir plus.</p>
 			<table style="text-align: left;"><tr><td class="title" style="text-align: left; font-size: 1.4em;">Ligne(s)</td><td  class="title" style="text-align: left; font-size: 1.4em;">Station</td></tr>${stationListHTML}</table></div>`;
 
