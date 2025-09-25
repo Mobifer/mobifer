@@ -17,8 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
 				lignes: station.lignes
 			}));
 
-			console.log(data);
-
 			// Generate the HTML for the station list with station name and generated line icons
 			stationList.sort((a, b) => a.nom.localeCompare(b.nom));
 
