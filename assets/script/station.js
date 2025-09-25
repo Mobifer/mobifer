@@ -6,7 +6,35 @@ document.addEventListener("DOMContentLoaded", function () {
 	console.log(stationId);
 
 	if (!stationId) {
-		document.getElementById("station-content").innerHTML = "<h2>Station non trouvée.</h2>";
+		fetch("/data/stations.json")
+		.then(response => response.json())
+		.then(data => {
+			// Generate a list of all stations
+			const stationList = Object.values(data).map(station => ({
+				// Id is the key name in JSON
+				id: Object.keys(data).find(key => data[key] === station),
+				nom: station.nom,
+				lignes: station.lignes
+			}));
+
+			console.log(data);
+
+			// Generate the HTML for the station list with station name and generated line icons
+			stationList.sort((a, b) => a.nom.localeCompare(b.nom));
+
+			// Generate the HTML for the station list
+			const stationListHTML = stationList.map(station => {
+				const lignesHTML = genererLignesHTML(station.lignes);
+				return `<tr><td style="font-size: 1.4em;">${lignesHTML}</td><td><a href="/stations.html?station=${station.id}" style="text-decoration: none; color: inherit;">${station.nom}</a></td></tr>`;
+			}).join("");
+
+			const allHTML = `<div class="box image-center" style="max-width: 800px !important;">
+			<h2 class="centered">Liste des stations disponibles</h2>
+			<p class="centered">Cliquez sur le nom d’une station pour en savoir plus.</p>
+			<table style="text-align: left;"><tr><td class="title" style="text-align: left; font-size: 1.4em;">Ligne(s)</td><td  class="title" style="text-align: left; font-size: 1.4em;">Station</td></tr>${stationListHTML}</table></div>`;
+
+			document.getElementById("station-content").innerHTML = allHTML;
+		})
 		return;
 	}
 
@@ -17,7 +45,20 @@ document.addEventListener("DOMContentLoaded", function () {
 			// Print station on browser console
 			console.log(station);
 			if (!station) {
-				document.getElementById("station-content").innerHTML = "<h2>Station non trouvée.</h2>";
+				let html = `<div class="centered">
+				<p class="centered"><strong>Erreur 404</strong><br>
+				<span class="centered terminus-box">Haxo</span></p>
+				<img src="https://raw.githubusercontent.com/Mobifer/mobifer-images/refs/heads/main/vincent/haxo-1.webp" alt="Photo de la station fantôme Haxo" style="width: auto; max-width: 800px; max-height: 40vh; border-radius: 10px;" class="image-center">
+				<div class="license">CC-BY-SA Vincent sur MobiFer</div>
+				<div class="box image-center" style="max-width: 800px !important;">
+				<h2 class="centered">Vous êtes dans un lieu bien étrange.</h2>
+				<p class="justified">Il semblerait que vous vous soyiez perdu. La station que vous recherchée n’a pas été trouvée, soit parce qu’elle n’a pas encore été ajoutée au site, soit parce qu’elle n’existe tout simplement pas.</p>
+				<p class="justified">Revenez à l’accueil en cliquant sur le bouton ci-dessous ou cherchez une autre station à l’aide du bouton situé en-dessous de l’en-tête.
+				<div class="buttons">
+				<a href="/" class="button home"><span class="integrated"><img src="/assets/favicon.svg" alt="Logo MobiFer"></span> Revenir à l’accueil</a>
+				</div></p>
+				</div>`
+				document.getElementById("station-content").innerHTML = html;
 				return;
 			}
 

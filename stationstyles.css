@@ -410,6 +410,13 @@ a {
 	background-color: #b43f00;
 	transform: scale(1.1);
 }
+.home {
+	background-color: #0a0082;
+}
+.home:hover {
+	background-color: #090068;
+	transform: scale(1.1);
+}
 
 .btn-group {
   display: inline-flex;
