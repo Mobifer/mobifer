@@ -1,4 +1,5 @@
 // Génération des icônes des lignes générales
+
 export function genererLignesHTML(lignes) {
 	const ordreModes = ["metro", "RER", "train", "tram"]; // Ordre défini
 	const iconesModes = {
@@ -44,7 +45,7 @@ export function genererLignesHTML(lignes) {
 	ordreModes.forEach(mode => {
 		let lignesFiltrees = lignes[mode.toLowerCase()] || [];
 		if (lignesFiltrees.length > 0) {
-			let iconeMode = `<span class="integrated"><img src="${iconesModes[mode]}" alt="${mode}"></span>`;
+			let iconeMode = `<span class="integrated"><img src="${iconesModes[mode]}" alt="${mode.charAt(0).toUpperCase() + mode.slice(1)}"></span>`;
 
 			let htmlLignes = lignesFiltrees.map(numero => {
 				let iconeLigne;
@@ -58,10 +59,18 @@ export function genererLignesHTML(lignes) {
 					iconeLigne = `/assets/icons/${mode}_${numero}_couleur_RVB.svg`; // Génération automatique
 				}
 				let lien = getLienLigne(mode, numero);
-				return `<span class="integrated"><a href="${lien}"><img src="${iconeLigne}" alt="${numero}"></a></span>`;
-			}).join("&thinsp;");
 
-			result.push(`${iconeMode}&thinsp;${htmlLignes}`); // Ajout du mode et des lignes
+				return `<span class="integrated"><a href="${lien}"><img src="${iconeLigne}" alt="${numero}"></a></span>`;
+			}).join("");
+
+			let first = htmlLignes.slice(0, htmlLignes.indexOf("</span>") + 7); // premier <span>…</span>
+			let rest = htmlLignes.slice(htmlLignes.indexOf("</span>") + 7); // dernier span
+
+			// Les 2 lignes ci-dessus servent à autoriser le saut de ligne entre pictos ligne mais interdire le saut de ligne entre le picto mode et le premier picto ligne
+
+			result.push(
+			`<span class="inseparable">${iconeMode}${first}</span>${rest}`
+			);
 		}
 	});
 

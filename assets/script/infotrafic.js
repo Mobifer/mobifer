@@ -49,7 +49,6 @@ fetch(`https://apitrafic.share.zrok.io/trafic/${currentLine}`, {
 					contenu = message.text.replace(/'/g, "’");
 				}
 			});
-			console.log(contenu)
 			if (titre && contenu) {
 				if (element.cause === "travaux") {
 					if (element.status === "active") {
