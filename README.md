@@ -18,4 +18,4 @@ This GitHub repository hosts the source code for the website https://mobifer.git
 
 - Stations : 216
 
-**Rejoignez le [serveur Discord du projet](discord.gg/zWraJq5eE5), et contribuez dès maintenant avec [MobiStation](https://github.com/Mobifer/mobistation) !**
+**Rejoignez le [serveur Discord du projet](https://discord.gg/zWraJq5eE5), et contribuez dès maintenant avec [MobiStation](https://github.com/Mobifer/mobistation) !**
