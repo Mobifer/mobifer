@@ -644,11 +644,14 @@ a {
 	font-family: 'Source Serif 4', serif;
 }
 .article-img {
+	max-height: 400px;
+	max-width: 600px;
 	max-width: 100%;
-	height: auto;
 	border-radius: 10px;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-	margin-bottom: 10px;
+	margin-bottom: 10px !important;
+	margin: 0 auto;
+	display: block;
 }
 .date, .author, .sources {
 	font-size: 16px;

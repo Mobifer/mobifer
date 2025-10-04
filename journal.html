@@ -18,6 +18,8 @@
             try {
                 const response = await fetch('data/articles.json');
                 const data = await response.json();
+                // Reverse data.articles to display most recent articles first
+                data.articles.reverse();
                 displayArticles(data.articles);
             } catch (error) {
                 console.error('Erreur de chargement des articles :', error);
@@ -34,16 +36,21 @@
                 
                 articleElement.innerHTML = `
                     <h1 id="${article.id}">${article.title}</h1>
-                    <img src="${article.titleImage}" alt="Image principale" class="article-img">
+                    <span style="text-align: center;">
+                        <img src="${article.titleImage}" alt="${article.titleImageAlt}" title="${article.titleImageAlt}" class="article-img self-center">
+                        <p class="license"> ${article.titleImageCredit.replace('(c)', '©')}</p>
+                    </span>
                     <p class="author">Écrit par&nbsp;: ${article.author}</p>
                     <p class="date">Publié le&nbsp;: ${article.date}</p>
                     ${article.lastMod ? `<p class="date">Dernière modification le&nbsp;: ${article.lastMod}</p>` : ''}
                     ${article.paragraphs.map(p => `
                         <h3>${p.title}</h3>
-                        <p style='text-align: justify'>${p.content}</p>
+                        <p class="justified">${p.content}</p>
                         ${p.image ? `<img src="${p.image}" alt="Illustration du paragraphe" class="article-img">` : ''}
+                        ${p.imageDesc || p.imageCredit ? `<p class="license">${p.imageDesc}. ${p.imageCredit.replace('(c)', '©')}</p>` : ''}
                     `).join('')}
                     ${article.sources ? `<p class="sources">Sources&nbsp;:${article.sources}</p>` : ''}
+                    <hr>
                 `;
                 
                 container.appendChild(articleElement);

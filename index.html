@@ -211,6 +211,7 @@
 		}
 
 		function displayArticles(articles) {
+			articles = articles.reverse();
 			const article = articles[0];
 			const articleElement = document.createElement('div');
 			articleElement.classList.add('article');
