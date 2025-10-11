@@ -7,7 +7,7 @@
    viewBox="0 0 566.92907 1602.5186"
    version="1.1"
    id="svg1"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
    sodipodi:docname="m09.svg"
    xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -26,15 +26,15 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="2.6602586"
-     inkscape:cx="168.02878"
-     inkscape:cy="1560.3746"
+     inkscape:zoom="1.7257956"
+     inkscape:cx="297.54393"
+     inkscape:cy="626.95723"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true" /><defs
      id="defs1"><inkscape:path-effect
@@ -1489,9 +1489,9 @@
        transform="translate(161.01762,-151.45522)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan37999"><tspan
+         id="tspan2"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan37997">Musée</tspan></tspan></text><text
+           id="tspan1">Musée</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:64.7999;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -1500,9 +1500,9 @@
        transform="translate(161.18561,-142.703)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan38003"><tspan
+         id="tspan4"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan38001">de Sèvres</tspan></tspan></text><rect
+           id="tspan3">de Sèvres</tspan></tspan></text><rect
        style="display:inline;fill:none;fill-opacity:1;stroke:#25303b;stroke-width:1.88976;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        id="rect12359"
        width="138.30222"
@@ -1717,7 +1717,7 @@
        transform="translate(216.04501,57.005393)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan38005">Direction Gare d’Austerlitz</tspan></text><a
+         id="tspan5">Direction Gare d’Austerlitz</tspan></text><a
        id="a8740"
        xlink:href="/stations.html?station=Michel-Ange-Molitor"
        target="_parent"
@@ -1790,7 +1790,7 @@
        transform="translate(216.04501,100.80065)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan38007">Direction Boulogne</tspan></text><a
+         id="tspan6">Direction Boulogne</tspan></text><a
        id="a18371"
        xlink:href="/stations.html?station=Michel-Ange-Auteuil"
        target="_parent"
@@ -1934,9 +1934,9 @@
        transform="translate(215.989,214.48172)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan38011"><tspan
+         id="tspan8"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan38009">Boulainvilliers</tspan></tspan></text><text
+           id="tspan7">Boulainvilliers</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';display:inline;fill:#25303b;fill-opacity:1;stroke-width:1.88976"
        x="304.27789"
@@ -2111,9 +2111,9 @@
        transform="translate(215.877,378.07093)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan38015"><tspan
+         id="tspan10"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan38013">Pont de l’Alma</tspan></tspan></text><a
+           id="tspan9">Pont de l’Alma</tspan></tspan></text><a
        id="a33159"
        xlink:href="/stations.html?station=Franklin+D+Roosevelt"
        target="_parent"
@@ -2185,7 +2185,7 @@
          x="304.34189"
          y="686.74426">Miromesnil</tspan></text><a
        id="a39951"
-       xlink:href="/stations.html?station=Miromesnil"
+       xlink:href="/stations.html?station=Saint-Augustin"
        target="_parent"
        transform="translate(2.9440506e-4,502.86584)"><g
          id="g39949"
@@ -2217,9 +2217,9 @@
        transform="translate(215.877,528.50263)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan38019"><tspan
+         id="tspan12"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan38017">Saint-Lazare</tspan></tspan></text><text
+           id="tspan11">Saint-Lazare</tspan></tspan></text><text
        xml:space="preserve"
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:start;text-anchor:start;fill:#25303b;stroke-width:9.44882"
        x="304.27789"
@@ -2257,9 +2257,9 @@
        transform="translate(182.5342,567.28255)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan38023"><tspan
+         id="tspan14"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan38021">Haussmann</tspan></tspan></text><text
+           id="tspan13">Haussmann</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:64.7999;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -2268,9 +2268,9 @@
        transform="translate(184.87022,577.28254)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan38027"><tspan
+         id="tspan16"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan38025">Saint-Lazare</tspan></tspan></text><a
+           id="tspan15">Saint-Lazare</tspan></tspan></text><a
        id="a41913"
        xlink:href="/stations.html?station=Havre-Caumartin"
        target="_parent"
@@ -3003,7 +3003,7 @@
          y="1416.854">Croix de Chavaux</tspan></text><rect
        style="display:inline;fill:none;fill-opacity:1;stroke:#25303b;stroke-width:1.88976;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        id="rect71360"
-       width="120.75386"
+       width="120.91837"
        height="16.43327"
        x="306.53467"
        y="1424.3098" /><text
@@ -3016,7 +3016,7 @@
          id="tspan71362"
          x="309.29773"
          y="1436.9244"
-         style="text-align:start;text-anchor:start;fill:#25303b;fill-opacity:1">Place Jacques-Duclos</tspan></text><rect
+         style="text-align:start;text-anchor:start;fill:#25303b;fill-opacity:1">Place Jacques Duclos</tspan></text><rect
        style="fill:#25303b;fill-opacity:1;stroke-width:0.20613"
        id="rect72225"
        width="210.63675"
@@ -3302,9 +3302,9 @@
        transform="translate(216.237,252.27698)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan38031"><tspan
+         id="tspan18"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan38029">Av. Henri-Martin</tspan></tspan></text><text
+           id="tspan17">Av. Henri-Martin</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:64.7999;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3313,9 +3313,9 @@
        transform="translate(136.43462,567.28255)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan38035"><tspan
+         id="tspan20"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan38033">Auber</tspan></tspan></text><g
+           id="tspan19">Auber</tspan></tspan></text><g
        inkscape:groupmode="layer"
        id="layer2"
        inkscape:label="Temps de marche"
