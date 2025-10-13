@@ -112,6 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					<div class="box image-center">
 					<h2 class="centered">Accès</h2>
 					<div class="centered"><span class="blue-box" style="padding: 10px !important; text-align: left;">`;
+			
 			var sortieNum = 0;
 			station.sorties.forEach(sortie => {
 				sortieNum += 1;
@@ -202,6 +203,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				html += `</div></div>`
 			});
 			html += `</span></div>`;
+			html += `<div id="map"></div>`;
 			html += `</div></div>`;
 
 			html += `<div class="item">
@@ -298,6 +300,91 @@ document.addEventListener("DOMContentLoaded", function () {
 			}
 
 			document.getElementById("station-content").innerHTML = html;
+
+			const map = L.map('map').setView([48.857, 2.350], 18);
+
+			// Calque de tuiles (fond de carte)
+			L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMaps</a> contributors &copy; <a href="https://prim.iledefrance-mobilites.fr">Île-de-France Mobilités</a>',
+				subdomains: 'abcd',
+				maxZoom: 19,
+				minZoom: 17
+			}).addTo(map);
+
+			fetch('/data/stationsPositions.geojson')
+				.then(response => response.json())
+				.then(data => {
+					const markers = L.geoJSON(data, {
+						pointToLayer: function (feature, latlng) {
+							// Default icon in case type doesn't match
+							let iconUrl = '/assets/icons/train_S_couleur_RVB.svg';
+
+							// Match types carefully (case-sensitive)
+							if (feature.properties.zdatype === "metroStation") {
+							iconUrl = '/assets/icons/symbole_metro_RVB.svg';
+							} else if (feature.properties.zdatype === "railStation") {
+							iconUrl = '/assets/icons/symbole_train_RER_RVB.svg';
+							} else if (feature.properties.zdatype === "onstreetTram") {
+							iconUrl = '/assets/icons/symbole_tram_RVB.svg';
+							}
+
+							return L.marker(latlng, {
+								icon: L.icon({
+									iconUrl: iconUrl,
+									iconSize: [40, 40],
+									iconAnchor: [40, 40],
+									popupAnchor: [-20, -40]
+								})
+							});
+						},
+						onEachFeature: function (feature, layer) {
+							layer.bindPopup(feature.properties.zdaname);
+						}
+					});
+
+					markers.addTo(map);
+
+					// La carte doit être centrée sur la station de la page
+					// On compare le nom de la station de la page (station.nom), normalisé, sans accent, avec les noms des stations de la carte
+					const stationName = station.nom.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+					const stationPosition = data.features.find(feature => feature.properties.zdaname.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase() === stationName);
+					if (stationPosition) {
+						map.setView([stationPosition.geometry.coordinates[1], stationPosition.geometry.coordinates[0]], 17);
+					} else {
+						// Si la station n'est pas trouvée, on centre la carte sur Paris
+						map.setView([48.857, 2.350], 17);
+					}
+				})
+				.catch(err => console.error("Erreur de chargement du GeoJSON :", err));
+
+			
+
+			// Importe les points depuis un fichier GeoJSON
+			fetch('/data/acces.geojson')
+				.then(response => response.json())
+				.then(data => {
+					const markers = L.geoJSON(data, {
+						// Crée des marqueurs pour chaque point, avec une image de marqueur personnalisée
+						pointToLayer: function (feature, latlng) {
+							return L.marker(latlng, {
+								icon: L.icon({
+									iconUrl: '/assets/icons/sortie.svg',
+									iconSize: [30, 30],
+									iconAnchor: [30, 30],
+									popupAnchor: [-15, -30]
+								})
+							});
+						},
+						onEachFeature: function (feature, layer) {
+							// Construire le contenu du popup
+							let html = `<div class="sortie-row">${'<div class="sortie-left"><span class="num-sortie"><strong>' + feature.properties.accshortname + '</strong></span></div>' ?? ''}<div class="sortie-right">${feature.properties.accname.replace("'", "’") ?? ''}</div></div>`;
+							layer.bindPopup(html);
+						}
+					});
+
+					markers.addTo(map);
+				})
+				.catch(err => console.error("Erreur de chargement du GeoJSON :", err));
 
 			// Initialize slideshow after DOM update
 			if (Array.isArray(station.img) && station.img.length > 0) {

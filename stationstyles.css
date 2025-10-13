@@ -665,6 +665,7 @@ a {
 
 .sortie-right {
 	flex: 1;
+	align-self: center;
 }
 
 .sortie-right:last-child {
@@ -794,4 +795,33 @@ a {
 
 .inseparable:first-of-type {
 	margin-left: 0px;
+}
+
+/* Carte Leaflet */
+/* Couleur de fond du popup */
+.leaflet-popup-content-wrapper {
+	font-family: 'parisine-std', sans-serif !important;
+	background-color: #0a0082 !important;
+	color: white !important;
+	border-radius: 8px !important;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+	vertical-align: middle !important;
+}
+
+/* Le petit triangle sous le popup */
+.leaflet-popup-tip {
+	background-color: #0a0082 !important;
+}
+
+.leaflet-popup-close-button {
+  color: white !important;           /* couleur du X */
+  font-weight: bold !important;
+}
+
+#map {
+	height: 400px;
+	width: 100%;
+	border-radius: 10px;
+	position: relative;
+	z-index: 1;
 }
