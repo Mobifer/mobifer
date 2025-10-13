@@ -332,8 +332,8 @@ document.addEventListener("DOMContentLoaded", function () {
 								icon: L.icon({
 									iconUrl: iconUrl,
 									iconSize: [40, 40],
-									iconAnchor: [40, 40],
-									popupAnchor: [-20, -40]
+									iconAnchor: [0, 0],
+									popupAnchor: [20, 0]
 								})
 							});
 						},
@@ -370,8 +370,8 @@ document.addEventListener("DOMContentLoaded", function () {
 								icon: L.icon({
 									iconUrl: '/assets/icons/sortie.svg',
 									iconSize: [30, 30],
-									iconAnchor: [30, 30],
-									popupAnchor: [-15, -30]
+									iconAnchor: [0, 0],
+									popupAnchor: [15, 0]
 								})
 							});
 						},
