@@ -311,47 +311,22 @@ document.addEventListener("DOMContentLoaded", function () {
 				minZoom: 14
 			}).addTo(map);
 
+			let stationsMarkers = new L.FeatureGroup();
+			let allStationFeatures = [];
+
 			fetch('/data/stationsPositions.geojson')
 				.then(response => response.json())
 				.then(data => {
-					const markers = L.geoJSON(data, {
-						pointToLayer: function (feature, latlng) {
-							// Default icon in case type doesn't match
-							let iconUrl = '/assets/icons/train_S_couleur_RVB.svg';
-
-							// Match types carefully (case-sensitive)
-							if (feature.properties.zdatype === "metroStation") {
-							iconUrl = '/assets/icons/symbole_metro_RVB.svg';
-							} else if (feature.properties.zdatype === "railStation") {
-							iconUrl = '/assets/icons/symbole_train_RER_RVB.svg';
-							} else if (feature.properties.zdatype === "onstreetTram") {
-							iconUrl = '/assets/icons/symbole_tram_RVB.svg';
-							}
-
-							return L.marker(latlng, {
-								icon: L.icon({
-									iconUrl: iconUrl,
-									iconSize: [40, 40],
-									iconAnchor: [0, 0],
-									popupAnchor: [20, 0]
-								})
-							});
-						},
-						onEachFeature: function (feature, layer) {
-							layer.bindPopup(feature.properties.zdaname);
-						}
-					});
-
-					markers.addTo(map);
+					allStationFeatures = data.features;
 
 					// La carte doit être centrée sur la station de la page
 					// On compare le nom de la station de la page (station.nom), normalisé, sans accent, avec les noms des stations de la carte
-					const stationName = station.nom.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-					const stationPosition = data.features.find(feature => feature.properties.zdaname.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase() === stationName);
+					const stationName = station.nom.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(" – ", "-").toLowerCase();
+					const stationPosition = data.features.find(feature => feature.properties.zdaname.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(" – ", "-").toLowerCase() === stationName);
 					if (stationPosition) {
 						map.setView([stationPosition.geometry.coordinates[1], stationPosition.geometry.coordinates[0]], 17);
 					} else {
-						// Si la station n'est pas trouvée, on centre la carte sur Paris
+						// Si la station n'est pas trouvée, on centre la carte sur Paris centre
 						map.setView([48.857, 2.350], 17);
 					}
 				})
@@ -378,7 +353,13 @@ document.addEventListener("DOMContentLoaded", function () {
 					return bounds.contains(L.latLng([lat, lon]));
 				});
 
+				const visibleStation = allStationFeatures.filter(f => {
+					const [lon, lat] = f.geometry.coordinates;
+					return bounds.contains(L.latLng([lat, lon]));
+				});
+
 				accesMarkers.clearLayers();
+				stationsMarkers.clearLayers();
 
 				const markers = L.geoJSON({ type: 'FeatureCollection', features: visible }, {
 					pointToLayer: function (feature, latlng) {
@@ -411,6 +392,37 @@ document.addEventListener("DOMContentLoaded", function () {
 				} else {
 					map.addLayer(accesMarkers);
 				}
+
+				const stationMarkers = L.geoJSON({ type: 'FeatureCollection', features: visibleStation }, {
+						pointToLayer: function (feature, latlng) {
+							// Icone par défaut au cas où on rencontre un type inattendu
+							let iconUrl = '/assets/icons/train_S_couleur_RVB.svg';
+
+							// Règle l'icône selon le mode de transport qui dessert la station
+							if (feature.properties.zdatype === "metroStation") {
+							iconUrl = '/assets/icons/symbole_metro_RVB.svg';
+							} else if (feature.properties.zdatype === "railStation") {
+							iconUrl = '/assets/icons/symbole_train_RER_RVB.svg';
+							} else if (feature.properties.zdatype === "onstreetTram") {
+							iconUrl = '/assets/icons/symbole_tram_RVB.svg';
+							}
+
+							return L.marker(latlng, {
+								icon: L.icon({
+									iconUrl: iconUrl,
+									iconSize: [40, 40],
+									iconAnchor: [0, 0],
+									popupAnchor: [20, 0]
+								})
+							});
+						},
+						onEachFeature: function (feature, layer) {
+							layer.bindPopup(feature.properties.zdaname);
+						}
+					});
+
+					stationMarkers.addLayer(stationMarkers);
+					stationMarkers.addTo(map);
 			}
 
 			// Initialize slideshow after DOM update
