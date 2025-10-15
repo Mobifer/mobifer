@@ -308,7 +308,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMaps</a> contributors &copy; <a href="https://prim.iledefrance-mobilites.fr">Île-de-France Mobilités</a>',
 				subdomains: 'abcd',
 				maxZoom: 19,
-				minZoom: 17
+				minZoom: 14
 			}).addTo(map);
 
 			fetch('/data/stationsPositions.geojson')
@@ -357,34 +357,61 @@ document.addEventListener("DOMContentLoaded", function () {
 				})
 				.catch(err => console.error("Erreur de chargement du GeoJSON :", err));
 
-			
+			let accesMarkers = new L.FeatureGroup();
+			let allFeatures = [];
 
-			// Importe les points depuis un fichier GeoJSON
 			fetch('/data/acces.geojson')
 				.then(response => response.json())
 				.then(data => {
-					const markers = L.geoJSON(data, {
-						// Crée des marqueurs pour chaque point, avec une image de marqueur personnalisée
-						pointToLayer: function (feature, latlng) {
-							return L.marker(latlng, {
-								icon: L.icon({
-									iconUrl: '/assets/icons/sortie.svg',
-									iconSize: [30, 30],
-									iconAnchor: [0, 0],
-									popupAnchor: [15, 0]
-								})
-							});
-						},
-						onEachFeature: function (feature, layer) {
-							// Construire le contenu du popup
-							let html = `<div class="sortie-row">${'<div class="sortie-left"><span class="num-sortie"><strong>' + feature.properties.accshortname + '</strong></span></div>' ?? ''}<div class="sortie-right">${feature.properties.accname.replace("'", "’") ?? ''}</div></div>`;
-							layer.bindPopup(html);
-						}
-					});
-
-					markers.addTo(map);
+					allFeatures = data.features;
+					updateVisiblePoints(); // Affiche les premiers points visibles
+					map.on('moveend', updateVisiblePoints);
 				})
-				.catch(err => console.error("Erreur de chargement du GeoJSON :", err));
+			.catch(err => console.error("Erreur de chargement du GeoJSON :", err));
+
+			function updateVisiblePoints() {
+				const bounds = map.getBounds();
+				
+				// Filtre les points visibles
+				const visible = allFeatures.filter(f => {
+					const [lon, lat] = f.geometry.coordinates;
+					return bounds.contains(L.latLng([lat, lon]));
+				});
+
+				accesMarkers.clearLayers();
+
+				const markers = L.geoJSON({ type: 'FeatureCollection', features: visible }, {
+					pointToLayer: function (feature, latlng) {
+						return L.marker(latlng, {
+							icon: L.icon({
+								iconUrl: '/assets/icons/sortie.svg',
+								iconSize: [30, 30],
+								iconAnchor: [0, 0],
+								popupAnchor: [15, 0]
+							})
+						});
+					},
+					onEachFeature: function (feature, layer) {
+						const shortName = feature.properties.accshortname ?? '';
+						const name = feature.properties.accname?.replace("'", "’") ?? '';
+						let html = `
+							<div class="sortie-row">
+							<div class="sortie-left"><span class="num-sortie"><strong>${shortName}</strong></span></div>
+							<div class="sortie-right">${name}</div>
+							</div>`;
+						layer.bindPopup(html);
+					}
+				});
+
+				accesMarkers.addLayer(markers);
+				accesMarkers.addTo(map);
+
+				if (map.getZoom() < 16) {
+					map.removeLayer(accesMarkers);
+				} else {
+					map.addLayer(accesMarkers);
+				}
+			}
 
 			// Initialize slideshow after DOM update
 			if (Array.isArray(station.img) && station.img.length > 0) {
