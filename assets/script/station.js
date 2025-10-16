@@ -330,7 +330,7 @@ document.addEventListener("DOMContentLoaded", function () {
 						map.setView([48.857, 2.350], 17);
 					}
 				})
-				.catch(err => console.error("Erreur de chargement du GeoJSON :", err));
+			.catch(err => console.error("Erreur de chargement du GeoJSON :", err));
 
 			let accesMarkers = new L.FeatureGroup();
 			let allFeatures = [];
@@ -394,35 +394,35 @@ document.addEventListener("DOMContentLoaded", function () {
 				}
 
 				const stationMarkers = L.geoJSON({ type: 'FeatureCollection', features: visibleStation }, {
-						pointToLayer: function (feature, latlng) {
-							// Icone par défaut au cas où on rencontre un type inattendu
-							let iconUrl = '/assets/icons/train_S_couleur_RVB.svg';
+					pointToLayer: function (feature, latlng) {
+						// Icone par défaut au cas où on rencontre un type inattendu
+						let iconUrl = '/assets/icons/train_S_couleur_RVB.svg';
 
-							// Règle l'icône selon le mode de transport qui dessert la station
-							if (feature.properties.zdatype === "metroStation") {
-							iconUrl = '/assets/icons/symbole_metro_RVB.svg';
-							} else if (feature.properties.zdatype === "railStation") {
-							iconUrl = '/assets/icons/symbole_train_RER_RVB.svg';
-							} else if (feature.properties.zdatype === "onstreetTram") {
-							iconUrl = '/assets/icons/symbole_tram_RVB.svg';
-							}
-
-							return L.marker(latlng, {
-								icon: L.icon({
-									iconUrl: iconUrl,
-									iconSize: [40, 40],
-									iconAnchor: [0, 0],
-									popupAnchor: [20, 0]
-								})
-							});
-						},
-						onEachFeature: function (feature, layer) {
-							layer.bindPopup(feature.properties.zdaname);
+						// Règle l'icône selon le mode de transport qui dessert la station
+						if (feature.properties.zdatype === "metroStation") {
+						iconUrl = '/assets/icons/symbole_metro_RVB.svg';
+						} else if (feature.properties.zdatype === "railStation") {
+						iconUrl = '/assets/icons/symbole_train_RER_RVB.svg';
+						} else if (feature.properties.zdatype === "onstreetTram") {
+						iconUrl = '/assets/icons/symbole_tram_RVB.svg';
 						}
-					});
 
-					stationMarkers.addLayer(stationMarkers);
-					stationMarkers.addTo(map);
+						return L.marker(latlng, {
+							icon: L.icon({
+								iconUrl: iconUrl,
+								iconSize: [40, 40],
+								iconAnchor: [0, 0],
+								popupAnchor: [20, 0]
+							})
+						});
+					},
+					onEachFeature: function (feature, layer) {
+						layer.bindPopup(feature.properties.zdaname);
+					}
+				});
+
+				stationsMarkers.addLayer(stationMarkers);
+				stationsMarkers.addTo(map);
 			}
 
 			// Initialize slideshow after DOM update
@@ -448,5 +448,5 @@ document.addEventListener("DOMContentLoaded", function () {
 				showSlides();
 			}
 		})
-		.catch(error => console.error("Erreur de chargement des données:", error));
+		.catch(error => console.error("Erreur de chargement des données :", error));
 });
