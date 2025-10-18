@@ -304,11 +304,11 @@ document.addEventListener("DOMContentLoaded", function () {
 			const map = L.map('map').setView([48.857, 2.350], 18);
 
 			// Calque de tuiles (fond de carte)
-			L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-				attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMaps</a> contributors &copy; <a href="https://prim.iledefrance-mobilites.fr">Île-de-France Mobilités</a>',
+			L.tileLayer('https://igngp.geoapi.fr/tile.php/plan-ignv2/{z}/{x}/{y}.jpg', {
+				attribution: '&copy; <a target="_blank" href="https://www.geoportail.gouv.fr/">Geoportail France</a> &copy; <a href="https://prim.iledefrance-mobilites.fr">Île-de-France Mobilités</a>',
 				subdomains: 'abcd',
-				maxZoom: 19,
-				minZoom: 14
+				maxZoom: 18,
+				minZoom: 13
 			}).addTo(map);
 
 			let stationsMarkers = new L.FeatureGroup();
