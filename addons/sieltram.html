@@ -4,11 +4,18 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="/assets/favicon.png" type="image/x-icon">
-	<link rel="stylesheet" href="https://use.typekit.net/euw0chn.css">
+	
 	<style>
 		@font-face {
 			font-family: 'Parisine-2';
 			src: url('/assets/parisine-girouette-laterale.ttf');
+		}
+
+		@font-face {
+			font-family: 'parisine-std';
+			src: url("/assets/fonts/Parisine-Bold.otf");
+			font-display: swap;
+			font-weight: bold;
 		}
 
 		html, body {
@@ -166,7 +173,7 @@
 
 							const destSpan = document.createElement('span');
 							destSpan.classList.add('destination');
-							destSpan.textContent = passage.MonitoredVehicleJourney.DestinationName[0].value.replace(' - Hôpital Européen G. Pompidou', '').replace(' - Parc de la Villette', '').replace(' - Avenue Foch', '');
+							destSpan.textContent = passage.MonitoredVehicleJourney.DestinationName[0].value.replace(' - Hôpital Européen G. Pompidou', '').replace(' - Parc de la Villette', '').replace(' - Avenue Foch', '').replace('T1 -V2-', '');
 
 							const timeSpan = document.createElement('span');
 							timeSpan.classList.add('temps');
