@@ -4,6 +4,8 @@
             "id": "inauguration-periscofer-journal-mobifer",
             "title": "Inauguration de PériscoFer, le Journal de MobiFer&nbsp;!",
             "titleImage": "assets/periscofer-vector.svg",
+            "titleImageAlt": "Logo de PériscoFer",
+            "titleImageCredit": "(c) MobiFer",
             "author": "Aluminium (aluminium3355)",
             "date": "26 août 2025 à 18:00",
             "lastMod": "26 août 2025 à 18:27",
@@ -23,6 +25,46 @@
                 {
                     "title": "Remerciements",
                     "content": "Un grand merci à celles et ceux qui contribuent au projet et qui rendent ce site vivant, ainsi qu’à nos partenaires&nbsp;:<br><ul><li>Vincent (super_vin)</li><li>Zoric (zoric6002)</li><li>Foster G (fosterg0726)</li><li>Doumsdu19 (doums_19)</li><li>ArsTC (ars546789)</li><li>Toineau (valloire94)</li><li>Laura (_lau290)</li><li>Amélie (aisaka_pmd)</li><li>TFB (thefrenchbidouilleur)</li><li>TrainS (trainsupermetros_888)</li><li>MrCoco59 (mrcoco59)</li><li>Jouca (jouca)</li><li>Victoria (victoria180725)</li><li>Arnø (arnocl)</li><li>__gwadz__ (gwadz_)</li></ul>"
+                }
+            ]
+        },
+        {
+            "id": "jep-2025",
+            "title": "Les Journées Européennes du Patrimoine 2025 en Île-de-France",
+            "titleImage": "https://raw.githubusercontent.com/Mobifer/mobifer-images/refs/heads/main/arstc/ratp-jep-affiche-2025.jpg",
+            "titleImageAlt": "Affiche de la RATP pour les Journées Européennes du Patrimoine 2025",
+            "titleImageCredit": "(c) Affiche RATP",
+            "author": "ArsTC (ars546789)",
+            "date": "4 octobre 2025 à 18:00",
+            "paragraphs": [
+                {
+                    "title": "",
+                    "content": "Comme chaque année se sont tenues les Journées Européennes du Patrimoine en France et en Europe le week-end des <strong>20 et 21 septembre 2025</strong>. Et comme à chaque fois, la RATP et la SNCF se sont montrées au rendez-vous&nbsp;! Ce week-end prend chaque année une grande ampleur. Et cette année encore, les places se sont écoulées en quelques minutes seulement lors des deux vagues d’inscriptions des nombreuses visites sur réservation prévues par la RATP."
+                },
+                {
+                    "title": "",
+                    "content": "Du côté de la Régie, l’édition de cette année était notamment marquée par les <strong>125 ans du métro</strong>, la ligne <span class='integrated'><img src='/assets/icons/symbole_metro_RVB.svg' alt='Métro'></span>&nbsp;<span class='integrated'><img src='/assets/icons/metro_1_couleur_RVB.svg'alt='1'></span> étant la première pierre d’un réseau aujourd’hui constitué de 16 lignes. Sûrement une des animations les plus remarquables, une visite spéciale du <span class='integrated'><img src='/assets/icons/symbole_metro_RVB.svg' alt='Métro'></span>&nbsp;<span class='integrated'><img src='/assets/icons/metro_1_couleur_RVB.svg'alt='1'></span> de nuit, ne desservant seulement que quelques stations majeures et l’AMT (<strong>Atelier de Maintenance des Trains</strong>) de Porte Maillot, à bord d’une rame spécialement affrétée pour cette occasion.",
+                    "image": "https://raw.githubusercontent.com/Mobifer/mobifer-images/refs/heads/main/vincent/porte-des-lilas-cinema-1.webp",
+                    "imageDesc": "La station Porte des Lilas – Cinéma",
+                    "imageCredit": "CC-BY-SA Vincent"
+                },
+                {
+                    "title": "",
+                    "content": "Parmi toutes les visites proposées, notre équipe a eu la chance d’aller visiter la station <strong>Porte des Lilas – Cinéma</strong>, symbole du cinéma dans le métro. En effet, cette station ne servant plus aux voyageurs accueille des tournages de films. Cette station modulable aura notamment permis de représenter la station Abbesses dans le film <em>Le Fabuleux Destin d’Amélie Poulain</em> réalisé par Jean-Pierre Jeunet. Elle a également été utilisée dans le cadre de la Cérémonie d’Ouverture des Jeux Olympiques de Paris 2024. Et c’est lorsque les lumières de la station se sont éteintes, dans la pénombre, qu’une rame est arrivée, emmenant les visiteurs à la station la plus «&nbsp;fantôme&nbsp;» du réseau&nbsp;: <strong>Haxo</strong>.",
+                    "image": "https://raw.githubusercontent.com/Mobifer/mobifer-images/refs/heads/main/vincent/haxo-1.webp",
+                    "imageDesc": "La mythique station fantôme Haxo",
+                    "imageCredit": "CC-BY-SA Vincent"
+                },
+                {
+                    "title": "",
+                    "content": "Pour ceux n’ayant pas réussi à obtenir de places, les animations à la <strong>Maison de la RATP</strong> à quelques pas de la Gare de Lyon n’ont pas manqué. Entre simulateur de conduite d’un ancien matériel RER, le <strong>MS 61</strong>, avec anciens voyants et le pupitre de l’époque, balades en bus anciens aujourd’hui sauvegardés par des associations, vente de goodies ou stands photos avec Serge Le Lapin, enfants comme adultes repartaient avec le sourire."
+                },
+                {
+                    "title": "",
+                    "content": "Du côté de la SNCF, il y a également eu bon nombre de visites proposées, entre autres celles de nombreux technicentres comme celui de Masséna ou le Technicentre Atlantique à Châtillon. À l’extrémité de la Gare d’Austerlitz, voies 20 et 21, les quais étaient animés par la présence de voitures de l’Orient Express ainsi que d’une navette Corail par l’APMFS. Pour terminer, l’Amicale des Agents de Paris Saint-Lazare ainsi que l’association de Sauvegarde de la Petite Ceinture ont réalisé des circulations sans voyageurs durant le week-end dans le XVII<sup>e</sup> arrondissement, au milieu du parc Martin Luther King, de matériels ferroviaires historiques, y compris des Z&nbsp;6400 ayant roulé sur le tracé de l’actuel <span class='integrated'><img src='/assets/icons/symbole_train_RVB.svg' alt='Métro'></span>&nbsp;<span class='integrated'><img src='/assets/icons/train_L_couleur_RVB.svg'alt='1'></span> pendant plus de 40 ans&nbsp;!",
+                    "image": "https://raw.githubusercontent.com/Mobifer/mobifer-images/refs/heads/main/arstc/bb-17016.jpg",
+                    "imageDesc": "La locomotive BB 17016 au parc Martin Luther King",
+                    "imageCredit": "(c) ArsTC"
                 }
             ]
         }

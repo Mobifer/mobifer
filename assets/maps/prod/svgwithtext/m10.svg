@@ -29,15 +29,15 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0528386"
-     inkscape:cx="90.232254"
-     inkscape:cy="385.62416"
+     inkscape:zoom="5.6752965"
+     inkscape:cx="392.84291"
+     inkscape:cy="408.96541"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true" /><defs
      id="defs1"><rect
@@ -1398,9 +1398,9 @@
        transform="translate(215.94861,-29.456021)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan36957"><tspan
+         id="tspan21358"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan36955">Parc</tspan></tspan></text><text
+           id="tspan21356">Parc</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:64.7999;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -1409,9 +1409,9 @@
        transform="translate(216.2926,-20.703801)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan36961"><tspan
+         id="tspan21362"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan36959">de Saint-Cloud</tspan></tspan></text><a
+           id="tspan21360">de Saint-Cloud</tspan></tspan></text><a
        id="a3761"
        xlink:href="/stations.html?station=Boulogne-Jean+Jaures"
        target="_parent"
@@ -1559,9 +1559,9 @@
        transform="translate(214.62732,358.11686)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan36965"><tspan
+         id="tspan21366"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan36963">Javel</tspan></tspan></text><g
+           id="tspan21364">Javel</tspan></tspan></text><g
        id="g32151"
        transform="matrix(0.07333192,0,0,0.07333451,188.9763,915.19572)"
        style="display:inline"><g
@@ -1970,23 +1970,7 @@
    d="M 196.7,131.4 C 196.7,91.6 182,63.1 141,63.1 c -31.5,0 -51.5,22.1 -51.5,52.1 0,28.1 20,44.5 44.9,44.5 16.2,0 26,-5.7 31.1,-10.2 -2.1,30.2 -17.5,47 -38.5,47 -8.7,0 -16.6,-1.9 -20.6,-3.6 l -4.7,25.5 c 6.4,1.5 14,2.6 22.6,2.6 48,0 72.4,-37.5 72.4,-89.6 m -30.8,-16.6 c 0,4.5 0,10.4 -1.7,13 -3,4.7 -10.6,8.3 -20.2,8.3 -14.9,0 -24.2,-10.2 -24.2,-24.3 0,-13 7.7,-25.1 22.6,-25.1 15.2,0 23.5,13.8 23.5,28.1"
    clip-path="url(#SVGID_00000080925341370901299380000010589652642747449989_-8)"
    id="path51186" />
-</g></a><a
-       id="a51194"
-       xlink:href="/stations.html?station=Eglise+dAuteuil"
-       target="_parent"
-       transform="rotate(-90,482.237,237.98526)"
-       style="display:inline;fill:#dc9600;fill-opacity:1"><path
-         style="fill:#dc9600;fill-opacity:1;stroke:none;stroke-width:3.13973"
-         id="circle51192"
-         sodipodi:type="arc"
-         sodipodi:cx="283.46414"
-         sodipodi:cy="140.31494"
-         sodipodi:rx="10.3937"
-         sodipodi:ry="10.3937"
-         sodipodi:start="0"
-         sodipodi:end="3.1415927"
-         sodipodi:arc-type="slice"
-         d="m 293.85784,140.31494 a 10.3937,10.3937 0 0 1 -5.19685,9.00121 10.3937,10.3937 0 0 1 -10.3937,0 10.3937,10.3937 0 0 1 -5.19685,-9.00121 h 10.3937 z" /></a><text
+</g></a><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';display:inline;fill:#25303b;fill-opacity:1;stroke-width:1.88976"
        x="406.53192"
@@ -1997,7 +1981,7 @@
          x="406.53192"
          y="442.60611">Église d’Auteuil</tspan></text><a
        id="a29871-0"
-       xlink:href="/stations.html?station=Chardon+Lagache"
+       xlink:href="/stations.html?station=Chardon-Lagache"
        target="_parent"
        transform="rotate(90,103.5892,219.08792)"
        style="display:inline;fill:#dc9600;fill-opacity:1"><path
@@ -2008,10 +1992,11 @@
          sodipodi:cy="140.31494"
          sodipodi:rx="10.3937"
          sodipodi:ry="10.3937"
-         sodipodi:start="0"
-         sodipodi:end="3.1415927"
-         sodipodi:arc-type="slice"
-         d="m 293.85784,140.31494 a 10.3937,10.3937 0 0 1 -5.19685,9.00121 10.3937,10.3937 0 0 1 -10.3937,0 10.3937,10.3937 0 0 1 -5.19685,-9.00121 h 10.3937 z" /></a><text
+         sodipodi:start="6.0213859"
+         sodipodi:end="3.403392"
+         sodipodi:arc-type="arc"
+         d="m 293.50368,137.62485 a 10.3937,10.3937 0 0 1 -4.07796,11.20411 10.3937,10.3937 0 0 1 -11.92316,0 10.3937,10.3937 0 0 1 -4.07796,-11.20411"
+         sodipodi:open="true" /></a><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end;display:inline;fill:#25303b;fill-opacity:1;stroke-width:1.88976"
        x="161.49585"
@@ -2028,16 +2013,16 @@
        style="display:inline;fill:#dc9600;fill-opacity:1"><path
          style="fill:#dc9600;fill-opacity:1;stroke:none;stroke-width:3.13973"
          id="circle52355"
+         d="m 293.15279,136.55208 a 10.3937,10.3937 0 0 1 -3.4227,12.05544 10.3937,10.3937 0 0 1 -12.5319,0 10.3937,10.3937 0 0 1 -3.42269,-12.05544"
          sodipodi:type="arc"
-         sodipodi:cx="283.46414"
-         sodipodi:cy="140.31494"
-         sodipodi:rx="10.3937"
-         sodipodi:ry="10.3937"
-         sodipodi:start="0"
-         sodipodi:end="3.1415927"
-         sodipodi:open="true"
          sodipodi:arc-type="arc"
-         d="m 293.85784,140.31494 a 10.3937,10.3937 0 0 1 -5.19685,9.00121 10.3937,10.3937 0 0 1 -10.3937,0 10.3937,10.3937 0 0 1 -5.19685,-9.00121" /></a><text
+         sodipodi:open="true"
+         sodipodi:start="5.9127375"
+         sodipodi:end="3.5120405"
+         sodipodi:ry="10.3937"
+         sodipodi:rx="10.3937"
+         sodipodi:cy="140.31494"
+         sodipodi:cx="283.46414" /></a><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end;display:inline;fill:#25303b;fill-opacity:1;stroke-width:1.88976"
        x="161.87984"
@@ -2076,7 +2061,7 @@
          y="591.20001"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Charles Michels</tspan></text><a
        id="a55941"
-       xlink:href="/stations.html?station=Javel-Andre-Citroen"
+       xlink:href="/stations.html?station=Javel-Andre+Citroen"
        target="_parent"
        transform="translate(1.2244147e-6,331.73073)"
        style="display:inline"><g
@@ -2476,9 +2461,9 @@
        transform="translate(216.32396,736.07005)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan36969"><tspan
+         id="tspan21370"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan36967">Saint-Michel</tspan></tspan></text><text
+           id="tspan21368">Saint-Michel</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:64.7999;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -2487,9 +2472,9 @@
        transform="translate(215.73197,746.07005)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan36973"><tspan
+         id="tspan21374"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan36971">Notre-Dame</tspan></tspan></text><text
+           id="tspan21372">Notre-Dame</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';display:inline;fill:#25303b;fill-opacity:1;stroke-width:1.88976"
        x="304.3418"
@@ -2501,7 +2486,7 @@
          y="969.15265"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Maubert – Mutualité</tspan></text><a
        id="a28822"
-       xlink:href="/stations.html?station=Maubert-Mutualité"
+       xlink:href="/stations.html?station=Maubert-Mutualite"
        target="_parent"
        transform="translate(8.1542969e-6,823.06974)"
        style="fill:#dc9600;fill-opacity:1"><circle
@@ -2531,7 +2516,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a30974"
-       xlink:href="/stations.html?station=Cluny-La+Sorbonne"
+       xlink:href="/stations.html?station=Jussieu"
        target="_parent"
        transform="translate(-6.281613e-7,823.06971)"
        style="display:inline"><g
@@ -2640,7 +2625,7 @@
          transform="translate(60.051613,895.95033)"><tspan
            x="43.212147"
            y="209.78712"
-           id="tspan36975">Grandes</tspan></text><text
+           id="tspan21376">Grandes</tspan></text><text
          xml:space="preserve"
          style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:36.7828;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
          x="43.212147"
@@ -2649,7 +2634,7 @@
          transform="translate(60.051613,905.95033)"><tspan
            x="43.212147"
            y="209.78712"
-           id="tspan36977">Lignes</tspan></text></g><text
+           id="tspan21378">Lignes</tspan></text></g><text
        xml:space="preserve"
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:start;text-anchor:start;display:inline;fill:#25303b;stroke-width:9.44882"
        x="305.1098"
@@ -3698,7 +3683,24 @@
    d="M 269.3,42.5 H 14.2 C 6.3,42.5 0,36.2 0,28.3 V 14.2 C 0,6.3 6.3,0 14.2,0 h 255.1 c 7.8,0 14.2,6.3 14.2,14.2 v 14.2 c 0,7.8 -6.4,14.1 -14.2,14.1 m 14.2,226.8 v -14.2 c 0,-7.8 -6.3,-14.2 -14.2,-14.2 H 14.2 C 6.4,240.9 0,247.2 0,255.1 v 14.2 c 0,7.8 6.3,14.2 14.2,14.2 h 255.1 c 7.8,0 14.2,-6.4 14.2,-14.2"
    clip-path="url(#SVGID_00000131350927939289745970000003203673322947402127_-5)"
    id="path19236" />
-</g></g></a></g><metadata
+</g></g></a><a
+       id="a20394"
+       xlink:href="/stations.html?station=Eglise+dAuteuil"
+       target="_parent"
+       transform="rotate(-90,482.23709,237.98535)"
+       style="display:inline;fill:#dc9600;fill-opacity:1"><path
+         style="fill:#dc9600;fill-opacity:1;stroke:none;stroke-width:3.13973"
+         id="path20392"
+         sodipodi:type="arc"
+         sodipodi:cx="283.46414"
+         sodipodi:cy="140.31494"
+         sodipodi:rx="10.3937"
+         sodipodi:ry="10.3937"
+         sodipodi:start="0"
+         sodipodi:end="3.1415927"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="m 293.85784,140.31494 a 10.3937,10.3937 0 0 1 -5.19685,9.00121 10.3937,10.3937 0 0 1 -10.3937,0 10.3937,10.3937 0 0 1 -5.19685,-9.00121" /></a></g><metadata
      id="metadata1"><rdf:RDF><cc:Work
          rdf:about=""><cc:license
            rdf:resource="http://creativecommons.org/licenses/by/4.0/" /></cc:Work><cc:License

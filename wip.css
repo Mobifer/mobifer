@@ -1,3 +1,29 @@
+@font-face {
+    font-family: 'parisine-std';
+    src: url("/assets/fonts/Parisine-Regular.otf");
+    font-display: swap;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'parisine-std';
+    src: url("/assets/fonts/Parisine-Bold.otf");
+    font-display: swap;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'parisine-std';
+    src: url("/assets/fonts/Parisine-Italic.otf");
+    font-display: swap;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'parisine-std';
+    src: url("/assets/fonts/Parisine-BoldItalic.otf");
+    font-display: swap;
+    font-weight: bold;
+    font-style: italic;
+}
+
 body {
 	background-color: #1e1e1e !important;
 	color: white;

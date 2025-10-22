@@ -3,44 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Station - MobiFer</title>
+	<title>Page prototype de station - MobiFer</title>
 	<link rel="stylesheet" href="/stationstyles.css">
+	
 	<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
 	<link rel="icon" href="/assets/favicon.png" type="image/x-icon">
-	<meta property="og:title" content="MobiFer – Station" />
-	<meta property="og:description" content="Plus de détails sur votre station sur MobiFer !" />
 </head>
 <body>
 	<a href="/" class="header"><h1>MobiFer</h1></a>
-	<div class="searchbox">
-		<div class="searchbtn" onclick="hidesearch()">
-			<span class="integrated"><img src="/assets/icons/search.svg"></span>
-		</div>
-		<input type="search" class="stationinput" id="search" placeholder="Rechercher une station...">
-	</div>
-	<div class="box image-center" id="search-results" style="max-width: 700px !important;"></div>
-	<div id="station-content">
-	</div>
+    
+    <textarea rows="30" cols="60" id="code" placeholder="Saisissez un code JSON valide de station." style="width: 100%; max-width: 100%; height: 200px; font-family: monospace; margin-top: 20px;"></textarea>
+	<div id="station-content"></div>
+
 	<div id="footer-container" style="padding-top: 10px;"></div>
-	<script src="/addons/footer.js"></script><script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-	<script src="/assets/script/station.js" type="module"></script>
-	<script src="/assets/script/stationsearch.js" type="module"></script>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+	<script src="/assets/script/stationprototype.js" type="module"></script>
 	<script>
-		function hidesearch() {
-			var input = document.getElementById("search");
-			var results = document.getElementById("search-results");
-
-			if (!input.classList.contains("active")) {
-				input.classList.add("active");
-				input.focus();
-			} else {
-				if (input) input.value = "";
-				if (results) results.innerHTML = "";
-				input.classList.remove("active");
-			}
-		}
-
 		function switchToPANAM() {
 			document.querySelectorAll("iframe.ratp").forEach(iframe => {
 				iframe.src = iframe.src.replace("?style=siel", "?style=panam");
