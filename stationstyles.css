@@ -201,7 +201,7 @@ a {
 	border-collapse: collapse;
 	border-radius: 10px;
 	overflow: hidden;
-	word-break: keep-all;
+	word-break: break-word;
 }
 
 /* Suppression des bordures */
