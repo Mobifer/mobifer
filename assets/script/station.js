@@ -114,8 +114,25 @@ document.addEventListener("DOMContentLoaded", function () {
 			html += `<br><span class="repere-station" style="border: 5px solid black !important; font-weight: bold; border-radius: 5px;">${station.rep}</span>`;
 		}
 
-		html += `</p>
-		<div class="row">
+		html += `</p>`
+
+		// Ajoute des liens à d'éventuelles stations en correspondance en pôle
+		if (station.corresp && station.corresp.length > 0) {
+			html += `<p class="centered"><em>Cette station est en correspondance avec&nbsp;: `
+			station.corresp.forEach(corresp => {
+				const nouvelleStation = data[corresp];
+				if (!nouvelleStation) {
+					return;
+				}
+				html += `<strong><a href="/stations.html?station=${corresp}">${nouvelleStation.nom}</a></strong> ${genererLignesHTML(nouvelleStation.lignes)}`;
+				if (corresp !== station.corresp[station.corresp.length - 1] && station.corresp.length !== 1) {
+					html += `, `
+				}
+			})
+			html += `</em></p>`
+		}
+
+		html += `<div class="row">
 		<div class="item">`;
 		html += `<div style="break-inside: avoid;">`
 
@@ -153,7 +170,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 		// Fonction pour ajouter si besoin la présence d'accueil, ascenseur, escalator
 		function genererAccessoires(sortie) {
-			let html = ``;
+			let html = ` `;
 			if (sortie.acc) {
 				html += `<span class="integrated"><img src="/assets/icons/info.svg"></span><span class="integrated"><img src="/assets/icons/tickets.svg"></span>`;
 			}
@@ -329,13 +346,16 @@ document.addEventListener("DOMContentLoaded", function () {
 			</div></div></div>`;
 		}
 
+		html += `<div class="box image-center" id="stations-suivantes" style="max-width: 1500px !important; display: none;">
+		<h2 class="centered">Stations suivantes</h2>
+		<div id="prochains-arrets" style="width: 100%; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;"></div></div></div>`;
+
+		// Ajoute le HTML modifié sur la page
+		document.getElementById("station-content").innerHTML = html.replaceAll(" \u2013 ", "\u2013");
+
 		// Génération des arrêts suivants
 		let prochainsArrets = {};
 		let destinations = {};
-
-		html += `<div class="box image-center" style="max-width: 1500px !important;">
-		<h2 class="centered">Stations suivantes</h2>
-		<div id="prochains-arrets" style="width: 100%; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;"></div>`;
 
 		fetch('/data/metroliste.json')
 			.then(response => response.json())
@@ -445,14 +465,12 @@ document.addEventListener("DOMContentLoaded", function () {
 					}
 				});
 
-				container.innerHTML = containerHTML.replaceAll(" \u2013 ", "\u2013");
+				if (containerHTML !== ``) {
+					container.innerHTML = containerHTML.replaceAll(" \u2013 ", "\u2013");
+					document.getElementById("stations-suivantes").style.display = "block";
+				}
 			})
 		.catch(err => console.error("Erreur de chargement du JSON des stations dans l'ordre :", err));
-
-		html += `</div></div>`;
-
-		// Ajoute le HTML modifié sur la page
-		document.getElementById("station-content").innerHTML = html.replaceAll(" \u2013 ", "\u2013");
 
 		// Génération de la carte
 
