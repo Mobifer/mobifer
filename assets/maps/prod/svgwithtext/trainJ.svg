@@ -7,7 +7,7 @@
    viewBox="0 0 755.90542 1765.0388"
    version="1.1"
    id="svg1"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
    sodipodi:docname="trainJ.svg"
    xml:space="preserve"
    inkscape:export-filename="../rerB.pdf"
@@ -3621,11 +3621,11 @@
        transform="translate(-1.3998454,-174.57079)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan15630">Grandes
+         id="tspan1">Grandes
 </tspan><tspan
          x="43.212147"
          y="219.78712"
-         id="tspan15632">Lignes</tspan></text><text
+         id="tspan2">Lignes</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="558.09119"
@@ -3840,7 +3840,7 @@
          y="1751.3059"
          style="font-size:12px">Hors tarification Île-de-France</tspan></text><a
        id="a13812"
-       xlink:href="/stations.html?station=Saint-Lazare"
+       xlink:href="/stations.html?station=Paris-Saint-Lazare"
        target="_parent"><path
          class="st0"
          d="m 386.26633,52.91338 h -16.62725 c -3.7542,0 -6.80448,-3.05029 -6.80448,-6.80448 V 29.48164 c 0,-3.75419 3.05028,-6.80448 6.80448,-6.80448 h 16.62725 c 3.7542,0 6.80448,3.05029 6.80448,6.80448 V 46.1089 c 0,3.75419 -3.05028,6.80448 -6.80448,6.80448"
@@ -4206,9 +4206,9 @@
        transform="translate(101.41725,-152.00204)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan15636"><tspan
+         id="tspan4"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan15634">Saint</tspan></tspan></text><text
+           id="tspan3">Saint</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -4217,9 +4217,9 @@
        transform="translate(108.70524,-143.40466)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan15640"><tspan
+         id="tspan6"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan15638">Augustin</tspan></tspan></text><a
+           id="tspan5">Augustin</tspan></tspan></text><a
        id="a17190"
        xlink:href="/lines/m14"
        target="_parent"

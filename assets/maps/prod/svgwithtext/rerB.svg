@@ -7,7 +7,7 @@
    viewBox="0 0 755.90542 1878.4245"
    version="1.1"
    id="svg1"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
    sodipodi:docname="rerB.svg"
    xml:space="preserve"
    inkscape:export-filename="../rerB.pdf"
@@ -29,15 +29,15 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0424279"
-     inkscape:cx="374.1266"
-     inkscape:cy="277.2374"
+     inkscape:zoom="2.6231891"
+     inkscape:cx="408.09105"
+     inkscape:cy="615.28161"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer1"
      showgrid="false"
      showguides="false" /><defs
      id="defs1"><rect
@@ -2244,11 +2244,11 @@
        transform="translate(224.32582,1212.8568)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan129994">Grandes
+         id="tspan21">Grandes
 </tspan><tspan
          x="43.212147"
          y="219.78712"
-         id="tspan129996">Lignes</tspan></text><path
+         id="tspan22">Lignes</tspan></text><path
        style="display:inline;fill:#25303b;stroke:#25303b;stroke-width:0.755905;stroke-linecap:square;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 422.88941,598.62004 H 755.5274"
        id="path26667" /><text
@@ -2301,7 +2301,7 @@
          y="678.34332"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Châtelet – Les Halles</tspan></text><a
        id="a24396"
-       xlink:href="/stations.html?station=Chatelet"
+       xlink:href="/stations.html?station=Chatelet-Les+Halles"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,546.93912)"
        style="display:inline"><g
@@ -2666,7 +2666,7 @@
        transform="translate(322.07666,-135.33282)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan129998">Grandes</tspan></text><text
+         id="tspan23">Grandes</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -2675,7 +2675,7 @@
        transform="translate(314.92466,-126.23409)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan130000">Lignes</tspan></text><g
+         id="tspan24">Lignes</tspan></text><g
        id="g114323"
        transform="translate(0,-3.7233128)"><rect
          style="fill:#4a4a49;fill-opacity:1;stroke:none;stroke-width:2.06697;stroke-dasharray:none"
@@ -3514,7 +3514,7 @@
          y="629.42847"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Gare du Nord</tspan></text><a
        id="a221921"
-       xlink:href="/stations.html?station=Gare+du+Nord"
+       xlink:href="/stations.html?station=Paris-Nord"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,498.02445)"
        style="display:inline"><g
@@ -3539,9 +3539,9 @@
        transform="translate(315.94315,432.89699)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan130004"><tspan
+         id="tspan26"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan130002">Magenta</tspan></tspan></text><a
+           id="tspan25">Magenta</tspan></tspan></text><a
        id="a53"
        xlink:href="/lines/m05"
        target="_parent"
@@ -3748,9 +3748,9 @@
        transform="translate(102.68248,432.89699)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan130008"><tspan
+         id="tspan28"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan130006">La Chapelle</tspan></tspan></text><text
+           id="tspan27">La Chapelle</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:64.7999;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3759,11 +3759,11 @@
        transform="translate(23.167251,411.21428)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan130010">Grandes
+         id="tspan29">Grandes
 </tspan><tspan
          x="43.212147"
          y="219.78712"
-         id="tspan130012">Lignes</tspan></text><text
+         id="tspan30">Lignes</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="399.27798"
@@ -3894,9 +3894,9 @@
        transform="translate(255.06998,521.178)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan130016"><tspan
+         id="tspan32"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan130014">Cluny</tspan></tspan></text><text
+           id="tspan31">Cluny</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3905,9 +3905,9 @@
        transform="translate(280.56598,530.15726)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan130020"><tspan
+         id="tspan34"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan130018">La Sorbonne</tspan></tspan></text><text
+           id="tspan33">La Sorbonne</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="398.76599"
@@ -4439,9 +4439,9 @@
        transform="translate(444.33111,1062.5477)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan130024"><tspan
+         id="tspan36"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan130022">Tarification</tspan></tspan></text><text
+           id="tspan35">Tarification</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -4450,9 +4450,9 @@
        transform="translate(444.16312,1072.5477)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan130028"><tspan
+         id="tspan38"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan130026">spéciale</tspan></tspan></text><path
+           id="tspan37">spéciale</tspan></tspan></text><path
        style="display:inline;fill:#25303b;stroke:#25303b;stroke-width:1.88976;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 515.45144,1274.3988 h 5.44298"
        id="path47436" /><text
@@ -5001,9 +5001,9 @@
        transform="translate(231.37046,521.178)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan130032"><tspan
+         id="tspan40"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan130030">Saint-Michel</tspan></tspan></text><g
+           id="tspan39">Saint-Michel</tspan></tspan></text><g
        inkscape:groupmode="layer"
        id="layer5"
        inkscape:label="Temps à vélo"

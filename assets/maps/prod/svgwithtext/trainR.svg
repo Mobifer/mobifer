@@ -29,9 +29,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="0.87759829"
-     inkscape:cx="359.50389"
-     inkscape:cy="515.04202"
+     inkscape:zoom="3.0958733"
+     inkscape:cx="377.11492"
+     inkscape:cy="46.836542"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
@@ -5157,7 +5157,7 @@
        id="text100"
        style="font-weight:bold;font-size:8.00001px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std, Bold';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect100);display:inline;fill:#ffbe00;fill-opacity:1;stroke:#ffbe00;stroke-width:9.44882;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" /><a
        id="a11"
-       xlink:href="/stations.html?station=Gare+de+Lyon"
+       xlink:href="/stations.html?station=Paris-Gare+de+Lyon"
        target="_parent"><path
          class="st0"
          d="m 386.26628,52.91338 h -16.62725 c -3.7542,0 -6.80448,-3.05029 -6.80448,-6.80448 V 29.48164 c 0,-3.75419 3.05028,-6.80448 6.80448,-6.80448 h 16.62725 c 3.7542,0 6.80448,3.05029 6.80448,6.80448 V 46.1089 c 0,3.75419 -3.05028,6.80448 -6.80448,6.80448"
@@ -5242,11 +5242,11 @@
        transform="translate(126.62398,-174.92787)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan1">Grandes
+         id="tspan3">Grandes
 </tspan><tspan
          x="43.212147"
          y="219.78712"
-         id="tspan2">Lignes</tspan></text><g
+         id="tspan4">Lignes</tspan></text><g
        id="g33629"
        transform="matrix(0.07333451,0,0,0.07333451,204.09337,27.401517)"
        style="display:inline"><path

@@ -30,8 +30,8 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      inkscape:zoom="1.2439898"
-     inkscape:cx="277.33347"
-     inkscape:cy="346.46587"
+     inkscape:cx="419.21566"
+     inkscape:cy="150.32278"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
@@ -5265,7 +5265,7 @@
            id="path71469-8-2-1"
            style="fill:#000000;fill-opacity:1" /></g></a><a
        id="a1"
-       xlink:href="/stations.html?station=Montparnasse-Bienvenue"
+       xlink:href="/stations.html?station=Paris-Montparnasse"
        target="_parent"><path
          class="st0"
          d="m 386.26633,52.91338 h -16.62725 c -3.7542,0 -6.80448,-3.05029 -6.80448,-6.80448 V 29.48164 c 0,-3.75419 3.05028,-6.80448 6.80448,-6.80448 h 16.62725 c 3.7542,0 6.80448,3.05029 6.80448,6.80448 V 46.1089 c 0,3.75419 -3.05028,6.80448 -6.80448,6.80448"
@@ -5382,7 +5382,7 @@
        transform="translate(181.78895,-152.59558)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan1">Grandes Lignes</tspan></text><a
+         id="tspan2">Grandes Lignes</tspan></text><a
        id="a8995"
        xlink:href="/lines/m06"
        target="_parent"

@@ -7,7 +7,7 @@
    viewBox="0 0 755.90542 1727.2438"
    version="1.1"
    id="svg1"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
    sodipodi:docname="trainH.svg"
    xml:space="preserve"
    inkscape:export-filename="../rerB.pdf"
@@ -29,9 +29,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="1.8461424"
-     inkscape:cx="483.4405"
-     inkscape:cy="-50.916982"
+     inkscape:zoom="1.2273133"
+     inkscape:cx="254.62122"
+     inkscape:cy="293.32364"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
@@ -3551,7 +3551,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std';text-align:start;text-anchor:start"
          id="tspan10273">Prévu • 2030</tspan></text><a
        id="a12939"
-       xlink:href="/stations.html?station=Gare+du+Nord"
+       xlink:href="/stations.html?station=Paris-Nord"
        target="_parent"><path
          class="st0"
          d="m 386.26633,52.91338 h -16.62725 c -3.7542,0 -6.80448,-3.05029 -6.80448,-6.80448 V 29.48164 c 0,-3.75419 3.05028,-6.80448 6.80448,-6.80448 h 16.62725 c 3.7542,0 6.80448,3.05029 6.80448,6.80448 V 46.1089 c 0,3.75419 -3.05028,6.80448 -6.80448,6.80448"
@@ -3581,9 +3581,9 @@
        transform="translate(315.94316,-152.62316)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan33226"><tspan
+         id="tspan2"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan33224">Magenta</tspan></tspan></text><text
+           id="tspan1">Magenta</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3592,9 +3592,9 @@
        transform="translate(102.68249,-152.35116)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan33230"><tspan
+         id="tspan4"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan33228">La Chapelle</tspan></tspan></text><a
+           id="tspan3">La Chapelle</tspan></tspan></text><a
        id="a53"
        xlink:href="/lines/m05"
        target="_parent"
@@ -3781,11 +3781,11 @@
        transform="translate(23.167257,-174.57079)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan33232">Grandes
+         id="tspan5">Grandes
 </tspan><tspan
          x="43.212147"
          y="219.78712"
-         id="tspan33234">Lignes</tspan></text><a
+         id="tspan6">Lignes</tspan></text><a
        id="a17622-7"
        xlink:href="/lines/m15"
        target="_parent"
@@ -3935,7 +3935,7 @@
        transform="translate(157.46171,-88.140685)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan33236">Branche</tspan></text><text
+         id="tspan7">Branche</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3944,7 +3944,7 @@
        transform="translate(157.22171,-79.262445)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan33238">Saint-Denis</tspan></text><text
+         id="tspan8">Saint-Denis</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3953,9 +3953,9 @@
        transform="translate(157.66972,-98.052675)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan33242"><tspan
+         id="tspan10"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan33240">Carr. Pleyel</tspan></tspan></text><a
+           id="tspan9">Carr. Pleyel</tspan></tspan></text><a
        id="a76103"
        xlink:href="/lines/m14"
        target="_parent"
@@ -3984,9 +3984,9 @@
        transform="translate(245.02555,-86.052675)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan33246"><tspan
+         id="tspan12"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan33244">Saint-Denis – Pleyel</tspan></tspan></text><a
+           id="tspan11">Saint-Denis – Pleyel</tspan></tspan></text><a
        id="a30229"
        xlink:href="/lines/rerD"
        target="_parent"

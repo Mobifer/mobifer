@@ -7,7 +7,7 @@
    viewBox="0 0 755.90542 2335.7466"
    version="1.1"
    id="svg1"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
    sodipodi:docname="rerC.svg"
    xml:space="preserve"
    inkscape:export-filename="../rerC.png"
@@ -29,9 +29,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="0.9969728"
-     inkscape:cx="289.87752"
-     inkscape:cy="1511.5758"
+     inkscape:zoom="1.681883"
+     inkscape:cx="352.28372"
+     inkscape:cy="1280.1128"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
@@ -3198,9 +3198,9 @@
        transform="translate(255.06998,935.23087)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154697"><tspan
+         id="tspan2"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154695">Cluny</tspan></tspan></text><text
+           id="tspan1">Cluny</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3209,9 +3209,9 @@
        transform="translate(280.56598,944.21007)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154701"><tspan
+         id="tspan4"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154699">La Sorbonne</tspan></tspan></text><a
+           id="tspan3">La Sorbonne</tspan></tspan></text><a
        id="a49-5"
        xlink:href="/lines/rerB"
        target="_parent"
@@ -4113,7 +4113,7 @@
        transform="translate(444.13911,376.10558)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154703">Branche</tspan></text><a
+         id="tspan5">Branche</tspan></text><a
        id="a121999"
        xlink:href="/lines/m14"
        target="_parent"
@@ -4135,7 +4135,7 @@
    style="clip-rule:evenodd;fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
 </g></a><a
        id="a127337"
-       xlink:href="/stations.html?station=Pereire"
+       xlink:href="/stations.html?station=Pereire-Levallois"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,498.3419)"
        style="display:inline"><g
@@ -4194,7 +4194,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path133349" /></g><a
        id="a136929"
-       xlink:href="/stations.html?station=Porte+Maillot"
+       xlink:href="/stations.html?station=Neuilly-Porte+Maillot"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,536.13716)"
        style="display:inline"><g
@@ -4401,9 +4401,9 @@
        transform="translate(447.5313,528.7688)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154707"><tspan
+         id="tspan7"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154705">Porte Dauphine</tspan></tspan></text><text
+           id="tspan6">Porte Dauphine</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';letter-spacing:0px;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="558.15521"
@@ -4495,9 +4495,9 @@
        transform="translate(468.73003,603.6378)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154711"><tspan
+         id="tspan9"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154709">La Muette</tspan></tspan></text><text
+           id="tspan8">La Muette</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';letter-spacing:-1.1px;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="558.15521"
@@ -4545,9 +4545,9 @@
        transform="translate(247.05583,641.6378)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154715"><tspan
+         id="tspan11"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154713">Javel</tspan></tspan></text><text
+           id="tspan10">Javel</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -4556,9 +4556,9 @@
        transform="translate(247.03982,650.24122)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154719"><tspan
+         id="tspan13"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154717">André Citroën</tspan></tspan></text><rect
+           id="tspan12">André Citroën</tspan></tspan></text><rect
        style="fill:#25303b;fill-opacity:1;stroke-width:0.341437"
        id="rect209245"
        width="152.08815"
@@ -5235,9 +5235,9 @@
        transform="translate(310.72485,784.24894)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154723"><tspan
+         id="tspan15"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154721">Bir-Hakeim</tspan></tspan></text><rect
+           id="tspan14">Bir-Hakeim</tspan></tspan></text><rect
        style="display:inline;fill:#6e4823;fill-opacity:1;stroke:none;stroke-width:3.30036;stroke-dasharray:none;stroke-opacity:1"
        id="rect396610"
        width="62.675892"
@@ -5290,9 +5290,9 @@
        transform="translate(387.74818,471.7688)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154727"><tspan
+         id="tspan17"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154725">Porte Maillot</tspan></tspan></text><text
+           id="tspan16">Porte Maillot</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -5301,9 +5301,9 @@
        transform="translate(468.73003,432.86104)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154731"><tspan
+         id="tspan19"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154729">Pereire</tspan></tspan></text><g
+           id="tspan18">Pereire</tspan></tspan></text><g
        id="g406908"
        transform="matrix(0.07333451,0,0,0.07333451,308.03142,1002.21)"
        style="display:inline"><path
@@ -5354,9 +5354,9 @@
        transform="translate(310.74884,822.00379)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154735"><tspan
+         id="tspan21"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154733">Alma – Marceau</tspan></tspan></text><rect
+           id="tspan20">Alma – Marceau</tspan></tspan></text><rect
        style="display:inline;fill:none;fill-opacity:1;stroke:#25303b;stroke-width:1.88976;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        id="rect409009"
        width="221.58134"
@@ -5539,9 +5539,9 @@
        transform="translate(310.44485,898.00379)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154739"><tspan
+         id="tspan23"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154737">Solférino</tspan></tspan></text><rect
+           id="tspan22">Solférino</tspan></tspan></text><rect
        style="display:inline;fill:none;fill-opacity:1;stroke:#25303b;stroke-width:1.88976;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        id="rect33043"
        width="138.70343"
@@ -5597,7 +5597,7 @@
          y="1177.1917"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Gare d’Austerlitz</tspan></text><a
        id="a48096"
-       xlink:href="/stations.html?station=Gare+dAusterlitz"
+       xlink:href="/stations.html?station=Paris-Austerlitz"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,1045.7874)"
        style="display:inline"><g
@@ -5678,7 +5678,7 @@
          transform="translate(60.051613,895.95033)"><tspan
            x="43.212147"
            y="209.78712"
-           id="tspan154741">Grandes</tspan></text><text
+           id="tspan24">Grandes</tspan></text><text
          xml:space="preserve"
          style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:36.7828;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
          x="43.212147"
@@ -5687,7 +5687,7 @@
          transform="translate(60.051613,905.95033)"><tspan
            x="43.212147"
            y="209.78712"
-           id="tspan154743">Lignes</tspan></text></g><a
+           id="tspan25">Lignes</tspan></text></g><a
        id="a55978"
        xlink:href="/lines/m10"
        target="_parent"
@@ -5810,7 +5810,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path60458" /></g><a
        id="a64932"
-       xlink:href="/stations.html?station=Boulainvilliers"
+       xlink:href="/stations.html?station=Avenue+Henri-Martin"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,630.62536)"
        style="display:inline"><g
@@ -5880,9 +5880,9 @@
        transform="translate(468.73003,566.78742)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154747"><tspan
+         id="tspan27"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154745">Rue de la Pompe</tspan></tspan></text><g
+           id="tspan26">Rue de la Pompe</tspan></tspan></text><g
        id="g44821"
        transform="matrix(0.07333451,0,0,0.07333451,228.66135,1198.7449)"
        style="display:inline"><path
@@ -5898,9 +5898,9 @@
        transform="translate(231.18677,1019.0884)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154751"><tspan
+         id="tspan29"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154749">Avenue</tspan></tspan></text><text
+           id="tspan28">Avenue</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -5909,9 +5909,9 @@
        transform="translate(231.18677,1027.8724)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154755"><tspan
+         id="tspan31"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154753">de France</tspan></tspan></text><text
+           id="tspan30">de France</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="398.70203"
@@ -5948,9 +5948,9 @@
        transform="translate(310.25285,1065.2309)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154759"><tspan
+         id="tspan33"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154757">Mairie d’Ivry</tspan></tspan></text><text
+           id="tspan32">Mairie d’Ivry</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="399.91803"
@@ -6152,9 +6152,9 @@
        transform="translate(310.33285,1193.2309)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154763"><tspan
+         id="tspan35"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154761">Rouget</tspan></tspan></text><text
+           id="tspan34">Rouget</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -6163,9 +6163,9 @@
        transform="translate(310.55685,1203.2309)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154767"><tspan
+         id="tspan37"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154765">de Lisle</tspan></tspan></text><g
+           id="tspan36">de Lisle</tspan></tspan></text><g
        id="g120546"
        transform="matrix(0.07333451,0,0,0.07333451,244.34639,1524.4145)"
        style="display:inline"><path
@@ -6304,9 +6304,9 @@
        transform="translate(246.56809,1419.51)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154771"><tspan
+         id="tspan39"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154769">Thiais – Orly</tspan></tspan></text><text
+           id="tspan38">Thiais – Orly</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="198.42212"
@@ -7857,9 +7857,9 @@
        transform="translate(231.37046,935.23087)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154775"><tspan
+         id="tspan41"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan154773">Saint-Michel</tspan></tspan></text><g
+           id="tspan40">Saint-Michel</tspan></tspan></text><g
        id="g11464"
        transform="matrix(0.07333451,0,0,0.07333451,244.34639,343.39133)"
        style="display:inline"><path
@@ -7885,7 +7885,7 @@
        transform="translate(444.70711,386.10557)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154777">Asnières – Genn.</tspan></text><text
+         id="tspan42">Asnières – Genn.</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -7894,7 +7894,7 @@
        transform="translate(310.47157,1620.9215)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154779">Grandes</tspan></text><text
+         id="tspan43">Grandes</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -7903,7 +7903,7 @@
        transform="translate(303.31956,1628.9215)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan154781">Lignes</tspan></text><a
+         id="tspan44">Lignes</tspan></text><a
        id="a2461-6"
        xlink:href="/stations.html?station=Pontoise"
        target="_parent"

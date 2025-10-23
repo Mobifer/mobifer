@@ -29,9 +29,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="0.83715575"
-     inkscape:cx="388.21928"
-     inkscape:cy="892.30708"
+     inkscape:zoom="2.2012302"
+     inkscape:cx="386.37485"
+     inkscape:cy="85.406787"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
@@ -5006,11 +5006,11 @@
        transform="translate(-1.3998454,-174.57079)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan8">Grandes
+         id="tspan1">Grandes
 </tspan><tspan
          x="43.212147"
          y="219.78712"
-         id="tspan9">Lignes</tspan></text><rect
+         id="tspan2">Lignes</tspan></text><rect
        style="display:inline;fill:#25303b;fill-opacity:1;stroke-width:0.108543"
        id="rect73079-2"
        width="126.60658"
@@ -5226,9 +5226,9 @@
        transform="translate(101.41725,-152.00204)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan11"><tspan
+         id="tspan4"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan10">Saint</tspan></tspan></text><text
+           id="tspan3">Saint</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -5237,9 +5237,9 @@
        transform="translate(108.70524,-143.40466)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan14"><tspan
+         id="tspan6"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan12">Augustin</tspan></tspan></text><a
+           id="tspan5">Augustin</tspan></tspan></text><a
        id="a17190"
        xlink:href="/lines/m14"
        target="_parent"
@@ -5261,7 +5261,7 @@
    style="clip-rule:evenodd;fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
 </g></a><a
        id="a245"
-       xlink:href="/stations.html?station=Saint-Lazare"
+       xlink:href="/stations.html?station=Paris-Saint-Lazare"
        target="_parent"><path
          class="st0"
          d="m 386.26633,52.91338 h -16.62725 c -3.7542,0 -6.80448,-3.05029 -6.80448,-6.80448 V 29.48164 c 0,-3.75419 3.05028,-6.80448 6.80448,-6.80448 h 16.62725 c 3.7542,0 6.80448,3.05029 6.80448,6.80448 V 46.1089 c 0,3.75419 -3.05028,6.80448 -6.80448,6.80448"

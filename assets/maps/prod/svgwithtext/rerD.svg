@@ -7,7 +7,7 @@
    viewBox="0 0 755.90542 1961.5744"
    version="1.1"
    id="svg1"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
    sodipodi:docname="rerD.svg"
    xml:space="preserve"
    inkscape:export-filename="../rerB.pdf"
@@ -30,8 +30,8 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      inkscape:zoom="1.1553272"
-     inkscape:cx="425.85339"
-     inkscape:cy="747.84011"
+     inkscape:cx="426.28616"
+     inkscape:cy="645.70452"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
@@ -3701,7 +3701,7 @@
        transform="translate(157.4617,316.38776)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan176712">Branche</tspan></text><text
+         id="tspan15">Branche</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3710,7 +3710,7 @@
        transform="translate(157.2217,325.266)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan176714">Saint-Denis</tspan></text><text
+         id="tspan16">Saint-Denis</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3719,9 +3719,9 @@
        transform="translate(157.66971,306.47577)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan176718"><tspan
+         id="tspan18"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan176716">Carr. Pleyel</tspan></tspan></text><a
+           id="tspan17">Carr. Pleyel</tspan></tspan></text><a
        id="a76103"
        xlink:href="/lines/m14"
        target="_parent"
@@ -3750,9 +3750,9 @@
        transform="translate(245.02554,318.47577)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan176722"><tspan
+         id="tspan20"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan176720">Saint-Denis – Pleyel</tspan></tspan></text><text
+           id="tspan19">Saint-Denis – Pleyel</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="399.43799"
@@ -3764,7 +3764,7 @@
          y="569.42847"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Gare du Nord</tspan></text><a
        id="a221921-3"
-       xlink:href="/stations.html?station=Gare+du+Nord"
+       xlink:href="/stations.html?station=Paris-Nord"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,438.02445)"
        style="display:inline"><g
@@ -3789,9 +3789,9 @@
        transform="translate(315.94315,372.89699)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan176726"><tspan
+         id="tspan22"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan176724">Magenta</tspan></tspan></text><a
+           id="tspan21">Magenta</tspan></tspan></text><a
        id="a53-3"
        xlink:href="/lines/m05"
        target="_parent"
@@ -3978,9 +3978,9 @@
        transform="translate(102.68248,372.89699)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan176730"><tspan
+         id="tspan24"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan176728">La Chapelle</tspan></tspan></text><text
+           id="tspan23">La Chapelle</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:64.7999;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3989,11 +3989,11 @@
        transform="translate(23.167251,351.21428)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan176732">Grandes
+         id="tspan25">Grandes
 </tspan><tspan
          x="43.212147"
          y="219.78712"
-         id="tspan176734">Lignes</tspan></text><a
+         id="tspan26">Lignes</tspan></text><a
        id="a49-5"
        xlink:href="/lines/rerB"
        target="_parent"
@@ -4176,7 +4176,7 @@
          y="626.12262"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Châtelet – Les Halles</tspan></text><a
        id="a24396-8"
-       xlink:href="/stations.html?station=Chatelet"
+       xlink:href="/stations.html?station=Chatelet-Les+Halles"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,494.71861)"
        style="display:inline"><g
@@ -4323,11 +4323,11 @@
        transform="translate(96.387851,464.24307)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan176736">Grandes
+         id="tspan27">Grandes
 </tspan><tspan
          x="43.212147"
          y="219.78712"
-         id="tspan176738">Lignes</tspan></text><g
+         id="tspan28">Lignes</tspan></text><g
        id="g33629"
        transform="matrix(0.07333451,0,0,0.07333451,173.85724,666.57246)"
        style="display:inline"><path

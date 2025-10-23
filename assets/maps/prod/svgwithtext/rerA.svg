@@ -7,7 +7,7 @@
    viewBox="0 0 755.90542 1715.905"
    version="1.1"
    id="svg1"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
    sodipodi:docname="rerA.svg"
    xml:space="preserve"
    inkscape:export-filename="../rerA.pdf"
@@ -29,15 +29,15 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="0.60214669"
-     inkscape:cx="63.107547"
-     inkscape:cy="848.63043"
+     inkscape:zoom="2.10494"
+     inkscape:cx="370.79441"
+     inkscape:cy="876.50952"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true" /><defs
      id="defs1"><rect
@@ -2331,11 +2331,11 @@
        transform="translate(96.387849,683.29843)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan109648">Grandes
+         id="tspan1">Grandes
 </tspan><tspan
          x="43.212147"
          y="219.78712"
-         id="tspan109650">Lignes</tspan></text><text
+         id="tspan2">Lignes</tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';display:inline;fill:#25303b;fill-opacity:1;stroke-width:1.88976"
        x="471.72119"
@@ -2370,9 +2370,9 @@
        transform="translate(310.55685,485.73405)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan109654"><tspan
+         id="tspan4"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan109652">Nanterre</tspan></tspan></text><path
+           id="tspan3">Nanterre</tspan></tspan></text><path
        style="display:inline;fill:#25303b;stroke:#25303b;stroke-width:0.755905;stroke-linecap:square;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 422.88941,748.62004 H 755.5274"
        id="path26667" /><text
@@ -3223,9 +3223,9 @@
        transform="translate(310.55685,494.916)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan109658"><tspan
+         id="tspan6"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan109656">La Folie</tspan></tspan></text><g
+           id="tspan5">La Folie</tspan></tspan></text><g
        id="g2-6"
        transform="matrix(0.07333451,0,0,0.07333451,94.487566,719.32871)"
        style="display:inline"><path
@@ -3788,9 +3788,9 @@
        transform="translate(310.72485,615.73399)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan109662"><tspan
+         id="tspan8"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan109660">Haussmann</tspan></tspan></text><text
+           id="tspan7">Haussmann</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3799,9 +3799,9 @@
        transform="translate(310.55685,625.60109)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan109666"><tspan
+         id="tspan10"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan109664">Saint-Lazare</tspan></tspan></text><text
+           id="tspan9">Saint-Lazare</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3810,9 +3810,9 @@
        transform="translate(255.75338,615.73399)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan109670"><tspan
+         id="tspan12"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan109668">Havre</tspan></tspan></text><text
+           id="tspan11">Havre</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3821,9 +3821,9 @@
        transform="translate(255.92138,625.60109)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan109674"><tspan
+         id="tspan14"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan109672">Caumartin</tspan></tspan></text><text
+           id="tspan13">Caumartin</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="399.43799"
@@ -3835,7 +3835,7 @@
          y="864.07458"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Châtelet – Les Halles</tspan></text><a
        id="a24396"
-       xlink:href="/stations.html?station=Chatelet"
+       xlink:href="/stations.html?station=Chatelet-Les+Halles"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,732.67042)"
        style="display:inline"><g
@@ -4194,9 +4194,9 @@
        transform="translate(310.74884,781.7339)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan109678"><tspan
+         id="tspan16"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan109676">Château</tspan></tspan></text><text
+           id="tspan15">Château</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -4205,9 +4205,9 @@
        transform="translate(310.47685,791.601)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan109682"><tspan
+         id="tspan18"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan109680">de Vincennes</tspan></tspan></text><path
+           id="tspan17">de Vincennes</tspan></tspan></text><path
        style="fill:none;fill-opacity:1;stroke:#ff1400;stroke-width:22.6772;stroke-dasharray:none;stroke-opacity:1"
        d="m 219.77979,1160.6768 v 314.1575"
        id="path53629" /><path
