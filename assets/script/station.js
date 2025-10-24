@@ -300,7 +300,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		if (station.siv && station.siv.length > 0) {
 			const transportTypes = {
 				metro: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro" title="Métro"></span> <div class="btn-group" title="Modifiez le style des SIEL"><button onclick="switchToPANAM();"><img src="/assets/icons/panam.svg" alt="PANAM" style="height: 1.25em;" id="panam"></button><button onclick="switchToPIQ();"><img src="/assets/icons/piq.svg" alt="PIQ" style="height: 1.25em;" id="piq"></button><button onclick="switchToPIQDark();"><img src="/assets/icons/piq.svg" alt="PIQ" style="height: 1.25em;" id="piq"> (sombre)</button></div>' },
-				train: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_RER_RVB.svg" alt="RER" title="RER"></span> et <span class="integrated"><img src="/assets/icons/symbole_train_RVB.svg" alt="Transilien" title="Transilien"></span>' },
+				train: { items: [], title: 'Prochains passages <span class="integrated" style="margin-right: 0px !important;"><img src="/assets/icons/symbole_RER_RVB.svg" alt="RER" title="RER"></span> et <span class="integrated"><img src="/assets/icons/symbole_train_RVB.svg" alt="Transilien" title="Transilien"></span>' },
 				tram: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_tram_RVB.svg" alt="Tramway" title="Tramway"></span>' }
 			};
 
@@ -407,16 +407,25 @@ document.addEventListener("DOMContentLoaded", function () {
 				lignesListe.forEach(ligne => {
 					if (prochainsArrets[ligne]?.length) {
 						let precedent = prochainsArrets[ligne][0];
-						let precedentId = "#";
+						let precedentId = [];
 						let suivant = prochainsArrets[ligne][1];
-						let suivantId = "#";
+						let suivantId = [];
 
 						if (precedent != "Terminus" && !Array.isArray(precedent)) {
-							precedentId = "/stations.html?station=" + precedent.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "");
+							precedentId = ["/stations.html?station=" + precedent.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "")];
+						} else if (Array.isArray(precedent)) {
+							precedent.forEach(station => {
+								precedentId.push("/stations.html?station=" + station.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, ""));
+							})
 						}
 
-						if (suivant != "Terminus" && !Array.isArray(suivant))
-							suivantId = "/stations.html?station=" + suivant.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "");
+						if (suivant != "Terminus" && !Array.isArray(suivant)) {
+							suivantId = ["/stations.html?station=" + suivant.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "")];
+						} else if (Array.isArray(suivant)) {
+							suivant.forEach(station => {
+								suivantId.push("/stations.html?station=" + station.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, ""));
+							})
+						}
 
 						let pictos = ""; 
 
@@ -442,8 +451,8 @@ document.addEventListener("DOMContentLoaded", function () {
 						containerHTML += `<tr><td class="title" style="font-size: 1.2em; text-align: center !important; width: 50%;" colspan="2">${pictos}</td></tr>`;
 
 						if (Array.isArray(precedent)) {
-							precedent.forEach(prec => {
-								containerHTML += `<tr><td class="title" style="width: 50%;">${terminusAller[precedent.indexOf(prec)]}</td><td><a href="${precedentId}">${prec}</a></td></tr>`;
+							precedent.forEach((prec, i) => {
+								containerHTML += `<tr><td class="title" style="width: 50%;">${terminusAller[precedent.indexOf(prec)]}</td><td><a href="${precedentId[i]}">${prec}</a></td></tr>`;
 							});
 						} else {
 							if (Array.isArray(terminusAller))
@@ -452,8 +461,8 @@ document.addEventListener("DOMContentLoaded", function () {
 						}
 						
 						if (Array.isArray(suivant)) {
-							suivant.forEach(suiv => {
-								containerHTML += `<tr><td class="title">${terminusRetour[suivant.indexOf(suiv)]}</td><td><a href="${suivantId}">${suiv}</a></td></tr>`;
+							suivant.forEach((suiv, i) => {
+								containerHTML += `<tr><td class="title">${terminusRetour[suivant.indexOf(suiv)]}</td><td><a href="${suivantId[i]}">${suiv}</a></td></tr>`;
 							});
 						} else {
 							if (Array.isArray(terminusRetour))
@@ -493,8 +502,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 				// La carte doit être centrée sur la station de la page
 				// On compare le nom de la station de la page (station.nom), normalisé, sans accent, avec les noms des stations de la carte
-				const stationName = station.nom.normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "").replaceAll(" – ", "-").toLowerCase();
-				const stationPosition = data.features.find(feature => feature.properties.zdaname.normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "").replaceAll(" – ", "-").toLowerCase() === stationName);
+				const stationName = station.nom.normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "").replaceAll(" – ", " ").replaceAll("-", " ").toLowerCase();
+				const stationPosition = data.features.find(feature => feature.properties.zdaname.normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "").replaceAll(" – ", "-").replaceAll("-", " ").toLowerCase() === stationName);
 				if (stationPosition) {
 					map.setView([stationPosition.geometry.coordinates[1], stationPosition.geometry.coordinates[0]], 17);
 				} else {
