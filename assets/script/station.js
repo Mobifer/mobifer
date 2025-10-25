@@ -263,7 +263,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 			// Affichage des lignes si elles existent
 			if (stats.lignes) {
-				html += `<tr><td class="title" style= "width: 35%;">Ligne(s)</td><td style="font-size: 1.4em;">${lignesTable}</td></tr>`;
+				html += `<tr><td class="title" style= "width: 45%;">Ligne(s)</td><td style="font-size: 1.4em;">${lignesTable}</td></tr>`;
 			}
 
 			// Affichage des autres données de la station
@@ -448,7 +448,7 @@ document.addEventListener("DOMContentLoaded", function () {
 						containerHTML += `<div style="flex: 1;">`;
 						containerHTML += `<table style="text-align: left; min-width: 200px;">`;
 						// Ligne de titre
-						containerHTML += `<tr><td class="title" style="font-size: 1.2em; text-align: center !important; width: 50%;" colspan="2">${pictos}</td></tr>`;
+						containerHTML += `<tr><td class="title" style="font-size: 1.2em; text-align: center !important; width: 50%;">Direction</td><td class="title" style="font-size: 1.2em; text-align: center !important; width: 50%;">${pictos}</td></tr>`;
 
 						if (Array.isArray(precedent)) {
 							precedent.forEach((prec, i) => {

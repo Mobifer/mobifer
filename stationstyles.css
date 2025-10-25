@@ -233,6 +233,7 @@ a {
 	color: white;
 	text-align: right;
 	font-weight: bold;
+	word-break: keep-all;
 }
 
 /* Coins arrondis */
