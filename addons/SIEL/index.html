@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+  	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>PANAM</title>
+		<style>
+			:root {
+				--entete: 28.8vh;
+				--pied: 7.2vh;
+				--bezel: 3.67vw;
+				--picto: 24.8vh;
+				--ecran-height: calc(100% - var(--entete) - var(--pied));
+				--ecran-width: calc(100% - 2 * var(--bezel));
+				--jaune: #ffbe00;
+			}
+
+			@font-face {
+				font-family: "Parisine";
+				src: url("assets/Parisine-Regular.otf");
+				font-weight: normal;
+			}
+
+			@font-face {
+				font-family: "Parisine";
+				src: url("assets/Parisine-Bold.otf");
+				font-weight: bold;
+			}
+
+			html, body {
+				height: 100%;
+				margin: 0;
+				overflow: hidden;
+				font-family: "Parisine";
+			}
+			sup {
+				vertical-align: top;
+				position: relative;
+				top: -0.1em;
+			}
+			#panam {
+				width: 100%;
+				height: 100%;
+				background-color: #111111;
+				overflow: hidden;
+			}
+			#entete {
+				display: flex;
+				align-items: center;
+				gap: calc(var(--picto) * 0.15);
+				padding-left: var(--bezel);
+				padding-right: var(--bezel);
+				height: var(--entete);
+				background-color: rgb(255, 254, 248);
+				font-weight: bold;
+				overflow: hidden;
+			}
+			#pied {
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+				height: var(--pied);
+				background-color: rgb(100, 0, 0);
+			}
+			.bezel {
+				position: absolute;
+				top: var(--entete);
+				background-color: black;
+				width: var(--bezel);
+				height: calc(100% - var(--entete) - var(--pied));
+			}
+			.bezel-l {
+				left: 0;
+			}
+			.bezel-r {
+				right: 0;
+			}
+			.metro, .picto {
+				width: var(--picto);
+				height: var(--picto);
+			}
+			#panam-destination {
+				font-weight: bold;
+				color: #0a0082;
+				font-size: calc(var(--entete) * 0.7);
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: clip;
+				padding-left: calc(var(--entete) * 0.1);
+			}
+			#heure {
+				position: absolute;
+				top: calc(var(--entete) * 1.05);
+				right: calc(var(--bezel) * 1.5);
+				font-weight: normal;
+				color: var(--jaune);
+				background-color: /*#111111*/ #111111;
+				padding-left: calc(var(--entete) * 0.1);
+				padding-right: calc(var(--entete) * 0.1);
+				padding-top: calc(var(--entete) * 0.05);
+				padding-bottom: calc(var(--entete) * 0.01);
+				font-size: calc(var(--entete) * 0.32);
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: clip;
+				text-align: center;
+			}
+			#colon {
+				transition: opacity 0s linear; /* durées à ajuster selon ton style */
+			}
+			#ecran {
+				position: absolute;
+				top: var(--entete);
+				left: var(--bezel);
+				width: var(--ecran-width);
+				height: var(--ecran-height);
+				overflow: hidden;
+			}
+			.indispo {
+				font-weight: bold;
+				color: #ffffff;
+				font-size: calc(var(--entete) * 0.4);
+				overflow: hidden;
+				text-overflow: clip;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				white-space: nowrap;
+				text-align: center;
+				background-color: #111111;
+				padding: calc(var(--entete) * 0.5);
+			}
+			.premier-train, .deuxieme-train {
+				color: #ffffff;
+				font-size: calc(var(--entete) * 0.2);
+				position: absolute;
+				/* top: calc(var(--entete) * 1.05); */
+				bottom: calc(100% - var(--entete) * 1.05 - var(--entete) * 0.32 - var(--entete) * 0.05 - var(--entete) * 0.03);
+				overflow: hidden;
+				text-overflow: clip;
+				white-space: nowrap;
+				text-align: center;
+			}
+			.premier-train {
+				left: calc(var(--bezel) * 1.5);
+			}
+			.deuxieme-train {
+				left: calc((var(--ecran-width) / 2) + var(--bezel) * 1.5);
+			}
+			#moitie-gauche {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 50%;
+				height: 100%;
+				/* background-color: #0a0082; */
+				--translation-pourcent : -110%;
+			}
+			#moitie-gauche::after {
+				content: "";
+				position: absolute;
+				top: 35%;
+				right: -1vw;
+				width: 0.75vw;
+				height: 45%;
+				border-radius: 10px;
+				background-color: white;
+			}
+			#moitie-droite {
+				position: absolute;
+				top: 0;
+				left: 50%;
+				width: 50%;
+				height: 100%;
+				/* background-color: #ff0000; */
+				--translation-pourcent : -100%;
+			}
+			#moitie-droite::after {
+				content: "";
+				position: absolute;
+				top: 35%;
+				right: -1vw;
+				width: 0.75vw;
+				height: 45%;
+				border-radius: 10px;
+				background-color: white;
+			}
+			#moitie-cachee {
+				position: absolute;
+				top: 0;
+				left: 100%;
+				width: 50%;
+				height: 100%;
+				/* background-color: #ff0000; */
+				--translation-pourcent : -100%;
+			}
+			#moitie-cachee::after {
+				content: "";
+				position: absolute;
+				top: 35%;
+				right: -1vw;
+				width: 0.75vw;
+				height: 45%;
+				border-radius: 10px;
+				background-color: white;
+			}
+			.passage1, .passage2, .passage3, .passage4, .passage5 {
+				color: var(--jaune);
+				font-weight: bold;
+				font-size: calc(var(--entete) * 1.25);
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -40%);
+				overflow: hidden;
+				text-overflow: clip;
+				white-space: nowrap;
+				text-align: center;
+			}
+			.separateur {
+				color: #ffffff;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -40%);
+				overflow: hidden;
+			}
+			@keyframes pulseScale {
+				0% {
+					transform: translate(-50%, -40%) scale(1);
+				}
+				50% {
+					transform: translate(-50%, -40%) scale(0.9);
+				}
+				99.9% {
+					transform: translate(-50%, -40%) scale(1.1);
+				}
+				100% {
+					transform: translate(-50%, -40%) scale(1);
+				}
+			}
+			.passage1.pulse, .passage2.pulse, .passage3.pulse, .passage4.pulse, .passage5.pulse {
+				animation: pulseScale 3s ease-in-out;
+			}
+			@keyframes translation {
+				0% {
+					transform: translateX(0);
+				}
+				100% {
+					transform: translateX(var(--translation-pourcent));
+				}
+			}
+			#moitie-gauche.translation, #moitie-droite.translation, #moitie-cachee.translation {
+				animation: translation 2s ease-in-out;
+			}
+		</style>
+  	</head>
+  	<body>
+		<div id="panam">
+			<div id="entete">
+				<img class="metro" src="assets/metro.svg" />
+			</div>
+			<div class="bezel bezel-l"></div>
+			<div class="bezel bezel-r"></div>
+			<div id="ecran">
+				<div id="moitie-gauche"></div>
+				<div id="moitie-droite"></div>
+				<div id="moitie-cachee"></div>
+			</div>
+			<div id="heure"><span id="hours"></span><span id="colon">:</span><span id="minutes"></span></div>
+			<div id="pied"></div>
+		</div>
+		<script src="script/panam.js" type="module"></script>
+  </body>
+</html>
