@@ -328,7 +328,7 @@ document.addEventListener("DOMContentLoaded", function () {
 							html += `<iframe src="${link.train}" class="sncf" frameborder="0" scrolling="no"></iframe>`;
 						}
 						if (type === 'tram' && link.tram) {
-							html += `<iframe src="/addons/sieltram.html?stop=${link.tram}&line=${link.line}" class="tram"></iframe>`;
+							html += `<iframe src="/addons/SIEL/tram.html?stop=${link.tram}&line=${link.line}" class="tram"></iframe>`;
 						}
 					});
 					
