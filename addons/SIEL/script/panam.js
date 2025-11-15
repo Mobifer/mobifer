@@ -44,15 +44,34 @@ const ALLER = {
 	"4": "Bagneux",
 	"5": "Place d\u2019Italie",
 	"6": "Étoile",
-	"7": "Ivry \u2022 Villejuif",
+	"7": "Villejuif \u2022 Ivry",
 	"7b": "Louis Blanc",
 	"8": "Créteil",
-	"9": "Mairie de Montreuil",
+	"9": "Montreuil",
 	"10": "Gare d\u2019Austerlitz",
 	"11": "Châtelet",
 	"12": "Aubervilliers",
-	"13": "Asnières\u2013Gennevilliers \u2022 Saint-Denis",
+	"13": "Saint-Denis<br>Asnières\u2013Gennevilliers",
 	"14": "Aéroport d\u2019Orly"
+}
+
+const ALLER_VRAIS = {
+	"1": "La Défense",
+	"2": "Porte Dauphine",
+	"3": "Pont de Levallois-Bécon",
+	"3b": "Gambetta",
+	"4": "Bagneux",
+	"5": "Place d'Italie",
+	"6": "Étoile",
+	"7": "Villejuif \u2022 Ivry",
+	"7b": "Louis Blanc",
+	"8": "Créteil",
+	"9": "Montreuil",
+	"10": "Gare d'Austerlitz",
+	"11": "Châtelet",
+	"12": "Aubervilliers",
+	"13": "Saint-Denis Asnières-Gennevilliers",
+	"14": "Aéroport d'Orly"
 }
 
 const RETOUR = {
@@ -67,10 +86,10 @@ const RETOUR = {
 	"7b": "Pré-Saint-Gervais",
 	"8": "Balard",
 	"9": "Pont de Sèvres",
-	"10": "Boulogne\u2013Pont de Saint-Cloud",
+	"10": "Boulogne<br>Pont de Saint-Cloud",
 	"11": "Rosny-sous-Bois",
 	"12": "Mairie d\u2019Issy",
-	"13": "Châtillon\u2013Montrouge",
+	"13": "Châtillon",
 	"14": "Saint-Denis\u2013Pleyel"
 }
 
@@ -139,9 +158,15 @@ function handleDirection(ligne) {
 
 	const entete = document.getElementById("entete");
 
+	const terminus = (sens === "a") ? ALLER[ligne] : RETOUR[ligne];
+
 	let destination = document.createElement("div");
 	destination.id = "panam-destination";
-	destination.textContent = (sens === "a") ? ALLER[ligne] : RETOUR[ligne];
+
+	if (terminus.includes("<br>")) {
+		destination.classList.add("deux-lignes");
+	}
+	destination.innerHTML = (sens === "a") ? ALLER[ligne] : RETOUR[ligne];
 
 	entete.appendChild(destination);
 }
@@ -153,7 +178,9 @@ function handlePassages() {
 
 	requestTime(stop).then(passages => {
 		console.log(passages);
+
 		const ecran = document.getElementById("ecran");
+		let hasPartiel = false;
 
 		if (!passages || passages.length == 0) {
 			const passageP = document.createElement("span");
@@ -165,20 +192,132 @@ function handlePassages() {
 			return;
 		};
 
+		const destination = document.getElementById("panam-destination");
+
+		/* for (let i = 0; i < 2; i++) {
+			if (passages[i].MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0]
+					.value
+					.normalize("NFD")
+					.replaceAll("'", " ")
+					.replaceAll(" - ", "")
+					.replaceAll("-", "")
+				!== destination.textContent
+					.normalize("NFD")
+					.replaceAll("'", " ")
+					.replaceAll("\u2019", " ")
+					.replaceAll("\u2013", "")
+					.replaceAll("-", "")) {
+				hasPartiel = true;
+				break;
+			}
+		} */
+
 		// Créer les éléments uniquement s'ils n'existent pas
-		if (!document.querySelector('.premier-train')) {
+		if (!document.querySelector('.premier-train') && !hasPartiel) {
 			let premierTrain = document.createElement("span");
 			premierTrain.classList.add("premier-train");
 			premierTrain.innerHTML = `1<sup>er</sup> métro`;
 			panam.appendChild(premierTrain);
 		}
 
-		if (!document.querySelector('.deuxieme-train')) {
+		if (!document.querySelector('.deuxieme-train') && !hasPartiel) {
 			let deuxiemeTrain = document.createElement("span");
 			deuxiemeTrain.classList.add("deuxieme-train");
 			deuxiemeTrain.innerHTML = `2<sup>e</sup> métro`;
 			panam.appendChild(deuxiemeTrain);
 		}
+
+		/* if (hasPartiel) {
+			// Pour couvrir le trait de séparation
+			// Il a été créé avec un pseudo-élément mais JS ne peut pas le modifier
+			const couverture = document.createElement("div");
+			couverture.classList.add("couverture");
+			ecran.appendChild(couverture);
+
+			for (let i = 0; i < 3; i++) {
+				let passage = passages[i];
+				let depart = passage.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime ? passage.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime : null;
+				let minutes = depart ? Math.max(Math.ceil((Date.parse(depart) - Date.now())/1000/60), 0) : -1;
+				if (i === 1 && minutes === 0) minutes = 1;
+				prochains[i] = minutes;
+				console.log(minutes);
+
+				let rectangleDiv = document.querySelector(`.rectangle${i+1}`);
+				let tempsDiv = document.querySelector(`.temps-partiel${i+1}`);
+
+				if (!rectangleDiv) {
+					rectangleDiv = document.createElement("div");
+					rectangleDiv.classList.add(`rectangle${i+1}`);
+					ecran.appendChild(rectangleDiv);
+
+					const destinationSpan = document.createElement("span");
+					destinationSpan.innerHTML = passages[i].MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value
+						.replaceAll("'", "\u2019")
+						.replaceAll(" - ", "\u2013");
+					rectangleDiv.appendChild(destinationSpan);
+
+					const tempsSpan = document.createElement("span");
+					tempsSpan.classList.add(`temps-partiel${i+1}`);
+					rectangleDiv.appendChild(tempsSpan);
+
+					// Ajout des minutes dans temps
+					const minutesSpan = document.createElement("span");
+					minutesSpan.innerHTML = minutes;
+					tempsSpan.appendChild(minutesSpan);
+
+					if (minutes === 0) {
+						minutesSpan.classList.add("zero-sync");
+					} else {
+						minutesSpan.classList.remove("zero-sync");
+						minutesSpan.style.opacity = "1"; // Réinitialise l'opacité
+					}
+				} else {
+					// Vérifier le départ d'un train
+					const ancienneValeur = tempsDiv.querySelector("span").textContent;
+					const nouvelleValeur = String(minutes);
+
+					if (i === 0 && ancienneValeur === "0" && minutes > Number(ancienneValeur)) {
+						isTranslating = true;
+
+						// Prépare le 3e rectangle
+						const rectangle3 = document.querySelector(".rectangle3");
+						const temps3 = document.querySelector(".temps-partiel3");
+						if (rectangle3 && temps3) {
+							const dest3Span = rectangle3.querySelector("span:first-child");
+							const temps3Span = temps3.querySelector("span");
+							dest3Span.innerHTML = passages[2].MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.replaceAll("'", "\u2019").replaceAll(" - ", "\u2013");
+							temps3Span.innerHTML = prochains[2];
+						}
+
+						// Animation verticale
+						[".rectangle1", ".rectangle2", ".rectangle3"].forEach(selector => {
+							const rect = document.querySelector(selector);
+							if (rect) {
+								rect.classList.remove('translation');
+								void rect.offsetWidth; // Force reflow
+								rect.classList.add('translation');
+							}
+						});
+
+						// Après l'animation, mettre à jour les temps
+						setTimeout(() => {
+							const rect1 = document.querySelector(".rectangle1");
+							const rect2 = document.querySelector(".rectangle2");
+							const temps1Span = document.querySelector(".temps-partiel1 span");
+							const temps2Span = document.querySelector(".temps-partiel2 span");
+							const dest1Span = rect1.querySelector("span:first-child");
+							const dest2Span = rect2.querySelector("span:first-child");
+
+							dest1Span.innerHTML = passages[1].MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.replaceAll("'", "\u2019").replaceAll(" - ", "\u2013");
+							dest2Span.innerHTML = passages[2].MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.replaceAll("'", "\u2019").replaceAll(" - ", "\u2013");
+
+							
+						}, 2000);
+					}
+				}
+			}
+			return;
+		} */
 
 		const moitieGauche = document.getElementById("moitie-gauche");
 		const moitieDroite = document.getElementById("moitie-droite");
@@ -199,14 +338,14 @@ function handlePassages() {
 					// Créer l'élément s'il n'existe pas
 					passageDiv = document.createElement("div");
 					passageDiv.classList.add(`passage${i+1}`);
-					passageDiv.textContent = minutes >= 0 ? minutes : "...";
+					passageDiv.textContent = minutes >= 0 ? (minutes < 60 ? String(minutes) : `${Math.floor(minutes/60)}h${minutes%60}`) : "...";
 					if (i === 0) moitieGauche.appendChild(passageDiv);
 					else if (i === 1) moitieDroite.appendChild(passageDiv);
 					else if (i === 2) moitieCachee.appendChild(passageDiv);
 				} else {
 					// Vérifier si la valeur a changé
 					const ancienneValeur = passageDiv.textContent;
-					const nouvelleValeur = minutes >= 0 ? String(minutes) : "...";
+					const nouvelleValeur = minutes >= 0 ? (minutes < 60 ? String(minutes) : `${Math.floor(minutes/60)}h${minutes%60}`) : "...";
 
 					if (ancienneValeur === "0" && minutes > Number(ancienneValeur)) {
 						hasChanged = true;
@@ -329,34 +468,3 @@ handleDirection(ligne);
 
 setInterval(handlePassages, 30000);
 handlePassages();
-
-/* if (ancienneValeur === "0" && minutes > Number(ancienneValeur)) {
-	hasChanged = true;
-	isTranslating = true;
-
-	// Lance l'animation de translation
-	[moitieGauche, moitieDroite, moitieCachee].forEach(m => {
-		m.classList.remove('translation');
-		void m.offsetWidth; // Force reflow
-		m.classList.add('translation');
-	});
-
-
-	passageDiv.style.opacity = "1";
-	setTimeout(() => {
-		if (ancienneValeur !== nouvelleValeur) {
-			hasChanged = true;
-			// Lancer l'animation
-			passageDiv.classList.remove('pulse');
-			void passageDiv.offsetWidth; // Force reflow
-			passageDiv.classList.add('pulse');
-			passageDiv.style.opacity = "1";
-			
-			// Change la valeur après l'animation
-			setTimeout(() => {
-				passageDiv.textContent = nouvelleValeur;
-				isTranslating = false;
-			}, 3000);
-		}
-	}, 2050)
-} */

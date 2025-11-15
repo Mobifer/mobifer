@@ -87,6 +87,10 @@
 				overflow: hidden;
 				text-overflow: clip;
 				padding-left: calc(var(--entete) * 0.1);
+				max-width: 100%;
+			}
+			#panam-destination.deux-lignes {
+				font-size: calc(var(--entete) * 0.4);
 			}
 			#heure {
 				position: absolute;
@@ -253,6 +257,77 @@
 			}
 			#moitie-gauche.translation, #moitie-droite.translation, #moitie-cachee.translation {
 				animation: translation 2s ease-in-out;
+			}
+			.couverture {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-color: #111111;
+			}
+			.rectangle1, .rectangle2, .rectangle3, .rectangle4, .rectangle5 {
+				position: absolute;
+				left: 1%;
+				width: 98%;
+				align-self: center;
+				height: 20vh;
+				background-color: #ffffff;
+				border-radius: 1vw;
+				font-weight: bold;
+				color: #0a0082;
+				font-size: calc(var(--entete) * 0.45);
+			}
+			.rectangle1 {
+				top: calc(var(--entete) * 0.55);
+				--translation-pourcent : -100%;
+			}
+			.rectangle2 {
+				top: calc(var(--entete) * 0.55 + 22vh);
+				--translation-pourcent : -100%;
+			}
+			.rectangle3 {
+				top: 105%;
+				--translation-pourcent : -100%;
+			}
+			.rectangle1 span, .rectangle2 span, .rectangle3 span {
+				position: absolute;
+				top: 50%;
+				left: 3%;
+				transform: translateY(-50%);
+				text-overflow: clip;
+				white-space: nowrap;
+			}
+			.temps-partiel1, .temps-partiel2, .temps-partiel3, .temps-partiel4, .temps-partiel5 {
+				right: 0.64% !important;
+				left: auto !important;
+				width: 15% !important;
+				height: 90%;
+				background-color: #111111;
+				font-weight: bold;
+				color: var(--jaune);
+				font-size: calc(var(--entete) * 0.45);
+				border-radius: 0.4vw;
+			}
+			.temps-partiel1 span, .temps-partiel2 span, .temps-partiel3 span, .temps-partiel4 span, .temps-partiel5 span {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				text-overflow: clip;
+				white-space: nowrap;
+				text-align: center;
+			}
+			@keyframes translationY {
+				0% {
+					transform: translateX(0);
+				}
+				100% {
+					transform: translateX(var(--translation-pourcent));
+				}
+			}
+			.rectangle1.translation, .rectangle2.translation, .rectangle3.translation {
+				animation: translationY 2s ease-in-out;
 			}
 		</style>
   	</head>
