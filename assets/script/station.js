@@ -485,8 +485,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 		const map = L.map('map').setView([48.857, 2.350], 18);
 		// Calque de tuiles (fond de carte)
-		L.tileLayer('https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.jpg', {
-			attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://prim.iledefrance-mobilites.fr">Île-de-France Mobilités</a>',
+		L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
+			attribution: '&copy; OpenStreetMap France | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | &copy; <a href="https://prim.iledefrance-mobilites.fr">Île-de-France Mobilités</a>',
 			subdomains: 'abcd',
 			maxZoom: 18,
 			minZoom: 13
