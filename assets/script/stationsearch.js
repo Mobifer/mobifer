@@ -63,7 +63,7 @@ searchInput.addEventListener("input", () => {
 
 	matches.slice(0, 15).forEach(station => {
 		const p = document.createElement("p");
-		p.innerHTML = `<a href="/stations.html?station=${station.id}" style="color: inherit;">${station.nom.replace(" \u2013 ", "\u2013")}</a> ${genererLignesHTML(station.lignes)}`;
+		p.innerHTML = `<a href="/stations/${station.id}.html" style="color: inherit;">${station.nom.replace(" \u2013 ", "\u2013")}</a> ${genererLignesHTML(station.lignes)}`;
 		resultsList.appendChild(p);
 	});
 	if (matches.length > 15) {
