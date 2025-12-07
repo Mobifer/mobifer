@@ -259,7 +259,7 @@
 		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 		<script src="/assets/script/stationsearch.js" type="module"></script>
 		<script src="/assets/script/searchandsiv.js" type="module"></script>
-		<script>
+		<script type="module">
 			import { genererLignesHTML } from "/assets/script/genlineicons.js";
 
 			const station = <%- JSON.stringify(station) %>;
@@ -285,8 +285,6 @@
 				lignesListe.push(...lignes.map(formatter));
 			};
 
-		</script>
-		<script>
 			// Génération des arrêts suivants
 			let prochainsArrets = {};
 			let destinations = {};
@@ -416,8 +414,7 @@
 					})
 				.catch(err => console.error("Erreur de chargement du JSON des stations dans l'ordre :", err))},
 			1000 );
-		</script>
-		<script>
+			
 			// Génération de la carte
 			const map = L.map('map').setView([48.857, 2.350], 18);
 			// Calque de tuiles (fond de carte)
