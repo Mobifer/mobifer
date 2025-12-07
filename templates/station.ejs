@@ -35,7 +35,7 @@
             <% if (station.corresp && station.corresp.length > 0) { %>
                 <p class="centered"><em>Cette station est en correspondance avec&nbsp;: 
                 <% station.corresp.forEach(corresp => { %>
-                    <strong><a href="/stations/<%= corresp %>"><%= data[corresp].nom %></a></strong> <%- genererLignesHTML(data[corresp].lignes) %>
+                    <strong><a href="/stations/<%= corresp %>"><%= data[corresp] ? data[corresp].nom : "???" %></a></strong> <%- data[corresp] ? genererLignesHTML(data[corresp].lignes) : "" %>
                     <% if (corresp !== station.corresp[station.corresp.length - 1] && station.corresp.length !== 1) { %>, 
                     <% } %>
                 <% }); %>
