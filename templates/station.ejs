@@ -259,6 +259,7 @@
 		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 		<script src="/assets/script/stationsearch.js" type="module"></script>
 		<script src="/assets/script/searchandsiv.js" type="module"></script>
+		<script src="/assets/script/genlineicons.js" type="module"></script>
 		<script>
 			const station = <%- JSON.stringify(station) %>;
 
@@ -289,7 +290,7 @@
 			let prochainsArrets = {};
 			let destinations = {};
 			
-			setTimeout(
+			setTimeout(() => {
 				fetch('/data/metroliste.json')
 					.then(response => response.json())
 					.then(data => {
@@ -412,8 +413,8 @@
 							document.getElementById("stations-suivantes").style.display = "block";
 						}
 					})
-				.catch(err => console.error("Erreur de chargement du JSON des stations dans l'ordre :", err)),
-			500 );
+				.catch(err => console.error("Erreur de chargement du JSON des stations dans l'ordre :", err))},
+			1000 );
 		</script>
 		<script>
 			// Génération de la carte
@@ -540,7 +541,7 @@
 				stationsMarkers.addTo(map);
 			}
 
-			setTimeout(() => map.invalidateSize(), 500);
+			setTimeout(() => map.invalidateSize(), 1000);
 		</script>
 		<script src="/addons/footer.js"></script>
 		<script>
