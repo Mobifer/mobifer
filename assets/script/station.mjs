@@ -11,13 +11,15 @@ fs.mkdirSync("stations", { recursive: true });
 // console.log("Nombre de stations :", Object.keys(stations).length);
 
 for (const [id, s] of Object.entries(stations)) {
-    const html = ejs.render(template, { 
+    let html = ejs.render(template, { 
         station: s, 
         id, 
         genererLignesHTML,
         lignesListe: [s.lignes] ?? [],
         data: stations
     });
+
+    html = html.replaceAll(" – ", "–");
 
     fs.writeFileSync(`stations/${id}.html`, html);
 }

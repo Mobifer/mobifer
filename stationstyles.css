@@ -31,7 +31,6 @@ html, body{
 	background-image: url('/assets/icons/motif.jpg');
 	background-repeat: repeat;
 	background-size: 150px;
-	overflow-x: hidden;
 }
 
 .centered{
