@@ -1,218 +1,325 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/stationstyles.css" />
-        
-        <link rel="icon" href="/assets/favicon.png" type="image/x-icon" />
-        <title><%= station.nom %> - MobiFer</title>
-        <meta name="description" content="" />
-    </head>
-    <body>
-        <a href="/" class="header"><h1>MobiFer</h1></a>
-        <div class="searchbox">
-            <div class="searchbtn" onclick="hidesearch()">
-                <span class="integrated"><img src="/assets/icons/search.svg"></span>
-            </div>
-            <input type="search" class="stationinput" id="search" placeholder="Rechercher une station...">
-        </div>
-        <div class="box image-center" id="search-results" style="max-width: 700px !important;"></div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/stationstyles.css" />
+		
+		<link rel="icon" href="/assets/favicon.png" type="image/x-icon" />
+		<title><%= station.nom %> - MobiFer</title>
+		<meta name="description" content="" />
+	</head>
+	<body>
+		<a href="/" class="header"><h1>MobiFer</h1></a>
+		<div class="searchbox">
+			<div class="searchbtn" onclick="hidesearch()">
+				<span class="integrated"><img src="/assets/icons/search.svg"></span>
+			</div>
+			<input type="search" class="stationinput" id="search" placeholder="Rechercher une station...">
+		</div>
+		<div class="box image-center" id="search-results" style="max-width: 700px !important;"></div>
 
-        <div id="station-content">
-            <div class="centered">
+		<div id="station-content">
+			<div class="centered">
 			<p class="centered"><strong>Station</strong><br>
 			<span class="shadowed pictos"><%- genererLignesHTML(station.lignes) %></span><br>
 			<span class="centered terminus-box"><%= station.nom %></span>
-            <% if (station.pti) { %>
-                <br><span class="ptinteret-station"><%= station.pti %></span>
-            <% } %>
-            <% if (station.rep) { %>
-                <br><span class="repere-station"><%= station.rep %></span>
-            <% } %>
-            </p>
+			<% if (station.pti) { %>
+				<br><span class="ptinteret-station"><%= station.pti %></span>
+			<% } %>
+			<% if (station.rep) { %>
+				<br><span class="repere-station"><%= station.rep %></span>
+			<% } %>
+			</p>
 
-            <% if (station.corresp && station.corresp.length > 0) { %>
-                <p class="centered"><em>Cette station est en correspondance avec&nbsp;: 
-                <% station.corresp.forEach(corresp => { %>
-                    <strong><a href="/stations/<%= corresp %>"><%= data[corresp] ? data[corresp].nom : "???" %></a></strong> <%- data[corresp] ? genererLignesHTML(data[corresp].lignes) : "" %>
-                    <% if (corresp !== station.corresp[station.corresp.length - 1] && station.corresp.length !== 1) { %>, 
-                    <% } %>
-                <% }); %>
-                </em></p>
-            <% } %>
+			<% if (station.corresp && station.corresp.length > 0) { %>
+				<p class="centered"><em>Cette station est en correspondance avec&nbsp;: 
+				<% station.corresp.forEach(corresp => { %>
+					<strong><a href="/stations/<%= corresp %>"><%= data[corresp] ? data[corresp].nom : "???" %></a></strong> <%- data[corresp] ? genererLignesHTML(data[corresp].lignes) : "" %>
+					<% if (corresp !== station.corresp[station.corresp.length - 1] && station.corresp.length !== 1) { %>, 
+					<% } %>
+				<% }); %>
+				</em></p>
+			<% } %>
 
-            <div class="row">
-                <div class="item">
-                    <div style="break-inside: avoid;">
-                        <% if (Array.isArray(station.img) && station.img.length > 0) { %>
-			                <div class="slideshow-container">
-			                <% station.img.forEach((img, index) => { %>
-				                <div class="slide fade">
-                                    <img src="<%= img %>" alt="Photo de la station">
-                                    <% if (station.imgsrc?.[index]) { %>
-                                        <div class="caption">© <%= station.imga[index] %> sur <%= station.imgsrc[index] %></div>
-                                    <% } else { %>
-                                        <div class="caption">© <%= station.imga[index] %> sur <a href="<%= station.imgp %>">Wikimedia Commons</a></div>
-                                    <% } %>
-				                </div>
-                            <% }); %>
-                            </div>
-                        <% } else { %>
-                            <img src="<%= station.img %>" alt="Photo de la station" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">
-                            <% if (station.imgsrc) { %>
-                                <div class="license">© <%= station.imga %> sur <%= station.imgsrc %></div>
-                            <% } else { %>
-                                <div class="license">© <%= station.imga %> sur <a href="<%= station.imgp %>">Wikimedia Commons</a></div>
-                            <% } %>
-                        <% } %>                       
-                    </div>
-                </div>
+			<div class="row">
+				<div class="item">
+					<div style="break-inside: avoid;">
+						<% if (Array.isArray(station.img) && station.img.length > 0) { %>
+							<div class="slideshow-container">
+							<% station.img.forEach((img, index) => { %>
+								<div class="slide fade">
+									<img src="<%= img %>" alt="Photo de la station">
+									<% if (station.imgsrc?.[index]) { %>
+										<div class="caption">© <%= station.imga[index] %> sur <%= station.imgsrc[index] %></div>
+									<% } else { %>
+										<div class="caption">© <%= station.imga[index] %> sur <a href="<%= station.imgp %>">Wikimedia Commons</a></div>
+									<% } %>
+								</div>
+							<% }); %>
+							</div>
+						<% } else { %>
+							<img src="<%= station.img %>" alt="Photo de la station" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">
+							<% if (station.imgsrc) { %>
+								<div class="license">© <%= station.imga %> sur <%= station.imgsrc %></div>
+							<% } else { %>
+								<div class="license">© <%= station.imga %> sur <a href="<%= station.imgp %>">Wikimedia Commons</a></div>
+							<% } %>
+						<% } %>                       
+					</div>
+				</div>
 
-                <div class="item">
-                    <div class="box image-center">
-                        <h2 class="centered">Accès</h2>
+				<div class="item">
+					<div class="box image-center">
+						<h2 class="centered">Accès</h2>
 
-                        <div class="centered">
-                            <span class="blue-box" style="padding: 10px !important; text-align: left;">
+						<div class="centered">
+							<span class="blue-box" style="padding: 10px !important; text-align: left;">
 
-                                <% function accessoires(sortie) { %>
-                                    <% if (sortie.acc) { %>
-                                        <span class="integrated"><img src="/assets/icons/info.svg"></span>
-                                        <span class="integrated"><img src="/assets/icons/tickets.svg"></span>
-                                    <% } %>
+								<% function accessoires(sortie) { %>
+									<% if (sortie.acc) { %>
+										<span class="integrated"><img src="/assets/icons/info.svg"></span>
+										<span class="integrated"><img src="/assets/icons/tickets.svg"></span>
+									<% } %>
 
-                                    <% if (sortie.asc) { %>
-                                        <span class="integrated"><img src="/assets/icons/ascenseur.svg"></span>
-                                    <% } %>
+									<% if (sortie.asc) { %>
+										<span class="integrated"><img src="/assets/icons/ascenseur.svg"></span>
+									<% } %>
 
-                                    <% if (sortie.esc) { %>
-                                        <span class="integrated"><img src="/assets/icons/escalator.svg"></span>
-                                    <% } %>
-                                <% } %>
+									<% if (sortie.esc) { %>
+										<span class="integrated"><img src="/assets/icons/escalator.svg"></span>
+									<% } %>
+								<% } %>
 
 
-                                <% station.sorties.forEach(sortie => { %>
+								<% station.sorties.forEach(sortie => { %>
 
-                                    <div class="sortie-row">
+									<div class="sortie-row">
 
-                                        <div class="sortie-left">
-                                            <span class="num-sortie"><%= sortie.num %></span>
-                                        </div>
+										<div class="sortie-left">
+											<span class="num-sortie"><%= sortie.num %></span>
+										</div>
 
-                                        <div class="sortie-right">
+										<div class="sortie-right">
 
-                                            <% let hasDescription = sortie.desc ? "style='margin-top:5px !important;'" : ""; %>
+											<% let hasDescription = sortie.desc ? "style='margin-top:5px !important;'" : ""; %>
 
-                                            <% if (sortie.desc) { %>
-                                                <%= sortie.desc %>
-                                                <span style="font-size: 1.25em">
-                                                    <% accessoires(sortie) %>
-                                                </span><br>
-                                            <% } %>
+											<% if (sortie.desc) { %>
+												<%= sortie.desc %>
+												<span style="font-size: 1.25em">
+													<% accessoires(sortie) %>
+												</span><br>
+											<% } %>
 
-                                            <% if (sortie.rep) { %>
-                                                <% (Array.isArray(sortie.rep) ? sortie.rep : [sortie.rep]).forEach((rep, i, arr) => { %>
-                                                    <span class="repere" <%- hasDescription %>><%= rep %></span>
-                                                    <% if (i < arr.length - 1) { %><br><% } %>
-                                                <% }) %>
+											<% if (sortie.rep) { %>
+												<% (Array.isArray(sortie.rep) ? sortie.rep : [sortie.rep]).forEach((rep, i, arr) => { %>
+													<span class="repere" <%- hasDescription %>><%= rep %></span>
+													<% if (i < arr.length - 1) { %><br><% } %>
+												<% }) %>
 
-                                                <% if (!sortie.desc) { %>
-                                                    <span style="font-size: 1.25em">
-                                                        <% accessoires(sortie) %>
-                                                    </span>
-                                                <% } %>
+												<% if (!sortie.desc) { %>
+													<span style="font-size: 1.25em">
+														<% accessoires(sortie) %>
+													</span>
+												<% } %>
 
-                                                <br>
-                                            <% } %>
+												<br>
+											<% } %>
 
-                                            <% if (sortie.pti) { %>
-                                                <% (Array.isArray(sortie.pti) ? sortie.pti : [sortie.pti]).forEach((pti, i, arr) => { %>
-                                                    <span class="ptinteret" <%- hasDescription %>><%= pti %></span>
-                                                    <% if (i < arr.length - 1) { %><br><% } %>
-                                                <% }) %>
+											<% if (sortie.pti) { %>
+												<% (Array.isArray(sortie.pti) ? sortie.pti : [sortie.pti]).forEach((pti, i, arr) => { %>
+													<span class="ptinteret" <%- hasDescription %>><%= pti %></span>
+													<% if (i < arr.length - 1) { %><br><% } %>
+												<% }) %>
 
-                                                <% if (!sortie.desc) { %>
-                                                    <span style="font-size: 1.25em">
-                                                        <% accessoires(sortie) %>
-                                                    </span>
-                                                <% } %>
+												<% if (!sortie.desc) { %>
+													<span style="font-size: 1.25em">
+														<% accessoires(sortie) %>
+													</span>
+												<% } %>
 
-                                                <br>
-                                            <% } %>
+												<br>
+											<% } %>
 
-                                        </div>
-                                    </div>
+										</div>
+									</div>
 
-                                <% }) %>
+								<% }) %>
 
-                            </span>
-                        </div>
+							</span>
+						</div>
 
-                        <div id="map"></div>
-                    </div>
-                </div>
+						<div id="map"></div>
+					</div>
+				</div>
 
-            </div>
-        </div>
+				<div class="item">
+					<div class="box image-center">
+						<h2 class="centered">Statistiques et données</h2>
 
-	    </div>
-        
-        <div id="footer-container" style="padding-top: 10px;"></div>
+						<% station.stats.forEach((stats, index) => { %>
 
-	    <script src="/addons/footer.js"></script>
-        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-	    <script src="/assets/script/stationsearch.js" type="module"></script>
-        <script>
-            function hidesearch() {
-                var input = document.getElementById("search");
-                var results = document.getElementById("search-results");
+							<% const lignesTable = genererLignesHTML(stats.lignes); %>
 
-                if (!input.classList.contains("active")) {
-                    input.classList.add("active");
-                    input.focus();
-                } else {
-                    if (input) input.value = "";
-                    if (results) results.innerHTML = "";
-                    input.classList.remove("active");
-                }
-            }
+							<table style="text-align: left;">
 
-            function switchToPANAM() {
-                document.querySelectorAll("iframe.ratp").forEach(iframe => {
-                    iframe.src = iframe.src.replace("?style=siel", "?style=panam");
-                    iframe.classList.remove("piq");
-                    iframe.classList.add("panam");
-                });
-            }
+								<% if (stats.lignes) { %>
+									<tr>
+										<td class="title" style="width: 45%;">Ligne(s)</td>
+										<td style="font-size: 1.4em;"><%- lignesTable %></td>
+									</tr>
+								<% } %>
 
-            function switchToPIQ() {
-                document.querySelectorAll("iframe.ratp").forEach(iframe => {
-                    iframe.src = iframe.src.replace("?style=panam", "?style=siel").replace("&rivoli=true", "&rivoli=false");
-                    iframe.classList.remove("panam");
-                    iframe.classList.add("piq");
-                });
-            }
+								<% 
+									const donnees = [
+										{ label: "Ouverture", valeur: stats.ouv },
+										...(stats.inaug !== undefined ? [{ label: "Nom inaugural", valeur: stats.inaug }] : []),
+										{ label: "Voies", valeur: stats.voies },
+										{ label: "Quais", valeur: stats.quais },
+										{ label: "Zone tarifaire", valeur: stats.zt },
+										{ label: "Accessible", valeur: stats.ufr },
+										{ label: "Communes desservies", valeur: stats.communes ? stats.communes.join(", ") : null },
+										{ label: "Fréquentation", valeur: stats.freq }
+									];
+								%>
 
-            function switchToPIQDark() {
-                document.querySelectorAll("iframe.ratp").forEach(iframe => {
-                    iframe.src = iframe.src.replace("?style=panam", "?style=siel").replace("&rivoli=false", "&rivoli=true");
-                    iframe.classList.remove("panam");
-                    iframe.classList.add("piq");
-                });
-            }
-            
-            function detecterStyleInitial() {
-                document.querySelectorAll("iframe.ratp").forEach(iframe => {
-                    if (iframe.src.includes('style=panam')) {
-                        iframe.classList.add("panam");
-                    } else {
-                        iframe.classList.add("piq");
-                    }
-                });
-            }
-            setTimeout(detecterStyleInitial, 1000);
-        </script>
-	    <script src="/addons/footer.js"></script>
-    </body>
+								<% donnees.forEach(row => { %>
+									<% if (row.valeur) { %>
+										<tr>
+											<td class="title"><%= row.label %></td>
+											<td style="font-weight: normal;"><%= row.valeur %></td>
+										</tr>
+									<% } %>
+								<% }); %>
+
+							</table>
+
+							<% if (index < station.stats.length - 1) { %>
+								<br>
+							<% } %>
+
+						<% }); %>
+
+					</div>
+				</div>
+
+				<% if (station.siv && station.siv.length > 0) { %>
+					<% 
+						const transportTypes = {
+							metro: { 
+								items: [], 
+								title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro" title="Métro"></span> <div class="btn-group" title="Modifiez le style des SIEL"><button onclick="switchToPANAM();"><img src="/assets/icons/panam.svg" alt="PANAM" style="height: 1.25em;" id="panam"></button><button onclick="switchToPIQ();"><img src="/assets/icons/piq.svg" alt="PIQ" style="height: 1.25em;" id="piq"></button><button onclick="switchToPIQDark();"><img src="/assets/icons/piq.svg" alt="PIQ" style="height: 1.25em;" id="piq"> (sombre)</button></div>'
+							},
+							train: { 
+								items: [], 
+								title: 'Prochains passages <span class="integrated" style="margin-right: 0px !important;"><img src="/assets/icons/symbole_RER_RVB.svg" alt="RER" title="RER"></span> et <span class="integrated"><img src="/assets/icons/symbole_train_RVB.svg" alt="Transilien" title="Transilien"></span>' 
+							},
+							tram: { 
+								items: [], 
+								title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_tram_RVB.svg" alt="Tramway" title="Tramway"></span>' 
+							}
+						};
+
+						station.siv.forEach(link => {
+							if (link.metro) transportTypes.metro.items.push(link);
+							if (link.train) transportTypes.train.items.push(link);
+							if (link.tram) transportTypes.tram.items.push(link);
+						});
+					%>
+
+					<% Object.entries(transportTypes).forEach(([type, data]) => { %>
+						<% if (data.items.length > 0) { %>
+
+							<div class="item">
+								<div class="box image-center">
+
+									<h2 class="centered"><%- data.title %></h2>
+
+									<% if (type === 'metro') { %>
+										<div class="iframes-container">
+											<div class="iframes">
+									<% } %>
+
+									<% data.items.forEach(link => { %>
+
+										<% if (type === 'metro' && link.metro) { %>
+											<div class="item">
+												<iframe src="<%= link.metro %>+&rivoli=false" class="ratp" frameborder="0"></iframe>
+											</div>
+										<% } %>
+
+										<% if (type === 'train' && link.train) { %>
+											<iframe src="<%= link.train %>" class="sncf" frameborder="0" scrolling="no"></iframe>
+										<% } %>
+
+										<% if (type === 'tram' && link.tram) { %>
+											<iframe src="/addons/SIEL/tram.html?stop=<%= link.tram %>&line=<%= link.line %>" class="tram"></iframe>
+										<% } %>
+
+									<% }) %>
+
+									<% if (type === 'metro') { %>
+											</div>
+										</div>
+									<% } %>
+
+								</div>
+							</div>
+
+						<% } %>
+					<% }) %>
+
+					<div class="license">
+						Reproductions des panneaux officiels proposées par 
+						<a href="https://enrail.org">enrail.org</a> (Métro), 
+						<a href="https://prochainstrains.arno.cl">Prochains Trains</a> (RER et Transilien) 
+						et MobiFer (Tramway)
+					</div>
+
+				<% } %>
+
+				<div class="box image-center" id="stations-suivantes" style="max-width: 1500px !important; display: none;">
+					<h2 class="centered">Stations suivantes</h2>
+					<div id="prochains-arrets" style="width: 100%; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;"></div>
+				</div>
+
+			</div>
+		</div>
+
+		</div>
+		
+		<div id="footer-container" style="padding-top: 10px;"></div>
+
+		<script src="/addons/footer.js"></script>
+		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+		<script src="/assets/script/stationsearch.js" type="module"></script>
+		<script src="assets/script/searchandsiv.js" type="module"></script>
+		<script src="assets/script/stationssuivantes.js"></script>
+		<script src="assets/script/map.js" type="module"></script>
+		<script src="/addons/footer.js"></script>
+		<script>
+			// Initialise le slideshow après la mise à jour du DOM
+			if (Array.isArray(station.img) && station.img.length > 0) {
+				let slideIndex = 0;
+				const slides = document.getElementsByClassName("slide");
+
+				function showSlides(slide) {
+					for (let i = 0; i < slides.length; i++) {
+						slides[i].classList.remove("active");
+					}
+
+					slideIndex++;
+					if (slideIndex > slides.length) { slideIndex = 1; }
+
+					if (slides.length > 0) {
+						slides[slideIndex - 1].classList.add("active");
+					}
+
+					setTimeout(showSlides, 3000); // or any interval you like
+				}
+
+				showSlides();
+			}
+		</script>
+	</body>
 </html>
