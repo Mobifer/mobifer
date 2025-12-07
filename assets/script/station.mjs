@@ -15,7 +15,8 @@ for (const [id, s] of Object.entries(stations)) {
         station: s, 
         id, 
         genererLignesHTML,
-        lignesListe: [s.lignes] ?? []
+        lignesListe: [s.lignes] ?? [],
+        data: stations
     });
 
     fs.writeFileSync(`stations/${id}.html`, html);
