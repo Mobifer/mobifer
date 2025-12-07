@@ -166,7 +166,7 @@
 									<% if (row.valeur) { %>
 										<tr>
 											<td class="title"><%= row.label %></td>
-											<td style="font-weight: normal;"><%= row.valeur %></td>
+											<td style="font-weight: normal;"><%- row.valeur %></td>
 										</tr>
 									<% } %>
 								<% }); %>
@@ -260,10 +260,15 @@
 		<script src="/assets/script/stationsearch.js" type="module"></script>
 		<script src="/assets/script/searchandsiv.js" type="module"></script>
 		<script>
+			const station = <%- JSON.stringify(station) %>;
+			const data = <%- JSON.stringify(data) %>;
+			const lignesListe = <%- JSON.stringify(lignesListe) %>;
+		</script>
+		<script>
 			// Génération des arrêts suivants
 			let prochainsArrets = {};
 			let destinations = {};
-
+			
 			fetch('/data/metroliste.json')
 				.then(response => response.json())
 				.then(data => {
