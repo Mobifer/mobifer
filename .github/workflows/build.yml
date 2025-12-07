@@ -8,6 +8,7 @@ on:
       - data/stations.json
       - .github/workflows/build.yml
       - assets/script/station.mjs
+      - templates/station.ejs
 
 jobs:
   build:
