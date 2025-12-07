@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/stationstyles.css" />
+        
+        <link rel="icon" href="/assets/favicon.png" type="image/x-icon" />
+        <title><%= station.nom %> - MobiFer</title>
+        <meta name="description" content="" />
+    </head>
+    <body>
+        <div class="centered">
+			<p class="centered"><strong>Station</strong><br>
+			<span class="shadowed pictos"><%- genererLignesHTML(station.lignes) %></span><br>
+			<span class="centered terminus-box"><%= station.nom %></span>
+            <% if (station.pti) { %>
+                <br><span class="ptinteret-station"><%= station.pti %></span>
+            <% } %>
+            <% if (station.rep) { %>
+                <br><span class="repere-station"><%= station.rep %></span>
+            <% } %>
+            </p>
+        </div>
+    </body>
+</html>
