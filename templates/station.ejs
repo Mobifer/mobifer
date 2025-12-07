@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="/stationstyles.css" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 		
 		<link rel="icon" href="/assets/favicon.png" type="image/x-icon" />
 		<title><%= station.nom %> - MobiFer</title>
@@ -11,7 +12,7 @@
 		<meta name="theme-color" content="#0b0082" />
 		<meta property="og:title" content="<%= station.nom %> - MobiFer" />
 		<meta property="og:description" content="Plus d’informations sur la station <%= station.nom %> sur MobiFer." />
-		<meta property="og:image" content="<% if (Array.isArray(station.img) && station.img.length > 0) { station.img[0] } else { station.img } %>" />
+		<meta property="og:image" content="<% if (Array.isArray(station.img) && station.img.length > 0) { %> <%= station.img[0] %> <% } else { station.img } %>" />
 	</head>
 	<body>
 		<a href="/" class="header"><h1>MobiFer</h1></a>
