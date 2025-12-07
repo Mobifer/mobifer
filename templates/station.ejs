@@ -259,8 +259,9 @@
 		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 		<script src="/assets/script/stationsearch.js" type="module"></script>
 		<script src="/assets/script/searchandsiv.js" type="module"></script>
-		<script src="/assets/script/genlineicons.js" type="module"></script>
 		<script>
+			import { genererLignesHTML } from "/assets/script/genlineicons.js";
+
 			const station = <%- JSON.stringify(station) %>;
 
 			// Génération de la liste des lignes (pour les stations suivantes)
