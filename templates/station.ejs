@@ -289,257 +289,255 @@
 			let prochainsArrets = {};
 			let destinations = {};
 			
-			setTimeout(() => {
-				fetch('/data/metroliste.json')
-					.then(response => response.json())
-					.then(data => {
-						const container = document.getElementById("prochains-arrets");
-						let containerHTML = ``;
+			fetch('/data/metroliste.json')
+				.then(response => response.json())
+				.then(data => {
+					const container = document.getElementById("prochains-arrets");
+					let containerHTML = ``;
 
-						lignesListe.forEach(ligne => {
-							if (data[ligne]) {
-								data[ligne].forEach(arret => {
-									let stationAvantApres = [];
-									let stationIndex = data[ligne].indexOf(arret);
-									if (arret.constructor === Object) {
-										if (arret.nom === station.nom) {
-											// Si la station est un dictionnaire (dans une branche), on a directement le suivant et le prédécent
-											stationAvantApres.push(arret.prec);
-											stationAvantApres.push(arret.suiv);
-											prochainsArrets[ligne] = stationAvantApres;
-											destinations[ligne] = arret.terminus;
-										}
-									} else if (arret === station.nom) {
-										// Si la station est "normale", on cherche le prédécent et le suivant
-										// Attention aux stations précédant des stations en fourche !
-										let avant = data[ligne][stationIndex - 1];
-										let apres = data[ligne][stationIndex + 1];
-
-										// Par exemple à Tolbiac, la station suivante sera Maison Blanche
-										/* {
-											"nom": "Maison Blanche",
-											"prec": "Tolbiac",
-											"suiv": ["Le Kremlin-Bicêtre", "Porte d’Italie"],
-											"terminus": ["La Courneuve – 8 Mai 1945", ["Villejuif – Louis Aragon", "Mairie d’Ivry"]]
-										} */ 
-										
-										if (avant.constructor === Object)
-											avant = avant.nom;
-
-										if (apres.constructor === Object)
-											apres = apres.nom;
-										
-										stationAvantApres.push(avant);
-										stationAvantApres.push(apres);
+					lignesListe.forEach(ligne => {
+						if (data[ligne]) {
+							data[ligne].forEach(arret => {
+								let stationAvantApres = [];
+								let stationIndex = data[ligne].indexOf(arret);
+								if (arret.constructor === Object) {
+									if (arret.nom === station.nom) {
+										// Si la station est un dictionnaire (dans une branche), on a directement le suivant et le prédécent
+										stationAvantApres.push(arret.prec);
+										stationAvantApres.push(arret.suiv);
 										prochainsArrets[ligne] = stationAvantApres;
+										destinations[ligne] = arret.terminus;
 									}
-								});
-							}
-						})
+								} else if (arret === station.nom) {
+									// Si la station est "normale", on cherche le prédécent et le suivant
+									// Attention aux stations précédant des stations en fourche !
+									let avant = data[ligne][stationIndex - 1];
+									let apres = data[ligne][stationIndex + 1];
 
-						lignesListe.forEach(ligne => {
-							if (prochainsArrets[ligne]?.length) {
-								let precedent = prochainsArrets[ligne][0];
-								let precedentId = [];
-								let suivant = prochainsArrets[ligne][1];
-								let suivantId = [];
+									// Par exemple à Tolbiac, la station suivante sera Maison Blanche
+									/* {
+										"nom": "Maison Blanche",
+										"prec": "Tolbiac",
+										"suiv": ["Le Kremlin-Bicêtre", "Porte d’Italie"],
+										"terminus": ["La Courneuve – 8 Mai 1945", ["Villejuif – Louis Aragon", "Mairie d’Ivry"]]
+									} */ 
+									
+									if (avant.constructor === Object)
+										avant = avant.nom;
 
-								if (precedent != "Terminus" && !Array.isArray(precedent)) {
-									precedentId = ["/stations.html?station=" + precedent.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "")];
-								} else if (Array.isArray(precedent)) {
-									precedent.forEach(station => {
-										precedentId.push("/stations.html?station=" + station.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, ""));
-									})
+									if (apres.constructor === Object)
+										apres = apres.nom;
+									
+									stationAvantApres.push(avant);
+									stationAvantApres.push(apres);
+									prochainsArrets[ligne] = stationAvantApres;
 								}
-
-								if (suivant != "Terminus" && !Array.isArray(suivant)) {
-									suivantId = ["/stations.html?station=" + suivant.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "")];
-								} else if (Array.isArray(suivant)) {
-									suivant.forEach(station => {
-										suivantId.push("/stations.html?station=" + station.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, ""));
-									})
-								}
-
-								let pictos = ""; 
-
-								if (ligne.startsWith("m")) {
-									pictos = genererLignesHTML({ metro: [ligne.replace(/^m0?/, "").replace("b", "bis")] });
-								}
-
-								let terminusAller;
-								let terminusRetour;
-
-								if (destinations[ligne] && destinations[ligne].length > 0) {
-									terminusAller = destinations[ligne][0];
-									terminusRetour = destinations[ligne][1];
-								} else {
-									terminusAller = data[ligne][1];
-									terminusRetour = data[ligne][data[ligne].length - 2];
-								}
-
-								// Crée un tableau pour les prochains arrêts
-								containerHTML += `<div style="flex: 1;">`;
-								containerHTML += `<table style="text-align: left; min-width: 200px;">`;
-								// Ligne de titre
-								containerHTML += `<tr><td class="title" style="font-size: 1.2em; text-align: center !important; width: 50%;">Direction</td><td class="title" style="font-size: 1.2em; text-align: center !important; width: 50%;">${pictos}</td></tr>`;
-
-								if (Array.isArray(precedent)) {
-									precedent.forEach((prec, i) => {
-										containerHTML += `<tr><td class="title" style="width: 50%;">${terminusAller[precedent.indexOf(prec)]}</td><td><a href="${precedentId[i]}">${prec}</a></td></tr>`;
-									});
-								} else {
-									if (Array.isArray(terminusAller))
-										terminusAller = terminusAller.join(" • ");
-									containerHTML += `<tr><td class="title" style="width: 50%;">${terminusAller}</td><td><a href="${precedentId}">${precedent}</a></td></tr>`;
-								}
-								
-								if (Array.isArray(suivant)) {
-									suivant.forEach((suiv, i) => {
-										containerHTML += `<tr><td class="title">${terminusRetour[suivant.indexOf(suiv)]}</td><td><a href="${suivantId[i]}">${suiv}</a></td></tr>`;
-									});
-								} else {
-									if (Array.isArray(terminusRetour))
-										terminusRetour = terminusRetour.join(" • ");
-									containerHTML += `<tr><td class="title">${terminusRetour}</td><td><a href="${suivantId}">${suivant}</a></td></tr>`;
-								}
-
-								containerHTML += `</table></div>`;
-							}
-						});
-
-						if (containerHTML !== ``) {
-							container.innerHTML = containerHTML.replaceAll(" \u2013 ", "\u2013");
-							document.getElementById("stations-suivantes").style.display = "block";
+							});
 						}
 					})
-				.catch(err => console.error("Erreur de chargement du JSON des stations dans l'ordre :", err))},
-			1000 );
-			
-			// Génération de la carte
-			const map = L.map('map').setView([48.857, 2.350], 18);
-			// Calque de tuiles (fond de carte)
-			L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
-				attribution: '&copy; OpenStreetMap France | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | &copy; <a href="https://prim.iledefrance-mobilites.fr">Île-de-France Mobilités</a>',
-				subdomains: 'abcd',
-				maxZoom: 18,
-				minZoom: 13
-			}).addTo(map);
 
-			let stationsMarkers = new L.FeatureGroup();
-			let allStationFeatures = [];
+					lignesListe.forEach(ligne => {
+						if (prochainsArrets[ligne]?.length) {
+							let precedent = prochainsArrets[ligne][0];
+							let precedentId = [];
+							let suivant = prochainsArrets[ligne][1];
+							let suivantId = [];
 
-			fetch('/data/stationsPositions.geojson')
-				.then(response => response.json())
-				.then(data => {
-					allStationFeatures = data.features;
+							if (precedent != "Terminus" && !Array.isArray(precedent)) {
+								precedentId = ["/stations.html?station=" + precedent.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "")];
+							} else if (Array.isArray(precedent)) {
+								precedent.forEach(station => {
+									precedentId.push("/stations.html?station=" + station.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, ""));
+								})
+							}
 
-					// La carte doit être centrée sur la station de la page
-					// On compare le nom de la station de la page (station.nom), normalisé, sans accent, avec les noms des stations de la carte
-					const stationName = station.nom.normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "").replaceAll(" – ", " ").replaceAll("-", " ").toLowerCase();
-					const stationPosition = data.features.find(feature => feature.properties.zdaname.normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "").replaceAll(" – ", "-").replaceAll("-", " ").toLowerCase() === stationName);
-					if (stationPosition) {
-						map.setView([stationPosition.geometry.coordinates[1], stationPosition.geometry.coordinates[0]], 17);
-					} else {
-						// Si la station n'est pas trouvée, on centre la carte sur Paris centre
-						map.setView([48.857, 2.350], 17);
-					}
-				})
-			.catch(err => console.error("Erreur de chargement du GeoJSON :", err));
+							if (suivant != "Terminus" && !Array.isArray(suivant)) {
+								suivantId = ["/stations.html?station=" + suivant.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "")];
+							} else if (Array.isArray(suivant)) {
+								suivant.forEach(station => {
+									suivantId.push("/stations.html?station=" + station.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, ""));
+								})
+							}
 
-			let accesMarkers = new L.FeatureGroup();
-			let allFeatures = [];
+							let pictos = ""; 
 
-			fetch('/data/acces.geojson')
-				.then(response => response.json())
-				.then(data => {
-					allFeatures = data.features;
-					updateVisiblePoints(); // Affiche les premiers points visibles
-					map.on('moveend', updateVisiblePoints);
-				})
-			.catch(err => console.error("Erreur de chargement du GeoJSON :", err));
+							if (ligne.startsWith("m")) {
+								pictos = genererLignesHTML({ metro: [ligne.replace(/^m0?/, "").replace("b", "bis")] });
+							}
 
-			function updateVisiblePoints() {
-				const bounds = map.getBounds();
-				
-				// Filtre les points visibles
-				const visible = allFeatures.filter(f => {
-					const [lon, lat] = f.geometry.coordinates;
-					return bounds.contains(L.latLng([lat, lon]));
-				});
+							let terminusAller;
+							let terminusRetour;
 
-				const visibleStation = allStationFeatures.filter(f => {
-					const [lon, lat] = f.geometry.coordinates;
-					return bounds.contains(L.latLng([lat, lon]));
-				});
+							if (destinations[ligne] && destinations[ligne].length > 0) {
+								terminusAller = destinations[ligne][0];
+								terminusRetour = destinations[ligne][1];
+							} else {
+								terminusAller = data[ligne][1];
+								terminusRetour = data[ligne][data[ligne].length - 2];
+							}
 
-				accesMarkers.clearLayers();
-				stationsMarkers.clearLayers();
+							// Crée un tableau pour les prochains arrêts
+							containerHTML += `<div style="flex: 1;">`;
+							containerHTML += `<table style="text-align: left; min-width: 200px;">`;
+							// Ligne de titre
+							containerHTML += `<tr><td class="title" style="font-size: 1.2em; text-align: center !important; width: 50%;">Direction</td><td class="title" style="font-size: 1.2em; text-align: center !important; width: 50%;">${pictos}</td></tr>`;
 
-				const markers = L.geoJSON({ type: 'FeatureCollection', features: visible }, {
-					pointToLayer: function (feature, latlng) {
-						return L.marker(latlng, {
-							icon: L.icon({
-								iconUrl: '/assets/icons/sortie.svg',
-								iconSize: [30, 30],
-								iconAnchor: [0, 0],
-								popupAnchor: [15, 0]
-							})
-						});
-					},
-					onEachFeature: function (feature, layer) {
-						const shortName = feature.properties.accshortname ?? '';
-						const name = feature.properties.accname?.replace("'", "’") ?? '';
-						let html = `
-							<div class="sortie-row">
-							<div class="sortie-left"><span class="num-sortie"><strong>${shortName}</strong></span></div>
-							<div class="sortie-right">${name}</div>
-							</div>`;
-						layer.bindPopup(html);
-					}
-				});
+							if (Array.isArray(precedent)) {
+								precedent.forEach((prec, i) => {
+									containerHTML += `<tr><td class="title" style="width: 50%;">${terminusAller[precedent.indexOf(prec)]}</td><td><a href="${precedentId[i]}">${prec}</a></td></tr>`;
+								});
+							} else {
+								if (Array.isArray(terminusAller))
+									terminusAller = terminusAller.join(" • ");
+								containerHTML += `<tr><td class="title" style="width: 50%;">${terminusAller}</td><td><a href="${precedentId}">${precedent}</a></td></tr>`;
+							}
+							
+							if (Array.isArray(suivant)) {
+								suivant.forEach((suiv, i) => {
+									containerHTML += `<tr><td class="title">${terminusRetour[suivant.indexOf(suiv)]}</td><td><a href="${suivantId[i]}">${suiv}</a></td></tr>`;
+								});
+							} else {
+								if (Array.isArray(terminusRetour))
+									terminusRetour = terminusRetour.join(" • ");
+								containerHTML += `<tr><td class="title">${terminusRetour}</td><td><a href="${suivantId}">${suivant}</a></td></tr>`;
+							}
 
-				accesMarkers.addLayer(markers);
-				accesMarkers.addTo(map);
-
-				if (map.getZoom() < 16) {
-					map.removeLayer(accesMarkers);
-				} else {
-					map.addLayer(accesMarkers);
-				}
-
-				const stationMarkers = L.geoJSON({ type: 'FeatureCollection', features: visibleStation }, {
-					pointToLayer: function (feature, latlng) {
-						// Icone par défaut au cas où on rencontre un type inattendu
-						let iconUrl = '/assets/icons/train_S_couleur_RVB.svg';
-
-						// Règle l'icône selon le mode de transport qui dessert la station
-						if (feature.properties.zdatype === "metroStation") {
-						iconUrl = '/assets/icons/symbole_metro_RVB.svg';
-						} else if (feature.properties.zdatype === "railStation") {
-						iconUrl = '/assets/icons/symbole_train_RER_RVB.svg';
-						} else if (feature.properties.zdatype === "onstreetTram") {
-						iconUrl = '/assets/icons/symbole_tram_RVB.svg';
+							containerHTML += `</table></div>`;
 						}
+					});
 
-						return L.marker(latlng, {
-							icon: L.icon({
-								iconUrl: iconUrl,
-								iconSize: [40, 40],
-								iconAnchor: [0, 0],
-								popupAnchor: [20, 0]
-							})
-						});
-					},
-					onEachFeature: function (feature, layer) {
-						layer.bindPopup(feature.properties.zdaname);
+					if (containerHTML !== ``) {
+						container.innerHTML = containerHTML.replaceAll(" \u2013 ", "\u2013");
+						document.getElementById("stations-suivantes").style.display = "block";
 					}
-				});
+				})
+			.catch(err => console.error("Erreur de chargement du JSON des stations dans l'ordre :", err));
+			
+			setTimeout(() => {
+				// Génération de la carte
+				const map = L.map('map').setView([48.857, 2.350], 18);
+				// Calque de tuiles (fond de carte)
+				L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
+					attribution: '&copy; OpenStreetMap France | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | &copy; <a href="https://prim.iledefrance-mobilites.fr">Île-de-France Mobilités</a>',
+					subdomains: 'abcd',
+					maxZoom: 18,
+					minZoom: 13
+				}).addTo(map);
 
-				stationsMarkers.addLayer(stationMarkers);
-				stationsMarkers.addTo(map);
-			}
+				let stationsMarkers = new L.FeatureGroup();
+				let allStationFeatures = [];
 
-			setTimeout(() => map.invalidateSize(), 3000);
+				fetch('/data/stationsPositions.geojson')
+					.then(response => response.json())
+					.then(data => {
+						allStationFeatures = data.features;
+
+						// La carte doit être centrée sur la station de la page
+						// On compare le nom de la station de la page (station.nom), normalisé, sans accent, avec les noms des stations de la carte
+						const stationName = station.nom.normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "").replaceAll(" – ", " ").replaceAll("-", " ").toLowerCase();
+						const stationPosition = data.features.find(feature => feature.properties.zdaname.normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "").replaceAll(" – ", "-").replaceAll("-", " ").toLowerCase() === stationName);
+						if (stationPosition) {
+							map.setView([stationPosition.geometry.coordinates[1], stationPosition.geometry.coordinates[0]], 17);
+						} else {
+							// Si la station n'est pas trouvée, on centre la carte sur Paris centre
+							map.setView([48.857, 2.350], 17);
+						}
+					})
+				.catch(err => console.error("Erreur de chargement du GeoJSON :", err));
+
+				let accesMarkers = new L.FeatureGroup();
+				let allFeatures = [];
+
+				fetch('/data/acces.geojson')
+					.then(response => response.json())
+					.then(data => {
+						allFeatures = data.features;
+						updateVisiblePoints(); // Affiche les premiers points visibles
+						map.on('moveend', updateVisiblePoints);
+					})
+				.catch(err => console.error("Erreur de chargement du GeoJSON :", err));
+
+				function updateVisiblePoints() {
+					const bounds = map.getBounds();
+					
+					// Filtre les points visibles
+					const visible = allFeatures.filter(f => {
+						const [lon, lat] = f.geometry.coordinates;
+						return bounds.contains(L.latLng([lat, lon]));
+					});
+
+					const visibleStation = allStationFeatures.filter(f => {
+						const [lon, lat] = f.geometry.coordinates;
+						return bounds.contains(L.latLng([lat, lon]));
+					});
+
+					accesMarkers.clearLayers();
+					stationsMarkers.clearLayers();
+
+					const markers = L.geoJSON({ type: 'FeatureCollection', features: visible }, {
+						pointToLayer: function (feature, latlng) {
+							return L.marker(latlng, {
+								icon: L.icon({
+									iconUrl: '/assets/icons/sortie.svg',
+									iconSize: [30, 30],
+									iconAnchor: [0, 0],
+									popupAnchor: [15, 0]
+								})
+							});
+						},
+						onEachFeature: function (feature, layer) {
+							const shortName = feature.properties.accshortname ?? '';
+							const name = feature.properties.accname?.replace("'", "’") ?? '';
+							let html = `
+								<div class="sortie-row">
+								<div class="sortie-left"><span class="num-sortie"><strong>${shortName}</strong></span></div>
+								<div class="sortie-right">${name}</div>
+								</div>`;
+							layer.bindPopup(html);
+						}
+					});
+
+					accesMarkers.addLayer(markers);
+					accesMarkers.addTo(map);
+
+					if (map.getZoom() < 16) {
+						map.removeLayer(accesMarkers);
+					} else {
+						map.addLayer(accesMarkers);
+					}
+
+					const stationMarkers = L.geoJSON({ type: 'FeatureCollection', features: visibleStation }, {
+						pointToLayer: function (feature, latlng) {
+							// Icone par défaut au cas où on rencontre un type inattendu
+							let iconUrl = '/assets/icons/train_S_couleur_RVB.svg';
+
+							// Règle l'icône selon le mode de transport qui dessert la station
+							if (feature.properties.zdatype === "metroStation") {
+							iconUrl = '/assets/icons/symbole_metro_RVB.svg';
+							} else if (feature.properties.zdatype === "railStation") {
+							iconUrl = '/assets/icons/symbole_train_RER_RVB.svg';
+							} else if (feature.properties.zdatype === "onstreetTram") {
+							iconUrl = '/assets/icons/symbole_tram_RVB.svg';
+							}
+
+							return L.marker(latlng, {
+								icon: L.icon({
+									iconUrl: iconUrl,
+									iconSize: [40, 40],
+									iconAnchor: [0, 0],
+									popupAnchor: [20, 0]
+								})
+							});
+						},
+						onEachFeature: function (feature, layer) {
+							layer.bindPopup(feature.properties.zdaname);
+						}
+					});
+
+					stationsMarkers.addLayer(stationMarkers);
+					stationsMarkers.addTo(map);
+				}
+			}, 1000);
 		</script>
 		<script src="/addons/footer.js"></script>
 		<script>
