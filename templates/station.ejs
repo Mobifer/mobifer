@@ -261,8 +261,28 @@
 		<script src="/assets/script/searchandsiv.js" type="module"></script>
 		<script>
 			const station = <%- JSON.stringify(station) %>;
-			const data = <%- JSON.stringify(data) %>;
-			const lignesListe = <%- JSON.stringify(lignesListe) %>;
+			
+			// Génération de la liste des lignes (pour les stations suivantes)
+			const lignesListe = [];
+			const types = {
+				metro: line => {
+					if (line.endsWith("bis")) line = "0" + line.replace("bis", "b");
+					return "m" + line.padStart(2, "0");
+				},
+				rer: line => "rer" + line,
+				train: line => "train" + line,
+				tram: line => {
+					if (line.endsWith("a") || line.endsWith("b")) line = "0" + line;
+					return "t" + line.padStart(2, "0");
+				}
+			};
+
+			for (const [type, formatter] of Object.entries(types)) {
+				const lignes = station.lignes[type];
+				if (!Array.isArray(lignes)) continue;
+				lignesListe.push(...lignes.map(formatter));
+			};
+
 		</script>
 		<script>
 			// Génération des arrêts suivants
@@ -517,6 +537,8 @@
 				stationsMarkers.addLayer(stationMarkers);
 				stationsMarkers.addTo(map);
 			}
+
+			setTimeout(map.invalidateSize(), 500);
 		</script>
 		<script src="/addons/footer.js"></script>
 		<script>

@@ -14,8 +14,7 @@ for (const [id, s] of Object.entries(stations)) {
     const html = ejs.render(template, { 
         station: s, 
         id, 
-        genererLignesHTML, 
-        data: stations,
+        genererLignesHTML,
         lignesListe: [s.lignes] ?? []
     });
 
