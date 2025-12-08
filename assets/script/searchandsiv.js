@@ -36,7 +36,7 @@ export function switchToPIQDark() {
     });
 }
 
-export function detecterStyleInitial() {
+function detecterStyleInitial() {
     document.querySelectorAll("iframe.ratp").forEach(iframe => {
         if (iframe.src.includes('style=panam')) {
             iframe.classList.add("panam");
@@ -46,3 +46,8 @@ export function detecterStyleInitial() {
     });
 }
 setTimeout(detecterStyleInitial, 1000);
+
+window.switchToPANAM = switchToPANAM;
+window.switchToPIQ = switchToPIQ;
+window.switchToPIQDark = switchToPIQDark;
+window.hidesearch = hidesearch;
