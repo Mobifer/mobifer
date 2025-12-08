@@ -1487,7 +1487,7 @@
        d="M 283.46414,1109.7789 V 2558.6695"
        id="path90" /><a
        id="a2"
-       xlink:href="/stations.html?station=Le+Luth"
+       xlink:href="/stations/Le Luth"
        target="_parent"
        transform="translate(33.46418,1117.591)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1497,7 +1497,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a10"
-       xlink:href="/stations.html?station=Les+Courtilles"
+       xlink:href="/stations/Les Courtilles"
        target="_parent"
        transform="translate(0,1033.9987)"><g
          id="g9"><circle
@@ -1516,7 +1516,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Les Courtilles" /><a
        id="a89"
-       xlink:href="/stations.html?station=Asnieres-Quatre+Routes"
+       xlink:href="/stations/Asnieres-Quatre Routes"
        transform="translate(0,-539.99998)"
        target="_parent"><path
          class="st0"
@@ -1593,7 +1593,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Le Luth" /><a
        id="a95"
-       xlink:href="/stations.html?station=Le+Village"
+       xlink:href="/stations/Le Village"
        target="_parent"
        transform="translate(33.46418,1155.3863)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1607,7 +1607,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Le Village" /><a
        id="a97"
-       xlink:href="/stations.html?station=Timbaud"
+       xlink:href="/stations/Timbaud"
        target="_parent"
        transform="translate(33.46418,1193.1815)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1621,7 +1621,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Timbaud" /><a
        id="a101"
-       xlink:href="/stations.html?station=Gennevilliers"
+       xlink:href="/stations/Gennevilliers"
        target="_parent"
        transform="translate(0,1185.1802)"><g
          id="g101"><circle
@@ -1640,7 +1640,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Gare de Gennevilliers" /><a
        id="a103"
-       xlink:href="/stations.html?station=Parc+des+Chanteraines"
+       xlink:href="/stations/Parc des Chanteraines"
        target="_parent"
        transform="translate(33.46418,1268.7721)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1654,7 +1654,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Parc des Chanteraines" /><a
        id="a104"
-       xlink:href="/stations.html?station=Chemin+des+Reniers"
+       xlink:href="/stations/Chemin des Reniers"
        target="_parent"
        transform="translate(33.46418,1306.5674)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1668,7 +1668,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Chemin des Reniers" /><a
        id="a106"
-       xlink:href="/stations.html?station=La+Noue"
+       xlink:href="/stations/La Noue"
        target="_parent"
        transform="translate(33.46418,1344.3626)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1682,7 +1682,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="La Noue" /><a
        id="a107"
-       xlink:href="/stations.html?station=Mairie+de+Villeneuve-la-Garenne"
+       xlink:href="/stations/Mairie de Villeneuve-la-Garenne"
        target="_parent"
        transform="translate(33.46418,1382.1579)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1696,7 +1696,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Mairie de Villeneuve-la-Garenne" /><a
        id="a108"
-       xlink:href="/stations.html?station=LIle-Saint-Denis"
+       xlink:href="/stations/LIle-Saint-Denis"
        target="_parent"
        transform="translate(33.46418,1419.9532)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1710,7 +1710,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="L’Île-Saint-Denis" /><a
        id="a41"
-       xlink:href="/stations.html?station=Saint-Denis"
+       xlink:href="/stations/Saint-Denis"
        target="_parent"><g
          id="g27"
          transform="translate(0,1411.9518)"><circle
@@ -1843,7 +1843,7 @@
            id="path62351"
            style="fill:#000000;fill-opacity:1" /></g></a><a
        id="a43"
-       xlink:href="/stations.html?station=Theatre+Gerard+Philipe"
+       xlink:href="/stations/Theatre Gerard Philipe"
        target="_parent"
        transform="translate(33.46418,1495.5437)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1857,7 +1857,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Théâtre Gérard Philipe" /><a
        id="a50"
-       xlink:href="/stations.html?station=Marche+de+Saint-Denis"
+       xlink:href="/stations/Marche de Saint-Denis"
        transform="translate(0,75.590638)"
        target="_parent"><g
          id="g50"
@@ -1933,7 +1933,7 @@
            id="path51896"
            style="fill:#000000;fill-opacity:1" /></g></a><a
        id="a71"
-       xlink:href="/stations.html?station=Basilique+de+Saint-Denis"
+       xlink:href="/stations/Basilique de Saint-Denis"
        transform="translate(0,113.38588)"
        target="_parent"><g
          id="g71"
@@ -2018,7 +2018,7 @@
          d="m 6.1489852,214.32312 c -0.464,-0.24 -1.024,-0.336 -1.536,-0.336 -1.064,0 -2.008,0.6 -2.008,1.792 0,0.792 0.536,1.232 1.032,1.576 0.384,0.272 0.736,0.536 0.736,0.92 0,0.528 -0.472,0.696 -0.928,0.696 -0.424,0 -0.864,-0.144 -1.2,-0.36 l -0.432,0.968 c 0.472,0.256 1.056,0.344 1.608,0.344 1.104,0 2.192,-0.616 2.192,-1.88 0,-0.776 -0.56,-1.208 -1.096,-1.568 -0.344,-0.232 -0.736,-0.504 -0.736,-0.912 0,-0.36 0.256,-0.64 0.808,-0.64 0.416,0 0.824,0.12 1.144,0.344 z m 4.3759908,1.208 h -1.04 l -0.064,0.248 c -0.184,-0.28 -0.496,-0.368 -0.84,-0.368 -1.552,0 -2.336,1.608 -2.336,2.992 0,0.704 0.288,1.504 1.112,1.504 0.592,0 1.08,-0.504 1.456,-0.968 l -0.024,0.112 c -0.112,0.512 0.112,0.8 0.64,0.8 0.24,0 0.488,-0.048 0.624,-0.096 l 0.064,-0.704 c -0.032,0.016 -0.096,0.032 -0.144,0.032 -0.192,0 -0.152,-0.192 -0.128,-0.312 z m -1.344,1.272 -0.208,0.984 c -0.024,0.112 -0.088,0.224 -0.144,0.32 -0.192,0.312 -0.632,0.848 -1.024,0.848 -0.28,0 -0.44,-0.256 -0.44,-0.768 0,-0.712 0.256,-2.016 1.208,-2.016 0.384,0 0.704,0.192 0.608,0.632 z m 3.879986,-2.576 c 0,-0.256 -0.216,-0.44 -0.504,-0.44 -0.384,0 -0.728,0.312 -0.728,0.704 0,0.264 0.224,0.44 0.512,0.44 0.392,0 0.72,-0.312 0.72,-0.704 z m -0.32,1.304 h -1.08 l -0.904,4.256 h 1.08 z m 4.591995,0.848 c 0,-0.584 -0.376,-0.968 -0.96,-0.968 -0.664,0 -1.232,0.488 -1.616,0.968 l 0.184,-0.848 h -1 l -0.896,4.256 h 1.072 l 0.48,-2.256 c 0.016,-0.088 0.056,-0.2 0.136,-0.32 0.248,-0.4 0.712,-0.848 1.088,-0.848 0.216,0 0.368,0.144 0.368,0.4 0,0.112 -0.016,0.24 -0.04,0.352 l -0.568,2.672 h 1.08 l 0.6,-2.84 c 0.04,-0.184 0.072,-0.376 0.072,-0.568 z m 3.527999,-0.768 h -0.976 l 0.256,-1.232 -1.152,0.352 -0.184,0.88 h -0.736 l -0.176,0.776 h 0.752 l -0.48,2.248 c -0.024,0.112 -0.048,0.272 -0.048,0.4 0,0.664 0.504,0.888 1.096,0.888 0.288,0 0.608,-0.04 0.864,-0.104 l 0.056,-0.8 c -0.136,0.048 -0.288,0.064 -0.432,0.064 -0.248,0 -0.456,-0.112 -0.456,-0.384 0,-0.072 0.016,-0.152 0.032,-0.224 l 0.44,-2.088 h 0.968 z m 1.87999,1.448 h -2.032 l -0.208,0.992 h 2.032 z m 5.81599,-0.68 c 0,-1.56 -1.176,-2.24 -2.616,-2.24 h -1.848 l -1.2,5.648 h 1.832 c 2.16,0 3.832,-1.072 3.832,-3.408 z m -1.232,0.112 c 0,1.464 -0.864,2.36 -2.32,2.36 h -0.728 l 0.8,-3.768 h 0.632 c 0.976,0 1.616,0.512 1.616,1.408 z m 5.383985,0.008 c 0,-0.768 -0.688,-1.104 -1.368,-1.104 -1.512,0 -2.416,1.424 -2.416,2.816 0,1.056 0.776,1.712 1.8,1.712 0.512,0 1.088,-0.136 1.536,-0.384 l -0.232,-0.8 c -0.304,0.184 -0.672,0.312 -1.032,0.312 -0.616,0 -0.984,-0.328 -0.984,-0.928 0,-0.048 0,-0.104 0,-0.152 0.168,0.016 0.344,0.032 0.52,0.032 0.976,0 2.176,-0.312 2.176,-1.504 z m -1.112,0.112 c 0,0.536 -0.624,0.664 -1.048,0.664 -0.144,0 -0.288,-0.008 -0.432,-0.024 0.12,-0.568 0.448,-1.072 1.016,-1.072 0.256,0 0.464,0.168 0.464,0.432 z m 5.711988,-0.232 c 0,-0.584 -0.376,-0.968 -0.96,-0.968 -0.664,0 -1.232,0.488 -1.616,0.968 l 0.184,-0.848 h -1 l -0.896,4.256 h 1.072 l 0.48,-2.256 c 0.016,-0.088 0.056,-0.2 0.136,-0.32 0.248,-0.4 0.712,-0.848 1.088,-0.848 0.216,0 0.368,0.144 0.368,0.4 0,0.112 -0.016,0.24 -0.04,0.352 l -0.568,2.672 h 1.08 l 0.6,-2.84 c 0.04,-0.184 0.072,-0.376 0.072,-0.568 z m 2.711999,-2.152 c 0,-0.256 -0.216,-0.44 -0.504,-0.44 -0.384,0 -0.728,0.312 -0.728,0.704 0,0.264 0.224,0.44 0.512,0.44 0.392,0 0.72,-0.312 0.72,-0.704 z m -0.32,1.304 h -1.08 l -0.904,4.256 h 1.08 z m 3.391994,0.112 c -0.344,-0.176 -0.704,-0.248 -1.12,-0.248 -1.04,0 -1.656,0.6 -1.656,1.456 0,0.592 0.416,0.888 0.784,1.128 0.408,0.272 0.576,0.424 0.576,0.656 0,0.344 -0.328,0.456 -0.648,0.456 -0.328,0 -0.664,-0.12 -0.912,-0.288 l -0.384,0.832 c 0.36,0.216 0.88,0.288 1.328,0.288 0.84,0 1.696,-0.52 1.696,-1.488 0,-0.632 -0.464,-0.944 -0.864,-1.192 -0.224,-0.144 -0.536,-0.336 -0.536,-0.616 0,-0.184 0.144,-0.416 0.6,-0.416 0.2,0 0.544,0.064 0.768,0.216 z"
          id="path38" /></g><a
        id="a88"
-       xlink:href="/stations.html?station=Cimetiere+de+Saint-Denis"
+       xlink:href="/stations/Cimetiere de Saint-Denis"
        target="_parent"
        transform="translate(33.46418,1627.8271)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2032,7 +2032,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Cimetière de Saint-Denis" /><a
        id="a90"
-       xlink:href="/stations.html?station=Hopital+Delafontaine"
+       xlink:href="/stations/Hopital Delafontaine"
        target="_parent"
        transform="translate(33.46418,1665.6224)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2046,7 +2046,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Hôpital Delafontaine" /><a
        id="a91"
-       xlink:href="/stations.html?station=Cosmonautes"
+       xlink:href="/stations/Cosmonautes"
        target="_parent"
        transform="translate(33.46418,1703.4177)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2060,7 +2060,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Cosmonautes" /><a
        id="a171"
-       xlink:href="/stations.html?station=La+Courneuve-Six+Routes"
+       xlink:href="/stations/La Courneuve-Six Routes"
        transform="translate(0,283.46464)"
        target="_parent"><g
          id="g170"
@@ -2080,7 +2080,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="La Courneuve – Six Routes" /><a
        id="a93"
-       xlink:href="/stations.html?station=Hotel+de+Ville+de+La+Courneuve"
+       xlink:href="/stations/Hotel de Ville de La Courneuve"
        target="_parent"
        transform="translate(33.46418,1779.0082)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2094,7 +2094,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Hôtel de Ville de La Courneuve" /><a
        id="a94"
-       xlink:href="/stations.html?station=Stade+Geo+Andre"
+       xlink:href="/stations/Stade Geo Andre"
        target="_parent"
        transform="translate(33.46418,1816.8035)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2108,7 +2108,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Stade Géo André" /><a
        id="a96"
-       xlink:href="/stations.html?station=Danton"
+       xlink:href="/stations/Danton"
        target="_parent"
        transform="translate(33.46418,1854.5988)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2122,7 +2122,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Danton" /><a
        id="a111"
-       xlink:href="/stations.html?station=La+Courneuve-8+Mai+1945"
+       xlink:href="/stations/La Courneuve-8 Mai 1945"
        transform="translate(0,434.64567)"
        target="_parent"><g
          id="g111"
@@ -2179,7 +2179,7 @@
            clip-path="url(#SVGID_00000068661809906068489540000009586368646322554296_)"
            id="path2791" /></g></a><a
        id="a113"
-       xlink:href="/stations.html?station=Maurice+Lachatre"
+       xlink:href="/stations/Maurice Lachatre"
        target="_parent"
        transform="translate(33.46418,1930.1893)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2193,7 +2193,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Maurice Lachâtre" /><a
        id="a114"
-       xlink:href="/stations.html?station=Drancy-Avenir"
+       xlink:href="/stations/Drancy-Avenir"
        target="_parent"
        transform="translate(33.46418,1967.9846)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2207,7 +2207,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Drancy – Avenir" /><a
        id="a180"
-       xlink:href="/stations.html?station=Hopital+Avicenne"
+       xlink:href="/stations/Hopital Avicenne"
        transform="translate(0,548.03144)"
        target="_parent"><g
          id="g180"
@@ -2227,7 +2227,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Hôpital Avicenne" /><a
        id="a116"
-       xlink:href="/stations.html?station=Gaston+Roulaud"
+       xlink:href="/stations/Gaston Roulaud"
        target="_parent"
        transform="translate(33.46418,2043.5751)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2241,7 +2241,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Gaston Roulaud" /><a
        id="a117"
-       xlink:href="/stations.html?station=Escadrille+Normandie-Niemen"
+       xlink:href="/stations/Escadrille Normandie-Niemen"
        target="_parent"
        transform="translate(33.46418,2081.3704)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2255,7 +2255,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Escadrille Normandie-Niémen" /><a
        id="a118"
-       xlink:href="/stations.html?station=La+Ferme"
+       xlink:href="/stations/La Ferme"
        target="_parent"
        transform="translate(33.46418,2119.1657)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2269,7 +2269,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="La Ferme" /><a
        id="a119"
-       xlink:href="/stations.html?station=Liberation"
+       xlink:href="/stations/Liberation"
        target="_parent"
        transform="translate(33.46418,2156.9609)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2283,7 +2283,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Libération" /><a
        id="a120"
-       xlink:href="/stations.html?station=Hotel+de+Ville+de+Bobigny"
+       xlink:href="/stations/Hotel de Ville de Bobigny"
        target="_parent"
        transform="translate(33.46418,2194.7562)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2309,7 +2309,7 @@
          id="text28411"
          aria-label="Maison de la Culture" /></g><a
        id="a44"
-       xlink:href="/stations.html?station=Bobigny-Pablo+Picasso"
+       xlink:href="/stations/Bobigny-Pablo Picasso"
        transform="translate(0,793.70074)"
        target="_parent"><g
          id="g36"
@@ -2392,7 +2392,7 @@
        id="text24215-9"
        aria-label="Préfecture – Hôtel du Département" /><a
        id="a73"
-       xlink:href="/stations.html?station=Jean+Rostand"
+       xlink:href="/stations/Jean Rostand"
        target="_parent"
        transform="translate(33.46418,2308.142)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2406,7 +2406,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Jean Rostand" /><a
        id="a76"
-       xlink:href="/stations.html?station=Auguste+Delaune"
+       xlink:href="/stations/Auguste Delaune"
        target="_parent"
        transform="translate(33.46418,2345.9373)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2420,7 +2420,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Auguste Delaune" /><a
        id="a121"
-       xlink:href="/stations.html?station=Pont+de+Bondy"
+       xlink:href="/stations/Pont de Bondy"
        transform="translate(0,925.98414)"
        target="_parent"><g
          id="g121"
@@ -2470,7 +2470,7 @@
          id="path125"
          style="fill:#000000;fill-opacity:1" /></g><a
        id="a125"
-       xlink:href="/stations.html?station=Petit+Noisy"
+       xlink:href="/stations/Petit Noisy"
        target="_parent"
        transform="translate(33.46418,2421.5278)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2494,7 +2494,7 @@
        style="font-weight:bold;font-size:21.3333px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';letter-spacing:0px;fill:#ffffff;stroke-width:9.44882"
        aria-label="Gare de Noisy-le-Sec" /><a
        id="a128"
-       xlink:href="/stations.html?station=Noisy-le-Sec"
+       xlink:href="/stations/Noisy-le-Sec"
        transform="translate(0,897.99998)"
        target="_parent"><path
          class="st0"
@@ -2909,7 +2909,7 @@
        style="font-weight:bold;font-size:21.3333px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';letter-spacing:0px;fill:#ffffff;stroke-width:9.44882"
        aria-label="Gare de Saint-Denis" /><a
        id="a190"
-       xlink:href="/stations.html?station=Saint-Denis"
+       xlink:href="/stations/Saint-Denis"
        transform="translate(0,-113.73069)"
        target="_parent"><path
          class="st0"

@@ -1671,7 +1671,7 @@
        d="M 283.46414,1109.7789 V 2558.6695"
        id="path90" /><a
        id="a2"
-       xlink:href="/stations.html?station=Le+Luth"
+       xlink:href="/stations/Le Luth"
        target="_parent"
        transform="translate(33.46418,1117.591)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1681,7 +1681,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a10"
-       xlink:href="/stations.html?station=Les+Courtilles"
+       xlink:href="/stations/Les Courtilles"
        target="_parent"
        transform="translate(0,1033.9987)"><g
          id="g9"><circle
@@ -1705,7 +1705,7 @@
          x="304.27811"
          y="1165.5903">Les Courtilles</tspan></text><a
        id="a89"
-       xlink:href="/stations.html?station=Asnieres-Quatre+Routes"
+       xlink:href="/stations/Asnieres-Quatre Routes"
        transform="translate(0,-539.99998)"
        target="_parent"><path
          class="st0"
@@ -1787,7 +1787,7 @@
          x="304.27811"
          y="1203.386">Le Luth</tspan></text><a
        id="a95"
-       xlink:href="/stations.html?station=Le+Village"
+       xlink:href="/stations/Le Village"
        target="_parent"
        transform="translate(33.46418,1155.3863)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1806,7 +1806,7 @@
          x="304.27811"
          y="1241.1813">Le Village</tspan></text><a
        id="a97"
-       xlink:href="/stations.html?station=Timbaud"
+       xlink:href="/stations/Timbaud"
        target="_parent"
        transform="translate(33.46418,1193.1815)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1825,7 +1825,7 @@
          x="305.43011"
          y="1278.9766">Timbaud</tspan></text><a
        id="a101"
-       xlink:href="/stations.html?station=Gennevilliers"
+       xlink:href="/stations/Gennevilliers"
        target="_parent"
        transform="translate(0,1185.1802)"><g
          id="g101"><circle
@@ -1849,7 +1849,7 @@
          x="304.9501"
          y="1316.7719">Gare de Gennevilliers</tspan></text><a
        id="a103"
-       xlink:href="/stations.html?station=Parc+des+Chanteraines"
+       xlink:href="/stations/Parc des Chanteraines"
        target="_parent"
        transform="translate(33.46418,1268.7721)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1868,7 +1868,7 @@
          x="304.27811"
          y="1354.567">Parc des Chanteraines</tspan></text><a
        id="a104"
-       xlink:href="/stations.html?station=Chemin+des+Reniers"
+       xlink:href="/stations/Chemin des Reniers"
        target="_parent"
        transform="translate(33.46418,1306.5674)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1887,7 +1887,7 @@
          x="304.9501"
          y="1392.3623">Chemin des Reniers</tspan></text><a
        id="a106"
-       xlink:href="/stations.html?station=La+Noue"
+       xlink:href="/stations/La Noue"
        target="_parent"
        transform="translate(33.46418,1344.3626)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1906,7 +1906,7 @@
          x="304.27811"
          y="1430.1576">La Noue</tspan></text><a
        id="a107"
-       xlink:href="/stations.html?station=Mairie+de+Villeneuve-la-Garenne"
+       xlink:href="/stations/Mairie de Villeneuve-la-Garenne"
        target="_parent"
        transform="translate(33.46418,1382.1579)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1925,7 +1925,7 @@
          x="304.34213"
          y="1467.9529">Mairie de Villeneuve-la-Garenne</tspan></text><a
        id="a108"
-       xlink:href="/stations.html?station=LIle-Saint-Denis"
+       xlink:href="/stations/LIle-Saint-Denis"
        target="_parent"
        transform="translate(33.46418,1419.9532)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1944,7 +1944,7 @@
          x="304.27811"
          y="1505.7482">L’Île-Saint-Denis</tspan></text><a
        id="a41"
-       xlink:href="/stations.html?station=Saint-Denis"
+       xlink:href="/stations/Saint-Denis"
        target="_parent"><g
          id="g27"
          transform="translate(0,1411.9518)"><circle
@@ -2082,7 +2082,7 @@
            id="path62351"
            style="fill:#000000;fill-opacity:1" /></g></a><a
        id="a43"
-       xlink:href="/stations.html?station=Theatre+Gerard+Philipe"
+       xlink:href="/stations/Theatre Gerard Philipe"
        target="_parent"
        transform="translate(33.46418,1495.5437)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2101,7 +2101,7 @@
          x="305.43011"
          y="1581.3386">Théâtre Gérard Philipe</tspan></text><a
        id="a50"
-       xlink:href="/stations.html?station=Marche+de+Saint-Denis"
+       xlink:href="/stations/Marche de Saint-Denis"
        transform="translate(0,75.590638)"
        target="_parent"><g
          id="g50"
@@ -2182,7 +2182,7 @@
            id="path51896"
            style="fill:#000000;fill-opacity:1" /></g></a><a
        id="a71"
-       xlink:href="/stations.html?station=Basilique+de+Saint-Denis"
+       xlink:href="/stations/Basilique de Saint-Denis"
        transform="translate(0,113.38588)"
        target="_parent"><g
          id="g71"
@@ -2288,7 +2288,7 @@
          y="219.78712"
          id="tspan35">Saint-Denis</tspan></text><a
        id="a88"
-       xlink:href="/stations.html?station=Cimetiere+de+Saint-Denis"
+       xlink:href="/stations/Cimetiere de Saint-Denis"
        target="_parent"
        transform="translate(33.46418,1627.8271)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2307,7 +2307,7 @@
          x="304.9501"
          y="1713.6221">Cimetière de Saint-Denis</tspan></text><a
        id="a90"
-       xlink:href="/stations.html?station=Hopital+Delafontaine"
+       xlink:href="/stations/Hopital Delafontaine"
        target="_parent"
        transform="translate(33.46418,1665.6224)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2326,7 +2326,7 @@
          x="304.27811"
          y="1751.4174">Hôpital Delafontaine</tspan></text><a
        id="a91"
-       xlink:href="/stations.html?station=Cosmonautes"
+       xlink:href="/stations/Cosmonautes"
        target="_parent"
        transform="translate(33.46418,1703.4177)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2345,7 +2345,7 @@
          x="304.9501"
          y="1789.2126">Cosmonautes</tspan></text><a
        id="a171"
-       xlink:href="/stations.html?station=La+Courneuve-Six+Routes"
+       xlink:href="/stations/La Courneuve-Six Routes"
        transform="translate(0,283.46464)"
        target="_parent"><g
          id="g170"
@@ -2370,7 +2370,7 @@
          x="304.27811"
          y="1827.0079">La Courneuve – Six Routes</tspan></text><a
        id="a93"
-       xlink:href="/stations.html?station=Hotel+de+Ville+de+La+Courneuve"
+       xlink:href="/stations/Hotel de Ville de La Courneuve"
        target="_parent"
        transform="translate(33.46418,1779.0082)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2389,7 +2389,7 @@
          x="304.27811"
          y="1864.8031">Hôtel de Ville de La Courneuve</tspan></text><a
        id="a94"
-       xlink:href="/stations.html?station=Stade+Geo+Andre"
+       xlink:href="/stations/Stade Geo Andre"
        target="_parent"
        transform="translate(33.46418,1816.8035)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2408,7 +2408,7 @@
          x="304.79013"
          y="1902.5984">Stade Géo André</tspan></text><a
        id="a96"
-       xlink:href="/stations.html?station=Danton"
+       xlink:href="/stations/Danton"
        target="_parent"
        transform="translate(33.46418,1854.5988)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2427,7 +2427,7 @@
          x="304.27811"
          y="1940.3937">Danton</tspan></text><a
        id="a111"
-       xlink:href="/stations.html?station=La+Courneuve-8+Mai+1945"
+       xlink:href="/stations/La Courneuve-8 Mai 1945"
        transform="translate(0,434.64567)"
        target="_parent"><g
          id="g111"
@@ -2489,7 +2489,7 @@
            clip-path="url(#SVGID_00000068661809906068489540000009586368646322554296_)"
            id="path2791" /></g></a><a
        id="a113"
-       xlink:href="/stations.html?station=Maurice+Lachatre"
+       xlink:href="/stations/Maurice Lachatre"
        target="_parent"
        transform="translate(33.46418,1930.1893)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2508,7 +2508,7 @@
          x="304.34213"
          y="2015.9841">Maurice Lachâtre</tspan></text><a
        id="a114"
-       xlink:href="/stations.html?station=Drancy-Avenir"
+       xlink:href="/stations/Drancy-Avenir"
        target="_parent"
        transform="translate(33.46418,1967.9846)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2527,7 +2527,7 @@
          x="304.27811"
          y="2053.7793">Drancy – Avenir</tspan></text><a
        id="a180"
-       xlink:href="/stations.html?station=Hopital+Avicenne"
+       xlink:href="/stations/Hopital Avicenne"
        transform="translate(0,548.03144)"
        target="_parent"><g
          id="g180"
@@ -2552,7 +2552,7 @@
          x="304.27811"
          y="2091.5745">Hôpital Avicenne</tspan></text><a
        id="a116"
-       xlink:href="/stations.html?station=Gaston+Roulaud"
+       xlink:href="/stations/Gaston Roulaud"
        target="_parent"
        transform="translate(33.46418,2043.5751)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2571,7 +2571,7 @@
          x="304.9501"
          y="2129.3699">Gaston Roulaud</tspan></text><a
        id="a117"
-       xlink:href="/stations.html?station=Escadrille+Normandie-Niemen"
+       xlink:href="/stations/Escadrille Normandie-Niemen"
        target="_parent"
        transform="translate(33.46418,2081.3704)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2590,7 +2590,7 @@
          x="304.27811"
          y="2167.165">Escadrille Normandie-Niémen</tspan></text><a
        id="a118"
-       xlink:href="/stations.html?station=La+Ferme"
+       xlink:href="/stations/La Ferme"
        target="_parent"
        transform="translate(33.46418,2119.1657)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2609,7 +2609,7 @@
          x="304.27811"
          y="2204.9602">La Ferme</tspan></text><a
        id="a119"
-       xlink:href="/stations.html?station=Liberation"
+       xlink:href="/stations/Liberation"
        target="_parent"
        transform="translate(33.46418,2156.9609)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2628,7 +2628,7 @@
          x="304.27811"
          y="2242.7554">Libération</tspan></text><a
        id="a120"
-       xlink:href="/stations.html?station=Hotel+de+Ville+de+Bobigny"
+       xlink:href="/stations/Hotel de Ville de Bobigny"
        target="_parent"
        transform="translate(33.46418,2194.7562)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2665,7 +2665,7 @@
            y="2306.8896"
            style="text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1">Maison de la Culture</tspan></text></g><a
        id="a44"
-       xlink:href="/stations.html?station=Bobigny-Pablo+Picasso"
+       xlink:href="/stations/Bobigny-Pablo Picasso"
        transform="translate(0,793.70074)"
        target="_parent"><g
          id="g36"
@@ -2759,7 +2759,7 @@
          y="2357.1377"
          style="text-align:start;text-anchor:start;fill:#25303b;fill-opacity:1">Préfecture – Hôtel du Département</tspan></text><a
        id="a73"
-       xlink:href="/stations.html?station=Jean+Rostand"
+       xlink:href="/stations/Jean Rostand"
        target="_parent"
        transform="translate(33.46418,2308.142)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2778,7 +2778,7 @@
          x="305.49411"
          y="2393.9365">Jean Rostand</tspan></text><a
        id="a76"
-       xlink:href="/stations.html?station=Auguste+Delaune"
+       xlink:href="/stations/Auguste Delaune"
        target="_parent"
        transform="translate(33.46418,2345.9373)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2797,7 +2797,7 @@
          x="305.49411"
          y="2431.7317">Auguste Delaune</tspan></text><a
        id="a121"
-       xlink:href="/stations.html?station=Pont+de+Bondy"
+       xlink:href="/stations/Pont de Bondy"
        transform="translate(0,925.98414)"
        target="_parent"><g
          id="g121"
@@ -2852,7 +2852,7 @@
          id="path125"
          style="fill:#000000;fill-opacity:1" /></g><a
        id="a125"
-       xlink:href="/stations.html?station=Petit+Noisy"
+       xlink:href="/stations/Petit Noisy"
        target="_parent"
        transform="translate(33.46418,2421.5278)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -2887,7 +2887,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';letter-spacing:0px;fill:#ffffff;fill-opacity:1"
          id="tspan126">Gare de Noisy-le-Sec</tspan></text><a
        id="a128"
-       xlink:href="/stations.html?station=Noisy-le-Sec"
+       xlink:href="/stations/Noisy-le-Sec"
        transform="translate(0,897.99998)"
        target="_parent"><path
          class="st0"
@@ -3384,7 +3384,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';letter-spacing:0px;fill:#ffffff;fill-opacity:1"
          id="tspan173">Gare de Saint-Denis</tspan></text><a
        id="a190"
-       xlink:href="/stations.html?station=Saint-Denis"
+       xlink:href="/stations/Saint-Denis"
        transform="translate(0,-113.73069)"
        target="_parent"><path
          class="st0"

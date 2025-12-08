@@ -775,7 +775,7 @@
        x="305.59012"
        y="22.676369" /><a
        id="a80"
-       xlink:href="/stations.html?station=Trocadero"
+       xlink:href="/stations/Trocadero"
        target="_parent"
        transform="translate(-7.1579308e-6,-60.47324)"><g
          id="g33"
@@ -809,7 +809,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path218" /></g><a
        id="a2129"
-       xlink:href="/stations.html?station=Charles+de+Gaulle-Etoile"
+       xlink:href="/stations/Charles de Gaulle-Etoile"
        target="_parent"><circle
          style="fill:#000000;stroke-width:0.332857"
          id="circle15"
@@ -948,7 +948,7 @@
    id="path153" />
 </g></a><a
        id="a79"
-       xlink:href="/stations.html?station=Kleber"
+       xlink:href="/stations/Kleber"
        target="_parent"
        transform="translate(0,-60.473234)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -958,7 +958,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a55506"
-       xlink:href="/stations.html?station=Boissiere"
+       xlink:href="/stations/Boissiere"
        target="_parent"
        transform="translate(-4.0536565e-7,-22.677957)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -968,7 +968,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a57848"
-       xlink:href="/stations.html?station=Passy"
+       xlink:href="/stations/Passy"
        target="_parent"
        transform="translate(-4.0536565e-7,52.912585)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -978,7 +978,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a57860"
-       xlink:href="/stations.html?station=Bir-Hakeim"
+       xlink:href="/stations/Bir-Hakeim"
        target="_parent"
        transform="translate(-7.1579308e-6,15.117302)"><g
          id="g57858"
@@ -994,7 +994,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a61500"
-       xlink:href="/stations.html?station=Dupleix"
+       xlink:href="/stations/Dupleix"
        target="_parent"
        transform="translate(-4.0536565e-7,128.50313)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -1004,7 +1004,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a62628"
-       xlink:href="/stations.html?station=La+Motte-Picquet-Grenelle"
+       xlink:href="/stations/La Motte-Picquet-Grenelle"
        target="_parent"
        transform="translate(-7.1579308e-6,90.707844)"><g
          id="g62626"
@@ -1052,7 +1052,7 @@
    id="path65052" />
 </g></a><a
        id="a67535"
-       xlink:href="/stations.html?station=Cambronne"
+       xlink:href="/stations/Cambronne"
        target="_parent"
        transform="translate(-4.0536565e-7,204.09367)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -1062,7 +1062,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a67543"
-       xlink:href="/stations.html?station=Sevres-Lecourbe"
+       xlink:href="/stations/Sevres-Lecourbe"
        target="_parent"
        transform="translate(-4.0536565e-7,241.88894)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -1072,7 +1072,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a68699"
-       xlink:href="/stations.html?station=Pasteur"
+       xlink:href="/stations/Pasteur"
        target="_parent"
        transform="translate(-7.1579308e-6,204.09366)"><g
          id="g68697"
@@ -1088,7 +1088,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a72172"
-       xlink:href="/stations.html?station=Montparnasse-Bienvenue"
+       xlink:href="/stations/Montparnasse-Bienvenue"
        target="_parent"
        transform="translate(-7.1579308e-6,241.88893)"><g
          id="g72170"
@@ -1159,7 +1159,7 @@
          style="color:#000000;fill-opacity:1;stroke-width:0.0531925;stroke-linecap:round;stroke-miterlimit:10"
          d="m -40.984725,626.20866 v -13.11531 h 15.123358 c 2.409863,0 4.146296,1.65691 4.146296,3.60687 0,0.92251 -0.337774,1.67588 -0.97566,2.47462 l -0.0086,0.0109 -3.939039,4.3967 c -1.526039,1.80101 -3.667871,2.62625 -7.089294,2.62625 z m 1.25213,-3.52509 h 5.1026 v -3.56286 h -5.1026 z m 6.28385,0 6.159266,-5.3e-4 3.191528,-3.56244 -9.350794,1.1e-4 z" /></g><a
        id="a78083"
-       xlink:href="/stations.html?station=Edgar+Quinet"
+       xlink:href="/stations/Edgar Quinet"
        target="_parent"
        transform="translate(-4.0536565e-7,355.27475)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -1169,7 +1169,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a79287"
-       xlink:href="/stations.html?station=Raspail"
+       xlink:href="/stations/Raspail"
        target="_parent"
        transform="translate(-7.1579308e-6,317.47947)"><g
          id="g79285"
@@ -1207,7 +1207,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path80501" /></g><a
        id="a81849"
-       xlink:href="/stations.html?station=Denfert-Rochereau"
+       xlink:href="/stations/Denfert-Rochereau"
        target="_parent"
        transform="translate(-7.1579308e-6,355.27474)"><g
          id="g81847"
@@ -1286,7 +1286,7 @@
    style="clip-rule:evenodd;fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
 </g></a><a
        id="a84572"
-       xlink:href="/stations.html?station=Saint-Jacques"
+       xlink:href="/stations/Saint-Jacques"
        target="_parent"
        transform="translate(-4.0536565e-7,468.66057)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -1296,7 +1296,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a85849"
-       xlink:href="/stations.html?station=Glaciere"
+       xlink:href="/stations/Glaciere"
        target="_parent"
        transform="translate(-4.0536565e-7,506.45584)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -1306,7 +1306,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a87130"
-       xlink:href="/stations.html?station=Corvisart"
+       xlink:href="/stations/Corvisart"
        target="_parent"
        transform="translate(-4.0536565e-7,544.25111)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -1316,7 +1316,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a88419"
-       xlink:href="/stations.html?station=Place+dItalie"
+       xlink:href="/stations/Place dItalie"
        target="_parent"
        transform="translate(-7.1579308e-6,506.45583)"><g
          id="g88417"
@@ -1332,7 +1332,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a90969"
-       xlink:href="/stations.html?station=Nationale"
+       xlink:href="/stations/Nationale"
        target="_parent"
        transform="translate(-4.0536565e-7,619.84165)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -1342,7 +1342,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a90985"
-       xlink:href="/stations.html?station=Quai+de+la+Gare"
+       xlink:href="/stations/Quai de la Gare"
        target="_parent"
        transform="translate(-4.0536565e-7,695.43219)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -1352,7 +1352,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a93563"
-       xlink:href="/stations.html?station=Bercy"
+       xlink:href="/stations/Bercy"
        target="_parent"
        transform="translate(-7.1579308e-6,657.63691)"><g
          id="g93561"
@@ -1381,7 +1381,7 @@
          style="color:#000000;fill-opacity:1;stroke-width:0.0531925;stroke-linecap:round;stroke-miterlimit:10"
          d="m -40.984725,626.20866 v -13.11531 h 15.123358 c 2.409863,0 4.146296,1.65691 4.146296,3.60687 0,0.92251 -0.337774,1.67588 -0.97566,2.47462 l -0.0086,0.0109 -3.939039,4.3967 c -1.526039,1.80101 -3.667871,2.62625 -7.089294,2.62625 z m 1.25213,-3.52509 h 5.1026 v -3.56286 h -5.1026 z m 6.28385,0 6.159266,-5.3e-4 3.191528,-3.56244 -9.350794,1.1e-4 z" /></g><a
        id="a100060"
-       xlink:href="/stations.html?station=Dugommier"
+       xlink:href="/stations/Dugommier"
        target="_parent"
        transform="translate(-4.0536565e-7,771.02274)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -1391,7 +1391,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a103934"
-       xlink:href="/stations.html?station=Daumesnil"
+       xlink:href="/stations/Daumesnil"
        target="_parent"
        transform="translate(-7.1579308e-6,733.22745)"><g
          id="g103932"
@@ -1447,7 +1447,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path105244" /></g><a
        id="a107844"
-       xlink:href="/stations.html?station=Bel-Air"
+       xlink:href="/stations/Bel-Air"
        target="_parent"
        transform="translate(-4.0536565e-7,846.61328)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -1457,7 +1457,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a107852"
-       xlink:href="/stations.html?station=Picpus"
+       xlink:href="/stations/Picpus"
        target="_parent"
        transform="translate(-4.0536565e-7,884.40855)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -1467,7 +1467,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a21-7"
-       xlink:href="/stations.html?station=Nation"
+       xlink:href="/stations/Nation"
        target="_parent"
        transform="translate(33.464177,113.99912)"
        style="display:inline"><g
@@ -1511,7 +1511,7 @@
        x="393.93634"
        y="1060.0309" /><a
        id="a112099"
-       xlink:href="/stations.html?station=Nation"
+       xlink:href="/stations/Nation"
        target="_parent"><g
          id="g134"
          transform="matrix(0.07332416,0,0,0.07335,273.07045,1057.936)">
@@ -2745,7 +2745,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path18395" /></g><a
        id="a4602"
-       xlink:href="/stations.html?station=Chevaleret"
+       xlink:href="/stations/Chevaleret"
        target="_parent"
        transform="translate(-7.4053657e-6,582.04637)"><g
          id="g4600"

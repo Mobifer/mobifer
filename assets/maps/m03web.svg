@@ -377,7 +377,7 @@
    id="polygon1-9" />
 </g></a><a
        id="a79"
-       xlink:href="/stations.html?station=Anatole+France"
+       xlink:href="/stations/Anatole France"
        target="_parent"
        transform="translate(0,83.999153)"><circle
          style="fill:#6e6e00;fill-opacity:1;stroke:none;stroke-width:3.13973"
@@ -386,7 +386,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a3"
-       xlink:href="/stations.html?station=Louise+Michel"
+       xlink:href="/stations/Louise Michel"
        target="_parent"
        transform="translate(33.46418,143.99915)"
        style="fill:#6e6e00;fill-opacity:1"><circle
@@ -396,7 +396,7 @@
          cy="118.11024"
          r="10.3937" /></a><a
        id="a81"
-       xlink:href="/stations.html?station=Pereire"
+       xlink:href="/stations/Pereire"
        target="_parent"
        transform="translate(0,83.999153)"><g
          id="g30"><circle
@@ -912,7 +912,7 @@
          d="M 274.25,18.42 H 9.21 C 4.12,18.42 0,14.3 0,9.21 0,4.12 4.12,0 9.21,0 h 265.04 c 5.09,0 9.21,4.12 9.21,9.21 0,5.09 -4.12,9.21 -9.21,9.21 m 9.21,255.83 v 0 c 0,-5.09 -4.12,-9.22 -9.21,-9.22 H 9.21 c -5.09,0 -9.21,4.13 -9.21,9.22 0,5.09 4.12,9.21 9.21,9.21 h 265.04 c 5.09,0 9.21,-4.12 9.21,-9.21 m -32.32,-38.41 c 2.19,0 3.97,-1.78 3.97,-3.97 v -3.97 c 0,-2.19 -1.78,-3.96 -3.97,-3.96 H 28.35 v 11.91 H 251.14 M 28.35,170.78 H 69.6 c 1.09,0 1.98,-0.89 1.98,-1.98 v -54.85 c 0,-1.09 -0.89,-1.98 -1.98,-1.98 H 28.35 V 99.21 H 92.72 L 117.95,78.47 86.21,52.39 c -1.37,-1.12 -1.57,-3.15 -0.44,-4.52 l 2.04,-2.49 c 1.13,-1.37 3.15,-1.56 4.52,-0.44 l 36.14,29.69 c 2.41,1.98 2.42,5.68 0,7.66 L 107.89,99.2 h 98.03 c 7.78,0 15.18,3.29 20.43,9.03 15.45,16.89 25.27,37.77 28.41,60.39 1,7.19 -0.09,14.31 -3.16,20.56 -7.09,14.44 -21.47,23.41 -37.55,23.41 H 28.35 Z m 188.48,-54.06 c -2.8,-3.05 -6.77,-4.75 -10.91,-4.75 h -34.57 c -1.09,0 -1.98,0.89 -1.98,1.98 v 54.85 c 0,1.09 0.89,1.98 1.98,1.98 h 59.11 c 6.94,0 11.07,-5.46 9.31,-12.17 -4.1,-15.56 -11.91,-29.87 -22.94,-41.89 m -62.2,83.12 c 1.09,0 1.98,-0.89 1.98,-1.98 v -83.91 c 0,-1.09 -0.89,-1.98 -1.98,-1.98 h -25.79 c -1.1,0 -1.99,0.89 -1.99,1.98 v 83.91 c 0,1.09 0.89,1.98 1.99,1.98 h 25.79 M 86.32,111.97 c -1.09,0 -1.98,0.89 -1.98,1.98 v 83.91 c 0,1.09 0.89,1.98 1.98,1.98 h 25.79 c 1.1,0 1.99,-0.89 1.99,-1.98 v -83.91 c 0,-1.09 -0.89,-1.98 -1.99,-1.98 H 86.32"
          id="path150" /></g><a
        id="a21"
-       xlink:href="/stations.html?station=Gallieni"
+       xlink:href="/stations/Gallieni"
        target="_parent"
        transform="translate(33.46418,143.99915)"><g
          id="g151"
@@ -998,7 +998,7 @@
        x="305.59012"
        y="167.14876" /><a
        id="a22"
-       xlink:href="/stations.html?station=Pont+de+Levallois-Becon"
+       xlink:href="/stations/Pont de Levallois-Becon"
        target="_parent"
        transform="translate(33.46418,144.47159)"><circle
          style="fill:#000000;stroke-width:0.332857"
@@ -1007,7 +1007,7 @@
          cy="37.795273"
          r="15.118109" /></a><a
        id="a26"
-       xlink:href="/stations.html?station=Pont+de+Levallois-Becon"
+       xlink:href="/stations/Pont de Levallois-Becon"
        target="_parent"
        style="display:inline"
        transform="translate(34.96024,-95.025711)"><g
@@ -1028,7 +1028,7 @@
    style="clip-rule:evenodd;fill:#ffffff;fill-rule:evenodd" />
 </g></a><a
        id="a80"
-       xlink:href="/stations.html?station=Porte+de+Champerret"
+       xlink:href="/stations/Porte de Champerret"
        target="_parent"
        transform="translate(0,83.999153)"><g
          id="g33"
@@ -1044,7 +1044,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a77"
-       xlink:href="/stations.html?station=Wagram"
+       xlink:href="/stations/Wagram"
        target="_parent"
        transform="translate(33.46418,257.38496)"
        style="fill:#6e6e00;fill-opacity:1"><circle
@@ -1054,7 +1054,7 @@
          cy="118.11024"
          r="10.3937" /></a><a
        id="a78"
-       xlink:href="/stations.html?station=Malesherbes"
+       xlink:href="/stations/Malesherbes"
        target="_parent"
        transform="translate(33.46418,295.18023)"
        style="fill:#6e6e00;fill-opacity:1"><circle
@@ -1064,7 +1064,7 @@
          cy="118.11024"
          r="10.3937" /></a><a
        id="a82"
-       xlink:href="/stations.html?station=Villiers"
+       xlink:href="/stations/Villiers"
        target="_parent"
        transform="translate(0,83.999153)"><g
          id="g79"
@@ -1080,7 +1080,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a83"
-       xlink:href="/stations.html?station=Europe"
+       xlink:href="/stations/Europe"
        target="_parent"
        transform="translate(33.46418,370.77078)"
        style="fill:#6e6e00;fill-opacity:1"><circle
@@ -1090,7 +1090,7 @@
          cy="118.11024"
          r="10.3937" /></a><a
        id="a85"
-       xlink:href="/stations.html?station=Saint-Lazare"
+       xlink:href="/stations/Saint-Lazare"
        target="_parent"
        transform="translate(0,159.5897)"><g
          id="g85"
@@ -1209,7 +1209,7 @@
          style="color:#000000;fill-opacity:1;stroke-width:0.0531925;stroke-linecap:round;stroke-miterlimit:10"
          d="m -40.984725,626.20866 v -13.11531 h 15.123358 c 2.409863,0 4.146296,1.65691 4.146296,3.60687 0,0.92251 -0.337774,1.67588 -0.97566,2.47462 l -0.0086,0.0109 -3.939039,4.3967 c -1.526039,1.80101 -3.667871,2.62625 -7.089294,2.62625 z m 1.25213,-3.52509 h 5.1026 v -3.56286 h -5.1026 z m 6.28385,0 6.159266,-5.3e-4 3.191528,-3.56244 -9.350794,1.1e-4 z" /></g><a
        id="a162"
-       xlink:href="/stations.html?station=Havre-Caumartin"
+       xlink:href="/stations/Havre-Caumartin"
        target="_parent"
        transform="translate(0,197.38497)"><g
          id="g162"
@@ -1225,7 +1225,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a165"
-       xlink:href="/stations.html?station=Opera"
+       xlink:href="/stations/Opera"
        target="_parent"
        transform="translate(0,235.18024)"><g
          id="g165"
@@ -1322,7 +1322,7 @@
            id="path4-8"
            clip-path="url(#SVGID_00000145737393370230384210000000292656057530498699_)" /></g></g><a
        id="a198"
-       xlink:href="/stations.html?station=Quatre-Septembre"
+       xlink:href="/stations/Quatre-Septembre"
        target="_parent"
        transform="translate(33.46418,521.95186)"
        style="fill:#6e6e00;fill-opacity:1"><circle
@@ -1332,7 +1332,7 @@
          cy="118.11024"
          r="10.3937" /></a><a
        id="a199"
-       xlink:href="/stations.html?station=Bourse"
+       xlink:href="/stations/Bourse"
        target="_parent"
        transform="translate(33.46418,559.74714)"
        style="fill:#6e6e00;fill-opacity:1"><circle
@@ -1342,7 +1342,7 @@
          cy="118.11024"
          r="10.3937" /></a><a
        id="a200"
-       xlink:href="/stations.html?station=Sentier"
+       xlink:href="/stations/Sentier"
        target="_parent"
        transform="translate(33.46418,597.54241)"
        style="fill:#6e6e00;fill-opacity:1"><circle
@@ -1352,7 +1352,7 @@
          cy="118.11024"
          r="10.3937" /></a><a
        id="a202"
-       xlink:href="/stations.html?station=Reaumur-Sebastopol"
+       xlink:href="/stations/Reaumur-Sebastopol"
        target="_parent"
        transform="translate(0,386.36133)"><g
          id="g202"
@@ -1374,7 +1374,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path205" /></g><a
        id="a206"
-       xlink:href="/stations.html?station=Arts+et+Metiers"
+       xlink:href="/stations/Arts et Metiers"
        target="_parent"
        transform="translate(0,424.1566)"><g
          id="g206"
@@ -1390,7 +1390,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a207"
-       xlink:href="/stations.html?station=Temple"
+       xlink:href="/stations/Temple"
        target="_parent"
        transform="translate(33.46418,710.92822)"
        style="fill:#6e6e00;fill-opacity:1"><circle
@@ -1400,7 +1400,7 @@
          cy="118.11024"
          r="10.3937" /></a><a
        id="a209"
-       xlink:href="/stations.html?station=Republique"
+       xlink:href="/stations/Republique"
        target="_parent"
        transform="translate(0,499.74715)"><g
          id="g209"
@@ -1441,7 +1441,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path212" /></g><a
        id="a212"
-       xlink:href="/stations.html?station=Parmentier"
+       xlink:href="/stations/Parmentier"
        target="_parent"
        transform="translate(33.46418,786.51877)"
        style="fill:#6e6e00;fill-opacity:1"><circle
@@ -1451,7 +1451,7 @@
          cy="118.11024"
          r="10.3937" /></a><a
        id="a213"
-       xlink:href="/stations.html?station=Rue+Saint-Maur"
+       xlink:href="/stations/Rue Saint-Maur"
        target="_parent"
        transform="translate(33.46418,824.31404)"
        style="fill:#6e6e00;fill-opacity:1"><circle
@@ -1461,7 +1461,7 @@
          cy="118.11024"
          r="10.3937" /></a><a
        id="a215"
-       xlink:href="/stations.html?station=Pere+Lachaise"
+       xlink:href="/stations/Pere Lachaise"
        target="_parent"
        transform="translate(0,613.13296)"><g
          id="g215"
@@ -1477,7 +1477,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a217"
-       xlink:href="/stations.html?station=Gambetta"
+       xlink:href="/stations/Gambetta"
        target="_parent"
        transform="translate(0,650.92824)"><g
          id="g217"
@@ -1533,7 +1533,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path218" /></g><a
        id="a219"
-       xlink:href="/stations.html?station=Porte+de+Bagnolet"
+       xlink:href="/stations/Porte de Bagnolet"
        target="_parent"
        transform="translate(0,688.72351)"><g
          id="g219"
@@ -1615,7 +1615,7 @@
    id="polygon226" />
 </g></a><a
        id="a229"
-       xlink:href="/stations.html?station=Gallieni"
+       xlink:href="/stations/Gallieni"
        target="_parent"
        style="display:inline"
        transform="translate(34.96024,821.0372)"><g

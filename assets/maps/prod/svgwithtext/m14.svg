@@ -1683,7 +1683,7 @@
          y="45.507267"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#ffffff;fill-opacity:1">Saint-Denis – Pleyel</tspan></text><a
        id="a14439"
-       xlink:href="/stations.html?station=Cour+Saint-Emilion"
+       xlink:href="/stations/Cour Saint-Emilion"
        target="_parent"
        transform="translate(-2.0094116e-5,386.85341)"
        style="fill:#640082;fill-opacity:1"><circle
@@ -1829,7 +1829,7 @@
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Italic';text-align:end;text-anchor:end;fill:#25303b;fill-opacity:1"
          id="tspan24375">Envisagé</tspan></text><a
        id="a1974"
-       xlink:href="/stations.html?station=Saint-Denis-Pleyel"
+       xlink:href="/stations/Saint-Denis-Pleyel"
        target="_parent"><circle
          style="fill:#000000;stroke-width:0.332857"
          id="circle7277"
@@ -2115,7 +2115,7 @@
          y="56.465393"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Italic';text-align:start;text-anchor:start">2030</tspan></text><a
        id="a8374"
-       xlink:href="/stations.html?station=Mairie+de+Saint-Ouen"
+       xlink:href="/stations/Mairie de Saint-Ouen"
        target="_parent"
        transform="translate(0,-37.999998)"
        style="display:inline"><g
@@ -2227,7 +2227,7 @@
          y="122.74208"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Italic';text-align:start;text-anchor:start">2035</tspan></text><a
        id="a59771"
-       xlink:href="/stations.html?station=Saint-Ouen"
+       xlink:href="/stations/Saint-Ouen"
        target="_parent"
        transform="translate(0,19.999986)"
        style="display:inline"><g
@@ -2309,7 +2309,7 @@
            d="M 219.69,0 H 63.78 C 28.55,0 0,28.56 0,63.78 v 155.9 c 0,35.22 28.55,63.78 63.78,63.78 h 155.91 c 35.22,0 63.78,-28.56 63.78,-63.78 V 63.78 C 283.47,28.56 254.92,0 219.69,0 Z m 45.35,219.68 c 0,25.05 -20.31,45.35 -45.35,45.35 H 63.78 c -25.05,0 -45.35,-20.31 -45.35,-45.35 V 63.78 c 0,-25.05 20.31,-45.36 45.35,-45.36 h 155.91 c 25.05,0 45.35,20.31 45.35,45.36 z"
            id="path20" /></g></g><a
        id="a61880"
-       xlink:href="/stations.html?station=Porte+de+Clichy"
+       xlink:href="/stations/Porte de Clichy"
        target="_parent"
        transform="translate(0,57.796473)"
        style="display:inline"><g
@@ -2463,7 +2463,7 @@
          y="209.78712"
          id="tspan104815">Branche</tspan></text><a
        id="a67060"
-       xlink:href="/stations.html?station=Pont+Cardinet"
+       xlink:href="/stations/Pont Cardinet"
        target="_parent"
        transform="translate(0,105.59174)"
        style="display:inline"><g
@@ -2579,7 +2579,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path57" /></g><a
        id="a85"
-       xlink:href="/stations.html?station=Saint-Lazare"
+       xlink:href="/stations/Saint-Lazare"
        target="_parent"
        transform="translate(0,-85.58741)"
        style="display:inline"><g
@@ -2805,7 +2805,7 @@
          y="209.78712"
          id="tspan104827">Lignes</tspan></text><a
        id="a79823"
-       xlink:href="/stations.html?station=Madeleine"
+       xlink:href="/stations/Madeleine"
        target="_parent"
        transform="translate(0,-28.894552)"
        style="display:inline"><g
@@ -2858,7 +2858,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path82105" /></g><a
        id="a83255"
-       xlink:href="/stations.html?station=Pyramides"
+       xlink:href="/stations/Pyramides"
        target="_parent"
        transform="translate(0,8.9007132)"
        style="display:inline"><g
@@ -2891,7 +2891,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path84409" /></g><a
        id="a88363"
-       xlink:href="/stations.html?station=Chatelet"
+       xlink:href="/stations/Chatelet"
        target="_parent"
        transform="translate(0,46.695978)"
        style="display:inline"><g
@@ -3121,11 +3121,11 @@
    id="path2-19" />
 </g></a><a
        id="a91466"
-       xlink:href="/stations.html?station=Gare+de+Lyon"
+       xlink:href="/stations/Gare de Lyon"
        target="_parent"><g
          id="g91459"><a
            id="a15"
-           xlink:href="/stations.html?station=Gare+de+Lyon"
+           xlink:href="/stations/Gare de Lyon"
            target="_parent"
            transform="translate(33.464178,-271.25654)"
            style="display:inline"><circle
@@ -3135,7 +3135,7 @@
              cy="722.83453"
              r="10.3937" /></a><a
            id="a73"
-           xlink:href="/stations.html?station=Gare+de+Lyon"
+           xlink:href="/stations/Gare de Lyon"
            target="_parent"
            transform="translate(-1.8414776e-6,-271.25654)"
            style="display:inline"><circle
@@ -3295,7 +3295,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path218" /></g><a
        id="a93563"
-       xlink:href="/stations.html?station=Bercy"
+       xlink:href="/stations/Bercy"
        target="_parent"
        transform="translate(-2.7252047e-5,273.46767)"
        style="display:inline"><g
@@ -3429,7 +3429,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path44643" /></g><a
        id="a103744"
-       xlink:href="/stations.html?station=Bibliotheque+Francois-Mitterrand"
+       xlink:href="/stations/Bibliotheque Francois-Mitterrand"
        target="_parent"
        transform="translate(-2.7252047e-5,349.05813)"
        style="display:inline"><g
@@ -3526,7 +3526,7 @@
          d="M 274.25,18.42 H 9.21 C 4.12,18.42 0,14.3 0,9.21 0,4.12 4.12,0 9.21,0 h 265.04 c 5.09,0 9.21,4.12 9.21,9.21 0,5.09 -4.12,9.21 -9.21,9.21 m 9.21,255.83 v 0 c 0,-5.09 -4.12,-9.22 -9.21,-9.22 H 9.21 c -5.09,0 -9.21,4.13 -9.21,9.22 0,5.09 4.12,9.21 9.21,9.21 h 265.04 c 5.09,0 9.21,-4.12 9.21,-9.21 m -32.32,-38.41 c 2.19,0 3.97,-1.78 3.97,-3.97 v -3.97 c 0,-2.19 -1.78,-3.96 -3.97,-3.96 H 28.35 v 11.91 H 251.14 M 28.35,170.78 H 69.6 c 1.09,0 1.98,-0.89 1.98,-1.98 v -54.85 c 0,-1.09 -0.89,-1.98 -1.98,-1.98 H 28.35 V 99.21 H 92.72 L 117.95,78.47 86.21,52.39 c -1.37,-1.12 -1.57,-3.15 -0.44,-4.52 l 2.04,-2.49 c 1.13,-1.37 3.15,-1.56 4.52,-0.44 l 36.14,29.69 c 2.41,1.98 2.42,5.68 0,7.66 L 107.89,99.2 h 98.03 c 7.78,0 15.18,3.29 20.43,9.03 15.45,16.89 25.27,37.77 28.41,60.39 1,7.19 -0.09,14.31 -3.16,20.56 -7.09,14.44 -21.47,23.41 -37.55,23.41 H 28.35 Z m 188.48,-54.06 c -2.8,-3.05 -6.77,-4.75 -10.91,-4.75 h -34.57 c -1.09,0 -1.98,0.89 -1.98,1.98 v 54.85 c 0,1.09 0.89,1.98 1.98,1.98 h 59.11 c 6.94,0 11.07,-5.46 9.31,-12.17 -4.1,-15.56 -11.91,-29.87 -22.94,-41.89 m -62.2,83.12 c 1.09,0 1.98,-0.89 1.98,-1.98 v -83.91 c 0,-1.09 -0.89,-1.98 -1.98,-1.98 h -25.79 c -1.1,0 -1.99,0.89 -1.99,1.98 v 83.91 c 0,1.09 0.89,1.98 1.99,1.98 h 25.79 M 86.32,111.97 c -1.09,0 -1.98,0.89 -1.98,1.98 v 83.91 c 0,1.09 0.89,1.98 1.98,1.98 h 25.79 c 1.1,0 1.99,-0.89 1.99,-1.98 v -83.91 c 0,-1.09 -0.89,-1.98 -1.99,-1.98 H 86.32"
          id="path44819" /></g><a
        id="a110653"
-       xlink:href="/stations.html?station=Olympiades"
+       xlink:href="/stations/Olympiades"
        target="_parent"
        transform="translate(-2.0094116e-5,462.44395)"
        style="fill:#640082;fill-opacity:1"><circle
@@ -3567,7 +3567,7 @@
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
            id="tspan104841">de France</tspan></tspan></text><a
        id="a113391"
-       xlink:href="/stations.html?station=Maison+Blanche"
+       xlink:href="/stations/Maison Blanche"
        target="_parent"
        transform="translate(-2.7252047e-5,424.64866)"
        style="display:inline"><g
@@ -3651,7 +3651,7 @@
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
            id="tspan104845">Porte d’Italie</tspan></tspan></text><a
        id="a117473"
-       xlink:href="/stations.html?station=Hopital+Bicetre"
+       xlink:href="/stations/Hopital Bicetre"
        target="_parent"
        transform="translate(-2.0094116e-5,538.03448)"
        style="fill:#640082;fill-opacity:1"><circle
@@ -3670,7 +3670,7 @@
          x="304.27783"
          y="684.19714">Hôpital Bicêtre</tspan></text><a
        id="a1406"
-       xlink:href="/stations.html?station=Villejuif-Gustave+Roussy"
+       xlink:href="/stations/Villejuif-Gustave Roussy"
        target="_parent"
        transform="translate(-2.7252047e-5,500.23919)"
        style="display:inline"><g
@@ -3696,7 +3696,7 @@
          x="305.42984"
          y="721.99243">Villejuif – Gustave Roussy</tspan></text><a
        id="a5299"
-       xlink:href="/stations.html?station=LHay-les-Roses"
+       xlink:href="/stations/LHay-les-Roses"
        target="_parent"
        transform="translate(-2.0094116e-5,613.62501)"
        style="fill:#640082;fill-opacity:1"><circle
@@ -3715,7 +3715,7 @@
          x="304.27783"
          y="759.78766">L’Haÿ-les-Roses</tspan></text><a
        id="a6550"
-       xlink:href="/stations.html?station=Chevilly-Larue"
+       xlink:href="/stations/Chevilly-Larue"
        target="_parent"
        transform="translate(-2.7252047e-5,575.82972)"
        style="display:inline"><g
@@ -3786,7 +3786,7 @@
          d="M 274.25,18.42 H 9.21 C 4.12,18.42 0,14.3 0,9.21 0,4.12 4.12,0 9.21,0 h 265.04 c 5.09,0 9.21,4.12 9.21,9.21 0,5.09 -4.12,9.21 -9.21,9.21 m 9.21,255.83 v 0 c 0,-5.09 -4.12,-9.22 -9.21,-9.22 H 9.21 c -5.09,0 -9.21,4.13 -9.21,9.22 0,5.09 4.12,9.21 9.21,9.21 h 265.04 c 5.09,0 9.21,-4.12 9.21,-9.21 m -32.32,-38.41 c 2.19,0 3.97,-1.78 3.97,-3.97 v -3.97 c 0,-2.19 -1.78,-3.96 -3.97,-3.96 H 28.35 v 11.91 H 251.14 M 28.35,170.78 H 69.6 c 1.09,0 1.98,-0.89 1.98,-1.98 v -54.85 c 0,-1.09 -0.89,-1.98 -1.98,-1.98 H 28.35 V 99.21 H 92.72 L 117.95,78.47 86.21,52.39 c -1.37,-1.12 -1.57,-3.15 -0.44,-4.52 l 2.04,-2.49 c 1.13,-1.37 3.15,-1.56 4.52,-0.44 l 36.14,29.69 c 2.41,1.98 2.42,5.68 0,7.66 L 107.89,99.2 h 98.03 c 7.78,0 15.18,3.29 20.43,9.03 15.45,16.89 25.27,37.77 28.41,60.39 1,7.19 -0.09,14.31 -3.16,20.56 -7.09,14.44 -21.47,23.41 -37.55,23.41 H 28.35 Z m 188.48,-54.06 c -2.8,-3.05 -6.77,-4.75 -10.91,-4.75 h -34.57 c -1.09,0 -1.98,0.89 -1.98,1.98 v 54.85 c 0,1.09 0.89,1.98 1.98,1.98 h 59.11 c 6.94,0 11.07,-5.46 9.31,-12.17 -4.1,-15.56 -11.91,-29.87 -22.94,-41.89 m -62.2,83.12 c 1.09,0 1.98,-0.89 1.98,-1.98 v -83.91 c 0,-1.09 -0.89,-1.98 -1.98,-1.98 h -25.79 c -1.1,0 -1.99,0.89 -1.99,1.98 v 83.91 c 0,1.09 0.89,1.98 1.99,1.98 h 25.79 M 86.32,111.97 c -1.09,0 -1.98,0.89 -1.98,1.98 v 83.91 c 0,1.09 0.89,1.98 1.98,1.98 h 25.79 c 1.1,0 1.99,-0.89 1.99,-1.98 v -83.91 c 0,-1.09 -0.89,-1.98 -1.99,-1.98 H 86.32"
          id="path73798" /></g><a
        id="a15953"
-       xlink:href="/stations.html?station=Thiais-Orly"
+       xlink:href="/stations/Thiais-Orly"
        target="_parent"
        transform="translate(-2.7252047e-5,613.62498)"
        style="display:inline"><g
@@ -3938,7 +3938,7 @@
          y="909.5072"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#ffffff;fill-opacity:1">Aéroport d’Orly</tspan></text><a
        id="a29185"
-       xlink:href="/stations.html?station=Aeroport+dOrly"
+       xlink:href="/stations/Aeroport dOrly"
        transform="translate(0,863.99964)"
        target="_parent"><circle
          style="fill:#000000;stroke-width:0.332857"

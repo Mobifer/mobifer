@@ -696,7 +696,7 @@
        x="305.5899"
        y="229.29051" /><a
        id="a2"
-       xlink:href="/stations.html?station=Simplon"
+       xlink:href="/stations/Simplon"
        target="_parent"
        transform="translate(33.46418,193.99918)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -706,7 +706,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a39936"
-       xlink:href="/stations.html?station=Marcadet-Poissonniers"
+       xlink:href="/stations/Marcadet-Poissonniers"
        target="_parent"
        transform="translate(0,173.99918)"><g
          id="g39899-6"
@@ -1040,7 +1040,7 @@
          d="M 274.25,18.42 H 9.21 C 4.12,18.42 0,14.3 0,9.21 0,4.12 4.12,0 9.21,0 h 265.04 c 5.09,0 9.21,4.12 9.21,9.21 0,5.09 -4.12,9.21 -9.21,9.21 m 9.21,255.83 v 0 c 0,-5.09 -4.12,-9.22 -9.21,-9.22 H 9.21 c -5.09,0 -9.21,4.13 -9.21,9.22 0,5.09 4.12,9.21 9.21,9.21 h 265.04 c 5.09,0 9.21,-4.12 9.21,-9.21 m -32.32,-38.41 c 2.19,0 3.97,-1.78 3.97,-3.97 v -3.97 c 0,-2.19 -1.78,-3.96 -3.97,-3.96 H 28.35 v 11.91 H 251.14 M 28.35,170.78 H 69.6 c 1.09,0 1.98,-0.89 1.98,-1.98 v -54.85 c 0,-1.09 -0.89,-1.98 -1.98,-1.98 H 28.35 V 99.21 H 92.72 L 117.95,78.47 86.21,52.39 c -1.37,-1.12 -1.57,-3.15 -0.44,-4.52 l 2.04,-2.49 c 1.13,-1.37 3.15,-1.56 4.52,-0.44 l 36.14,29.69 c 2.41,1.98 2.42,5.68 0,7.66 L 107.89,99.2 h 98.03 c 7.78,0 15.18,3.29 20.43,9.03 15.45,16.89 25.27,37.77 28.41,60.39 1,7.19 -0.09,14.31 -3.16,20.56 -7.09,14.44 -21.47,23.41 -37.55,23.41 H 28.35 Z m 188.48,-54.06 c -2.8,-3.05 -6.77,-4.75 -10.91,-4.75 h -34.57 c -1.09,0 -1.98,0.89 -1.98,1.98 v 54.85 c 0,1.09 0.89,1.98 1.98,1.98 h 59.11 c 6.94,0 11.07,-5.46 9.31,-12.17 -4.1,-15.56 -11.91,-29.87 -22.94,-41.89 m -62.2,83.12 c 1.09,0 1.98,-0.89 1.98,-1.98 v -83.91 c 0,-1.09 -0.89,-1.98 -1.98,-1.98 h -25.79 c -1.1,0 -1.99,0.89 -1.99,1.98 v 83.91 c 0,1.09 0.89,1.98 1.99,1.98 h 25.79 M 86.32,111.97 c -1.09,0 -1.98,0.89 -1.98,1.98 v 83.91 c 0,1.09 0.89,1.98 1.98,1.98 h 25.79 c 1.1,0 1.99,-0.89 1.99,-1.98 v -83.91 c 0,-1.09 -0.89,-1.98 -1.99,-1.98 H 86.32"
          id="path150" /></g><a
        id="a12275"
-       xlink:href="/stations.html?station=Porte+de+Clignancourt"
+       xlink:href="/stations/Porte de Clignancourt"
        target="_parent"
        transform="translate(0,23.999211)"><circle
          style="fill:#000000;stroke-width:0.332857"
@@ -1061,7 +1061,7 @@
            clip-path="url(#SVGID_00000145737393370230384210000000292656057530498699_)"
            style="fill:#fffffe;fill-opacity:1" /></g></a><a
        id="a20854"
-       xlink:href="/stations.html?station=Chateau+Rouge"
+       xlink:href="/stations/Chateau Rouge"
        target="_parent"
        transform="translate(33.46418,269.59101)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1071,7 +1071,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a21579"
-       xlink:href="/stations.html?station=Chateau+dEau"
+       xlink:href="/stations/Chateau dEau"
        target="_parent"
        transform="translate(33.46418,420.7721)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1081,7 +1081,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a21603"
-       xlink:href="/stations.html?station=Etienne+Marcel"
+       xlink:href="/stations/Etienne Marcel"
        target="_parent"
        transform="translate(33.46418,534.15792)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1091,7 +1091,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a23695"
-       xlink:href="/stations.html?station=Cite"
+       xlink:href="/stations/Cite"
        target="_parent"
        transform="translate(33.46418,647.54374)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1101,7 +1101,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a24445"
-       xlink:href="/stations.html?station=Saint-Germain-des-Pres"
+       xlink:href="/stations/Saint-Germain-des-Pres"
        target="_parent"
        transform="translate(33.46418,772.92955)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1111,7 +1111,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a25179"
-       xlink:href="/stations.html?station=Saint-Sulpice"
+       xlink:href="/stations/Saint-Sulpice"
        target="_parent"
        transform="translate(33.46418,810.72483)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1121,7 +1121,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a27373"
-       xlink:href="/stations.html?station=Vavin"
+       xlink:href="/stations/Vavin"
        target="_parent"
        transform="translate(33.46418,924.11064)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1131,7 +1131,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a31753"
-       xlink:href="/stations.html?station=Mouton-Duvernet"
+       xlink:href="/stations/Mouton-Duvernet"
        target="_parent"
        transform="translate(33.46418,1037.4964)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1141,7 +1141,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a31761"
-       xlink:href="/stations.html?station=Alesia"
+       xlink:href="/stations/Alesia"
        target="_parent"
        transform="translate(33.46418,1075.2917)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1151,7 +1151,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a32496"
-       xlink:href="/stations.html?station=Mairie+de+Montrouge"
+       xlink:href="/stations/Mairie de Montrouge"
        target="_parent"
        transform="translate(33.46418,1150.8823)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1161,7 +1161,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a34706"
-       xlink:href="/stations.html?station=Barbara"
+       xlink:href="/stations/Barbara"
        target="_parent"
        transform="translate(33.46418,1188.6775)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1177,12 +1177,12 @@
        x="305.59012"
        y="1298.4717" /><a
        id="a95268"
-       xlink:href="/stations.html?station=Bagneux-Lucie+Aubrac"
+       xlink:href="/stations/Bagneux-Lucie Aubrac"
        target="_parent"
        transform="translate(0,187.99918)"><g
          id="g95260"><a
            id="a36907"
-           xlink:href="/stations.html?station=Bagneux-Lucie+Aubrac"
+           xlink:href="/stations/Bagneux-Lucie Aubrac"
            target="_parent"
            transform="translate(33.46418,1087.7952)"><circle
              style="fill:#000000;stroke-width:0.332857"
@@ -1203,7 +1203,7 @@
              clip-path="url(#SVGID_00000145737393370230384210000000292656057530498699_)"
              style="fill:#fffffe;fill-opacity:1" /></g></g></a><a
        id="a41432"
-       xlink:href="/stations.html?station=Barbes-Rochechouart"
+       xlink:href="/stations/Barbes-Rochechouart"
        target="_parent"
        transform="translate(0,173.99918)"><g
          id="g39899-1"
@@ -1318,7 +1318,7 @@
          style="color:#000000;fill-opacity:1;stroke-width:0.0531925;stroke-linecap:round;stroke-miterlimit:10"
          d="m -40.984725,626.20866 v -13.11531 h 15.123358 c 2.409863,0 4.146296,1.65691 4.146296,3.60687 0,0.92251 -0.337774,1.67588 -0.97566,2.47462 l -0.0086,0.0109 -3.939039,4.3967 c -1.526039,1.80101 -3.667871,2.62625 -7.089294,2.62625 z m 1.25213,-3.52509 h 5.1026 v -3.56286 h -5.1026 z m 6.28385,0 6.159266,-5.3e-4 3.191528,-3.56244 -9.350794,1.1e-4 z" /></g><a
        id="a42948"
-       xlink:href="/stations.html?station=Gare+du+Nord"
+       xlink:href="/stations/Gare du Nord"
        target="_parent"
        transform="translate(0,173.99918)"><g
          id="g39899-9"
@@ -1335,7 +1335,7 @@
            cy="1293.7008"
            r="7.5590544" /></g></a><a
        id="a51456"
-       xlink:href="/stations.html?station=Gare+de+lEst"
+       xlink:href="/stations/Gare de lEst"
        target="_parent"
        transform="translate(1.5793076e-7,211.79445)"><g
          id="g51454"
@@ -1442,7 +1442,7 @@
          style="color:#000000;fill-opacity:1;stroke-width:0.0531925;stroke-linecap:round;stroke-miterlimit:10"
          d="m -40.984725,626.20866 v -13.11531 h 15.123358 c 2.409863,0 4.146296,1.65691 4.146296,3.60687 0,0.92251 -0.337774,1.67588 -0.97566,2.47462 l -0.0086,0.0109 -3.939039,4.3967 c -1.526039,1.80101 -3.667871,2.62625 -7.089294,2.62625 z m 1.25213,-3.52509 h 5.1026 v -3.56286 h -5.1026 z m 6.28385,0 6.159266,-5.3e-4 3.191528,-3.56244 -9.350794,1.1e-4 z" /></g><a
        id="a54160"
-       xlink:href="/stations.html?station=Strasbourg-Saint-Denis"
+       xlink:href="/stations/Strasbourg-Saint-Denis"
        target="_parent"
        transform="translate(1.5793076e-7,287.38502)"><g
          id="g54158"
@@ -1554,7 +1554,7 @@
    style="clip-rule:evenodd;fill:#ffffff;fill-rule:evenodd" />
 </g></a><a
        id="a57133"
-       xlink:href="/stations.html?station=Reaumur-Sebastopol"
+       xlink:href="/stations/Reaumur-Sebastopol"
        target="_parent"
        transform="translate(8.4206924e-7,325.18029)"><g
          id="g57131"
@@ -1571,7 +1571,7 @@
            cy="1293.7008"
            r="7.5590544" /></g></a><a
        id="a57953"
-       xlink:href="/stations.html?station=Les+Halles"
+       xlink:href="/stations/Les Halles"
        target="_parent"
        transform="translate(1.1579308e-6,400.77083)"><g
          id="g57951"
@@ -1665,7 +1665,7 @@
    style="fill:#ffffff;fill-opacity:1" />
 </g></a><a
        id="a59706"
-       xlink:href="/stations.html?station=Chatelet"
+       xlink:href="/stations/Chatelet"
        target="_parent"
        transform="translate(1.1579308e-6,438.56611)"><g
          id="g59704"
@@ -1715,7 +1715,7 @@
    id="path153-4" />
 </g></a><a
        id="a62753"
-       xlink:href="/stations.html?station=Saint-Michel"
+       xlink:href="/stations/Saint-Michel"
        target="_parent"
        transform="translate(1.1579308e-6,514.15665)"><g
          id="g62751"
@@ -1815,7 +1815,7 @@
    id="path64546" />
 </g></a><a
        id="a66491"
-       xlink:href="/stations.html?station=Saint-Placide"
+       xlink:href="/stations/Saint-Placide"
        target="_parent"
        transform="translate(33.46418,848.5201)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1825,7 +1825,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a67374"
-       xlink:href="/stations.html?station=Odeon"
+       xlink:href="/stations/Odeon"
        target="_parent"
        transform="translate(8.4206924e-7,563.95192)"><g
          id="g67372"
@@ -1842,7 +1842,7 @@
            cy="1293.7008"
            r="7.5590544" /></g></a><a
        id="a68251"
-       xlink:href="/stations.html?station=Montparnasse-Bienvenue"
+       xlink:href="/stations/Montparnasse-Bienvenue"
        target="_parent"
        transform="translate(8.4206924e-7,715.13301)"><g
          id="g68249"
@@ -1946,7 +1946,7 @@
          style="color:#000000;fill-opacity:1;stroke-width:0.0531925;stroke-linecap:round;stroke-miterlimit:10"
          d="m -40.984725,626.20866 v -13.11531 h 15.123358 c 2.409863,0 4.146296,1.65691 4.146296,3.60687 0,0.92251 -0.337774,1.67588 -0.97566,2.47462 l -0.0086,0.0109 -3.939039,4.3967 c -1.526039,1.80101 -3.667871,2.62625 -7.089294,2.62625 z m 1.25213,-3.52509 h 5.1026 v -3.56286 h -5.1026 z m 6.28385,0 6.159266,-5.3e-4 3.191528,-3.56244 -9.350794,1.1e-4 z" /></g><a
        id="a73117"
-       xlink:href="/stations.html?station=Raspail"
+       xlink:href="/stations/Raspail"
        target="_parent"
        transform="translate(8.4206924e-7,790.72356)"><g
          id="g73115"
@@ -1963,7 +1963,7 @@
            cy="1293.7008"
            r="7.5590544" /></g></a><a
        id="a75311"
-       xlink:href="/stations.html?station=Denfert-Rochereau"
+       xlink:href="/stations/Denfert-Rochereau"
        target="_parent"
        transform="translate(8.4206924e-7,828.51883)"><g
          id="g75309"
@@ -2061,7 +2061,7 @@
    style="fill:#ffffff;fill-opacity:1" />
 </g></a><a
        id="a78614"
-       xlink:href="/stations.html?station=Porte+dOrleans"
+       xlink:href="/stations/Porte dOrleans"
        target="_parent"
        transform="translate(0,185.99918)"><g
          id="g78604"
@@ -2147,7 +2147,7 @@
        x="305.59012"
        y="46.677155" /><a
        id="a8374"
-       xlink:href="/stations.html?station=Mairie+de+Saint-Ouen"
+       xlink:href="/stations/Mairie de Saint-Ouen"
        target="_parent"
        transform="translate(0,-30.000779)"><g
          id="g8372"

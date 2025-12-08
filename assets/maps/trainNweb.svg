@@ -4793,7 +4793,7 @@
          d="m 30.774499,622.67212 -0.448,-11.296 h -2.848 l -2.32,6.848 c -0.24,0.704 -0.384,1.232 -0.448,1.568 h -0.032 c -0.048,-0.32 -0.192,-0.88 -0.448,-1.568 l -2.48,-6.848 h -2.832 l -0.384,11.296 h 2.176 l 0.192,-6.576 c 0.016,-0.448 0,-1.008 -0.016,-1.36 h 0.032 c 0.048,0.336 0.224,1.072 0.416,1.584 l 2.32,6.352 h 1.776 l 2.304,-6.336 c 0.224,-0.608 0.4,-1.296 0.448,-1.664 h 0.032 c 0,0.288 -0.032,1.04 -0.016,1.488 l 0.16,6.512 z m 9.967992,-4.256 c 0,-2.432 -1.248,-4.592 -4.048,-4.592 -2.768,0 -4.128,2.144 -4.128,4.56 0,2.432 1.248,4.592 4.048,4.592 2.768,0 4.128,-2.144 4.128,-4.56 z m -2.336,0.016 c 0,1.2 -0.368,2.784 -1.792,2.784 -1.424,0 -1.712,-1.648 -1.712,-2.848 0,-1.2 0.368,-2.784 1.792,-2.784 1.424,0 1.712,1.648 1.712,2.848 z m 11.343978,4.24 v -5.872 c 0,-1.664 -0.752,-2.944 -2.656,-2.944 -1.168,0 -1.968,0.576 -2.576,1.488 v -1.216 h -2.08 v 8.544 h 2.24 v -5.248 c 0,-0.576 0.032,-0.784 0.464,-1.2 0.24,-0.224 0.64,-0.416 1.088,-0.416 0.976,0 1.28,0.592 1.28,1.456 v 5.408 z m 7.103993,0.048 -0.224,-1.648 c -0.192,0.064 -0.512,0.176 -0.976,0.176 -0.512,0 -0.976,-0.192 -0.976,-1.04 v -4.32 h 1.952 v -1.6 h -1.952 v -2.448 l -2.24,0.72 v 1.728 h -1.424 v 1.6 h 1.424 v 4.592 c 0,1.648 0.944,2.464 2.464,2.464 0.752,0 1.536,-0.112 1.952,-0.224 z m 3.983976,-10.864 c 0,-0.688 -0.48,-1.184 -1.248,-1.184 -0.768,0 -1.264,0.496 -1.264,1.184 0,0.688 0.496,1.184 1.264,1.184 0.768,0 1.248,-0.496 1.248,-1.184 z m -0.144,10.816 v -8.544 h -2.24 v 8.544 z m 9.743992,0.384 c 0,-1.472 -1.024,-2.24 -2.432,-2.24 h -2.736 c -0.528,0 -0.8,-0.288 -0.8,-0.656 0,-0.16 0.064,-0.4 0.128,-0.464 0.192,-0.208 0.272,-0.176 0.528,-0.112 0.288,0.08 0.688,0.16 1.104,0.16 2.24,0 3.36,-1.36 3.36,-2.928 0,-0.336 -0.096,-0.736 -0.16,-0.928 h 1.024 v -1.6 h -2.352 c -0.448,-0.256 -1.152,-0.432 -1.808,-0.432 -2.24,0 -3.344,1.408 -3.344,2.976 0,0.816 0.272,1.552 0.848,2.096 -0.432,0.304 -0.928,0.928 -0.928,1.824 0,0.688 0.464,1.168 0.848,1.344 v 0.032 c -0.608,0.24 -1.248,0.752 -1.248,1.728 0,1.808 2.416,2.256 3.776,2.256 2,0 4.192,-0.896 4.192,-3.056 z m -2.96,-6.24 c 0,0.656 -0.304,1.568 -1.232,1.568 -0.928,0 -1.184,-0.864 -1.184,-1.552 0,-0.656 0.304,-1.6 1.232,-1.6 0.928,0 1.184,0.912 1.184,1.584 z m 0.768,6.624 c 0,0.592 -0.56,1.216 -2,1.216 -0.688,0 -1.856,-0.272 -1.856,-1.232 0,-0.624 0.256,-0.832 0.56,-0.832 h 2.384 c 0.496,0 0.912,0.224 0.912,0.848 z m 10.911997,-0.768 v -5.872 c 0,-1.664 -0.752,-2.944 -2.656,-2.944 -1.168,0 -1.968,0.576 -2.576,1.488 v -1.216 h -2.08 v 8.544 h 2.24 v -5.248 c 0,-0.576 0.032,-0.784 0.464,-1.2 0.24,-0.224 0.64,-0.416 1.088,-0.416 0.976,0 1.28,0.592 1.28,1.456 v 5.408 z m 9.087994,-8.544 h -2.112 l -1.232,4.848 c -0.192,0.752 -0.32,1.408 -0.416,1.856 h -0.032 c -0.032,-0.256 -0.192,-1.088 -0.384,-1.856 l -1.184,-4.848 h -2.464 l 2.912,9.04 c -0.24,0.96 -1.232,1.232 -1.968,1.216 l 0.208,1.728 c 2.304,-0.176 3.28,-1.312 3.808,-2.96 z m 4.495982,5.136 v -2.112 h -4.192 v 2.112 z m 3.53598,3.408 v -11.84 h -2.24 v 11.84 z m 9.247987,-4.816 c 0,-1.968 -0.976,-4 -3.616,-4 -2.736002,0 -3.952002,2.352 -3.952002,4.608 0,2.656 1.68,4.48 4.352002,4.48 1.248,0 2.384,-0.368 3.04,-0.672 l -0.592,-1.664 c -0.448,0.24 -1.264,0.56 -2.032,0.56 -1.44,0 -2.544,-0.816 -2.544,-2.336 0,-0.016 0,-0.032 0,-0.048 h 5.296 c 0.032,-0.288 0.048,-0.656 0.048,-0.928 z m -2.112,-0.592 h -3.28 c 0,-0.752 0.4,-1.84 1.68,-1.84 1.136,0 1.68,0.944 1.6,1.84 z m 7.80795,2 v -2.112 h -4.192 v 2.112 z m 10.20798,-0.096 c 0,-1.6 -0.992,-2.528 -2.176,-2.688 v -0.032 c 0.88,-0.16 1.808,-1.04 1.808,-2.208 0,-2.288 -1.984,-2.864 -4.096,-2.864 h -4.288 v 11.296 h 4.112 c 2.144,0 4.64,-0.656 4.64,-3.504 z m -2.816,-4.592 c 0,1.072 -0.864,1.28 -2.176,1.28 h -1.264 v -2.592 h 1.232 c 1.44,0 2.208,0.272 2.208,1.312 z m 0.24,4.528 c 0,1.2 -0.624,1.696 -2.208,1.696 h -1.472 v -3.152 h 1.344 c 1.136,0 2.336,0.208 2.336,1.456 z m 9.32798,-5.024 c -0.176,-0.064 -0.496,-0.16 -0.816,-0.16 -1.056,0 -1.616,0.672 -2.128,1.488 v -1.28 h -2.016 c 0.016,0.4 0.08,1.424 0.08,2.16 v 6.384 h 2.24 v -5.152 c 0,-0.464 0.016,-0.816 0.32,-1.088 0.208,-0.192 0.464,-0.336 0.944,-0.336 0.304,0 0.624,0.144 0.784,0.224 z m 7.90396,3.776 c 0,-1.968 -0.976,-4 -3.616,-4 -2.736,0 -3.952,2.352 -3.952,4.608 0,2.656 1.68,4.48 4.352,4.48 1.248,0 2.384,-0.368 3.04,-0.672 l -0.592,-1.664 c -0.448,0.24 -1.264,0.56 -2.032,0.56 -1.44,0 -2.544,-0.816 -2.544,-2.336 0,-0.016 0,-0.032 0,-0.048 h 5.296 c 0.032,-0.288 0.048,-0.656 0.048,-0.928 z m -2.112,-0.592 h -3.28 c 0,-0.752 0.4,-1.84 1.68,-1.84 1.136,0 1.68,0.944 1.6,1.84 z m 8.87998,5.456 -0.224,-1.648 c -0.192,0.064 -0.512,0.176 -0.976,0.176 -0.512,0 -0.976,-0.192 -0.976,-1.04 v -4.32 h 1.952 v -1.6 h -1.952 v -2.448 l -2.24,0.72 v 1.728 h -1.424 v 1.6 h 1.424 v 4.592 c 0,1.648 0.944,2.464 2.464,2.464 0.752,0 1.536,-0.112 1.952,-0.224 z m 9.03997,-4.304 c 0,-2.432 -1.248,-4.592 -4.048,-4.592 -2.768,0 -4.128,2.144 -4.128,4.56 0,2.432 1.248,4.592 4.048,4.592 2.768,0 4.128,-2.144 4.128,-4.56 z m -2.336,0.016 c 0,1.2 -0.368,2.784 -1.792,2.784 -1.424,0 -1.712,-1.648 -1.712,-2.848 0,-1.2 0.368,-2.784 1.792,-2.784 1.424,0 1.712,1.648 1.712,2.848 z m 11.34398,4.24 v -5.872 c 0,-1.664 -0.752,-2.944 -2.656,-2.944 -1.168,0 -1.968,0.576 -2.576,1.488 v -1.216 h -2.08 v 8.544 h 2.24 v -5.248 c 0,-0.576 0.032,-0.784 0.464,-1.2 0.24,-0.224 0.64,-0.416 1.088,-0.416 0.976,0 1.28,0.592 1.28,1.456 v 5.408 z m 9.56799,0 v -5.872 c 0,-1.664 -0.752,-2.944 -2.656,-2.944 -1.168,0 -1.968,0.576 -2.576,1.488 v -1.216 h -2.08 v 8.544 h 2.24 v -5.248 c 0,-0.576 0.032,-0.784 0.464,-1.2 0.24,-0.224 0.64,-0.416 1.088,-0.416 0.976,0 1.28,0.592 1.28,1.456 v 5.408 z m 9.216,-4.816 c 0,-1.968 -0.976,-4 -3.616,-4 -2.736,0 -3.952,2.352 -3.952,4.608 0,2.656 1.68,4.48 4.352,4.48 1.248,0 2.384,-0.368 3.04,-0.672 l -0.592,-1.664 c -0.448,0.24 -1.264,0.56 -2.032,0.56 -1.44,0 -2.544,-0.816 -2.544,-2.336 0,-0.016 0,-0.032 0,-0.048 h 5.296 c 0.032,-0.288 0.048,-0.656 0.048,-0.928 z m -2.112,-0.592 h -3.28 c 0,-0.752 0.4,-1.84 1.68,-1.84 1.136,0 1.68,0.944 1.6,1.84 z m 11.02397,5.408 v -8.544 h -2.24 v 5.264 c 0,0.576 -0.032,0.8 -0.416,1.216 -0.208,0.224 -0.56,0.4 -0.976,0.4 -0.848,0 -1.184,-0.608 -1.184,-1.472 v -5.408 h -2.24 v 5.872 c 0,1.664 0.768,2.944 2.608,2.944 1.072,0 1.792,-0.512 2.368,-1.328 v 1.056 z m 9.05599,0 -2.576,-4.4 2.48,-4.144 h -2.352 l -1.296,2.784 -1.328,-2.784 h -2.608 l 2.448,4.176 -2.576,4.368 h 2.448 l 1.296,-2.768 1.376,2.768 z"
          id="path2" /></g><a
        id="a12"
-       xlink:href="/stations.html?station=Clamart"
+       xlink:href="/stations/Clamart"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,18.062345)"
        style="display:inline"><g
@@ -4821,7 +4821,7 @@
        id="text73083-6"
        aria-label="Dreux" /><a
        id="a1-3-7"
-       xlink:href="/stations.html?station=Dreux"
+       xlink:href="/stations/Dreux"
        target="_parent"
        style="display:inline"
        transform="translate(158.17315,1182.7614)"><path
@@ -4843,7 +4843,7 @@
            style="clip-rule:evenodd;fill:#ffffff;fill-rule:evenodd"
            clip-path="url(#SVGID_00000145737393370230384210000000292656057530498699_)" /></g></a><a
        id="a25102-2-4"
-       xlink:href="/stations.html?station=Saint-Quentin-en-Yvelines-Montigny-le-Bretonneux"
+       xlink:href="/stations/Saint-Quentin-en-Yvelines-Montigny-le-Bretonneux"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914851,471.25221)"
        style="display:inline"><g
@@ -4865,7 +4865,7 @@
        id="text33"
        aria-label="Vanves – Malakoff" /><a
        id="a7"
-       xlink:href="/stations.html?station=Vanves-Malakoff"
+       xlink:href="/stations/Vanves-Malakoff"
        target="_parent"
        transform="translate(0,-37.79533)"><circle
          style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.8543"
@@ -4890,7 +4890,7 @@
          style="fill:#ffffff"
          clip-path="url(#SVGID_00000145737393370230384210000000292656057530498699_)" /></g><a
        id="a73"
-       xlink:href="/stations.html?station=Fontenay-le-Fleury"
+       xlink:href="/stations/Fontenay-le-Fleury"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,469.24909)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -4929,7 +4929,7 @@
        id="text141972-4"
        aria-label="Rambouillet" /><a
        id="a1-3"
-       xlink:href="/stations.html?station=Rambouillet"
+       xlink:href="/stations/Rambouillet"
        target="_parent"
        style="display:inline"
        transform="translate(-158.17291,823.58153)"><path
@@ -4995,7 +4995,7 @@
            id="path71469-8-2-1"
            style="fill:#000000;fill-opacity:1" /></g></a><a
        id="a1"
-       xlink:href="/stations.html?station=Paris-Montparnasse"
+       xlink:href="/stations/Paris-Montparnasse"
        target="_parent"><path
          class="st0"
          d="m 386.26633,52.91338 h -16.62725 c -3.7542,0 -6.80448,-3.05029 -6.80448,-6.80448 V 29.48164 c 0,-3.75419 3.05028,-6.80448 6.80448,-6.80448 h 16.62725 c 3.7542,0 6.80448,3.05029 6.80448,6.80448 V 46.1089 c 0,3.75419 -3.05028,6.80448 -6.80448,6.80448"
@@ -5205,7 +5205,7 @@
        id="text40"
        aria-label="Meudon" /><a
        id="a41"
-       xlink:href="/stations.html?station=Meudon"
+       xlink:href="/stations/Meudon"
        target="_parent"
        transform="translate(0,37.795259)"><circle
          style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.8543"
@@ -5218,7 +5218,7 @@
        id="text42"
        aria-label="Bellevue" /><a
        id="a42"
-       xlink:href="/stations.html?station=Bellevue"
+       xlink:href="/stations/Bellevue"
        target="_parent"
        transform="translate(0,75.590525)"><circle
          style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.8543"
@@ -5231,7 +5231,7 @@
        id="text44"
        aria-label="Sèvres – Rive Gauche" /><a
        id="a44"
-       xlink:href="/stations.html?station=Sevres-Rive+Gauche"
+       xlink:href="/stations/Sevres-Rive Gauche"
        target="_parent"
        transform="translate(0,113.38579)"><circle
          style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.8543"
@@ -5244,7 +5244,7 @@
        id="text45"
        aria-label="Chaville – Rive Gauche" /><a
        id="a45"
-       xlink:href="/stations.html?station=Chaville-Rive+Gauche"
+       xlink:href="/stations/Chaville-Rive Gauche"
        target="_parent"
        transform="translate(0,151.18106)"><circle
          style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.8543"
@@ -5257,7 +5257,7 @@
        id="text46"
        aria-label="Viroflay – Rive Gauche" /><a
        id="a48"
-       xlink:href="/stations.html?station=Viroflay-Rive+Gauche"
+       xlink:href="/stations/Viroflay-Rive Gauche"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,207.03867)"
        style="display:inline"><g
@@ -5362,7 +5362,7 @@
        id="text50"
        aria-label="Versailles – Chantiers" /><a
        id="a51"
-       xlink:href="/stations.html?station=Versailles-Chantiers"
+       xlink:href="/stations/Versailles-Chantiers"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,244.83394)"
        style="display:inline"><g
@@ -5523,7 +5523,7 @@
        id="text80"
        aria-label="Saint-Cyr" /><a
        id="a82"
-       xlink:href="/stations.html?station=Saint-Cyr"
+       xlink:href="/stations/Saint-Cyr"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,301.52721)"
        style="display:inline"><g
@@ -5664,7 +5664,7 @@
        id="text116"
        aria-label="Trappes" /><a
        id="a117"
-       xlink:href="/stations.html?station=Trappes"
+       xlink:href="/stations/Trappes"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914851,527.94694)"
        style="display:inline"><g
@@ -5713,7 +5713,7 @@
        id="text129"
        aria-label="La Verrière" /><a
        id="a136"
-       xlink:href="/stations.html?station=La+Verriere"
+       xlink:href="/stations/La Verriere"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914851,565.74257)"
        style="display:inline"><g
@@ -5762,7 +5762,7 @@
        id="text223"
        aria-label="Coignières" /><a
        id="a73-1"
-       xlink:href="/stations.html?station=Coignieres"
+       xlink:href="/stations/Coignieres"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,601.53472)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5776,7 +5776,7 @@
        id="text258"
        aria-label="Les Essarts-le-Roi" /><a
        id="a258"
-       xlink:href="/stations.html?station=Les+Essarts-le-Roi"
+       xlink:href="/stations/Les Essarts-le-Roi"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,639.32962)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5790,7 +5790,7 @@
        id="text259"
        aria-label="Le Perray" /><a
        id="a259"
-       xlink:href="/stations.html?station=Le+Perray"
+       xlink:href="/stations/Le Perray"
        target="_parent"
        transform="matrix(0.90908916,0,0,0.90909077,-37.914686,677.12488)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5800,7 +5800,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a260"
-       xlink:href="/stations.html?station=Villepreux-Les+Clayes"
+       xlink:href="/stations/Villepreux-Les Clayes"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,537.71163)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5814,7 +5814,7 @@
        id="text260"
        aria-label="Villepreux – Les Clayes" /><a
        id="a261"
-       xlink:href="/stations.html?station=Plaisir-Les+Clayes"
+       xlink:href="/stations/Plaisir-Les Clayes"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,606.17416)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5828,7 +5828,7 @@
        id="text261"
        aria-label="Plaisir – Les Clayes" /><a
        id="a262"
-       xlink:href="/stations.html?station=Plaisir-Grignon"
+       xlink:href="/stations/Plaisir-Grignon"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,674.63669)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5842,7 +5842,7 @@
        id="text262"
        aria-label="Plaisir – Grignon" /><a
        id="a268"
-       xlink:href="/stations.html?station=Villiers-Neauphle-Pontchartrain"
+       xlink:href="/stations/Villiers-Neauphle-Pontchartrain"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,790.63669)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5861,7 +5861,7 @@
          d="m 566.57121,936.27587 c 0,-2.8 -2.24,-3.504 -4.848,-3.504 h -3.472 v 11.296 h 2.496 v -3.968 h 1.152 c 1.936,0 4.672,-0.544 4.672,-3.824 z m -2.528,0.16 c 0,1.456 -1.216,1.744 -2.144,1.744 h -1.152 v -3.472 h 1.12 c 0.832,0 2.176,0.192 2.176,1.728 z m 11.24799,3.376 c 0,-2.432 -1.248,-4.592 -4.048,-4.592 -2.768,0 -4.128,2.144 -4.128,4.56 0,2.432 1.248,4.592 4.048,4.592 2.768,0 4.128,-2.144 4.128,-4.56 z m -2.336,0.016 c 0,1.2 -0.368,2.784 -1.792,2.784 -1.424,0 -1.712,-1.648 -1.712,-2.848 0,-1.2 0.368,-2.784 1.792,-2.784 1.424,0 1.712,1.648 1.712,2.848 z m 11.34397,4.24 v -5.872 c 0,-1.664 -0.752,-2.944 -2.656,-2.944 -1.168,0 -1.968,0.576 -2.576,1.488 v -1.216 h -2.08 v 8.544 h 2.24 v -5.248 c 0,-0.576 0.032,-0.784 0.464,-1.2 0.24,-0.224 0.64,-0.416 1.088,-0.416 0.976,0 1.28,0.592 1.28,1.456 v 5.408 z m 7.104,0.048 -0.224,-1.648 c -0.192,0.064 -0.512,0.176 -0.976,0.176 -0.512,0 -0.976,-0.192 -0.976,-1.04 v -4.32 h 1.952 v -1.6 h -1.952 v -2.448 l -2.24,0.72 v 1.728 h -1.424 v 1.6 h 1.424 v 4.592 c 0,1.648 0.944,2.464 2.464,2.464 0.752,0 1.536,-0.112 1.952,-0.224 z m 7.58397,-0.48 -0.64,-1.664 c -0.384,0.24 -1.04,0.512 -1.68,0.512 -1.008,0 -2.064,-0.976 -2.064,-2.624 0,-1.504 0.64,-2.704 1.936,-2.704 0.736,0 1.376,0.384 1.664,0.576 l 0.8,-1.872 c -0.56,-0.304 -1.456,-0.608 -2.608,-0.608 -2.896,0 -4.128,2.32 -4.128,4.656 0,2.496 1.504,4.432 4.128,4.432 1.04,0 2.144,-0.368 2.592,-0.704 z m 9.00799,0.432 v -5.872 c 0,-1.664 -0.752,-2.944 -2.656,-2.944 -1.056,0 -1.824,0.496 -2.416,1.28 v -4.304 h -2.24 v 11.84 h 2.24 v -5.248 c 0,-0.576 0.032,-0.784 0.464,-1.2 0.24,-0.224 0.64,-0.416 1.088,-0.416 0.976,0 1.28,0.592 1.28,1.456 v 5.408 z m 9.39199,-0.048 -0.128,-1.456 c -0.096,0.032 -0.272,0.08 -0.368,0.08 -0.272,0 -0.304,-0.256 -0.304,-0.56 v -3.936 c 0,-2.464 -1.936,-2.896 -3.136,-2.896 -1.472,0 -2.512,0.272 -3.456,0.88 l 0.784,1.6 c 0.368,-0.32 1.12,-0.784 2.112,-0.784 1.184,0 1.568,0.576 1.568,1.184 v 0.56 c 0,0.288 -0.208,0.304 -0.56,0.304 -1.888,0 -4.32,0.448 -4.32,2.768 0,1.456 1.024,2.544 2.528,2.544 1.168,0 1.824,-0.416 2.528,-1.248 0.128,0.672 0.528,1.168 1.328,1.168 0.528,0 1.088,-0.128 1.424,-0.208 z m -2.944,-2.832 c 0,0.416 -0.112,0.736 -0.368,1.008 -0.288,0.304 -0.704,0.464 -1.2,0.464 -0.624,0 -1.072,-0.448 -1.072,-1.072 0,-1.024 1.184,-1.216 1.968,-1.216 0.192,0 0.432,0 0.672,0.016 z m 9.44,-5.712 c -0.176,-0.064 -0.496,-0.16 -0.816,-0.16 -1.056,0 -1.616,0.672 -2.128,1.488 v -1.28 h -2.016 c 0.016,0.4 0.08,1.424 0.08,2.16 v 6.384 h 2.24 v -5.152 c 0,-0.464 0.016,-0.816 0.32,-1.088 0.208,-0.192 0.464,-0.336 0.944,-0.336 0.304,0 0.624,0.144 0.784,0.224 z m 6.54397,8.64 -0.224,-1.648 c -0.192,0.064 -0.512,0.176 -0.976,0.176 -0.512,0 -0.976,-0.192 -0.976,-1.04 v -4.32 h 1.952 v -1.6 h -1.952 v -2.448 l -2.24,0.72 v 1.728 h -1.424 v 1.6 h 1.424 v 4.592 c 0,1.648 0.944,2.464 2.464,2.464 0.752,0 1.536,-0.112 1.952,-0.224 z m 6.43198,-8.64 c -0.176,-0.064 -0.496,-0.16 -0.816,-0.16 -1.056,0 -1.616,0.672 -2.128,1.488 v -1.28 h -2.016 c 0.016,0.4 0.08,1.424 0.08,2.16 v 6.384 h 2.24 v -5.152 c 0,-0.464 0.016,-0.816 0.32,-1.088 0.208,-0.192 0.464,-0.336 0.944,-0.336 0.304,0 0.624,0.144 0.784,0.224 z m 8.36799,8.544 -0.128,-1.456 c -0.096,0.032 -0.272,0.08 -0.368,0.08 -0.272,0 -0.304,-0.256 -0.304,-0.56 v -3.936 c 0,-2.464 -1.936,-2.896 -3.136,-2.896 -1.472,0 -2.512,0.272 -3.456,0.88 l 0.784,1.6 c 0.368,-0.32 1.12,-0.784 2.112,-0.784 1.184,0 1.568,0.576 1.568,1.184 v 0.56 c 0,0.288 -0.208,0.304 -0.56,0.304 -1.888,0 -4.32,0.448 -4.32,2.768 0,1.456 1.024,2.544 2.528,2.544 1.168,0 1.824,-0.416 2.528,-1.248 0.128,0.672 0.528,1.168 1.328,1.168 0.528,0 1.088,-0.128 1.424,-0.208 z m -2.944,-2.832 c 0,0.416 -0.112,0.736 -0.368,1.008 -0.288,0.304 -0.704,0.464 -1.2,0.464 -0.624,0 -1.072,-0.448 -1.072,-1.072 0,-1.024 1.184,-1.216 1.968,-1.216 0.192,0 0.432,0 0.672,0.016 z m 6.99199,-7.936 c 0,-0.688 -0.48,-1.184 -1.248,-1.184 -0.768,0 -1.264,0.496 -1.264,1.184 0,0.688 0.496,1.184 1.264,1.184 0.768,0 1.248,-0.496 1.248,-1.184 z m -0.144,10.816 v -8.544 h -2.24 v 8.544 z m 9.792,0 v -5.872 c 0,-1.664 -0.752,-2.944 -2.656,-2.944 -1.168,0 -1.968,0.576 -2.576,1.488 v -1.216 h -2.08 v 8.544 h 2.24 v -5.248 c 0,-0.576 0.032,-0.784 0.464,-1.2 0.24,-0.224 0.64,-0.416 1.088,-0.416 0.976,0 1.28,0.592 1.28,1.456 v 5.408 z"
          id="path4" /></g><a
        id="a269"
-       xlink:href="/stations.html?station=Montfort-lAmaury-Mere"
+       xlink:href="/stations/Montfort-lAmaury-Mere"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,847.3283)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5875,7 +5875,7 @@
        id="text272"
        aria-label="Montfort-l’Amaury – Méré" /><a
        id="a273"
-       xlink:href="/stations.html?station=Garancieres-La+Queue"
+       xlink:href="/stations/Garancieres-La Queue"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,885.12357)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5889,7 +5889,7 @@
        id="text273"
        aria-label="Garancières – La Queue" /><a
        id="a274"
-       xlink:href="/stations.html?station=Orgerus-Behoust"
+       xlink:href="/stations/Orgerus-Behoust"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,922.91884)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5903,7 +5903,7 @@
        id="text274"
        aria-label="Orgerus – Béhoust" /><a
        id="a275"
-       xlink:href="/stations.html?station=Tacoignieres-Richebourg"
+       xlink:href="/stations/Tacoignieres-Richebourg"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,960.7141)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5917,7 +5917,7 @@
        id="text275"
        aria-label="Tacoignières – Richebourg" /><a
        id="a276"
-       xlink:href="/stations.html?station=Houdan"
+       xlink:href="/stations/Houdan"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,998.50937)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5931,7 +5931,7 @@
        id="text276"
        aria-label="Houdan" /><a
        id="a277"
-       xlink:href="/stations.html?station=Marchezais-Broue"
+       xlink:href="/stations/Marchezais-Broue"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1036.3046)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5949,7 +5949,7 @@
        id="text279"
        aria-label="Beynes" /><a
        id="a279"
-       xlink:href="/stations.html?station=Beynes"
+       xlink:href="/stations/Beynes"
        target="_parent"
        transform="matrix(0.90908916,0,0,0.90909077,-37.914686,841.12488)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5963,7 +5963,7 @@
        id="text281"
        aria-label="Mareil-sur-Mauldre" /><a
        id="a281"
-       xlink:href="/stations.html?station=Mareil-sur-Mauldre"
+       xlink:href="/stations/Mareil-sur-Mauldre"
        target="_parent"
        transform="matrix(0.90908916,0,0,0.90909077,-37.914686,878.92137)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5977,7 +5977,7 @@
        id="text282"
        aria-label="Maule" /><a
        id="a282"
-       xlink:href="/stations.html?station=Maule"
+       xlink:href="/stations/Maule"
        target="_parent"
        transform="matrix(0.90908916,0,0,0.90909077,-37.914686,916.71663)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5991,7 +5991,7 @@
        id="text283"
        aria-label="Nézel – Aulnay" /><a
        id="a283"
-       xlink:href="/stations.html?station=Nezel-Aulnay"
+       xlink:href="/stations/Nezel-Aulnay"
        target="_parent"
        transform="matrix(0.90908916,0,0,0.90909077,-37.914686,954.5119)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -6005,7 +6005,7 @@
        id="text284"
        aria-label="Épône – Mézières" /><a
        id="a286"
-       xlink:href="/stations.html?station=Epone-Mezieres"
+       xlink:href="/stations/Epone-Mezieres"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914851,994.31029)"
        style="display:inline"><g
@@ -6119,7 +6119,7 @@
          id="text301"
          aria-label="Mantes-la-Jolie" /></g><a
        id="a303"
-       xlink:href="/stations.html?station=Mantes-la-Jolie"
+       xlink:href="/stations/Mantes-la-Jolie"
        target="_parent"
        style="display:inline"
        transform="translate(-158.17293,1138.7638)"><path

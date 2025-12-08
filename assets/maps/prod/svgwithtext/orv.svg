@@ -426,7 +426,7 @@
          id="tspan20831"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#ffffff;fill-opacity:1">Antony</tspan></text><a
        id="a19148"
-       xlink:href="/stations.html?station=Antony"
+       xlink:href="/stations/Antony"
        target="_parent"><g
          id="g138"
          transform="translate(33.46418,-4.8e-4)"><circle
@@ -522,7 +522,7 @@
            d="M 219.69,0 H 63.78 C 28.55,0 0,28.56 0,63.78 v 155.9 c 0,35.22 28.55,63.78 63.78,63.78 h 155.91 c 35.22,0 63.78,-28.56 63.78,-63.78 V 63.78 C 283.47,28.56 254.92,0 219.69,0 Z m 45.35,219.68 c 0,25.05 -20.31,45.35 -45.35,45.35 H 63.78 c -25.05,0 -45.35,-20.31 -45.35,-45.35 V 63.78 c 0,-25.05 20.31,-45.36 45.35,-45.36 h 155.91 c 25.05,0 45.35,20.31 45.35,45.36 z"
            id="path94-0" /></g></g><a
        id="a19337"
-       xlink:href="/stations.html?station=Aeroport+dOrly"
+       xlink:href="/stations/Aeroport dOrly"
        transform="translate(-4.0536565e-7,97.38758)"
        target="_parent"><g
          id="g19311"
@@ -578,7 +578,7 @@
            stroke-width="0"
            id="path19333" /></g></a><a
        id="a54286"
-       xlink:href="/stations.html?station=Aeroport+dOrly"
+       xlink:href="/stations/Aeroport dOrly"
        target="_parent"
        transform="translate(5.9463435e-7,-129.41689)"
        style="display:inline"><g

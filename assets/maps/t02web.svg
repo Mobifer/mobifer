@@ -671,7 +671,7 @@
        d="M 283.46438,35.780141 V 968.73869"
        id="path90" /><a
        id="a38"
-       xlink:href="/stations.html?station=Pont+de+Bezons"
+       xlink:href="/stations/Pont de Bezons"
        target="_parent"><path
          class="st0"
          d="m 291.77801,52.9134 h -16.62725 c -3.7542,0 -6.80448,-3.0503 -6.80448,-6.8045 V 29.4817 c 0,-3.7542 3.05028,-6.8045 6.80448,-6.8045 h 16.62725 c 3.7542,0 6.80448,3.0503 6.80448,6.8045 v 16.6272 c 0,3.7542 -3.05028,6.8045 -6.80448,6.8045"
@@ -714,7 +714,7 @@
        style="font-weight:bold;font-size:21.3333px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';letter-spacing:-0.15px;fill:#ffffff;stroke-width:9.44882"
        aria-label="Pont de Bezons" /><a
        id="a47"
-       xlink:href="/stations.html?station=Victor+Basch"
+       xlink:href="/stations/Victor Basch"
        target="_parent"
        transform="translate(2.4173649e-4,-2.2043212)"><g
          id="g47"><circle
@@ -729,7 +729,7 @@
            cy="126.11151"
            r="7.5590544" /></g></a><a
        id="a10"
-       xlink:href="/stations.html?station=Parc+Pierre+Lagravere"
+       xlink:href="/stations/Parc Pierre Lagravere"
        target="_parent"
        transform="translate(2.4173649e-4,-40.000059)"><g
          id="g9"><circle
@@ -809,7 +809,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Victor Basch" /><a
        id="a95"
-       xlink:href="/stations.html?station=Jacqueline+Auriol"
+       xlink:href="/stations/Jacqueline Auriol"
        target="_parent"
        transform="translate(33.464422,81.387541)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -823,7 +823,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Jacqueline Auriol" /><a
        id="a67"
-       xlink:href="/stations.html?station=Charlebourg"
+       xlink:href="/stations/Charlebourg"
        target="_parent"
        transform="translate(2.4173649e-4,73.386178)"><g
          id="g67"><circle
@@ -842,7 +842,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Charlebourg" /><a
        id="a73"
-       xlink:href="/stations.html?station=Les+Fauvelles"
+       xlink:href="/stations/Les Fauvelles"
        target="_parent"
        transform="translate(33.464422,156.978)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -856,7 +856,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Les Fauvelles" /><a
        id="a103"
-       xlink:href="/stations.html?station=Faubourg+de+lArche"
+       xlink:href="/stations/Faubourg de lArche"
        target="_parent"
        transform="translate(33.464422,194.77334)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -870,7 +870,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Faubourg de l’Arche" /><a
        id="a76"
-       xlink:href="/stations.html?station=La+Defense"
+       xlink:href="/stations/La Defense"
        target="_parent"
        transform="translate(2.4173649e-4,186.77208)"><g
          id="g76"><circle
@@ -889,7 +889,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="La Défense" /><a
        id="a97"
-       xlink:href="/stations.html?station=Puteaux"
+       xlink:href="/stations/Puteaux"
        target="_parent"
        transform="translate(2.4173649e-4,243.46611)"><g
          id="g97"><circle
@@ -908,7 +908,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Puteaux" /><a
        id="a107"
-       xlink:href="/stations.html?station=Belvedere"
+       xlink:href="/stations/Belvedere"
        target="_parent"
        transform="translate(33.464422,327.05797)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -922,7 +922,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Belvédère" /><a
        id="a108"
-       xlink:href="/stations.html?station=Suresnes-Longchamp"
+       xlink:href="/stations/Suresnes-Longchamp"
        target="_parent"
        transform="translate(33.464422,364.85327)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -936,7 +936,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Suresnes – Longchamp" /><a
        id="a98"
-       xlink:href="/stations.html?station=Les+Coteaux"
+       xlink:href="/stations/Les Coteaux"
        target="_parent"
        transform="translate(33.464414,402.64836)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -950,7 +950,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Les Coteaux" /><a
        id="a43"
-       xlink:href="/stations.html?station=Les+Milons"
+       xlink:href="/stations/Les Milons"
        target="_parent"
        transform="translate(33.464422,440.44377)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -964,7 +964,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Les Milons" /><a
        id="a50"
-       xlink:href="/stations.html?station=Parc+de+Saint-Cloud"
+       xlink:href="/stations/Parc de Saint-Cloud"
        transform="translate(2.4173649e-4,-979.50929)"
        target="_parent"><g
          id="g50"
@@ -984,7 +984,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Parc de Saint-Cloud" /><a
        id="a71"
-       xlink:href="/stations.html?station=Musee+de+Sevres"
+       xlink:href="/stations/Musee de Sevres"
        transform="translate(2.4173649e-4,-922.81682)"
        target="_parent"><g
          id="g71"
@@ -1041,7 +1041,7 @@
        id="text48936"
        aria-label="Porte de Seine" /><a
        id="a88"
-       xlink:href="/stations.html?station=Brimborion"
+       xlink:href="/stations/Brimborion"
        target="_parent"
        transform="translate(33.464422,572.72681)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1055,7 +1055,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Brimborion" /><a
        id="a90"
-       xlink:href="/stations.html?station=Meudon-sur-Seine"
+       xlink:href="/stations/Meudon-sur-Seine"
        target="_parent"
        transform="translate(33.464422,610.52211)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1069,7 +1069,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Meudon-sur-Seine" /><a
        id="a91"
-       xlink:href="/stations.html?station=Les+Moulineaux"
+       xlink:href="/stations/Les Moulineaux"
        target="_parent"
        transform="translate(33.464422,648.31741)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1083,7 +1083,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Les Moulineaux" /><a
        id="a171"
-       xlink:href="/stations.html?station=Issy-Val+de+Seine"
+       xlink:href="/stations/Issy-Val de Seine"
        transform="translate(2.4173649e-4,-733.84045)"
        target="_parent"><g
          id="g170"
@@ -1103,7 +1103,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Jacques-Henri Lartigue" /><a
        id="a93"
-       xlink:href="/stations.html?station=Jacques-Henri+Lartigue"
+       xlink:href="/stations/Jacques-Henri Lartigue"
        target="_parent"
        transform="translate(33.464422,686.11268)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1117,7 +1117,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Issy – Val de Seine" /><a
        id="a94"
-       xlink:href="/stations.html?station=Henri+Farman"
+       xlink:href="/stations/Henri Farman"
        target="_parent"
        transform="translate(33.464422,761.70321)"
        style="fill:#a0006e;fill-opacity:1"><circle
@@ -1131,7 +1131,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Henri Farman" /><a
        id="a135"
-       xlink:href="/stations.html?station=Suzanne+Lenglen"
+       xlink:href="/stations/Suzanne Lenglen"
        transform="translate(2.4173649e-4,-658.24985)"
        target="_parent"><g
          id="g135"
@@ -1147,7 +1147,7 @@
            cy="126.11151"
            r="7.5590544" /></g></a><a
        id="a44"
-       xlink:href="/stations.html?station=Suzanne+Lenglen"
+       xlink:href="/stations/Suzanne Lenglen"
        target="_parent"
        transform="translate(1.1356877e-7,842.01809)"><path
          class="st0"
@@ -1185,7 +1185,7 @@
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:9.44882"
        aria-label="Suzanne Lenglen" /><a
        id="a111"
-       xlink:href="/stations.html?station=Porte+dIssy"
+       xlink:href="/stations/Porte dIssy"
        transform="translate(2.4173649e-4,-620.45462)"
        target="_parent"><g
          id="g111"
@@ -1215,7 +1215,7 @@
        style="font-weight:bold;font-size:21.3333px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';letter-spacing:0px;fill:#ffffff;stroke-width:9.44882"
        aria-label="Porte de Versailles" /><a
        id="a40"
-       xlink:href="/stations.html?station=Porte+de+Versailles"
+       xlink:href="/stations/Porte de Versailles"
        target="_parent"
        transform="translate(0,927.76466)"><path
          class="st0"

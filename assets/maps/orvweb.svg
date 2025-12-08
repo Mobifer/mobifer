@@ -495,7 +495,7 @@
          d="m 384.50972,34.20017 h -2.81599 l -1.64267,6.463989 c -0.256,1.002666 -0.42666,1.877331 -0.55466,2.474663 h -0.0427 c -0.0427,-0.341333 -0.256,-1.450664 -0.512,-2.474663 l -1.57866,-6.463989 h -3.28533 l 3.88266,12.053314 c -0.32,1.279998 -1.64266,1.642664 -2.624,1.621331 l 0.27734,2.303996 c 3.07199,-0.234666 4.37332,-1.749331 5.07732,-3.94666 z"
          id="path16190" /></g><a
        id="a19148"
-       xlink:href="/stations.html?station=Antony"
+       xlink:href="/stations/Antony"
        target="_parent"><g
          id="g138"
          transform="translate(33.46418,-4.8e-4)"><circle
@@ -591,7 +591,7 @@
            d="M 219.69,0 H 63.78 C 28.55,0 0,28.56 0,63.78 v 155.9 c 0,35.22 28.55,63.78 63.78,63.78 h 155.91 c 35.22,0 63.78,-28.56 63.78,-63.78 V 63.78 C 283.47,28.56 254.92,0 219.69,0 Z m 45.35,219.68 c 0,25.05 -20.31,45.35 -45.35,45.35 H 63.78 c -25.05,0 -45.35,-20.31 -45.35,-45.35 V 63.78 c 0,-25.05 20.31,-45.36 45.35,-45.36 h 155.91 c 25.05,0 45.35,20.31 45.35,45.36 z"
            id="path94-0" /></g></g><a
        id="a19337"
-       xlink:href="/stations.html?station=Aeroport+dOrly"
+       xlink:href="/stations/Aeroport dOrly"
        transform="translate(-4.0536565e-7,97.38758)"
        target="_parent"><g
          id="g19311"
@@ -647,7 +647,7 @@
            stroke-width="0"
            id="path19333" /></g></a><a
        id="a54286"
-       xlink:href="/stations.html?station=Aeroport+dOrly"
+       xlink:href="/stations/Aeroport dOrly"
        target="_parent"
        transform="translate(5.9463435e-7,-129.41689)"
        style="display:inline"><g

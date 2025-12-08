@@ -1413,7 +1413,7 @@
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
            id="tspan3">de Saint-Cloud</tspan></tspan></text><a
        id="a32192"
-       xlink:href="/stations.html?station=Boulogne-Pont+de+Saint-Cloud"
+       xlink:href="/stations/Boulogne-Pont de Saint-Cloud"
        target="_parent"
        transform="translate(0,23.999234)"><circle
          style="fill:#000000;stroke-width:0.332857"
@@ -1450,7 +1450,7 @@
    id="path65052" />
 </g></a><a
        id="a32192-2"
-       xlink:href="/stations.html?station=Gare+dAusterlitz"
+       xlink:href="/stations/Gare dAusterlitz"
        target="_parent"
        style="display:inline"
        transform="translate(-2.3632812e-6,945.99834)"><circle
@@ -1853,7 +1853,7 @@
          y="367.03024"
          id="tspan44243">Michel-Ange – Molitor</tspan></text><a
        id="a44251"
-       xlink:href="/stations.html?station=Michel-Ange-Molitor"
+       xlink:href="/stations/Michel-Ange-Molitor"
        target="_parent"
        transform="translate(-101.10202,145.26072)"
        style="display:inline"><g
@@ -1888,7 +1888,7 @@
          x="406.53192"
          y="404.81085">Michel-Ange – Auteuil</tspan></text><a
        id="a29871"
-       xlink:href="/stations.html?station=Porte+dAuteuil"
+       xlink:href="/stations/Porte dAuteuil"
        target="_parent"
        transform="rotate(-90,444.44105,200.18931)"
        style="display:inline;fill:#dc9600;fill-opacity:1"><path
@@ -1905,7 +1905,7 @@
          sodipodi:arc-type="arc"
          d="m 293.85784,140.31494 a 10.3937,10.3937 0 0 1 -5.19685,9.00121 10.3937,10.3937 0 0 1 -10.3937,0 10.3937,10.3937 0 0 1 -5.19685,-9.00121" /></a><a
        id="a50033"
-       xlink:href="/stations.html?station=Michel-Ange-Auteuil"
+       xlink:href="/stations/Michel-Ange-Auteuil"
        target="_parent"
        transform="rotate(-90,425.5441,256.88292)"
        style="display:inline"><g
@@ -1971,7 +1971,7 @@
          x="406.53192"
          y="442.60611">Église d’Auteuil</tspan></text><a
        id="a29871-0"
-       xlink:href="/stations.html?station=Chardon-Lagache"
+       xlink:href="/stations/Chardon-Lagache"
        target="_parent"
        transform="rotate(90,103.5892,219.08792)"
        style="display:inline;fill:#dc9600;fill-opacity:1"><path
@@ -1997,7 +1997,7 @@
          x="161.49585"
          y="404.82678">Chardon-Lagache</tspan></text><a
        id="a52357"
-       xlink:href="/stations.html?station=Mirabeau"
+       xlink:href="/stations/Mirabeau"
        target="_parent"
        transform="rotate(90,84.691567,237.98555)"
        style="display:inline;fill:#dc9600;fill-opacity:1"><path
@@ -2051,7 +2051,7 @@
          y="591.20001"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Charles Michels</tspan></text><a
        id="a55941"
-       xlink:href="/stations.html?station=Javel-Andre+Citroen"
+       xlink:href="/stations/Javel-Andre Citroen"
        target="_parent"
        transform="translate(1.2244147e-6,331.73073)"
        style="display:inline"><g
@@ -2068,7 +2068,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a59167"
-       xlink:href="/stations.html?station=Charles+Michels"
+       xlink:href="/stations/Charles Michels"
        target="_parent"
        transform="translate(8.1542969e-6,445.11713)"
        style="fill:#dc9600;fill-opacity:1"><circle
@@ -2088,7 +2088,7 @@
          y="628.9953"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Avenue Émile Zola</tspan></text><a
        id="a60236"
-       xlink:href="/stations.html?station=Avenue+Emile+Zola"
+       xlink:href="/stations/Avenue Emile Zola"
        target="_parent"
        transform="translate(8.1542969e-6,482.91239)"
        style="fill:#dc9600;fill-opacity:1"><circle
@@ -2133,7 +2133,7 @@
    id="path134-6" />
 </g></a><a
        id="a22150"
-       xlink:href="/stations.html?station=La+Motte-Picquet-Grenelle"
+       xlink:href="/stations/La Motte-Picquet-Grenelle"
        target="_parent"
        transform="translate(-6.281613e-7,445.1171)"
        style="display:inline"><g
@@ -2210,7 +2210,7 @@
          y="704.58582"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Ségur</tspan></text><a
        id="a13187"
-       xlink:href="/stations.html?station=Segur"
+       xlink:href="/stations/Segur"
        target="_parent"
        transform="translate(8.1542969e-6,558.50291)"
        style="fill:#dc9600;fill-opacity:1"><circle
@@ -2220,7 +2220,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a14398"
-       xlink:href="/stations.html?station=Duroc"
+       xlink:href="/stations/Duroc"
        target="_parent"
        transform="translate(-6.281613e-7,520.70762)"
        style="display:inline"><g
@@ -2256,7 +2256,7 @@
          y="780.17633"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Vaneau</tspan></text><a
        id="a15514"
-       xlink:href="/stations.html?station=Vaneau"
+       xlink:href="/stations/Vaneau"
        target="_parent"
        transform="translate(8.1542969e-6,634.09343)"
        style="fill:#dc9600;fill-opacity:1"><circle
@@ -2266,7 +2266,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a17738"
-       xlink:href="/stations.html?station=Sevres-Babylone"
+       xlink:href="/stations/Sevres-Babylone"
        target="_parent"
        transform="translate(-6.281613e-7,596.29814)"
        style="display:inline"><g
@@ -2329,7 +2329,7 @@
          y="855.76685"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Mabillon</tspan></text><a
        id="a19998"
-       xlink:href="/stations.html?station=Mabillon"
+       xlink:href="/stations/Mabillon"
        target="_parent"
        transform="translate(8.1542969e-6,709.68396)"
        style="fill:#dc9600;fill-opacity:1"><circle
@@ -2339,7 +2339,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a20006"
-       xlink:href="/stations.html?station=Odeon"
+       xlink:href="/stations/Odeon"
        target="_parent"
        transform="translate(-6.281613e-7,671.88866)"
        style="display:inline"><g
@@ -2365,7 +2365,7 @@
          x="304.9498"
          y="893.56213">Odéon</tspan></text><a
        id="a21064"
-       xlink:href="/stations.html?station=Cluny-La+Sorbonne"
+       xlink:href="/stations/Cluny-La Sorbonne"
        target="_parent"
        transform="translate(-6.281613e-7,709.68392)"
        style="display:inline"><g
@@ -2476,7 +2476,7 @@
          y="969.15265"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Maubert – Mutualité</tspan></text><a
        id="a28822"
-       xlink:href="/stations.html?station=Maubert-Mutualite"
+       xlink:href="/stations/Maubert-Mutualite"
        target="_parent"
        transform="translate(8.1542969e-6,823.06974)"
        style="fill:#dc9600;fill-opacity:1"><circle
@@ -2496,7 +2496,7 @@
          y="1006.9479"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Cardinal Lemoine</tspan></text><a
        id="a29896"
-       xlink:href="/stations.html?station=Cardinal+Lemoine"
+       xlink:href="/stations/Cardinal Lemoine"
        target="_parent"
        transform="translate(8.1542969e-6,860.865)"
        style="fill:#dc9600;fill-opacity:1"><circle
@@ -2506,7 +2506,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a30974"
-       xlink:href="/stations.html?station=Jussieu"
+       xlink:href="/stations/Jussieu"
        target="_parent"
        transform="translate(-6.281613e-7,823.06971)"
        style="display:inline"><g
@@ -3367,7 +3367,7 @@
            y="1434.3179"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std';text-align:start;text-anchor:start">28</tspan></text></g><a
        id="a3761"
-       xlink:href="/stations.html?station=Boulogne-Jean+Jaures"
+       xlink:href="/stations/Boulogne-Jean Jaures"
        target="_parent"
        transform="translate(8.1542969e-6,109.32141)"
        style="fill:#dc9600;fill-opacity:1"><circle
@@ -3685,7 +3685,7 @@
    id="path19236" />
 </g></g></a><a
        id="a20394"
-       xlink:href="/stations.html?station=Eglise+dAuteuil"
+       xlink:href="/stations/Eglise dAuteuil"
        target="_parent"
        transform="rotate(-90,482.23709,237.98535)"
        style="display:inline;fill:#dc9600;fill-opacity:1"><path

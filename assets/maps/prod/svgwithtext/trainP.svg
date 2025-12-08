@@ -5150,7 +5150,7 @@
          style="text-align:start;text-anchor:start"
          id="tspan280">Château-Thierry</tspan></text><a
        id="a22"
-       xlink:href="/stations.html?station=Chateau-Thierry"
+       xlink:href="/stations/Chateau-Thierry"
        target="_parent"
        style="display:inline"
        transform="translate(158.1732,948.73308)"><path
@@ -5181,7 +5181,7 @@
            clip-path="url(#SVGID_00000135691296135118220300000007282337375253646227_-40-1)"
            id="path22" /></g></a><a
        id="a2"
-       xlink:href="/stations.html?station=Chelles-Gournay"
+       xlink:href="/stations/Chelles-Gournay"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,125.9196)"
        style="display:inline"><g
@@ -5225,7 +5225,7 @@
          y="607.24811"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#ffffff;fill-opacity:1">Provins</tspan></text><a
        id="a55"
-       xlink:href="/stations.html?station=Provins"
+       xlink:href="/stations/Provins"
        target="_parent"
        style="display:inline"
        transform="translate(-158.17286,561.63387)"><path
@@ -5312,7 +5312,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan223">Verneuil-l’Étang</tspan></text><a
        id="a73-1"
-       xlink:href="/stations.html?station=Verneuil-lEtang"
+       xlink:href="/stations/Verneuil-lEtang"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,226.20213)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5322,7 +5322,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a260"
-       xlink:href="/stations.html?station=Vaires-Torcy"
+       xlink:href="/stations/Vaires-Torcy"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,161.71083)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5342,7 +5342,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'"
          id="tspan260">Vaires – Torcy</tspan></text><a
        id="a1"
-       xlink:href="/stations.html?station=Paris-Est"
+       xlink:href="/stations/Paris-Est"
        target="_parent"><path
          class="st0"
          d="m 386.26628,52.91338 h -16.62725 c -3.7542,0 -6.80448,-3.05029 -6.80448,-6.80448 V 29.48164 c 0,-3.75419 3.05028,-6.80448 6.80448,-6.80448 h 16.62725 c 3.7542,0 6.80448,3.05029 6.80448,6.80448 V 46.1089 c 0,3.75419 -3.05028,6.80448 -6.80448,6.80448"
@@ -5535,7 +5535,7 @@
    style="clip-rule:evenodd;fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
 </g></a><a
        id="a3"
-       xlink:href="/stations.html?station=Lagny-Thorigny"
+       xlink:href="/stations/Lagny-Thorigny"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,199.50609)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5555,7 +5555,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'"
          id="tspan5">Lagny – Thorigny</tspan></text><a
        id="a6"
-       xlink:href="/stations.html?station=Esbly"
+       xlink:href="/stations/Esbly"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,239.30448)"
        style="display:inline"><g
@@ -5644,7 +5644,7 @@
          id="path10358"
          style="fill:#000000;fill-opacity:1" /></g><a
        id="a4"
-       xlink:href="/stations.html?station=Meaux"
+       xlink:href="/stations/Meaux"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,275.09662)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5664,7 +5664,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'"
          id="tspan4">Meaux</tspan></text><a
        id="a7"
-       xlink:href="/stations.html?station=Trilport"
+       xlink:href="/stations/Trilport"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,312.89189)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5691,7 +5691,7 @@
        d="M 449.43312,558.62079 V 852.9509"
        id="path25256" /><a
        id="a14439"
-       xlink:href="/stations.html?station=Isles-Armentieres-Congis"
+       xlink:href="/stations/Isles-Armentieres-Congis"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,191.73849,540.06939)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5727,7 +5727,7 @@
          y="845.42023"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#ffffff;fill-opacity:1">La Ferté-Milon</tspan></text><a
        id="a1-37"
-       xlink:href="/stations.html?station=La+Ferte-Milon"
+       xlink:href="/stations/La Ferte-Milon"
        target="_parent"
        style="display:inline"
        transform="translate(71.480465,799.91283)"><path
@@ -5767,7 +5767,7 @@
          x="470.44116"
          y="673.47644">Isles – Armentières – Congis</tspan></text><a
        id="a8"
-       xlink:href="/stations.html?station=Lizy-sur-Ourcq"
+       xlink:href="/stations/Lizy-sur-Ourcq"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,191.73849,577.86565)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5786,7 +5786,7 @@
          x="470.50513"
          y="711.27271">Lizy-sur-Ourcq</tspan></text><a
        id="a9"
-       xlink:href="/stations.html?station=Crouy-sur-Ourcq"
+       xlink:href="/stations/Crouy-sur-Ourcq"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,191.73849,615.66092)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5805,7 +5805,7 @@
          x="471.17712"
          y="749.06799">Crouy-sur-Ourcq</tspan></text><a
        id="a10"
-       xlink:href="/stations.html?station=Mareuil-sur-Ourcq"
+       xlink:href="/stations/Mareuil-sur-Ourcq"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,191.73849,665.45618)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5824,7 +5824,7 @@
          x="470.56918"
          y="798.86328">Mareuil-sur-Ourcq</tspan></text><a
        id="a13"
-       xlink:href="/stations.html?station=Changis-Saint-Jean"
+       xlink:href="/stations/Changis-Saint-Jean"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,418.89184)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5844,7 +5844,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'"
          id="tspan13">Changis – Saint-Jean</tspan></text><a
        id="a14"
-       xlink:href="/stations.html?station=La+Ferte-sous-Jouarre"
+       xlink:href="/stations/La Ferte-sous-Jouarre"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,456.68592)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5864,7 +5864,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'"
          id="tspan14">La Ferté-sous-Jouarre</tspan></text><a
        id="a15"
-       xlink:href="/stations.html?station=Nanteuil-Saacy"
+       xlink:href="/stations/Nanteuil-Saacy"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,494.48116)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5884,7 +5884,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'"
          id="tspan15">Nanteuil – Saâcy</tspan></text><a
        id="a16"
-       xlink:href="/stations.html?station=Nogent-lArtaud-Charly"
+       xlink:href="/stations/Nogent-lArtaud-Charly"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,764.48103)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -5904,7 +5904,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'"
          id="tspan16">Nogent-l’Artaud – Charly</tspan></text><a
        id="a17"
-       xlink:href="/stations.html?station=Chezy-sur-Marne"
+       xlink:href="/stations/Chezy-sur-Marne"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,802.27569)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -6102,7 +6102,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan48">Mormant</tspan></text><a
        id="a49"
-       xlink:href="/stations.html?station=Mormant"
+       xlink:href="/stations/Mormant"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,263.99615)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -6122,7 +6122,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan49">Nangis</tspan></text><a
        id="a50"
-       xlink:href="/stations.html?station=Nangis"
+       xlink:href="/stations/Nangis"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,301.79142)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -6142,7 +6142,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan50">Longueville</tspan></text><a
        id="a51"
-       xlink:href="/stations.html?station=Longueville"
+       xlink:href="/stations/Longueville"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,339.58669)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -6162,7 +6162,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;letter-spacing:-0.67px;text-anchor:end"
          id="tspan51">Sainte-Colombe – Septveilles</tspan></text><a
        id="a52"
-       xlink:href="/stations.html?station=Sainte-Colombe-Septveilles"
+       xlink:href="/stations/Sainte-Colombe-Septveilles"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,377.38195)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -6182,7 +6182,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan52">Champbenoist – Poigny</tspan></text><a
        id="a53"
-       xlink:href="/stations.html?station=Champbenoist-Poigny"
+       xlink:href="/stations/Champbenoist-Poigny"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,415.17722)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -6202,7 +6202,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan55">Tournan-en-Brie</tspan></text><a
        id="a58"
-       xlink:href="/stations.html?station=Tournan-en-Brie"
+       xlink:href="/stations/Tournan-en-Brie"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,48.777528,512.15449)"
        style="display:inline"><g
@@ -6220,7 +6220,7 @@
            cy="1293.7008"
            r="7.5590544" /></g></a><a
        id="a14439-7"
-       xlink:href="/stations.html?station=Marles-en-Brie"
+       xlink:href="/stations/Marles-en-Brie"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,48.777535,547.94821)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -6284,7 +6284,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan71">Marles-en-Brie</tspan></text><a
        id="a72"
-       xlink:href="/stations.html?station=Mortcerf"
+       xlink:href="/stations/Mortcerf"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,48.777535,585.74347)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -6304,7 +6304,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan72">Mortcerf</tspan></text><a
        id="a73"
-       xlink:href="/stations.html?station=Guerard-La+Celle-sur-Morin"
+       xlink:href="/stations/Guerard-La Celle-sur-Morin"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,48.777535,623.53874)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -6324,7 +6324,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan74">Guérard – La Celle-sur-Morin</tspan></text><a
        id="a74"
-       xlink:href="/stations.html?station=Faremoutiers-Pommeuse"
+       xlink:href="/stations/Faremoutiers-Pommeuse"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,48.777535,661.334)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -6344,7 +6344,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan75">Faremoutiers – Pommeuse</tspan></text><a
        id="a75"
-       xlink:href="/stations.html?station=Mouroux"
+       xlink:href="/stations/Mouroux"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,48.777535,699.12927)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -6380,7 +6380,7 @@
          y="891.19995"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#ffffff;fill-opacity:1">Coulommiers</tspan></text><a
        id="a55-7"
-       xlink:href="/stations.html?station=Coulommiers"
+       xlink:href="/stations/Coulommiers"
        target="_parent"
        style="display:inline"
        transform="translate(-71.480485,845.58592)"><path

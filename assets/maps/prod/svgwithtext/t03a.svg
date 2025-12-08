@@ -896,7 +896,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';letter-spacing:-0.15px;fill:#ffffff;fill-opacity:1"
          id="tspan87">Pont du Garigliano</tspan></text><a
        id="a10"
-       xlink:href="/stations.html?station=Balard"
+       xlink:href="/stations/Balard"
        target="_parent"
        transform="translate(2.4173649e-4,-30.000059)"><g
          id="g9"><circle
@@ -920,7 +920,7 @@
          x="304.27835"
          y="101.59158">Balard</tspan></text><a
        id="a18"
-       xlink:href="/stations.html?station=Porte+de+Versailles"
+       xlink:href="/stations/Porte de Versailles"
        target="_parent"
        transform="translate(2.4173649e-4,64.489408)"><g
          id="g18"><circle
@@ -953,7 +953,7 @@
          x="304.95035"
          y="233.87622">Georges Brassens</tspan></text><a
        id="a73"
-       xlink:href="/stations.html?station=Brancion"
+       xlink:href="/stations/Brancion"
        target="_parent"
        transform="translate(33.464422,185.87642)"
        style="fill:#ff5a00;fill-opacity:1"><circle
@@ -972,7 +972,7 @@
          x="304.27835"
          y="271.67151">Brancion</tspan></text><a
        id="a24"
-       xlink:href="/stations.html?station=Porte+de+Vanves"
+       xlink:href="/stations/Porte de Vanves"
        target="_parent"
        transform="translate(2.4963672e-4,177.8752)"><g
          id="g24"><circle
@@ -1005,7 +1005,7 @@
          x="304.27835"
          y="347.26199">Didot</tspan></text><a
        id="a97"
-       xlink:href="/stations.html?station=Porte+dOrleans"
+       xlink:href="/stations/Porte dOrleans"
        target="_parent"
        transform="translate(2.4173649e-4,291.26165)"><g
          id="g97"><circle
@@ -1038,7 +1038,7 @@
          x="304.27835"
          y="422.85364">Porte d’Orléans</tspan></text><a
        id="a108"
-       xlink:href="/stations.html?station=Montsouris"
+       xlink:href="/stations/Montsouris"
        target="_parent"
        transform="translate(33.464422,374.85391)"
        style="fill:#ff5a00;fill-opacity:1"><circle
@@ -1066,7 +1066,7 @@
          x="304.95035"
          y="498.44421">Cité Universitaire</tspan></text><a
        id="a43"
-       xlink:href="/stations.html?station=Stade+Charlety"
+       xlink:href="/stations/Stade Charlety"
        target="_parent"
        transform="translate(33.464422,450.44441)"
        style="fill:#ff5a00;fill-opacity:1"><circle
@@ -1094,7 +1094,7 @@
          x="304.27835"
          y="574.03461">Poterne des Peupliers</tspan></text><a
        id="a71"
-       xlink:href="/stations.html?station=Porte+dItalie"
+       xlink:href="/stations/Porte dItalie"
        transform="translate(2.4173649e-4,-931.71381)"
        target="_parent"><g
          id="g71"
@@ -1176,7 +1176,7 @@
          x="304.27835"
          y="706.31769">Porte d’Ivry</tspan></text><a
        id="a91"
-       xlink:href="/stations.html?station=Maryse+Bastie"
+       xlink:href="/stations/Maryse Bastie"
        target="_parent"
        transform="translate(33.464422,658.31806)"
        style="fill:#ff5a00;fill-opacity:1"><circle
@@ -1195,7 +1195,7 @@
          x="304.34238"
          y="744.11298">Maryse Bastié</tspan></text><a
        id="a89"
-       xlink:href="/stations.html?station=Baron+Le+Roy"
+       xlink:href="/stations/Baron Le Roy"
        target="_parent"
        transform="translate(33.464422,733.90856)"
        style="fill:#ff5a00;fill-opacity:1"><circle
@@ -1360,7 +1360,7 @@
        id="path170"
        sodipodi:nodetypes="cc" /><a
        id="a58"
-       xlink:href="/stations.html?station=Porte de Vincennes"
+       xlink:href="/stations/Porte de Vincennes"
        target="_parent"
        transform="translate(0,975.56052)"><path
          class="st0"
@@ -1456,7 +1456,7 @@
          y="194.987"
          style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';letter-spacing:-0.2px;fill:#ffffff;fill-opacity:1;stroke:none">Parc des Expositions</tspan></text><a
        id="a1"
-       xlink:href="/stations.html?station=Pont+du+Garigliano"
+       xlink:href="/stations/Pont du Garigliano"
        target="_parent"><path
          class="st0"
          d="m 291.77801,52.9134 h -16.62725 c -3.7542,0 -6.80448,-3.0503 -6.80448,-6.8045 V 29.4817 c 0,-3.7542 3.05028,-6.8045 6.80448,-6.8045 h 16.62725 c 3.7542,0 6.80448,3.0503 6.80448,6.8045 v 16.6272 c 0,3.7542 -3.05028,6.8045 -6.80448,6.8045"
@@ -1555,7 +1555,7 @@
          id="path7"
          style="fill:#000000;fill-opacity:1" /></g><a
        id="a11"
-       xlink:href="/stations.html?station=Desnouettes"
+       xlink:href="/stations/Desnouettes"
        target="_parent"
        transform="translate(2.4173649e-4,26.694136)"><g
          id="g10"><circle
@@ -1694,7 +1694,7 @@
          id="path21"
          style="fill:#000000;fill-opacity:1" /></g><a
        id="a22"
-       xlink:href="/stations.html?station=Georges+Brassens"
+       xlink:href="/stations/Georges Brassens"
        target="_parent"
        transform="translate(33.464422,148.08186)"
        style="fill:#ff5a00;fill-opacity:1"><circle
@@ -1743,7 +1743,7 @@
          id="path27"
          style="fill:#000000;fill-opacity:1" /></g><a
        id="a28"
-       xlink:href="/stations.html?station=Didot"
+       xlink:href="/stations/Didot"
        target="_parent"
        transform="translate(33.464422,261.46767)"
        style="fill:#ff5a00;fill-opacity:1"><circle
@@ -1753,7 +1753,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a29"
-       xlink:href="/stations.html?station=Jean+Moulin"
+       xlink:href="/stations/Jean Moulin"
        target="_parent"
        transform="translate(33.464422,299.26294)"
        style="fill:#ff5a00;fill-opacity:1"><circle
@@ -1793,7 +1793,7 @@
          id="path31"
          style="fill:#000000;fill-opacity:1" /></g><a
        id="a32"
-       xlink:href="/stations.html?station=Cite+Universitaire"
+       xlink:href="/stations/Cite Universitaire"
        target="_parent"
        transform="translate(2.4173649e-4,366.85219)"><g
          id="g32"><circle
@@ -1853,7 +1853,7 @@
          y="535.14478"
          style="text-align:start;text-anchor:start;fill:#25303b;fill-opacity:1">Porte de Gentilly</tspan></text><a
        id="a61"
-       xlink:href="/stations.html?station=Poterne+des+Peupliers"
+       xlink:href="/stations/Poterne des Peupliers"
        target="_parent"
        transform="translate(33.464422,488.23929)"
        style="fill:#ff5a00;fill-opacity:1"><circle
@@ -1880,7 +1880,7 @@
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
            id="tspan23">Blanche</tspan></tspan></text><a
        id="a63"
-       xlink:href="/stations.html?station=Porte+de+Choisy"
+       xlink:href="/stations/Porte de Choisy"
        transform="translate(2.4173649e-4,-875.0209)"
        target="_parent"><g
          id="g63"
@@ -1896,7 +1896,7 @@
            cy="126.11151"
            r="7.5590544" /></g></a><a
        id="a65"
-       xlink:href="/stations.html?station=Porte+dIvry"
+       xlink:href="/stations/Porte dIvry"
        transform="translate(2.4173649e-4,-837.60359)"
        target="_parent"><g
          id="g65"
@@ -1985,7 +1985,7 @@
          id="path74"
          style="fill:#000000;fill-opacity:1;stroke-width:0.0733343" /></g><a
        id="a75"
-       xlink:href="/stations.html?station=Avenue+de+France"
+       xlink:href="/stations/Avenue de France"
        transform="translate(2.4173649e-4,-762.01305)"
        target="_parent"><g
          id="g75"
@@ -2070,7 +2070,7 @@
          id="path88"
          style="fill:#000000;fill-opacity:1" /></g><a
        id="a2"
-       xlink:href="/stations.html?station=Porte+de+Charenton"
+       xlink:href="/stations/Porte de Charenton"
        transform="translate(2.4173649e-4,-686.42251)"
        target="_parent"><g
          id="g2"
@@ -2151,7 +2151,7 @@
          x="304.27835"
          y="895.29401">Porte Dorée</tspan></text><a
        id="a30"
-       xlink:href="/stations.html?station=Porte+Doree"
+       xlink:href="/stations/Porte Doree"
        transform="translate(2.4173649e-4,-648.62724)"
        target="_parent"><g
          id="g28"
@@ -2206,7 +2206,7 @@
          id="path44"
          style="fill:#000000;fill-opacity:1" /></g><a
        id="a44"
-       xlink:href="/stations.html?station=Montempoivre"
+       xlink:href="/stations/Montempoivre"
        target="_parent"
        transform="translate(33.464422,847.29434)"
        style="fill:#ff5a00;fill-opacity:1"><circle
@@ -2225,7 +2225,7 @@
          x="304.27835"
          y="933.08923">Montempoivre</tspan></text><a
        id="a55"
-       xlink:href="/stations.html?station=Alexandra+David-Neel"
+       xlink:href="/stations/Alexandra David-Neel"
        target="_parent"
        transform="translate(33.464422,885.08961)"
        style="fill:#ff5a00;fill-opacity:1"><circle

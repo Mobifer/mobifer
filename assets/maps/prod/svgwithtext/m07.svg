@@ -991,7 +991,7 @@
        x="305.59012"
        y="152.67522" /><a
        id="a56636"
-       xlink:href="/stations.html?station=La+Courneuve-8+Mai+1945"
+       xlink:href="/stations/La Courneuve-8 Mai 1945"
        target="_parent"
        transform="translate(0,39.99887)"><circle
          style="fill:#000000;stroke-width:0.332857"
@@ -1064,7 +1064,7 @@
    style="clip-rule:evenodd;fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
 </g></a><a
        id="a21-7"
-       xlink:href="/stations.html?station=Mairie+dIvry"
+       xlink:href="/stations/Mairie dIvry"
        target="_parent"
        transform="translate(134.43463,619.42911)"
        style="display:inline"><g
@@ -1232,7 +1232,7 @@
        cy="61.794357"
        r="5.6692905" /><a
        id="a43"
-       xlink:href="/stations.html?station=La+Courneuve-8+Mai+1945"
+       xlink:href="/stations/La Courneuve-8 Mai 1945"
        target="_parent"
        transform="translate(68.975982,-328.26957)"><g
          id="g70"
@@ -1264,7 +1264,7 @@
    id="path70" />
 </g></a><a
        id="a80"
-       xlink:href="/stations.html?station=Fort+dAubervilliers"
+       xlink:href="/stations/Fort dAubervilliers"
        target="_parent"
        transform="translate(-7.1579308e-6,-6.0649309)"><g
          id="g33"
@@ -1280,7 +1280,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a3761"
-       xlink:href="/stations.html?station=Aubervilliers-Pantin-Quatre+Chemins"
+       xlink:href="/stations/Aubervilliers-Pantin-Quatre Chemins"
        target="_parent"
        transform="translate(0,107.32113)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -1297,7 +1297,7 @@
          d="M 274.25,18.42 H 9.21 C 4.12,18.42 0,14.3 0,9.21 0,4.12 4.12,0 9.21,0 h 265.04 c 5.09,0 9.21,4.12 9.21,9.21 0,5.09 -4.12,9.21 -9.21,9.21 m 9.21,255.83 v 0 c 0,-5.09 -4.12,-9.22 -9.21,-9.22 H 9.21 c -5.09,0 -9.21,4.13 -9.21,9.22 0,5.09 4.12,9.21 9.21,9.21 h 265.04 c 5.09,0 9.21,-4.12 9.21,-9.21 m -32.32,-38.41 c 2.19,0 3.97,-1.78 3.97,-3.97 v -3.97 c 0,-2.19 -1.78,-3.96 -3.97,-3.96 H 28.35 v 11.91 H 251.14 M 28.35,170.78 H 69.6 c 1.09,0 1.98,-0.89 1.98,-1.98 v -54.85 c 0,-1.09 -0.89,-1.98 -1.98,-1.98 H 28.35 V 99.21 H 92.72 L 117.95,78.47 86.21,52.39 c -1.37,-1.12 -1.57,-3.15 -0.44,-4.52 l 2.04,-2.49 c 1.13,-1.37 3.15,-1.56 4.52,-0.44 l 36.14,29.69 c 2.41,1.98 2.42,5.68 0,7.66 L 107.89,99.2 h 98.03 c 7.78,0 15.18,3.29 20.43,9.03 15.45,16.89 25.27,37.77 28.41,60.39 1,7.19 -0.09,14.31 -3.16,20.56 -7.09,14.44 -21.47,23.41 -37.55,23.41 H 28.35 Z m 188.48,-54.06 c -2.8,-3.05 -6.77,-4.75 -10.91,-4.75 h -34.57 c -1.09,0 -1.98,0.89 -1.98,1.98 v 54.85 c 0,1.09 0.89,1.98 1.98,1.98 h 59.11 c 6.94,0 11.07,-5.46 9.31,-12.17 -4.1,-15.56 -11.91,-29.87 -22.94,-41.89 m -62.2,83.12 c 1.09,0 1.98,-0.89 1.98,-1.98 v -83.91 c 0,-1.09 -0.89,-1.98 -1.98,-1.98 h -25.79 c -1.1,0 -1.99,0.89 -1.99,1.98 v 83.91 c 0,1.09 0.89,1.98 1.99,1.98 h 25.79 M 86.32,111.97 c -1.09,0 -1.98,0.89 -1.98,1.98 v 83.91 c 0,1.09 0.89,1.98 1.98,1.98 h 25.79 c 1.1,0 1.99,-0.89 1.99,-1.98 v -83.91 c 0,-1.09 -0.89,-1.98 -1.99,-1.98 H 86.32"
          id="path13052" /></g><a
        id="a22150"
-       xlink:href="/stations.html?station=Porte+de+la+Villette"
+       xlink:href="/stations/Porte de la Villette"
        target="_parent"
        transform="translate(-7.1579308e-6,85.321115)"><g
          id="g22148"
@@ -1328,7 +1328,7 @@
        id="g33830"
        transform="translate(0,35.999104)"><a
          id="a26568"
-         xlink:href="/stations.html?station=Corentin+Cariou"
+         xlink:href="/stations/Corentin Cariou"
          target="_parent"
          transform="translate(0,180.70723)"
          style="fill:#ff82b4;fill-opacity:1"><circle
@@ -1338,7 +1338,7 @@
            cy="140.31494"
            r="10.3937" /></a><a
          id="a27501"
-         xlink:href="/stations.html?station=Crimee"
+         xlink:href="/stations/Crimee"
          target="_parent"
          transform="translate(0,218.5025)"
          style="fill:#ff82b4;fill-opacity:1"><circle
@@ -1348,7 +1348,7 @@
            cy="140.31494"
            r="10.3937" /></a></g><a
        id="a27509"
-       xlink:href="/stations.html?station=Riquet"
+       xlink:href="/stations/Riquet"
        target="_parent"
        transform="translate(0,292.29688)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -1358,7 +1358,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a28470"
-       xlink:href="/stations.html?station=Stalingrad"
+       xlink:href="/stations/Stalingrad"
        target="_parent"
        transform="translate(-7.4053657e-6,254.5016)"><g
          id="g28468"
@@ -1374,7 +1374,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a30360"
-       xlink:href="/stations.html?station=Louis+Blanc"
+       xlink:href="/stations/Louis Blanc"
        target="_parent"
        transform="translate(-7.4053657e-6,292.29686)"><g
          id="g30358"
@@ -1500,7 +1500,7 @@
    id="path6256" />
 </g></a><a
        id="a7522"
-       xlink:href="/stations.html?station=Chateau-Landon"
+       xlink:href="/stations/Chateau-Landon"
        target="_parent"
        transform="translate(-7.4053657e-6,330.09401)"><g
          id="g7520"
@@ -1556,7 +1556,7 @@
    id="path52350" />
 </g></a><a
        id="a51456"
-       xlink:href="/stations.html?station=Gare+de+lEst"
+       xlink:href="/stations/Gare de lEst"
        target="_parent"
        transform="translate(7.657604e-6,332.29748)"
        style="display:inline"><g
@@ -1673,7 +1673,7 @@
        x="407.18143"
        y="575.24261" /><a
        id="a15641"
-       xlink:href="/stations.html?station=Poissonniere"
+       xlink:href="/stations/Poissonniere"
        target="_parent"
        transform="translate(0,481.27511)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -1683,7 +1683,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a16961"
-       xlink:href="/stations.html?station=Cadet"
+       xlink:href="/stations/Cadet"
        target="_parent"
        transform="translate(0,519.07038)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -1693,7 +1693,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a16969"
-       xlink:href="/stations.html?station=Le+Peletier"
+       xlink:href="/stations/Le Peletier"
        target="_parent"
        transform="translate(0,556.86565)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -1703,7 +1703,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a18295"
-       xlink:href="/stations.html?station=Chaussee+dAntin-La+Fayette"
+       xlink:href="/stations/Chaussee dAntin-La Fayette"
        target="_parent"
        transform="translate(7.5946344e-6,483.47856)"
        style="display:inline"><g
@@ -1721,7 +1721,7 @@
            cy="1293.7008"
            r="7.5590544" /></g></a><a
        id="a20897"
-       xlink:href="/stations.html?station=Opera"
+       xlink:href="/stations/Opera"
        target="_parent"
        transform="translate(7.5946344e-6,521.27383)"
        style="display:inline"><g
@@ -1887,7 +1887,7 @@
    style="clip-rule:evenodd;fill:#ffffff;fill-rule:evenodd" />
 </g></a><a
        id="a27983"
-       xlink:href="/stations.html?station=Pyramides"
+       xlink:href="/stations/Pyramides"
        target="_parent"
        transform="translate(7.5946344e-6,559.0691)"
        style="display:inline"><g
@@ -1911,7 +1911,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path27987" /></g><a
        id="a29347"
-       xlink:href="/stations.html?station=Palais+Royal-Musee+du+Louvre"
+       xlink:href="/stations/Palais Royal-Musee du Louvre"
        target="_parent"
        transform="translate(7.5946344e-6,596.86437)"
        style="display:inline"><g
@@ -1929,7 +1929,7 @@
            cy="1293.7008"
            r="7.5590544" /></g></a><a
        id="a33387"
-       xlink:href="/stations.html?station=Pont+Neuf"
+       xlink:href="/stations/Pont Neuf"
        target="_parent"
        transform="translate(0,745.84201)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -1945,7 +1945,7 @@
        x="389.65939"
        y="877.84674" /><a
        id="a11"
-       xlink:href="/stations.html?station=Chatelet"
+       xlink:href="/stations/Chatelet"
        target="_parent"
        transform="translate(33.464181,352.29878)"
        style="display:inline"><circle
@@ -1955,7 +1955,7 @@
          cy="571.65344"
          r="10.3937" /></a><a
        id="a70"
-       xlink:href="/stations.html?station=Chatelet"
+       xlink:href="/stations/Chatelet"
        target="_parent"
        transform="translate(6.8167592e-7,352.29878)"
        style="display:inline"><circle
@@ -2149,7 +2149,7 @@
        x="376.3309"
        y="915.77484" /><a
        id="a40342"
-       xlink:href="/stations.html?station=Pont+Marie"
+       xlink:href="/stations/Pont Marie"
        target="_parent"
        transform="translate(0,821.43255)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -2165,7 +2165,7 @@
        x="393.81915"
        y="953.24353" /><a
        id="a43129"
-       xlink:href="/stations.html?station=Sully-Morland"
+       xlink:href="/stations/Sully-Morland"
        target="_parent"
        transform="translate(0,859.22782)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -2175,7 +2175,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a44639"
-       xlink:href="/stations.html?station=Jussieu"
+       xlink:href="/stations/Jussieu"
        target="_parent"
        transform="translate(7.5946344e-6,785.84073)"
        style="display:inline"><g
@@ -2200,7 +2200,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path44643" /></g><a
        id="a1632"
-       xlink:href="/stations.html?station=Place+Monge"
+       xlink:href="/stations/Place Monge"
        target="_parent"
        transform="translate(0,934.81836)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -2216,7 +2216,7 @@
        x="305.5899"
        y="1087.7443" /><a
        id="a5170"
-       xlink:href="/stations.html?station=Censier-Daubenton"
+       xlink:href="/stations/Censier-Daubenton"
        target="_parent"
        transform="translate(0,990.61364)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -2226,7 +2226,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a6588"
-       xlink:href="/stations.html?station=Les+Gobelins"
+       xlink:href="/stations/Les Gobelins"
        target="_parent"
        transform="translate(0,1028.4095)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -2236,7 +2236,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a8018"
-       xlink:href="/stations.html?station=Place+dItalie"
+       xlink:href="/stations/Place dItalie"
        target="_parent"
        transform="translate(7.5946344e-6,955.02245)"
        style="display:inline"><g
@@ -2294,7 +2294,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path12801" /></g><a
        id="a14238"
-       xlink:href="/stations.html?station=Tolbiac"
+       xlink:href="/stations/Tolbiac"
        target="_parent"
        transform="translate(0,1104.0001)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -2304,7 +2304,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a15689"
-       xlink:href="/stations.html?station=Maison+Blanche"
+       xlink:href="/stations/Maison Blanche"
        target="_parent"
        transform="translate(7.5946344e-6,1030.6129)"
        style="display:inline"><g
@@ -2357,7 +2357,7 @@
        d="m 362.26752,1405.1653 h 9.48359"
        id="path120" /><a
        id="a29871"
-       xlink:href="/stations.html?station=Le+Kremlin-Bicetre"
+       xlink:href="/stations/Le Kremlin-Bicetre"
        target="_parent"
        transform="translate(-101.10196,1264.8503)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -2367,7 +2367,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a120"
-       xlink:href="/stations.html?station=Porte+dItalie"
+       xlink:href="/stations/Porte dItalie"
        target="_parent"
        transform="translate(101.10258,1189.2597)"
        style="display:inline"><g
@@ -2384,7 +2384,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a38404"
-       xlink:href="/stations.html?station=Porte+de+Choisy"
+       xlink:href="/stations/Porte de Choisy"
        target="_parent"
        transform="translate(101.10258,1227.0557)"
        style="display:inline"><g
@@ -2424,7 +2424,7 @@
        d="m 362.26752,1480.7566 h 9.48359"
        id="path44831" /><a
        id="a43284"
-       xlink:href="/stations.html?station=Villejuif-Leo+Lagrange"
+       xlink:href="/stations/Villejuif-Leo Lagrange"
        target="_parent"
        transform="translate(-101.10196,1302.6462)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -2434,7 +2434,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a46412"
-       xlink:href="/stations.html?station=Villejuif-Paul+Vaillant-Couturier"
+       xlink:href="/stations/Villejuif-Paul Vaillant-Couturier"
        target="_parent"
        transform="translate(-101.10196,1354.6462)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -2444,7 +2444,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a44829"
-       xlink:href="/stations.html?station=Porte+dIvry"
+       xlink:href="/stations/Porte dIvry"
        target="_parent"
        transform="translate(101.10258,1264.851)"
        style="display:inline"><g
@@ -2461,7 +2461,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a49555"
-       xlink:href="/stations.html?station=Pierre+et+Marie+Curie"
+       xlink:href="/stations/Pierre et Marie Curie"
        target="_parent"
        transform="translate(101.10259,1384.2368)"
        style="fill:#ff82b4;fill-opacity:1"><circle
@@ -2471,7 +2471,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a58216"
-       xlink:href="/stations.html?station=Mairie+dIvry"
+       xlink:href="/stations/Mairie dIvry"
        target="_parent"
        transform="translate(169.94644,1077.6968)"><g
          id="g58214"
@@ -2503,7 +2503,7 @@
    id="path58212" />
 </g></a><a
        id="a62517"
-       xlink:href="/stations.html?station=Villejuif-Louis+Aragon"
+       xlink:href="/stations/Villejuif-Louis Aragon"
        target="_parent"
        transform="translate(-67.505499,613.42911)"
        style="display:inline"><g
@@ -2515,7 +2515,7 @@
            cy="37.795273"
            r="15.118109" /></g></a><a
        id="a62533"
-       xlink:href="/stations.html?station=Villejuif-Louis+Aragon"
+       xlink:href="/stations/Villejuif-Louis Aragon"
        target="_parent"
        transform="translate(-31.99369,1071.6968)"><g
          id="g62531"

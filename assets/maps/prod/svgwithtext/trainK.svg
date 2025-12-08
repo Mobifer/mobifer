@@ -2972,7 +2972,7 @@
            y="567.02441"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std';text-align:start;text-anchor:start">19</tspan></text></g><a
        id="a3188"
-       xlink:href="/stations.html?station=Paris-Nord"
+       xlink:href="/stations/Paris-Nord"
        target="_parent"
        style="display:inline"><g
          id="g3181"><path
@@ -3020,7 +3020,7 @@
          y="123.43669"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Aulnay-sous-Bois</tspan></text><a
        id="a3885-7-1-5"
-       xlink:href="/stations.html?station=Compans"
+       xlink:href="/stations/Compans"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,126.72375)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -3030,7 +3030,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a14670-0"
-       xlink:href="/stations.html?station=Aulnay-sous-Bois"
+       xlink:href="/stations/Aulnay-sous-Bois"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,-7.9673059)"
        style="display:inline"><g
@@ -3383,7 +3383,7 @@
          y="203.43669"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Mitry – Claye</tspan></text><a
        id="a20632"
-       xlink:href="/stations.html?station=Mitry-Claye"
+       xlink:href="/stations/Mitry-Claye"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,72.032674)"
        style="display:inline"><g
@@ -3448,7 +3448,7 @@
          y="260.13089"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Compans</tspan></text><a
        id="a20733"
-       xlink:href="/stations.html?station=Thieux-Nantouillet"
+       xlink:href="/stations/Thieux-Nantouillet"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,183.41665)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -3468,7 +3468,7 @@
          y="316.82379"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Thieux – Nantouillet</tspan></text><a
        id="a20741"
-       xlink:href="/stations.html?station=Dammartin-Juilly-Saint-Mard"
+       xlink:href="/stations/Dammartin-Juilly-Saint-Mard"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,240.10955)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -3488,7 +3488,7 @@
          y="373.51669"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Dammartin – Juilly – Saint-Mard</tspan></text><a
        id="a20749"
-       xlink:href="/stations.html?station=Le+Plessis-Belleville"
+       xlink:href="/stations/Le Plessis-Belleville"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,296.80245)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -3508,7 +3508,7 @@
          y="430.20959"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Le Plessis-Belleville</tspan></text><a
        id="a22415"
-       xlink:href="/stations.html?station=Nanteuil-le-Haudouin"
+       xlink:href="/stations/Nanteuil-le-Haudouin"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,353.49535)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -3528,7 +3528,7 @@
          y="486.9025"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Nanteuil-le-Haudouin</tspan></text><a
        id="a22423"
-       xlink:href="/stations.html?station=Ormoy-Villers"
+       xlink:href="/stations/Ormoy-Villers"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,410.18825)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -3548,7 +3548,7 @@
          y="543.5954"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Ormoy-Villers</tspan></text><a
        id="a24105"
-       xlink:href="/stations.html?station=Crepy-en-Valois"
+       xlink:href="/stations/Crepy-en-Valois"
        target="_parent"
        style="display:inline"
        transform="translate(0,556.6449)"><g

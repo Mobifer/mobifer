@@ -1482,7 +1482,7 @@
          y="45.507267"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#ffffff;fill-opacity:1">Châtelet</tspan></text><a
        id="a11406"
-       xlink:href="/stations.html?station=Chatelet"
+       xlink:href="/stations/Chatelet"
        target="_parent"><circle
          style="fill:#000000;stroke-width:0.332857"
          id="circle7277"
@@ -1555,7 +1555,7 @@
          y="123.20156"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Rambuteau</tspan></text><a
        id="a22150"
-       xlink:href="/stations.html?station=Hotel+de+Ville"
+       xlink:href="/stations/Hotel de Ville"
        target="_parent"
        transform="translate(6.7515811e-7,-136.26834)"
        style="display:inline"><g
@@ -1572,7 +1572,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a14439"
-       xlink:href="/stations.html?station=Rambuteau"
+       xlink:href="/stations/Rambuteau"
        target="_parent"
        transform="translate(8.1542969e-6,-22.88127)"
        style="fill:#6e491e;fill-opacity:1"><circle
@@ -1608,7 +1608,7 @@
          y="160.99686"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Arts et Métiers</tspan></text><a
        id="a17112"
-       xlink:href="/stations.html?station=Arts+et+Metiers"
+       xlink:href="/stations/Arts et Metiers"
        target="_parent"
        transform="translate(6.7515811e-7,-60.676559)"
        style="display:inline"><g
@@ -1714,7 +1714,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path57352" /></g><a
        id="a53749"
-       xlink:href="/stations.html?station=Republique"
+       xlink:href="/stations/Republique"
        target="_parent"
        transform="translate(3.0717301e-4,-22.881283)"
        style="display:inline"><g
@@ -1820,7 +1820,7 @@
          y="236.58736"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Goncourt</tspan></text><a
        id="a23804"
-       xlink:href="/stations.html?station=Goncourt"
+       xlink:href="/stations/Goncourt"
        target="_parent"
        transform="translate(8.1542969e-6,90.504526)"
        style="fill:#6e491e;fill-opacity:1"><circle
@@ -1840,7 +1840,7 @@
          y="274.38266"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Belleville</tspan></text><a
        id="a26550"
-       xlink:href="/stations.html?station=Belleville"
+       xlink:href="/stations/Belleville"
        target="_parent"
        transform="translate(6.7515811e-7,52.709237)"
        style="display:inline"><g
@@ -1894,7 +1894,7 @@
          y="312.17789"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Pyrénées</tspan></text><a
        id="a28472"
-       xlink:href="/stations.html?station=Pyrenees"
+       xlink:href="/stations/Pyrenees"
        target="_parent"
        transform="translate(8.1542969e-6,166.09506)"
        style="fill:#6e491e;fill-opacity:1"><circle
@@ -1914,7 +1914,7 @@
          y="349.97314"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Jourdain</tspan></text><a
        id="a28480"
-       xlink:href="/stations.html?station=Jourdain"
+       xlink:href="/stations/Jourdain"
        target="_parent"
        transform="translate(8.1542969e-6,203.89032)"
        style="fill:#6e491e;fill-opacity:1"><circle
@@ -1934,7 +1934,7 @@
          y="387.76846"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Place des Fêtes</tspan></text><a
        id="a29421"
-       xlink:href="/stations.html?station=Place+des+Fetes"
+       xlink:href="/stations/Place des Fetes"
        target="_parent"
        transform="translate(6.7515811e-7,166.09503)"
        style="display:inline"><g
@@ -2010,7 +2010,7 @@
          y="425.56369"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Télégraphe</tspan></text><a
        id="a44291"
-       xlink:href="/stations.html?station=Telegraphe"
+       xlink:href="/stations/Telegraphe"
        target="_parent"
        transform="translate(8.1542969e-6,279.48085)"
        style="fill:#6e491e;fill-opacity:1"><circle
@@ -2030,7 +2030,7 @@
          y="463.35901"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Porte des Lilas</tspan></text><a
        id="a44303"
-       xlink:href="/stations.html?station=Porte+des+Lilas"
+       xlink:href="/stations/Porte des Lilas"
        target="_parent"
        transform="translate(6.7515811e-7,241.68556)"
        style="display:inline"><g
@@ -2106,7 +2106,7 @@
          y="501.15424"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Mairie des Lilas</tspan></text><a
        id="a49937"
-       xlink:href="/stations.html?station=Mairie+des+Lilas"
+       xlink:href="/stations/Mairie des Lilas"
        target="_parent"
        transform="translate(8.1542969e-6,355.07139)"
        style="fill:#6e491e;fill-opacity:1"><circle
@@ -2126,7 +2126,7 @@
          y="538.94952"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Serge Gainsbourg</tspan></text><a
        id="a49945"
-       xlink:href="/stations.html?station=Serge+Gainsbourg"
+       xlink:href="/stations/Serge Gainsbourg"
        target="_parent"
        transform="translate(8.1542969e-6,392.86665)"
        style="fill:#6e491e;fill-opacity:1"><circle
@@ -2236,7 +2236,7 @@
    id="path59334" />
 </g></a><a
        id="a53925"
-       xlink:href="/stations.html?station=Romainville-Carnot"
+       xlink:href="/stations/Romainville-Carnot"
        target="_parent"
        transform="translate(6.7515811e-7,355.07136)"
        style="display:inline"><g
@@ -2273,7 +2273,7 @@
          y="659.89441"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">La Dhuys</tspan></text><a
        id="a58231"
-       xlink:href="/stations.html?station=Montreuil-Hopital"
+       xlink:href="/stations/Montreuil-Hopital"
        target="_parent"
        transform="translate(6.7515811e-7,400.42568)"
        style="display:inline"><g
@@ -2290,7 +2290,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a62289"
-       xlink:href="/stations.html?station=La+Dhuys"
+       xlink:href="/stations/La Dhuys"
        target="_parent"
        transform="translate(8.1542969e-6,513.8115)"
        style="fill:#6e491e;fill-opacity:1"><circle
@@ -2310,7 +2310,7 @@
          y="697.6897"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Coteaux Beauclair</tspan></text><a
        id="a63276"
-       xlink:href="/stations.html?station=Coteaux+Beauclair"
+       xlink:href="/stations/Coteaux Beauclair"
        target="_parent"
        transform="translate(8.1542969e-6,551.60677)"
        style="fill:#6e491e;fill-opacity:1"><circle
@@ -2335,7 +2335,7 @@
          x="311.4003"
          y="745.5072">Rosny – Bois-Perrier</tspan></text><a
        id="a64275"
-       xlink:href="/stations.html?station=Rosny-Bois-Perrier"
+       xlink:href="/stations/Rosny-Bois-Perrier"
        target="_parent"
        transform="translate(0,699.99978)"><circle
          style="fill:#000000;stroke-width:0.332857"

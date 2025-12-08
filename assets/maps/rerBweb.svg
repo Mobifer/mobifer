@@ -1958,7 +1958,7 @@
        id="text74567"
        aria-label="Villepinte" /><a
        id="a74571"
-       xlink:href="/stations.html?station=Villepinte"
+       xlink:href="/stations/Villepinte"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,62.105193)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -2245,7 +2245,7 @@
        id="text95220"
        aria-label="Aulnay-sous-Bois" /><a
        id="a95228"
-       xlink:href="/stations.html?station=Aulnay-sous-Bois"
+       xlink:href="/stations/Aulnay-sous-Bois"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,249.25252)"
        style="display:inline"><g
@@ -2267,7 +2267,7 @@
        id="text24388"
        aria-label="Châtelet – Les Halles" /><a
        id="a24396"
-       xlink:href="/stations.html?station=Chatelet-Les+Halles"
+       xlink:href="/stations/Chatelet-Les Halles"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,546.93912)"
        style="display:inline"><g
@@ -2319,7 +2319,7 @@
        id="text24824"
        aria-label="Sceaux" /><a
        id="a24828"
-       xlink:href="/stations.html?station=Sceaux"
+       xlink:href="/stations/Sceaux"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,1071.2492)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -2333,7 +2333,7 @@
        id="text38798"
        aria-label="Fontenay-aux-Roses" /><a
        id="a38802"
-       xlink:href="/stations.html?station=Fontenay-aux-Roses"
+       xlink:href="/stations/Fontenay-aux-Roses"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,1109.0452)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -2382,7 +2382,7 @@
        transform="translate(206.94755,494.19881)"
        aria-label="Paris" /><a
        id="a1824"
-       xlink:href="/stations.html?station=Aeroport+Charles+de+Gaulle+2-TGV"
+       xlink:href="/stations/Aeroport Charles de Gaulle 2-TGV"
        target="_parent"
        transform="translate(0,-241.55541)"><path
          class="st0"
@@ -2686,7 +2686,7 @@
            stroke-width="0"
            id="path115900" /></g></a><a
        id="a117478"
-       xlink:href="/stations.html?station=Aeroport+Charles+de+Gaulle+1"
+       xlink:href="/stations/Aeroport Charles de Gaulle 1"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914851,-11.483937)"
        style="display:inline"><g
@@ -2711,7 +2711,7 @@
        d="m 235.0109,151.86895 h 5.44298"
        id="path119054" /><a
        id="a119062"
-       xlink:href="/stations.html?station=Parc+des+Expositions"
+       xlink:href="/stations/Parc des Expositions"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914851,26.313048)"
        style="display:inline"><g
@@ -2787,7 +2787,7 @@
        d="m 235.0109,227.45949 h 5.44298"
        id="path145783" /><a
        id="a145791"
-       xlink:href="/stations.html?station=Sevran-Beaudottes"
+       xlink:href="/stations/Sevran-Beaudottes"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914851,101.90359)"
        style="display:inline"><g
@@ -2871,7 +2871,7 @@
          d="M 219.68,283.46 H 63.78 C 28.56,283.46 0,254.91 0,219.68 V 63.78 C 0,28.55 28.56,0 63.78,0 h 155.9 c 35.22,0 63.78,28.55 63.78,63.78 v 155.91 c 0,35.22 -28.56,63.78 -63.78,63.78 m 45.36,-63.78 V 63.78 c 0,-25.05 -20.31,-45.35 -45.36,-45.35 H 63.78 c -25.05,0 -45.35,20.31 -45.35,45.35 v 155.91 c 0,25.05 20.31,45.35 45.35,45.35 h 155.9 c 25.05,0 45.36,-20.31 45.36,-45.35 M 183.87,204.6 c 0.62,-0.42 1.22,-0.86 1.66,-1.29 5.09,-4.12 9.86,-10.45 13.31,-20.24 4.83,-13.74 8.24,-26.02 9.18,-41.12 1.31,-18.6 -6.35,-47.54 -11.43,-61.04 l -1.77,-4.75 c -1.09,-3.04 -5.26,-9.47 -12.65,-17.18 -6.35,-6.62 -12.47,-7.11 -21.77,-7.11 h -37.76 c -9.3,0 -15.4,0.49 -21.78,7.11 -7.39,7.69 -11.56,14.15 -12.65,17.18 l -1.78,4.78 c -5.08,13.48 -12.73,42.42 -11.44,61.04 0.94,15.06 4.36,27.32 9.21,41.1 3.45,9.82 8.19,16.12 13.29,20.24 0.48,0.42 1.06,0.85 1.69,1.27 l -27.51,30.58 c -2.24,2.5 -2.24,6.53 0,9.01 2.24,2.47 5.85,2.47 8.07,0 l 9.5,-10.54 h 104.53 l 9.48,10.54 c 2.22,2.47 5.85,2.47 8.07,0 2.24,-2.48 2.24,-6.51 0,-9.01 l -27.48,-30.56 z m -9.24,-11.15 c -5.21,0 -9.45,-4.22 -9.45,-9.45 0,-5.23 4.24,-9.42 9.45,-9.42 5.21,0 9.46,4.22 9.46,9.42 0,5.2 -4.22,9.45 -9.46,9.45 M 89.16,132.9 c -5.77,0 3.29,-50.66 7.43,-50.66 h 88.85 c 4.49,0 15.02,50.66 7.96,50.66 z m 9.62,51.1 c 0,-5.2 4.23,-9.42 9.45,-9.42 5.22,0 9.44,4.22 9.44,9.42 0,5.2 -4.21,9.45 -9.44,9.45 -5.23,0 -9.45,-4.22 -9.45,-9.45 m 1.92,36.9 10.13,-11.25 c 4.94,1.14 9.48,1.14 12.79,1.14 h 35.82 c 3.31,0 7.86,0 12.79,-1.14 l 10.14,11.25 z"
          id="path158-2" /></g><a
        id="a61840"
-       xlink:href="/stations.html?station=Sevran-Livry"
+       xlink:href="/stations/Sevran-Livry"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,101.86894)"
        style="display:inline"><g
@@ -2895,7 +2895,7 @@
        d="m 515.45144,227.42483 h 5.44298"
        id="path50949" /><a
        id="a152399"
-       xlink:href="/stations.html?station=Mitry-Claye"
+       xlink:href="/stations/Mitry-Claye"
        target="_parent"
        transform="translate(316.34575,-171.55543)"><path
          class="st0"
@@ -2939,7 +2939,7 @@
    style="clip-rule:evenodd;fill:#ffffff;fill-rule:evenodd" />
 </g></a><a
        id="a159625"
-       xlink:href="/stations.html?station=Villeparisis-Mitry-le-Neuf"
+       xlink:href="/stations/Villeparisis-Mitry-le-Neuf"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,24.274632)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -2953,7 +2953,7 @@
        id="text161250"
        aria-label="Vert-Galant" /><a
        id="a161254"
-       xlink:href="/stations.html?station=Vert-Galant"
+       xlink:href="/stations/Vert-Galant"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,62.070547)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -3050,7 +3050,7 @@
        id="text173026"
        aria-label="Le Blanc-Mesnil" /><a
        id="a174465"
-       xlink:href="/stations.html?station=Le+Blanc-Mesnil"
+       xlink:href="/stations/Le Blanc-Mesnil"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,285.04436)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -3064,7 +3064,7 @@
        id="text177319"
        aria-label="Drancy" /><a
        id="a177323"
-       xlink:href="/stations.html?station=Drancy"
+       xlink:href="/stations/Drancy"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,322.83962)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -3078,7 +3078,7 @@
        id="text177335"
        aria-label="Le Bourget" /><a
        id="a177343"
-       xlink:href="/stations.html?station=Le+Bourget"
+       xlink:href="/stations/Le Bourget"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,362.63802)"
        style="display:inline"><g
@@ -3223,7 +3223,7 @@
        id="text189847"
        aria-label="La Courneuve – Aubervilliers" /><a
        id="a189851"
-       xlink:href="/stations.html?station=La+Courneuve-Aubervilliers"
+       xlink:href="/stations/La Courneuve-Aubervilliers"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,398.43016)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -3237,7 +3237,7 @@
        id="text191358"
        aria-label="La Plaine – Stade de France" /><a
        id="a191366"
-       xlink:href="/stations.html?station=La+Plaine-Stade+de+France"
+       xlink:href="/stations/La Plaine-Stade de France"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,448.22855)"
        style="display:inline"><g
@@ -3305,7 +3305,7 @@
        id="text221913"
        aria-label="Gare du Nord" /><a
        id="a221921"
-       xlink:href="/stations.html?station=Paris-Nord"
+       xlink:href="/stations/Paris-Nord"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,498.02445)"
        style="display:inline"><g
@@ -3543,7 +3543,7 @@
        id="text1827"
        aria-label="Saint-Michel – Notre-Dame" /><a
        id="a1835"
-       xlink:href="/stations.html?station=Saint-Michel-Notre-Dame"
+       xlink:href="/stations/Saint-Michel-Notre-Dame"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,584.73435)"
        style="display:inline"><g
@@ -3669,7 +3669,7 @@
        id="text3639"
        aria-label="Luxembourg" /><a
        id="a3703"
-       xlink:href="/stations.html?station=Luxembourg"
+       xlink:href="/stations/Luxembourg"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,620.52649)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -3693,7 +3693,7 @@
        id="text6703"
        aria-label="Port-Royal" /><a
        id="a6707"
-       xlink:href="/stations.html?station=Port-Royal"
+       xlink:href="/stations/Port-Royal"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,658.32176)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -3707,7 +3707,7 @@
        id="text8428"
        aria-label="Denfert-Rochereau" /><a
        id="a8436"
-       xlink:href="/stations.html?station=Denfert-Rochereau"
+       xlink:href="/stations/Denfert-Rochereau"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,698.12015)"
        style="display:inline"><g
@@ -3788,7 +3788,7 @@
        id="text1909"
        aria-label="Cité Universitaire" /><a
        id="a1917"
-       xlink:href="/stations.html?station=Cite+Universitaire"
+       xlink:href="/stations/Cite Universitaire"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,735.91542)"
        style="display:inline"><g
@@ -3817,7 +3817,7 @@
        id="text14479"
        aria-label="Gentilly" /><a
        id="a14483"
-       xlink:href="/stations.html?station=Gentilly"
+       xlink:href="/stations/Gentilly"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,771.70756)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -3831,7 +3831,7 @@
        id="text14487"
        aria-label="Laplace" /><a
        id="a14491"
-       xlink:href="/stations.html?station=Laplace"
+       xlink:href="/stations/Laplace"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,809.50283)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -3865,7 +3865,7 @@
        id="text3885"
        aria-label="Arcueil – Cachan" /><a
        id="a3893"
-       xlink:href="/stations.html?station=Arceuil-Cachan"
+       xlink:href="/stations/Arceuil-Cachan"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,849.30122)"
        style="display:inline"><g
@@ -3918,7 +3918,7 @@
        id="text7446"
        aria-label="Bagneux" /><a
        id="a7450"
-       xlink:href="/stations.html?station=Bagneux"
+       xlink:href="/stations/Bagneux"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,885.09337)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -3942,7 +3942,7 @@
        id="text9790"
        aria-label="Bourg-la-Reine" /><a
        id="a9794"
-       xlink:href="/stations.html?station=Bourg-la-Reine"
+       xlink:href="/stations/Bourg-la-Reine"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,922.88864)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -3958,7 +3958,7 @@
        x="92.59462"
        y="1268.6771" /><a
        id="a25638"
-       xlink:href="/stations.html?station=Robinson"
+       xlink:href="/stations/Robinson"
        target="_parent"
        transform="translate(0,1004.4445)"><path
          class="st0"
@@ -3986,7 +3986,7 @@
        id="text29272"
        aria-label="La Croix de Berny" /><a
        id="a29280"
-       xlink:href="/stations.html?station=La+Croix+de+Berny"
+       xlink:href="/stations/La Croix de Berny"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,1111.0476)"
        style="display:inline"><g
@@ -4004,7 +4004,7 @@
            cy="1293.7008"
            r="7.5590544" /></g></a><a
        id="a29284"
-       xlink:href="/stations.html?station=Parc+de+Sceaux"
+       xlink:href="/stations/Parc de Sceaux"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1071.2492)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4025,7 +4025,7 @@
        id="text36142"
        aria-label="Antony" /><a
        id="a36150"
-       xlink:href="/stations.html?station=Antony"
+       xlink:href="/stations/Antony"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,1148.8429)"
        style="display:inline"><g
@@ -4109,7 +4109,7 @@
        id="text49305"
        aria-label="Fontaine-Michalon" /><a
        id="a49309"
-       xlink:href="/stations.html?station=Fontaine-Michalon"
+       xlink:href="/stations/Fontaine-Michalon"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1184.6351)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4123,7 +4123,7 @@
        id="text49313"
        aria-label="Les Baconnets" /><a
        id="a49317"
-       xlink:href="/stations.html?station=Les+Baconnets"
+       xlink:href="/stations/Les Baconnets"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1222.4304)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4137,7 +4137,7 @@
        id="text49321"
        aria-label="Massy – Verrières" /><a
        id="a49329"
-       xlink:href="/stations.html?station=Massy-Verrieres"
+       xlink:href="/stations/Massy-Verrieres"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,1262.2288)"
        style="display:inline"><g
@@ -4216,7 +4216,7 @@
        id="text51252"
        aria-label="Massy – Palaiseau" /><a
        id="a51260"
-       xlink:href="/stations.html?station=Massy-Palaiseau"
+       xlink:href="/stations/Massy-Palaiseau"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,1300.0241)"
        style="display:inline"><g
@@ -4348,7 +4348,7 @@
        id="text73519"
        aria-label="Palaiseau" /><a
        id="a73523"
-       xlink:href="/stations.html?station=Palaiseau"
+       xlink:href="/stations/Palaiseau"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1335.8163)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4362,7 +4362,7 @@
        id="text73527"
        aria-label="Palaiseau – Villebon" /><a
        id="a73531"
-       xlink:href="/stations.html?station=Palaiseau-Villebon"
+       xlink:href="/stations/Palaiseau-Villebon"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1373.6116)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4376,7 +4376,7 @@
        id="text73535"
        aria-label="Lozère" /><a
        id="a73539"
-       xlink:href="/stations.html?station=Lozere"
+       xlink:href="/stations/Lozere"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1411.4069)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4400,7 +4400,7 @@
        id="text77498"
        aria-label="Le Guichet" /><a
        id="a77502"
-       xlink:href="/stations.html?station=Le+Guichet"
+       xlink:href="/stations/Le Guichet"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1449.2022)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4414,7 +4414,7 @@
        id="text77506"
        aria-label="Orsay – Ville" /><a
        id="a77510"
-       xlink:href="/stations.html?station=Orsay-Ville"
+       xlink:href="/stations/Orsay-Ville"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1486.9975)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4428,7 +4428,7 @@
        id="text79494"
        aria-label="Bures-sur-Yvette" /><a
        id="a79498"
-       xlink:href="/stations.html?station=Bures-sur-Yvette"
+       xlink:href="/stations/Bures-sur-Yvette"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1524.7928)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4442,7 +4442,7 @@
        id="text79502"
        aria-label="La Hacquinière" /><a
        id="a79506"
-       xlink:href="/stations.html?station=La+Hacquiniere"
+       xlink:href="/stations/La Hacquiniere"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1562.5881)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4456,7 +4456,7 @@
        id="text79510"
        aria-label="Gif-sur-Yvette" /><a
        id="a79514"
-       xlink:href="/stations.html?station=Gif-sur-Yvette"
+       xlink:href="/stations/Gif-sur-Yvette"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1600.3834)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4470,7 +4470,7 @@
        id="text81510"
        aria-label="Courcelle-sur-Yvette" /><a
        id="a81514"
-       xlink:href="/stations.html?station=Courcelle-sur-Yvette"
+       xlink:href="/stations/Courcelle-sur-Yvette"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1638.1787)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4495,7 +4495,7 @@
          d="m 569.26686,1847.4923 v -15.7866 h -2.98666 v 15.7866 z m 12.33063,-6.4213 c 0,-2.624 -1.30133,-5.3334 -4.82133,-5.3334 -3.64799,0 -5.26932,3.136 -5.26932,6.144 0,3.5414 2.23999,5.9734 5.80265,5.9734 1.664,0 3.17867,-0.4907 4.05333,-0.896 l -0.78933,-2.2187 c -0.59733,0.32 -1.68533,0.7467 -2.70933,0.7467 -1.92,0 -3.39199,-1.088 -3.39199,-3.1147 0,-0.021 0,-0.043 0,-0.064 h 7.06132 c 0.0427,-0.384 0.064,-0.8747 0.064,-1.2373 z m -2.816,-0.7894 h -4.37332 c 0,-1.0026 0.53333,-2.4533 2.23999,-2.4533 1.51467,0 2.24,1.2587 2.13333,2.4533 z m -0.832,-5.2693 -2.38933,-3.3066 h -3.41332 l 3.49866,3.3066 z m 13.56795,9.0667 c 0,-1.8987 -1.152,-2.7734 -2.77333,-3.3707 l -1.00267,-0.3627 c -0.78933,-0.2773 -1.34399,-0.6186 -1.34399,-1.216 0,-0.512 0.36266,-1.1306 1.57866,-1.1306 0.72533,0 1.64266,0.256 2.304,0.6826 l 0.91733,-2.1973 c -0.59733,-0.2987 -1.64267,-0.7467 -3.072,-0.7467 -2.66666,0 -4.47999,1.7067 -4.47999,3.8614 0,1.664 0.98133,2.5386 2.45333,3.1146 l 0.93867,0.3627 c 1.06666,0.4053 1.68533,0.64 1.68533,1.3867 0,0.896 -0.96,1.1733 -1.74933,1.1733 -0.896,0 -1.94133,-0.3413 -2.66667,-0.8533 l -0.91733,2.1973 c 0.64,0.384 1.92,0.8747 3.34933,0.8747 2.98666,0 4.77866,-1.5574 4.77866,-3.776 z m 6.59199,-1.1307 v -2.816 h -5.58933 v 2.816 z m 13.69593,3.8613 -0.896,-2.5813 c -0.74667,0.448 -1.81333,0.8107 -3.008,0.8107 -2.17599,0 -4.43732,-1.6 -4.43732,-5.056 0,-3.6267 1.87733,-5.1414 4.18132,-5.1414 0.96,0 2.06933,0.256 3.05066,0.8107 l 1.088,-2.752 c -1.088,-0.4907 -2.45333,-0.8746 -4.30932,-0.8746 -4.84266,0 -7.46666,3.6053 -7.46666,8.1066 0,5.2053 3.648,7.7227 7.46666,7.7227 1.53599,0 3.17866,-0.4267 4.33066,-1.0454 z m 12.07462,0.6827 v -7.8293 c 0,-2.2187 -1.00266,-3.9254 -3.54132,-3.9254 -1.408,0 -2.432,0.6614 -3.22133,1.7067 v -5.7386 h -2.98666 v 15.7866 h 2.98666 v -6.9973 c 0,-0.768 0.0427,-1.0454 0.61866,-1.6 0.32,-0.2987 0.85334,-0.5547 1.45067,-0.5547 1.30133,0 1.70666,0.7893 1.70666,1.9413 v 7.2107 z m 12.28798,-6.4213 c 0,-2.624 -1.30133,-5.3334 -4.82133,-5.3334 -3.64799,0 -5.26932,3.136 -5.26932,6.144 0,3.5414 2.23999,5.9734 5.80265,5.9734 1.664,0 3.17867,-0.4907 4.05333,-0.896 l -0.78933,-2.2187 c -0.59733,0.32 -1.68533,0.7467 -2.70933,0.7467 -1.92,0 -3.39199,-1.088 -3.39199,-3.1147 0,-0.021 0,-0.043 0,-0.064 h 7.06132 c 0.0427,-0.384 0.064,-0.8747 0.064,-1.2373 z m -2.816,-0.7894 h -4.37332 c 0,-1.0026 0.53333,-2.4533 2.23999,-2.4533 1.51467,0 2.24,1.2587 2.13333,2.4533 z m 14.27194,-4.1813 h -2.81599 l -1.57867,6.0373 c -0.23467,0.896 -0.53333,2.24 -0.61866,2.7307 h -0.0427 c -0.10667,-0.448 -0.36267,-1.7493 -0.59733,-2.7093 l -1.472,-6.0587 h -3.30666 l 3.66932,11.392 h 3.09333 z m 8.36263,-0.064 c -0.23466,-0.085 -0.66133,-0.2133 -1.088,-0.2133 -1.40799,0 -2.15466,0.896 -2.83733,1.984 v -1.7067 h -2.68799 c 0.0213,0.5333 0.10667,1.8987 0.10667,2.88 v 8.512 h 2.98666 v -6.8693 c 0,-0.6187 0.0213,-1.088 0.42666,-1.4507 0.27734,-0.256 0.61867,-0.448 1.25867,-0.448 0.40533,0 0.832,0.192 1.04533,0.2987 z m 10.5386,5.0347 c 0,-2.624 -1.30133,-5.3334 -4.82133,-5.3334 -3.64799,0 -5.26932,3.136 -5.26932,6.144 0,3.5414 2.23999,5.9734 5.80265,5.9734 1.664,0 3.17867,-0.4907 4.05333,-0.896 l -0.78933,-2.2187 c -0.59733,0.32 -1.68533,0.7467 -2.70933,0.7467 -1.92,0 -3.39199,-1.088 -3.39199,-3.1147 0,-0.021 0,-0.043 0,-0.064 h 7.06132 c 0.0427,-0.384 0.064,-0.8747 0.064,-1.2373 z m -2.816,-0.7894 h -4.37332 c 0,-1.0026 0.53333,-2.4533 2.23999,-2.4533 1.51467,0 2.24,1.2587 2.13333,2.4533 z m 14.69861,7.2107 v -11.392 h -2.98666 v 7.0187 c 0,0.768 -0.0427,1.0666 -0.55466,1.6213 -0.27734,0.2987 -0.74667,0.5333 -1.30133,0.5333 -1.13067,0 -1.57867,-0.8106 -1.57867,-1.9626 v -7.2107 h -2.98666 v 7.8293 c 0,2.2187 1.024,3.9254 3.47733,3.9254 1.42933,0 2.38933,-0.6827 3.15733,-1.7707 v 1.408 z m 10.43197,-3.4133 c 0,-1.8987 -1.152,-2.7734 -2.77333,-3.3707 l -1.00266,-0.3627 c -0.78933,-0.2773 -1.344,-0.6186 -1.344,-1.216 0,-0.512 0.36267,-1.1306 1.57866,-1.1306 0.72534,0 1.64267,0.256 2.304,0.6826 l 0.91733,-2.1973 c -0.59733,-0.2987 -1.64266,-0.7467 -3.07199,-0.7467 -2.66667,0 -4.48,1.7067 -4.48,3.8614 0,1.664 0.98134,2.5386 2.45333,3.1146 l 0.93867,0.3627 c 1.06666,0.4053 1.68533,0.64 1.68533,1.3867 0,0.896 -0.96,1.1733 -1.74933,1.1733 -0.896,0 -1.94133,-0.3413 -2.66666,-0.8533 l -0.91734,2.1973 c 0.64,0.384 1.92,0.8747 3.34933,0.8747 2.98666,0 4.77866,-1.5574 4.77866,-3.776 z m 11.62665,-3.008 c 0,-2.624 -1.30133,-5.3334 -4.82133,-5.3334 -3.64799,0 -5.26932,3.136 -5.26932,6.144 0,3.5414 2.23999,5.9734 5.80266,5.9734 1.66399,0 3.17866,-0.4907 4.05332,-0.896 l -0.78933,-2.2187 c -0.59733,0.32 -1.68533,0.7467 -2.70933,0.7467 -1.92,0 -3.39199,-1.088 -3.39199,-3.1147 0,-0.021 0,-0.043 0,-0.064 h 7.06132 c 0.0427,-0.384 0.064,-0.8747 0.064,-1.2373 z m -2.816,-0.7894 h -4.37332 c 0,-1.0026 0.53333,-2.4533 2.23999,-2.4533 1.51467,0 2.24,1.2587 2.13333,2.4533 z"
          id="path8" /></g><a
        id="a83526"
-       xlink:href="/stations.html?station=Saint-Remy-les-Chevreuse"
+       xlink:href="/stations/Saint-Remy-les-Chevreuse"
        target="_parent"
        transform="translate(316.34575,1532.4443)"><path
          class="st0"

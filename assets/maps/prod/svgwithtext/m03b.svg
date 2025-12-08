@@ -256,7 +256,7 @@
        x="305.59012"
        y="22.676723" /><a
        id="a11640"
-       xlink:href="/stations.html?station=Porte+des+Lilas"
+       xlink:href="/stations/Porte des Lilas"
        target="_parent"
        transform="translate(0,-584.5358)"><g
          id="g138"
@@ -366,7 +366,7 @@
        x="305.59012"
        y="158.0643" /><a
        id="a178"
-       xlink:href="/stations.html?station=Saint-Fargeau"
+       xlink:href="/stations/Saint-Fargeau"
        target="_parent"
        transform="translate(33.46418,-32.124711)"
        style="fill:#82c8e6;fill-opacity:1"><circle
@@ -376,7 +376,7 @@
          cy="118.11024"
          r="10.3937" /></a><a
        id="a179"
-       xlink:href="/stations.html?station=Pelleport"
+       xlink:href="/stations/Pelleport"
        target="_parent"
        transform="translate(33.46418,5.6705587)"
        style="fill:#82c8e6;fill-opacity:1"><circle
@@ -386,7 +386,7 @@
          cy="118.11024"
          r="10.3937" /></a><a
        id="a11660"
-       xlink:href="/stations.html?station=Gambetta"
+       xlink:href="/stations/Gambetta"
        target="_parent"
        transform="translate(0,-584.5358)"><g
          id="g180"

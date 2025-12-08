@@ -1536,7 +1536,7 @@
          y="69.183655"
          style="text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1">La Seine Musicale</tspan></text><a
        id="a3610"
-       xlink:href="/stations.html?station=Pont+de+Sevres"
+       xlink:href="/stations/Pont de Sevres"
        target="_parent"><g
          id="g151-3"
          transform="translate(33.46417,-8.6e-4)"><circle
@@ -1576,7 +1576,7 @@
    id="path136" />
 </g></a><a
        id="a3761"
-       xlink:href="/stations.html?station=Billancourt"
+       xlink:href="/stations/Billancourt"
        target="_parent"
        transform="translate(8.1542969e-6,-44.677792)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -1586,7 +1586,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a4452"
-       xlink:href="/stations.html?station=Marcel+Sembat"
+       xlink:href="/stations/Marcel Sembat"
        target="_parent"
        transform="translate(8.1542969e-6,-6.8825567)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -1606,7 +1606,7 @@
          y="139.20039"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Marcel Sembat</tspan></text><a
        id="a5302"
-       xlink:href="/stations.html?station=Porte+de+Saint-Cloud"
+       xlink:href="/stations/Porte de Saint-Cloud"
        target="_parent"
        transform="translate(8.1542969e-6,30.912702)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -1642,7 +1642,7 @@
          y="175.62564"
          style="text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1">Parc des Princes</tspan></text><a
        id="a7875"
-       xlink:href="/stations.html?station=Exelmans"
+       xlink:href="/stations/Exelmans"
        target="_parent"
        transform="translate(3.0156299e-4,68.707961)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -1719,7 +1719,7 @@
          y="209.78712"
          id="tspan5">Direction Gare d’Austerlitz</tspan></text><a
        id="a8740"
-       xlink:href="/stations.html?station=Michel-Ange-Molitor"
+       xlink:href="/stations/Michel-Ange-Molitor"
        target="_parent"
        transform="translate(2.9440506e-4,30.912664)"><g
          id="g8738"
@@ -1792,7 +1792,7 @@
          y="209.78712"
          id="tspan6">Direction Boulogne</tspan></text><a
        id="a18371"
-       xlink:href="/stations.html?station=Michel-Ange-Auteuil"
+       xlink:href="/stations/Michel-Ange-Auteuil"
        target="_parent"
        transform="translate(2.9440506e-4,74.707921)"><g
          id="g18369"
@@ -1808,7 +1808,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a20189"
-       xlink:href="/stations.html?station=Jasmin"
+       xlink:href="/stations/Jasmin"
        target="_parent"
        transform="translate(3.0156299e-4,188.09562)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -1828,7 +1828,7 @@
          y="334.17856"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Jasmin</tspan></text><a
        id="a21967"
-       xlink:href="/stations.html?station=Ranelagh"
+       xlink:href="/stations/Ranelagh"
        target="_parent"
        transform="translate(3.0156299e-4,225.89088)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -1848,7 +1848,7 @@
          y="371.97382"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Ranelagh</tspan></text><a
        id="a22868"
-       xlink:href="/stations.html?station=La+Muette"
+       xlink:href="/stations/La Muette"
        target="_parent"
        transform="translate(2.9440506e-4,188.09559)"><g
          id="g22866"
@@ -1989,7 +1989,7 @@
          y="496.3931"
          style="text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1">Tour Eiffel</tspan></text><a
        id="a28401"
-       xlink:href="/stations.html?station=Trocadero"
+       xlink:href="/stations/Trocadero"
        target="_parent"
        transform="translate(2.9440506e-4,276.09554)"><g
          id="g28399"
@@ -2005,7 +2005,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a30249"
-       xlink:href="/stations.html?station=Iena"
+       xlink:href="/stations/Iena"
        target="_parent"
        transform="translate(3.0156299e-4,389.4801)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -2025,7 +2025,7 @@
          y="535.56305"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Iéna</tspan></text><a
        id="a31182"
-       xlink:href="/stations.html?station=Alma-Marceau"
+       xlink:href="/stations/Alma-Marceau"
        target="_parent"
        transform="translate(2.9440506e-4,351.6848)"><g
          id="g31180"
@@ -2115,7 +2115,7 @@
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
            id="tspan9">Pont de l’Alma</tspan></tspan></text><a
        id="a33159"
-       xlink:href="/stations.html?station=Franklin+D+Roosevelt"
+       xlink:href="/stations/Franklin D Roosevelt"
        target="_parent"
        transform="translate(2.9440506e-4,389.48006)"><g
          id="g33157"
@@ -2140,7 +2140,7 @@
          x="304.27789"
          y="611.15369">Franklin D. Roosevelt</tspan></text><a
        id="a36065"
-       xlink:href="/stations.html?station=Saint-Philippe-du-Roule"
+       xlink:href="/stations/Saint-Philippe-du-Roule"
        target="_parent"
        transform="translate(3.0156299e-4,502.86588)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -2160,7 +2160,7 @@
          y="648.94885"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Saint-Philippe-du-Roule</tspan></text><a
        id="a37039"
-       xlink:href="/stations.html?station=Miromesnil"
+       xlink:href="/stations/Miromesnil"
        target="_parent"
        transform="translate(2.9440506e-4,465.07058)"><g
          id="g37037"
@@ -2185,7 +2185,7 @@
          x="304.34189"
          y="686.74426">Miromesnil</tspan></text><a
        id="a39951"
-       xlink:href="/stations.html?station=Saint-Augustin"
+       xlink:href="/stations/Saint-Augustin"
        target="_parent"
        transform="translate(2.9440506e-4,502.86584)"><g
          id="g39949"
@@ -2272,7 +2272,7 @@
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
            id="tspan15">Saint-Lazare</tspan></tspan></text><a
        id="a41913"
-       xlink:href="/stations.html?station=Havre-Caumartin"
+       xlink:href="/stations/Havre-Caumartin"
        target="_parent"
        transform="translate(2.9440506e-4,540.6611)"><g
          id="g41911"
@@ -2297,7 +2297,7 @@
          x="304.94989"
          y="812.13">Chaussée d’Antin – La Fayette</tspan></text><a
        id="a45996"
-       xlink:href="/stations.html?station=Chaussee+dAntin-La+Fayette"
+       xlink:href="/stations/Chaussee dAntin-La Fayette"
        target="_parent"
        transform="translate(2.9440506e-4,590.45636)"><g
          id="g45994"
@@ -2313,7 +2313,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a48008"
-       xlink:href="/stations.html?station=Richelieu-Drouot"
+       xlink:href="/stations/Richelieu-Drouot"
        target="_parent"
        transform="translate(2.9440506e-4,628.25161)"><g
          id="g48006"
@@ -2379,7 +2379,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path48089" /></g><a
        id="a49095"
-       xlink:href="/stations.html?station=Grands+Boulevards"
+       xlink:href="/stations/Grands Boulevards"
        target="_parent"
        transform="translate(2.9440506e-4,666.04687)"><g
          id="g49093"
@@ -2445,7 +2445,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path49119" /></g><a
        id="a49547"
-       xlink:href="/stations.html?station=Bonne+Nouvelle"
+       xlink:href="/stations/Bonne Nouvelle"
        target="_parent"
        transform="translate(2.9440506e-4,703.84213)"><g
          id="g49545"
@@ -2511,7 +2511,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path49571" /></g><a
        id="a49583"
-       xlink:href="/stations.html?station=Strasbourg-Saint-Denis"
+       xlink:href="/stations/Strasbourg-Saint-Denis"
        target="_parent"
        transform="translate(2.9440506e-4,741.63739)"><g
          id="g49581"
@@ -2571,7 +2571,7 @@
    id="path52701" />
 </g></a><a
        id="a53749"
-       xlink:href="/stations.html?station=Republique"
+       xlink:href="/stations/Republique"
        target="_parent"
        transform="translate(2.9440506e-4,779.43264)"><g
          id="g53747"
@@ -2631,7 +2631,7 @@
    id="path53767" />
 </g></a><a
        id="a54821"
-       xlink:href="/stations.html?station=Oberkampf"
+       xlink:href="/stations/Oberkampf"
        target="_parent"
        transform="translate(2.9440506e-4,817.2279)"><g
          id="g54819"
@@ -2656,7 +2656,7 @@
          x="304.94989"
          y="1038.9015">Oberkampf</tspan></text><a
        id="a55871"
-       xlink:href="/stations.html?station=Saint-Ambroise"
+       xlink:href="/stations/Saint-Ambroise"
        target="_parent"
        transform="translate(3.0156299e-4,930.61372)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -2676,7 +2676,7 @@
          x="304.78989"
          y="1076.6967">Saint-Ambroise</tspan></text><a
        id="a56925"
-       xlink:href="/stations.html?station=Voltaire"
+       xlink:href="/stations/Voltaire"
        target="_parent"
        transform="translate(3.0156299e-4,968.40897)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -2711,7 +2711,7 @@
          x="515.40875"
          y="1150.9052">Place du 8 Février 1962</tspan></text><a
        id="a59062"
-       xlink:href="/stations.html?station=Charonne"
+       xlink:href="/stations/Charonne"
        target="_parent"
        transform="translate(3.0156299e-4,1006.2042)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -2730,7 +2730,7 @@
          x="304.94989"
          y="1152.2872">Charonne</tspan></text><a
        id="a61190"
-       xlink:href="/stations.html?station=Rue+des+Boulets"
+       xlink:href="/stations/Rue des Boulets"
        target="_parent"
        transform="translate(3.0156299e-4,1043.9995)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -2749,7 +2749,7 @@
          x="304.27789"
          y="1190.0825">Rue des Boulets</tspan></text><a
        id="a17"
-       xlink:href="/stations.html?station=Nation"
+       xlink:href="/stations/Nation"
        target="_parent"
        transform="translate(33.464151,423.68459)"
        style="display:inline"><circle
@@ -2759,7 +2759,7 @@
          cy="798.42511"
          r="10.3937" /></a><a
        id="a75"
-       xlink:href="/stations.html?station=Nation"
+       xlink:href="/stations/Nation"
        target="_parent"
        transform="translate(-2.912111e-5,423.68459)"
        style="display:inline"><circle
@@ -2897,7 +2897,7 @@
          y="1226.5077"
          style="text-align:start;text-anchor:start;fill:#25303b;fill-opacity:1">Place des Antilles</tspan></text><a
        id="a66928"
-       xlink:href="/stations.html?station=Buzenval"
+       xlink:href="/stations/Buzenval"
        target="_parent"
        transform="translate(3.0156299e-4,1119.59)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -2916,7 +2916,7 @@
          x="304.27789"
          y="1265.673">Buzenval</tspan></text><a
        id="a66938"
-       xlink:href="/stations.html?station=Maraichers"
+       xlink:href="/stations/Maraichers"
        target="_parent"
        transform="translate(3.0156299e-4,1157.3853)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -2935,7 +2935,7 @@
          x="304.34189"
          y="1303.4683">Maraîchers</tspan></text><a
        id="a69194"
-       xlink:href="/stations.html?station=Porte+de+Montreuil"
+       xlink:href="/stations/Porte de Montreuil"
        target="_parent"><circle
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.13973"
          id="circle69178"
@@ -2964,7 +2964,7 @@
          d="M 274.25,18.42 H 9.21 C 4.12,18.42 0,14.3 0,9.21 0,4.12 4.12,0 9.21,0 h 265.04 c 5.09,0 9.21,4.12 9.21,9.21 0,5.09 -4.12,9.21 -9.21,9.21 m 9.21,255.83 v 0 c 0,-5.09 -4.12,-9.22 -9.21,-9.22 H 9.21 c -5.09,0 -9.21,4.13 -9.21,9.22 0,5.09 4.12,9.21 9.21,9.21 h 265.04 c 5.09,0 9.21,-4.12 9.21,-9.21 m -32.32,-38.41 c 2.19,0 3.97,-1.78 3.97,-3.97 v -3.97 c 0,-2.19 -1.78,-3.96 -3.97,-3.96 H 28.35 v 11.91 H 251.14 M 28.35,170.78 H 69.6 c 1.09,0 1.98,-0.89 1.98,-1.98 v -54.85 c 0,-1.09 -0.89,-1.98 -1.98,-1.98 H 28.35 V 99.21 H 92.72 L 117.95,78.47 86.21,52.39 c -1.37,-1.12 -1.57,-3.15 -0.44,-4.52 l 2.04,-2.49 c 1.13,-1.37 3.15,-1.56 4.52,-0.44 l 36.14,29.69 c 2.41,1.98 2.42,5.68 0,7.66 L 107.89,99.2 h 98.03 c 7.78,0 15.18,3.29 20.43,9.03 15.45,16.89 25.27,37.77 28.41,60.39 1,7.19 -0.09,14.31 -3.16,20.56 -7.09,14.44 -21.47,23.41 -37.55,23.41 H 28.35 Z m 188.48,-54.06 c -2.8,-3.05 -6.77,-4.75 -10.91,-4.75 h -34.57 c -1.09,0 -1.98,0.89 -1.98,1.98 v 54.85 c 0,1.09 0.89,1.98 1.98,1.98 h 59.11 c 6.94,0 11.07,-5.46 9.31,-12.17 -4.1,-15.56 -11.91,-29.87 -22.94,-41.89 m -62.2,83.12 c 1.09,0 1.98,-0.89 1.98,-1.98 v -83.91 c 0,-1.09 -0.89,-1.98 -1.98,-1.98 h -25.79 c -1.1,0 -1.99,0.89 -1.99,1.98 v 83.91 c 0,1.09 0.89,1.98 1.99,1.98 h 25.79 M 86.32,111.97 c -1.09,0 -1.98,0.89 -1.98,1.98 v 83.91 c 0,1.09 0.89,1.98 1.98,1.98 h 25.79 c 1.1,0 1.99,-0.89 1.99,-1.98 v -83.91 c 0,-1.09 -0.89,-1.98 -1.99,-1.98 H 86.32"
          id="path10" /></g><a
        id="a70472"
-       xlink:href="/stations.html?station=Robespierre"
+       xlink:href="/stations/Robespierre"
        target="_parent"
        transform="translate(3.0156299e-4,1232.9758)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -2983,7 +2983,7 @@
          x="304.2782"
          y="1379.0587">Robespierre</tspan></text><a
        id="a71354"
-       xlink:href="/stations.html?station=Croix+de+Chavaux"
+       xlink:href="/stations/Croix de Chavaux"
        target="_parent"
        transform="translate(3.0156299e-4,1270.771)"
        style="fill:#d2d200;fill-opacity:1"><circle
@@ -3034,7 +3034,7 @@
          y="1477.5057"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#ffffff;fill-opacity:1">Mairie de Montreuil</tspan></text><a
        id="a72249"
-       xlink:href="/stations.html?station=Mairie+de+Montreuil"
+       xlink:href="/stations/Mairie de Montreuil"
        target="_parent"
        transform="translate(0,1431.9993)"><g
          id="g72233"
@@ -3225,7 +3225,7 @@
          y="382.56979"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Italic';text-align:start;text-anchor:start">Montreuil</tspan></text><a
        id="a3164"
-       xlink:href="/stations.html?station=Rue+de+la+Pompe"
+       xlink:href="/stations/Rue de la Pompe"
        target="_parent"
        transform="translate(2.9422441e-4,225.89085)"><g
          id="g3162"

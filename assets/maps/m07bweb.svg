@@ -407,7 +407,7 @@
    id="path72" />
 </g></a><a
        id="a62"
-       xlink:href="/stations.html?station=Jaures"
+       xlink:href="/stations/Jaures"
        target="_parent"
        transform="translate(-4.0536565e-7,-129.92127)"><g
          id="g62"
@@ -423,7 +423,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a76"
-       xlink:href="/stations.html?station=Bolivar"
+       xlink:href="/stations/Bolivar"
        target="_parent"
        transform="translate(33.46418,5.6692567)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -433,7 +433,7 @@
          cy="118.11024"
          r="10.3937" /></a><a
        id="a77"
-       xlink:href="/stations.html?station=Buttes+Chaumont"
+       xlink:href="/stations/Buttes Chaumont"
        target="_parent"
        transform="translate(33.46418,43.464528)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -443,7 +443,7 @@
          cy="118.11024"
          r="10.3937" /></a><a
        id="a78"
-       xlink:href="/stations.html?station=Botzaris"
+       xlink:href="/stations/Botzaris"
        target="_parent"
        transform="translate(33.46418,81.259795)"
        style="fill:#82dc73;fill-opacity:1"><circle
@@ -453,7 +453,7 @@
          cy="118.11024"
          r="10.3937" /></a><a
        id="a26689"
-       xlink:href="/stations.html?station=Louis+Blanc"
+       xlink:href="/stations/Louis Blanc"
        target="_parent"
        transform="translate(0,-56.000475)"><g
          id="g26677"><g
@@ -505,7 +505,7 @@
        id="path5483"
        sodipodi:nodetypes="cssc" /><a
        id="a1615"
-       xlink:href="/stations.html?station=Danube"
+       xlink:href="/stations/Danube"
        target="_parent"><circle
          style="display:inline;fill:#82dc73;fill-opacity:1;stroke:none;stroke-width:3.13973"
          id="circle78"
@@ -541,7 +541,7 @@
        d="m 195.20078,326.26793 h 9.48359"
        id="path15695" /><a
        id="a1612"
-       xlink:href="/stations.html?station=Place+des+Fetes"
+       xlink:href="/stations/Place des Fetes"
        target="_parent"><g
          id="g86"
          transform="translate(-101.10196,72.567155)"
@@ -600,7 +600,7 @@
        x="191.78795"
        y="402.67664" /><a
        id="a1627"
-       xlink:href="/stations.html?station=Pre-Saint-Gervais"
+       xlink:href="/stations/Pre-Saint-Gervais"
        target="_parent"><g
          id="g28173"
          transform="translate(2.2233709e-7,287.54292)"

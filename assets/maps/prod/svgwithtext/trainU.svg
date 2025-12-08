@@ -4864,7 +4864,7 @@
          y="100.33627"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Puteaux</tspan></text><a
        id="a34"
-       xlink:href="/stations.html?station=Puteaux"
+       xlink:href="/stations/Puteaux"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,-31.067726)"
        style="display:inline"><g
@@ -5005,7 +5005,7 @@
        d="M 213.20079,30.20553 204.43692,45.385"
        id="path12904-06-5" /><a
        id="a1"
-       xlink:href="/stations.html?station=La+Defense"
+       xlink:href="/stations/La Defense"
        target="_parent"><path
          class="st0"
          d="m 386.26633,52.91338 h -16.62725 c -3.7542,0 -6.80448,-3.05029 -6.80448,-6.80448 V 29.48164 c 0,-3.75419 3.05028,-6.80448 6.80448,-6.80448 h 16.62725 c 3.7542,0 6.80448,3.05029 6.80448,6.80448 V 46.1089 c 0,3.75419 -3.05028,6.80448 -6.80448,6.80448"
@@ -5309,7 +5309,7 @@
          y="157.02954"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Suresnes – Mont-Valérien</tspan></text><a
        id="a43"
-       xlink:href="/stations.html?station=Suresnes-Mont-Valerien"
+       xlink:href="/stations/Suresnes-Mont-Valerien"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,25.625547)"
        style="display:inline"><g
@@ -5394,7 +5394,7 @@
          y="213.72244"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Saint-Cloud</tspan></text><a
        id="a90"
-       xlink:href="/stations.html?station=Saint-Cloud"
+       xlink:href="/stations/Saint-Cloud"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,82.318452)"
        style="display:inline"><g
@@ -5422,7 +5422,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'"
          id="tspan39942-8">Sèvres – Ville-d’Avray</tspan></text><a
        id="a39952-0"
-       xlink:href="/stations.html?station=Sevres-Ville-dAvray"
+       xlink:href="/stations/Sevres-Ville-dAvray"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,139.01098)"
        style="display:inline"><g
@@ -5481,7 +5481,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'"
          id="tspan266-5">Chaville – Rive Droite</tspan></text><a
        id="a267-0"
-       xlink:href="/stations.html?station=Chaville-Rive+Droite"
+       xlink:href="/stations/Chaville-Rive Droite"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,195.70388)"
        style="display:inline"><g
@@ -5540,7 +5540,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'"
          id="tspan126">Versailles – Chantiers</tspan></text><a
        id="a127"
-       xlink:href="/stations.html?station=Versailles-Chantiers"
+       xlink:href="/stations/Versailles-Chantiers"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,252.39678)"
        style="display:inline"><g
@@ -5701,7 +5701,7 @@
          y="440.49368"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Saint-Cyr</tspan></text><a
        id="a82"
-       xlink:href="/stations.html?station=Saint-Cyr"
+       xlink:href="/stations/Saint-Cyr"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,309.08969)"
        style="display:inline"><g
@@ -5842,7 +5842,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'"
          id="tspan136">Montigny-le-Bretonneux</tspan></text><a
        id="a136"
-       xlink:href="/stations.html?station=Saint-Quentin-en-Yvelines-Montigny-le-Bretonneux"
+       xlink:href="/stations/Saint-Quentin-en-Yvelines-Montigny-le-Bretonneux"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,365.78259)"
        style="display:inline"><g
@@ -5941,7 +5941,7 @@
          y="553.87946"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Trappes</tspan></text><a
        id="a276"
-       xlink:href="/stations.html?station=Trappes"
+       xlink:href="/stations/Trappes"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,422.47549)"
        style="display:inline"><g
@@ -5998,7 +5998,7 @@
          y="612.54297"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#ffffff;fill-opacity:1">La Verrière</tspan></text><a
        id="a284"
-       xlink:href="/stations.html?station=La+Verriere"
+       xlink:href="/stations/La Verriere"
        target="_parent"
        transform="translate(0,566.92903)"><path
          class="st0"

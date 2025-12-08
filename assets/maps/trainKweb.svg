@@ -2912,7 +2912,7 @@
          id="text29237"
          aria-label="19" /></g><a
        id="a3188"
-       xlink:href="/stations.html?station=Paris-Nord"
+       xlink:href="/stations/Paris-Nord"
        target="_parent"
        style="display:inline"><g
          id="g3181"><path
@@ -2948,7 +2948,7 @@
        id="text157474"
        aria-label="Aulnay-sous-Bois" /><a
        id="a3885-7-1-5"
-       xlink:href="/stations.html?station=Compans"
+       xlink:href="/stations/Compans"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,126.72375)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -2958,7 +2958,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a14670-0"
-       xlink:href="/stations.html?station=Aulnay-sous-Bois"
+       xlink:href="/stations/Aulnay-sous-Bois"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,-7.9673059)"
        style="display:inline"><g
@@ -3288,7 +3288,7 @@
        id="text20624"
        aria-label="Mitry – Claye" /><a
        id="a20632"
-       xlink:href="/stations.html?station=Mitry-Claye"
+       xlink:href="/stations/Mitry-Claye"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,72.032674)"
        style="display:inline"><g
@@ -3347,7 +3347,7 @@
        id="text20688"
        aria-label="Compans" /><a
        id="a20733"
-       xlink:href="/stations.html?station=Thieux-Nantouillet"
+       xlink:href="/stations/Thieux-Nantouillet"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,183.41665)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -3361,7 +3361,7 @@
        id="text20737"
        aria-label="Thieux – Nantouillet" /><a
        id="a20741"
-       xlink:href="/stations.html?station=Dammartin-Juilly-Saint-Mard"
+       xlink:href="/stations/Dammartin-Juilly-Saint-Mard"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,240.10955)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -3375,7 +3375,7 @@
        id="text20745"
        aria-label="Dammartin – Juilly – Saint-Mard" /><a
        id="a20749"
-       xlink:href="/stations.html?station=Le+Plessis-Belleville"
+       xlink:href="/stations/Le Plessis-Belleville"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,296.80245)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -3389,7 +3389,7 @@
        id="text20753"
        aria-label="Le Plessis-Belleville" /><a
        id="a22415"
-       xlink:href="/stations.html?station=Nanteuil-le-Haudouin"
+       xlink:href="/stations/Nanteuil-le-Haudouin"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,353.49535)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -3403,7 +3403,7 @@
        id="text22419"
        aria-label="Nanteuil-le-Haudouin" /><a
        id="a22423"
-       xlink:href="/stations.html?station=Ormoy-Villers"
+       xlink:href="/stations/Ormoy-Villers"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25803,410.18825)"
        style="display:inline;fill:#ffffff;fill-opacity:1"><circle
@@ -3417,7 +3417,7 @@
        id="text22427"
        aria-label="Ormoy-Villers" /><a
        id="a24105"
-       xlink:href="/stations.html?station=Crepy-en-Valois"
+       xlink:href="/stations/Crepy-en-Valois"
        target="_parent"
        style="display:inline"
        transform="translate(0,556.6449)"><g

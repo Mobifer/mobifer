@@ -4742,7 +4742,7 @@
            y="350.54758"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std';text-align:start;text-anchor:start">16</tspan></text></g><a
        id="a1"
-       xlink:href="/stations.html?station=Versailles-Chantiers"
+       xlink:href="/stations/Versailles-Chantiers"
        style="display:inline"><path
          class="st0"
          d="m 386.26633,52.91338 h -16.62725 c -3.7542,0 -6.80448,-3.05029 -6.80448,-6.80448 V 29.48164 c 0,-3.75419 3.05028,-6.80448 6.80448,-6.80448 h 16.62725 c 3.7542,0 6.80448,3.05029 6.80448,6.80448 V 46.1089 c 0,3.75419 -3.05028,6.80448 -6.80448,6.80448"
@@ -4762,7 +4762,7 @@
              id="path56324-6"
              style="stroke-width:2.76944" /></g></g></a><a
        id="a44"
-       xlink:href="/stations.html?station=Petit-Jouy-Les+Loges"
+       xlink:href="/stations/Petit-Jouy-Les Loges"
        target="_parent"
        transform="translate(-5.3159595e-6,-49.130083)"
        style="display:inline"><circle
@@ -4772,7 +4772,7 @@
          cy="143.61824"
          r="9.4488163" /></a><a
        id="a5"
-       xlink:href="/stations.html?station=Jouy-en-Josas"
+       xlink:href="/stations/Jouy-en-Josas"
        target="_parent"
        transform="translate(-5.3159595e-6,7.5632036)"
        style="display:inline"><circle
@@ -4968,7 +4968,7 @@
          y="155.51945"
          style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:start;text-anchor:start">Musée de la Toile de Jouy</tspan></text><a
        id="a6"
-       xlink:href="/stations.html?station=Vauboyen"
+       xlink:href="/stations/Vauboyen"
        target="_parent"
        transform="translate(-5.3159595e-6,64.255724)"
        style="display:inline"><circle
@@ -5004,7 +5004,7 @@
          y="212.21198"
          style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:start;text-anchor:start">Maison littéraire de Victor Hugo</tspan></text><a
        id="a7"
-       xlink:href="/stations.html?station=Bievres"
+       xlink:href="/stations/Bievres"
        target="_parent"
        transform="translate(-5.3159595e-6,120.94862)"
        style="display:inline"><circle
@@ -5040,7 +5040,7 @@
          y="268.90488"
          style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:start;text-anchor:start">Musée Français de la Photographie</tspan></text><a
        id="a9"
-       xlink:href="/stations.html?station=Igny"
+       xlink:href="/stations/Igny"
        target="_parent"
        transform="translate(-5.3159595e-6,177.64152)"
        style="display:inline"><circle
@@ -5060,7 +5060,7 @@
          y="327.10785"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Igny</tspan></text><a
        id="a17"
-       xlink:href="/stations.html?station=Massy-Palaiseau"
+       xlink:href="/stations/Massy-Palaiseau"
        style="display:inline"
        transform="translate(0,340.1574)"><path
          class="st0"

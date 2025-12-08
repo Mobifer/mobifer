@@ -1637,7 +1637,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan61830">Nanterre – Ville</tspan></text><a
        id="a68295"
-       xlink:href="/stations.html?station=Nanterre-Universite"
+       xlink:href="/stations/Nanterre-Universite"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914851,411.04783)"
        style="display:inline"><g
@@ -1655,7 +1655,7 @@
            cy="1293.7008"
            r="7.5590544" /></g></a><a
        id="a71427"
-       xlink:href="/stations.html?station=Nanterre-Ville"
+       xlink:href="/stations/Nanterre-Ville"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,371.24944)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -1675,7 +1675,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan72985">Rueil-Malmaison</tspan></text><a
        id="a72991"
-       xlink:href="/stations.html?station=Rueil-Malmaison"
+       xlink:href="/stations/Rueil-Malmaison"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,333.45417)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -1695,7 +1695,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan72993">Chatou – Croissy</tspan></text><a
        id="a72999"
-       xlink:href="/stations.html?station=Chatou-Croissy"
+       xlink:href="/stations/Chatou-Croissy"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,295.65891)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -1715,7 +1715,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan74565">Le Vésinet – Centre</tspan></text><a
        id="a74571"
-       xlink:href="/stations.html?station=Le+Vesinet-Centre"
+       xlink:href="/stations/Le Vesinet-Centre"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,257.86364)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -1735,7 +1735,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan74573">Le Vésinet – Le Pecq</tspan></text><a
        id="a74579"
-       xlink:href="/stations.html?station=Le+Vesinet-Le+Pecq"
+       xlink:href="/stations/Le Vesinet-Le Pecq"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,220.06837)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -1766,7 +1766,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end;fill:#ffffff;fill-opacity:1"
          id="tspan79318">en-Laye</tspan></text><a
        id="a77739"
-       xlink:href="/stations.html?station=Poissy"
+       xlink:href="/stations/Poissy"
        target="_parent"
        transform="translate(-316.34575,253.27738)"><path
          class="st0"
@@ -1924,7 +1924,7 @@
    id="path17688" />
 </g></a><a
        id="a8374"
-       xlink:href="/stations.html?station=Cergy-Saint-Christophe"
+       xlink:href="/stations/Cergy-Saint-Christophe"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,-43.72223)"
        style="display:inline"><g
@@ -2387,7 +2387,7 @@
          y="382.56979"
          style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:start;text-anchor:start">Paris</tspan></text><a
        id="a15440"
-       xlink:href="/stations.html?station=Cergy-Le+Haut"
+       xlink:href="/stations/Cergy-Le Haut"
        target="_parent"
        transform="translate(0,11.721965)"><path
          class="st0"
@@ -2674,7 +2674,7 @@
          y="297.06265"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#ffffff;fill-opacity:1">Poissy</tspan></text><a
        id="a26710"
-       xlink:href="/stations.html?station=Poissy"
+       xlink:href="/stations/Poissy"
        target="_parent"
        transform="translate(-86.692405,263.27741)"><path
          class="st0"
@@ -2698,7 +2698,7 @@
    style="clip-rule:evenodd;fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
 </g></a><a
        id="a14439"
-       xlink:href="/stations.html?station=Acheres-Grand+Cormier"
+       xlink:href="/stations/Acheres-Grand Cormier"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,191.73851,208.06955)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -2775,7 +2775,7 @@
          y="336.51526"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Italic';text-align:start;text-anchor:start">2028</tspan></text><a
        id="a42387"
-       xlink:href="/stations.html?station=Maisons-Laffitte"
+       xlink:href="/stations/Maisons-Laffitte"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,335.4585)"
        style="display:inline"><g
@@ -2981,7 +2981,7 @@
    id="polygon47130" />
 </g></a><a
        id="a61840"
-       xlink:href="/stations.html?station=Cergy-Prefecture"
+       xlink:href="/stations/Cergy-Prefecture"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,-5.9284468)"
        style="display:inline"><g
@@ -2999,7 +2999,7 @@
            cy="1293.7008"
            r="7.5590544" /></g></a><a
        id="a61848"
-       xlink:href="/stations.html?station=Neuville-Universite"
+       xlink:href="/stations/Neuville-Universite"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,31.866819)"
        style="display:inline"><g
@@ -3017,7 +3017,7 @@
            cy="1293.7008"
            r="7.5590544" /></g></a><a
        id="a61856"
-       xlink:href="/stations.html?station=Conflans-Fin+dOise"
+       xlink:href="/stations/Conflans-Fin dOise"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,69.662084)"
        style="display:inline"><g
@@ -3035,7 +3035,7 @@
            cy="1293.7008"
            r="7.5590544" /></g></a><a
        id="a61864"
-       xlink:href="/stations.html?station=Acheres-Ville"
+       xlink:href="/stations/Acheres-Ville"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,107.45735)"
        style="display:inline"><g
@@ -3053,7 +3053,7 @@
            cy="1293.7008"
            r="7.5590544" /></g></a><a
        id="a66619"
-       xlink:href="/stations.html?station=Sartrouville"
+       xlink:href="/stations/Sartrouville"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,373.25256)"
        style="display:inline"><g
@@ -3071,7 +3071,7 @@
            cy="1293.7008"
            r="7.5590544" /></g></a><a
        id="a66627"
-       xlink:href="/stations.html?station=Houilles-Carrieres-sur-Seine"
+       xlink:href="/stations/Houilles-Carrieres-sur-Seine"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,411.04783)"
        style="display:inline"><g
@@ -3157,7 +3157,7 @@
          y="682.65656"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Nanterre – Préfecture</tspan></text><a
        id="a95228"
-       xlink:href="/stations.html?station=Nanterre-Prefecture"
+       xlink:href="/stations/Nanterre-Prefecture"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,551.25247)"
        style="display:inline"><g
@@ -3415,7 +3415,7 @@
          y="735.57062"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">La Défense</tspan></text><a
        id="a110844"
-       xlink:href="/stations.html?station=La+Defense"
+       xlink:href="/stations/La Defense"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,604.16651)"
        style="display:inline"><g
@@ -3459,7 +3459,7 @@
          y="773.36591"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Charles de Gaulle – Étoile</tspan></text><a
        id="a118038"
-       xlink:href="/stations.html?station=Charles+de+Gaulle-Etoile"
+       xlink:href="/stations/Charles de Gaulle-Etoile"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,641.96178)"
        style="display:inline"><g
@@ -3582,7 +3582,7 @@
          y="811.16119"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Auber</tspan></text><a
        id="a9411"
-       xlink:href="/stations.html?station=Auber"
+       xlink:href="/stations/Auber"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,679.75705)"
        style="display:inline"><g
@@ -3835,7 +3835,7 @@
          y="864.07458"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Châtelet – Les Halles</tspan></text><a
        id="a24396"
-       xlink:href="/stations.html?station=Chatelet-Les+Halles"
+       xlink:href="/stations/Chatelet-Les Halles"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,732.67042)"
        style="display:inline"><g
@@ -3883,7 +3883,7 @@
          y="901.86987"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Gare de Lyon</tspan></text><a
        id="a33547"
-       xlink:href="/stations.html?station=Gare+de+Lyon"
+       xlink:href="/stations/Gare de Lyon"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,770.46568)"
        style="display:inline"><g
@@ -3971,7 +3971,7 @@
          y="939.66516"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Nation</tspan></text><a
        id="a37349"
-       xlink:href="/stations.html?station=Nation"
+       xlink:href="/stations/Nation"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,808.26095)"
        style="display:inline"><g
@@ -4129,7 +4129,7 @@
          y="977.46045"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Vincennes</tspan></text><a
        id="a44049"
-       xlink:href="/stations.html?station=Vincennes"
+       xlink:href="/stations/Vincennes"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,120.25802,846.05621)"
        style="display:inline"><g
@@ -4225,7 +4225,7 @@
          y="1162.6565"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Val de Fontenay</tspan></text><a
        id="a2113"
-       xlink:href="/stations.html?station=Val+de+Fontenay"
+       xlink:href="/stations/Val de Fontenay"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,1031.2523)"
        style="display:inline"><g
@@ -4328,7 +4328,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan24822">Fontenay-sous-Bois</tspan></text><a
        id="a24828"
-       xlink:href="/stations.html?station=Fontenay-sous-Bois"
+       xlink:href="/stations/Fontenay-sous-Bois"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,1029.2492)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4401,7 +4401,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan38796">Nogent-sur-Marne</tspan></text><a
        id="a38802"
-       xlink:href="/stations.html?station=Nogent-sur-Marne"
+       xlink:href="/stations/Nogent-sur-Marne"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,1067.0452)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4421,7 +4421,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan38804">Joinville-le-Pont</tspan></text><a
        id="a38810"
-       xlink:href="/stations.html?station=Joinville-le-Pont"
+       xlink:href="/stations/Joinville-le-Pont"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,1104.8404)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4441,7 +4441,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan38812">Saint-Maur – Créteil</tspan></text><a
        id="a38826"
-       xlink:href="/stations.html?station=Saint-Maur-Creteil"
+       xlink:href="/stations/Saint-Maur-Creteil"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914851,1144.6388)"
        style="display:inline"><g
@@ -4533,7 +4533,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan67113">Le Parc de Saint-Maur</tspan></text><a
        id="a67119"
-       xlink:href="/stations.html?station=Le+Parc+de+Saint-Maur"
+       xlink:href="/stations/Le Parc de Saint-Maur"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,1180.431)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4553,7 +4553,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan71171">Champigny</tspan></text><a
        id="a71177"
-       xlink:href="/stations.html?station=Champigny"
+       xlink:href="/stations/Champigny"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,1218.2262)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4573,7 +4573,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan71179">La Varenne – Chennevières</tspan></text><a
        id="a71185"
-       xlink:href="/stations.html?station=La+Varenne-Chennevieres"
+       xlink:href="/stations/La Varenne-Chennevieres"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914844,1256.0215)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4593,7 +4593,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end"
          id="tspan73220">Sucy – Bonneuil</tspan></text><a
        id="a73230"
-       xlink:href="/stations.html?station=Sucy-Bonneuil"
+       xlink:href="/stations/Sucy-Bonneuil"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,-37.914851,1295.8199)"
        style="display:inline"><g
@@ -4648,7 +4648,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:end;text-anchor:end;fill:#ffffff;fill-opacity:1"
          id="tspan79421">Boissy-Saint-Léger</tspan></text><a
        id="a79433"
-       xlink:href="/stations.html?station=Boissy-Saint-Leger"
+       xlink:href="/stations/Boissy-Saint-Leger"
        target="_parent"
        transform="translate(-316.34575,1441.2771)"><path
          class="st0"
@@ -4682,7 +4682,7 @@
          y="1238.2478"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Neuilly-Plaisance</tspan></text><a
        id="a87068"
-       xlink:href="/stations.html?station=Neuilly-Plaisance"
+       xlink:href="/stations/Neuilly-Plaisance"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1104.8405)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4702,7 +4702,7 @@
          y="1276.043"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Bry-sur-Marne</tspan></text><a
        id="a87076"
-       xlink:href="/stations.html?station=Bry-sur-Marne"
+       xlink:href="/stations/Bry-sur-Marne"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1142.6357)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4727,7 +4727,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'"
          id="tspan89149">Mont d’Est</tspan></text><a
        id="a89147"
-       xlink:href="/stations.html?station=Noisy-le-Grand-Mont+dEst"
+       xlink:href="/stations/Noisy-le-Grand-Mont dEst"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1180.431)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4824,7 +4824,7 @@
    id="path50964" />
 </g></a><a
        id="a91229"
-       xlink:href="/stations.html?station=Noisy-Champs"
+       xlink:href="/stations/Noisy-Champs"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.43089,1239.2523)"
        style="display:inline"><g
@@ -4904,7 +4904,7 @@
          y="1428.043"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Noisiel</tspan></text><a
        id="a2252"
-       xlink:href="/stations.html?station=Noisiel"
+       xlink:href="/stations/Noisiel"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1294.6357)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4940,7 +4940,7 @@
          y="1465.8395"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Lognes</tspan></text><a
        id="a9367"
-       xlink:href="/stations.html?station=Lognes"
+       xlink:href="/stations/Lognes"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1332.4322)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4976,7 +4976,7 @@
          y="1503.6348"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Torcy</tspan></text><a
        id="a13634"
-       xlink:href="/stations.html?station=Torcy"
+       xlink:href="/stations/Torcy"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1370.2275)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -4996,7 +4996,7 @@
          y="1541.4299"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Bussy-Saint-Georges</tspan></text><a
        id="a17906"
-       xlink:href="/stations.html?station=Bussy-Saint-Georges"
+       xlink:href="/stations/Bussy-Saint-Georges"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1408.0227)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -5016,7 +5016,7 @@
          y="1592.1228"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Val d’Europe</tspan></text><a
        id="a24975"
-       xlink:href="/stations.html?station=Val+dEurope"
+       xlink:href="/stations/Val dEurope"
        target="_parent"
        transform="matrix(0.90909077,0,0,0.90909077,278.4309,1458.7156)"
        style="fill:#ffffff;fill-opacity:1"><circle
@@ -5057,7 +5057,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#ffffff;fill-opacity:1"
          id="tspan33566">Chessy</tspan></text><a
        id="a33564"
-       xlink:href="/stations.html?station=Marne-la-Vallee-Chessy"
+       xlink:href="/stations/Marne-la-Vallee-Chessy"
        target="_parent"
        transform="translate(0,1609.7217)"><path
          class="st0"

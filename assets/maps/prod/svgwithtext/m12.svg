@@ -1553,7 +1553,7 @@
          y="101.20157"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Aimé Césaire</tspan></text><a
        id="a14439"
-       xlink:href="/stations.html?station=Aime+Cesaire"
+       xlink:href="/stations/Aime Cesaire"
        target="_parent"
        transform="translate(8.1542969e-6,-44.881263)"
        style="fill:#00643c;fill-opacity:1"><circle
@@ -1692,7 +1692,7 @@
          y="382.56979"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Italic';text-align:start;text-anchor:start">Issy-les-Moulineaux</tspan></text><a
        id="a10437"
-       xlink:href="/stations.html?station=Mairie+dAubervilliers"
+       xlink:href="/stations/Mairie dAubervilliers"
        target="_parent"><circle
          style="fill:#000000;stroke-width:0.332857"
          id="circle7277"
@@ -1772,7 +1772,7 @@
          y="197.5789"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Porte de la Chapelle</tspan></text><a
        id="a22150"
-       xlink:href="/stations.html?station=Front+Populaire"
+       xlink:href="/stations/Front Populaire"
        target="_parent"
        transform="translate(6.7515811e-7,-69.559078)"
        style="display:inline"><g
@@ -1823,7 +1823,7 @@
          y="235.37413"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Marx Dormoy</tspan></text><a
        id="a14690"
-       xlink:href="/stations.html?station=Porte+de+la+Chapelle"
+       xlink:href="/stations/Porte de la Chapelle"
        target="_parent"
        transform="translate(6.7515811e-7,-24.094524)"
        style="display:inline"><g
@@ -1840,7 +1840,7 @@
            cy="253.70078"
            r="7.5590544" /></g></a><a
        id="a20764"
-       xlink:href="/stations.html?station=Marx+Dormoy"
+       xlink:href="/stations/Marx Dormoy"
        target="_parent"
        transform="translate(8.1542969e-6,89.291295)"
        style="fill:#00643c;fill-opacity:1"><circle
@@ -1860,7 +1860,7 @@
          y="273.16943"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Marcadet – Poissonniers</tspan></text><a
        id="a21573"
-       xlink:href="/stations.html?station=Marcadet-Poissonniers"
+       xlink:href="/stations/Marcadet-Poissonniers"
        target="_parent"
        transform="translate(6.7515811e-7,51.496006)"
        style="display:inline"><g
@@ -1911,7 +1911,7 @@
          y="310.96466"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Jules Joffrin</tspan></text><a
        id="a24055"
-       xlink:href="/stations.html?station=Jules+Joffrin"
+       xlink:href="/stations/Jules Joffrin"
        target="_parent"
        transform="translate(8.1542969e-6,164.88183)"
        style="fill:#00643c;fill-opacity:1"><circle
@@ -1931,7 +1931,7 @@
          y="348.75992"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Lamarck – Caulaincourt</tspan></text><a
        id="a24877"
-       xlink:href="/stations.html?station=Lamarck-Caulaincourt"
+       xlink:href="/stations/Lamarck-Caulaincourt"
        target="_parent"
        transform="translate(8.1542969e-6,202.67709)"
        style="fill:#00643c;fill-opacity:1"><circle
@@ -1951,7 +1951,7 @@
          y="386.55524"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Abbesses</tspan></text><a
        id="a25707"
-       xlink:href="/stations.html?station=Abbesses"
+       xlink:href="/stations/Abbesses"
        target="_parent"
        transform="translate(6.7515811e-7,164.8818)"
        style="display:inline"><g
@@ -2024,7 +2024,7 @@
          y="424.35049"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Pigalle</tspan></text><a
        id="a31596"
-       xlink:href="/stations.html?station=Pigalle"
+       xlink:href="/stations/Pigalle"
        target="_parent"
        transform="translate(6.7515811e-7,202.67707)"
        style="display:inline"><g
@@ -2051,7 +2051,7 @@
          y="462.14572"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Saint-Georges</tspan></text><a
        id="a31604"
-       xlink:href="/stations.html?station=Saint-Georges"
+       xlink:href="/stations/Saint-Georges"
        target="_parent"
        transform="translate(8.1542969e-6,316.06289)"
        style="fill:#00643c;fill-opacity:1"><circle
@@ -2071,7 +2071,7 @@
          y="499.94098"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Notre-Dame-de-Lorette</tspan></text><a
        id="a33298"
-       xlink:href="/stations.html?station=Notre-Dame-de-Lorette"
+       xlink:href="/stations/Notre-Dame-de-Lorette"
        target="_parent"
        transform="translate(8.1542969e-6,353.85815)"
        style="fill:#00643c;fill-opacity:1"><circle
@@ -2091,7 +2091,7 @@
          y="537.73627"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Trinité – d’Estienne d’Orves</tspan></text><a
        id="a37541"
-       xlink:href="/stations.html?station=Trinite-dEstienne+dOrves"
+       xlink:href="/stations/Trinite-dEstienne dOrves"
        target="_parent"
        transform="translate(8.1542969e-6,391.65342)"
        style="fill:#00643c;fill-opacity:1"><circle
@@ -2181,7 +2181,7 @@
    style="clip-rule:evenodd;fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
 </g></a><a
        id="a85"
-       xlink:href="/stations.html?station=Saint-Lazare"
+       xlink:href="/stations/Saint-Lazare"
        target="_parent"
        transform="translate(0,202.67707)"
        style="display:inline"><g
@@ -2323,7 +2323,7 @@
          y="209.78712"
          id="tspan35160">Grandes Lignes</tspan></text><a
        id="a42245"
-       xlink:href="/stations.html?station=Madeleine"
+       xlink:href="/stations/Madeleine"
        target="_parent"
        transform="translate(0,240.4723)"
        style="display:inline"><g
@@ -2369,7 +2369,7 @@
    style="clip-rule:evenodd;fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
 </g></a><a
        id="a44131"
-       xlink:href="/stations.html?station=Concorde"
+       xlink:href="/stations/Concorde"
        target="_parent"
        transform="translate(0,278.26757)"
        style="display:inline"><g
@@ -2480,7 +2480,7 @@
          y="688.91736"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Assemblée Nationale</tspan></text><a
        id="a45133"
-       xlink:href="/stations.html?station=Assemblee+Nationale"
+       xlink:href="/stations/Assemblee Nationale"
        target="_parent"
        transform="translate(8.1542969e-6,542.83448)"
        style="fill:#00643c;fill-opacity:1"><circle
@@ -2490,7 +2490,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a47965"
-       xlink:href="/stations.html?station=Solferino"
+       xlink:href="/stations/Solferino"
        target="_parent"
        transform="translate(0,353.8581)"
        style="display:inline"><g
@@ -2607,7 +2607,7 @@
          y="764.50787"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Rue du Bac</tspan></text><a
        id="a56954"
-       xlink:href="/stations.html?station=Rue+du+Bac"
+       xlink:href="/stations/Rue du Bac"
        target="_parent"
        transform="translate(8.1542969e-6,618.42501)"
        style="fill:#00643c;fill-opacity:1"><circle
@@ -2617,7 +2617,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a56962"
-       xlink:href="/stations.html?station=Sevres-Babylone"
+       xlink:href="/stations/Sevres-Babylone"
        target="_parent"
        transform="translate(0,429.44863)"
        style="display:inline"><g
@@ -2693,7 +2693,7 @@
          y="840.09839"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Rennes</tspan></text><a
        id="a60062"
-       xlink:href="/stations.html?station=Rennes"
+       xlink:href="/stations/Rennes"
        target="_parent"
        transform="translate(8.1542969e-6,694.01554)"
        style="fill:#00643c;fill-opacity:1"><circle
@@ -2713,7 +2713,7 @@
          y="877.89368"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Notre-Dame-des-Champs</tspan></text><a
        id="a60070"
-       xlink:href="/stations.html?station=Notre-Dame-des-Champs"
+       xlink:href="/stations/Notre-Dame-des-Champs"
        target="_parent"
        transform="translate(8.1542969e-6,731.8108)"
        style="fill:#00643c;fill-opacity:1;stroke:none;stroke-opacity:1"><circle
@@ -2763,7 +2763,7 @@
          d="M 219.68,283.46 H 63.78 C 28.56,283.46 0,254.91 0,219.68 V 63.78 C 0,28.55 28.56,0 63.78,0 h 155.9 c 35.22,0 63.78,28.55 63.78,63.78 v 155.91 c 0,35.22 -28.56,63.78 -63.78,63.78 m 45.36,-63.78 V 63.78 c 0,-25.05 -20.31,-45.35 -45.36,-45.35 H 63.78 c -25.05,0 -45.35,20.31 -45.35,45.35 v 155.91 c 0,25.05 20.31,45.35 45.35,45.35 h 155.9 c 25.05,0 45.36,-20.31 45.36,-45.35 M 183.87,204.6 c 0.62,-0.42 1.22,-0.86 1.66,-1.29 5.09,-4.12 9.86,-10.45 13.31,-20.24 4.83,-13.74 8.24,-26.02 9.18,-41.12 1.31,-18.6 -6.35,-47.54 -11.43,-61.04 l -1.77,-4.75 c -1.09,-3.04 -5.26,-9.47 -12.65,-17.18 -6.35,-6.62 -12.47,-7.11 -21.77,-7.11 h -37.76 c -9.3,0 -15.4,0.49 -21.78,7.11 -7.39,7.69 -11.56,14.15 -12.65,17.18 l -1.78,4.78 c -5.08,13.48 -12.73,42.42 -11.44,61.04 0.94,15.06 4.36,27.32 9.21,41.1 3.45,9.82 8.19,16.12 13.29,20.24 0.48,0.42 1.06,0.85 1.69,1.27 l -27.51,30.58 c -2.24,2.5 -2.24,6.53 0,9.01 2.24,2.47 5.85,2.47 8.07,0 l 9.5,-10.54 h 104.53 l 9.48,10.54 c 2.22,2.47 5.85,2.47 8.07,0 2.24,-2.48 2.24,-6.51 0,-9.01 l -27.48,-30.56 z m -9.24,-11.15 c -5.21,0 -9.45,-4.22 -9.45,-9.45 0,-5.23 4.24,-9.42 9.45,-9.42 5.21,0 9.46,4.22 9.46,9.42 0,5.2 -4.22,9.45 -9.46,9.45 M 89.16,132.9 c -5.77,0 3.29,-50.66 7.43,-50.66 h 88.85 c 4.49,0 15.02,50.66 7.96,50.66 z m 9.62,51.1 c 0,-5.2 4.23,-9.42 9.45,-9.42 5.22,0 9.44,4.22 9.44,9.42 0,5.2 -4.21,9.45 -9.44,9.45 -5.23,0 -9.45,-4.22 -9.45,-9.45 m 1.92,36.9 10.13,-11.25 c 4.94,1.14 9.48,1.14 12.79,1.14 h 35.82 c 3.31,0 7.86,0 12.79,-1.14 l 10.14,11.25 z"
          id="path2-76" /></g><a
        id="a68251"
-       xlink:href="/stations.html?station=Montparnasse-Bienvenue"
+       xlink:href="/stations/Montparnasse-Bienvenue"
        target="_parent"
        transform="translate(4.4521063e-7,658.42373)"
        style="display:inline"><g
@@ -2919,7 +2919,7 @@
          y="953.48419"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Falguière</tspan></text><a
        id="a68225"
-       xlink:href="/stations.html?station=Falguiere"
+       xlink:href="/stations/Falguiere"
        target="_parent"
        transform="translate(8.1542969e-6,807.40133)"
        style="fill:#00643c;fill-opacity:1;stroke:none;stroke-opacity:1"><circle
@@ -2929,7 +2929,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a68285"
-       xlink:href="/stations.html?station=Pasteur"
+       xlink:href="/stations/Pasteur"
        target="_parent"
        transform="translate(4.4521063e-7,734.01423)"
        style="display:inline"><g
@@ -3008,7 +3008,7 @@
          y="1029.0747"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Volontaires</tspan></text><a
        id="a69410"
-       xlink:href="/stations.html?station=Volontaires"
+       xlink:href="/stations/Volontaires"
        target="_parent"
        transform="translate(8.1542969e-6,882.99185)"
        style="fill:#00643c;fill-opacity:1;stroke:none;stroke-opacity:1"><circle
@@ -3028,7 +3028,7 @@
          y="1066.87"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Vaugirard</tspan></text><a
        id="a70513"
-       xlink:href="/stations.html?station=Vaugirard"
+       xlink:href="/stations/Vaugirard"
        target="_parent"
        transform="translate(8.1542969e-6,920.78712)"
        style="fill:#00643c;fill-opacity:1;stroke:none;stroke-opacity:1"><circle
@@ -3048,7 +3048,7 @@
          y="1104.6653"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Convention</tspan></text><a
        id="a72582"
-       xlink:href="/stations.html?station=Convention"
+       xlink:href="/stations/Convention"
        target="_parent"
        transform="translate(8.1542969e-6,958.58238)"
        style="fill:#00643c;fill-opacity:1;stroke:none;stroke-opacity:1"><circle
@@ -3058,7 +3058,7 @@
          cy="140.31494"
          r="10.3937" /></a><a
        id="a73594"
-       xlink:href="/stations.html?station=Porte+de+Versailles"
+       xlink:href="/stations/Porte de Versailles"
        target="_parent"
        transform="translate(4.4521063e-7,885.19528)"
        style="display:inline"><g
@@ -3118,7 +3118,7 @@
          y="1180.2559"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold'">Corentin Celton</tspan></text><a
        id="a81904"
-       xlink:href="/stations.html?station=Corentin+Celton"
+       xlink:href="/stations/Corentin Celton"
        target="_parent"
        transform="translate(8.1542969e-6,1034.1729)"
        style="fill:#00643c;fill-opacity:1;stroke:none;stroke-opacity:1"><circle
@@ -3144,7 +3144,7 @@
          y="1225.5068"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#ffffff;fill-opacity:1">Mairie d’Issy</tspan></text><a
        id="a82966"
-       xlink:href="/stations.html?station=Mairie+dAubervilliers"
+       xlink:href="/stations/Mairie dAubervilliers"
        target="_parent"
        transform="translate(0,1179.9996)"><circle
          style="fill:#000000;stroke-width:0.332857"

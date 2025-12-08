@@ -366,7 +366,7 @@
          d="M 274.25,18.42 H 9.21 C 4.12,18.42 0,14.3 0,9.21 0,4.12 4.12,0 9.21,0 h 265.04 c 5.09,0 9.21,4.12 9.21,9.21 0,5.09 -4.12,9.21 -9.21,9.21 m 9.21,255.83 v 0 c 0,-5.09 -4.12,-9.22 -9.21,-9.22 H 9.21 c -5.09,0 -9.21,4.13 -9.21,9.22 0,5.09 4.12,9.21 9.21,9.21 h 265.04 c 5.09,0 9.21,-4.12 9.21,-9.21 m -32.32,-38.41 c 2.19,0 3.97,-1.78 3.97,-3.97 v -3.97 c 0,-2.19 -1.78,-3.96 -3.97,-3.96 H 28.35 v 11.91 H 251.14 M 28.35,170.78 H 69.6 c 1.09,0 1.98,-0.89 1.98,-1.98 v -54.85 c 0,-1.09 -0.89,-1.98 -1.98,-1.98 H 28.35 V 99.21 H 92.72 L 117.95,78.47 86.21,52.39 c -1.37,-1.12 -1.57,-3.15 -0.44,-4.52 l 2.04,-2.49 c 1.13,-1.37 3.15,-1.56 4.52,-0.44 l 36.14,29.69 c 2.41,1.98 2.42,5.68 0,7.66 L 107.89,99.2 h 98.03 c 7.78,0 15.18,3.29 20.43,9.03 15.45,16.89 25.27,37.77 28.41,60.39 1,7.19 -0.09,14.31 -3.16,20.56 -7.09,14.44 -21.47,23.41 -37.55,23.41 H 28.35 Z m 188.48,-54.06 c -2.8,-3.05 -6.77,-4.75 -10.91,-4.75 h -34.57 c -1.09,0 -1.98,0.89 -1.98,1.98 v 54.85 c 0,1.09 0.89,1.98 1.98,1.98 h 59.11 c 6.94,0 11.07,-5.46 9.31,-12.17 -4.1,-15.56 -11.91,-29.87 -22.94,-41.89 m -62.2,83.12 c 1.09,0 1.98,-0.89 1.98,-1.98 v -83.91 c 0,-1.09 -0.89,-1.98 -1.98,-1.98 h -25.79 c -1.1,0 -1.99,0.89 -1.99,1.98 v 83.91 c 0,1.09 0.89,1.98 1.99,1.98 h 25.79 M 86.32,111.97 c -1.09,0 -1.98,0.89 -1.98,1.98 v 83.91 c 0,1.09 0.89,1.98 1.98,1.98 h 25.79 c 1.1,0 1.99,-0.89 1.99,-1.98 v -83.91 c 0,-1.09 -0.89,-1.98 -1.99,-1.98 H 86.32"
          id="path2-4" /></g><a
        id="a28"
-       xlink:href="/stations.html?station=Ternes"
+       xlink:href="/stations/Ternes"
        target="_parent"
        transform="translate(33.46418,181.9989)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -513,7 +513,7 @@
    id="path2-87" />
 </g></a><a
        id="a23"
-       xlink:href="/stations.html?station=Porte+Dauphine"
+       xlink:href="/stations/Porte Dauphine"
        target="_parent"
        transform="translate(33.46418,173.9989)"><circle
          style="fill:#000000;stroke-width:0.332857"
@@ -522,7 +522,7 @@
          cy="37.795273"
          r="15.118109" /></a><a
        id="a32"
-       xlink:href="/stations.html?station=Rome"
+       xlink:href="/stations/Rome"
        target="_parent"
        transform="translate(33.46418,181.9989)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -532,7 +532,7 @@
          cy="307.08658"
          r="10.3937" /></a><a
        id="a8"
-       xlink:href="/stations.html?station=Villiers"
+       xlink:href="/stations/Villiers"
        target="_parent"
        transform="translate(0,173.9989)"><g
          id="g8"><a
@@ -551,7 +551,7 @@
            cy="277.29132"
            r="7.5590544" /></g></a><a
        id="a37-0"
-       xlink:href="/stations.html?station=Porte+Dauphine"
+       xlink:href="/stations/Porte Dauphine"
        target="_parent"
        transform="translate(93.54291,-57.497117)"
        style="display:inline"><g
@@ -579,7 +579,7 @@
            d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
            id="path2-38" /></g></a><a
        id="a15"
-       xlink:href="/stations.html?station=Place+de+Clichy"
+       xlink:href="/stations/Place de Clichy"
        target="_parent"
        transform="translate(0,173.9989)"><g
          id="g11"><a
@@ -604,7 +604,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path57" /></g><a
        id="a13"
-       xlink:href="/stations.html?station=Colonel+Fabien"
+       xlink:href="/stations/Colonel Fabien"
        target="_parent"
        transform="translate(33.46418,181.9989)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -614,7 +614,7 @@
          cy="647.24402"
          r="10.3937" /></a><a
        id="a16"
-       xlink:href="/stations.html?station=Pigalle"
+       xlink:href="/stations/Pigalle"
        target="_parent"
        transform="translate(0,173.9989)"><g
          id="g15"><a
@@ -639,7 +639,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path64" /></g><a
        id="a19"
-       xlink:href="/stations.html?station=Barbes-Rochechouart"
+       xlink:href="/stations/Barbes-Rochechouart"
        target="_parent"
        transform="translate(0,173.9989)"><g
          id="g18"><a
@@ -664,7 +664,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path72" /></g><a
        id="a24"
-       xlink:href="/stations.html?station=Stalingrad"
+       xlink:href="/stations/Stalingrad"
        target="_parent"
        transform="translate(0,173.9989)"><g
          id="g20"><a
@@ -721,7 +721,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path82" /></g><a
        id="a25"
-       xlink:href="/stations.html?station=Jaures"
+       xlink:href="/stations/Jaures"
        target="_parent"
        transform="translate(0,173.9989)"><g
          id="g24"><a
@@ -740,7 +740,7 @@
            cy="617.44873"
            r="7.5590544" /></g></a><a
        id="a26"
-       xlink:href="/stations.html?station=Belleville"
+       xlink:href="/stations/Belleville"
        target="_parent"
        transform="translate(0,173.9989)"><g
          id="g25"><a
@@ -771,7 +771,7 @@
          d="M 141.73,0 C 63.45,0 0,63.46 0,141.73 0,220 63.45,283.46 141.73,283.46 220.01,283.46 283.46,220 283.46,141.73 283.46,63.46 220.01,0 141.73,0 m 0,265.04 c -68.1,0 -123.31,-55.21 -123.31,-123.31 0,-68.1 55.21,-123.3 123.31,-123.3 68.1,0 123.3,55.2 123.3,123.3 0,68.1 -55.2,123.31 -123.3,123.31 m 70.51,-59.89 c 0,6.74 -5.32,10.63 -11.69,10.63 -5.68,0 -12.05,-3.89 -12.05,-10.63 v -92.12 h -0.35 l -35.08,71.57 c -2.48,4.96 -5.66,7.79 -11.34,7.79 -5.68,0 -8.86,-2.84 -11.34,-7.79 L 95.31,113.03 h -0.35 v 92.13 c 0,6.74 -6.38,10.63 -12.05,10.63 -6.38,0 -11.69,-3.89 -11.69,-10.63 V 81.5 c 0,-7.09 3.9,-14.53 15.59,-14.53 8.86,0 12.4,3.9 16.3,11.69 l 38.62,79.72 h 0.35 l 38.27,-79.72 c 3.89,-7.79 7.44,-11.69 16.29,-11.69 11.69,0 15.59,7.44 15.59,14.53 v 123.66"
          id="path110" /></g><a
        id="a27"
-       xlink:href="/stations.html?station=Pere+Lachaise"
+       xlink:href="/stations/Pere Lachaise"
        target="_parent"
        transform="translate(0,173.9989)"><g
          id="g26"><a
@@ -790,7 +790,7 @@
            cy="806.42511"
            r="7.5590544" /></g></a><a
        id="a21"
-       xlink:href="/stations.html?station=Nation"
+       xlink:href="/stations/Nation"
        target="_parent"
        transform="translate(33.46418,181.9989)"><g
          id="g151"
@@ -847,7 +847,7 @@
    id="path198" />
 </g></a><a
        id="a2"
-       xlink:href="/stations.html?station=Victor+Hugo"
+       xlink:href="/stations/Victor Hugo"
        target="_parent"
        transform="translate(33.46418,181.9989)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -857,7 +857,7 @@
          cy="80.314949"
          r="10.3937" /></a><a
        id="a10"
-       xlink:href="/stations.html?station=Charles+de+Gaulle-Etoile"
+       xlink:href="/stations/Charles de Gaulle-Etoile"
        target="_parent"
        transform="translate(0,173.9989)"><g
          id="g9"><circle
@@ -917,7 +917,7 @@
    style="fill:#ffffff;fill-opacity:1" />
 </g></a><a
        id="a213"
-       xlink:href="/stations.html?station=Courcelles"
+       xlink:href="/stations/Courcelles"
        target="_parent"
        transform="translate(33.46418,219.79543)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -927,7 +927,7 @@
          cy="155.9055"
          r="10.3937" /></a><a
        id="a214"
-       xlink:href="/stations.html?station=Monceau"
+       xlink:href="/stations/Monceau"
        target="_parent"
        transform="translate(33.46418,257.59071)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -956,7 +956,7 @@
    clip-path="url(#SVGID_00000008145080918137309110000009946946520902134444_)" />
 </g></a><a
        id="a216"
-       xlink:href="/stations.html?station=Blanche"
+       xlink:href="/stations/Blanche"
        target="_parent"
        transform="translate(33.46418,257.59072)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -966,7 +966,7 @@
          cy="307.08658"
          r="10.3937" /></a><a
        id="a18"
-       xlink:href="/stations.html?station=Anvers"
+       xlink:href="/stations/Anvers"
        target="_parent"
        transform="translate(0,173.9989)"><g
          id="g16"><a
@@ -1029,7 +1029,7 @@
            clip-path="url(#SVGID_00000008145080918137309110000009946946520902134444_)"
            style="fill:#fffffe;fill-opacity:1" /></g></a><a
        id="a20"
-       xlink:href="/stations.html?station=La+Chapelle"
+       xlink:href="/stations/La Chapelle"
        target="_parent"
        transform="translate(0,173.9989)"><g
          id="g19"><a
@@ -1269,7 +1269,7 @@
    clip-path="url(#SVGID_00000008145080918137309110000009946946520902134444_)" />
 </g></a><a
        id="a52"
-       xlink:href="/stations.html?station=Couronnes"
+       xlink:href="/stations/Couronnes"
        target="_parent"
        transform="translate(33.46418,257.59073)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1279,7 +1279,7 @@
          cy="647.24402"
          r="10.3937" /></a><a
        id="a55"
-       xlink:href="/stations.html?station=Menilmontant"
+       xlink:href="/stations/Menilmontant"
        target="_parent"
        transform="translate(33.46418,295.386)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1314,7 +1314,7 @@
    clip-path="url(#SVGID_00000008145080918137309110000009946946520902134444_)" />
 </g></a><a
        id="a67"
-       xlink:href="/stations.html?station=Philippe+Auguste"
+       xlink:href="/stations/Philippe Auguste"
        target="_parent"
        transform="translate(33.46418,370.97655)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1324,7 +1324,7 @@
          cy="647.24402"
          r="10.3937" /></a><a
        id="a68"
-       xlink:href="/stations.html?station=Alexandre+Dumas"
+       xlink:href="/stations/Alexandre Dumas"
        target="_parent"
        transform="translate(33.46418,408.77182)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1334,7 +1334,7 @@
          cy="647.24402"
          r="10.3937" /></a><a
        id="a70"
-       xlink:href="/stations.html?station=Avron"
+       xlink:href="/stations/Avron"
        target="_parent"
        transform="translate(33.46418,446.56709)"
        style="fill:#0055c8;fill-opacity:1"><circle
@@ -1344,7 +1344,7 @@
          cy="647.24402"
          r="10.3937" /></a><a
        id="a74"
-       xlink:href="/stations.html?station=Nation"
+       xlink:href="/stations/Nation"
        target="_parent"
        transform="translate(93.54291,867.03823)"
        style="display:inline"><g
