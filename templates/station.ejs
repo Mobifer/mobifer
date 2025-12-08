@@ -259,7 +259,7 @@
 		<script src="/addons/footer.js"></script>
 		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 		<script type="module">
-			import { genererLignesHTML } from "./genlineicons.js";
+			import { genererLignesHTML } from "/assets/script/genlineicons.js";
 
 			function normalizeString(str) {
 				return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace("–", "-").replace(" - ", "-").replace("-", " ").replace("'", "’");
