@@ -345,7 +345,7 @@
 							let suivantId = [];
 
 							if (precedent != "Terminus" && !Array.isArray(precedent)) {
-								precedentId = ["/stations.html/" + precedent.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "")];
+								precedentId = ["/stations/" + precedent.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "")];
 							} else if (Array.isArray(precedent)) {
 								precedent.forEach(station => {
 									precedentId.push("/stations/" + station.replaceAll(" \u2013 ", "-").replaceAll("\u2019", "").replaceAll(".", "").normalize("NFD").replaceAll(/[\u0300-\u036f]/g, ""));
