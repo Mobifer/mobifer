@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/stationstyles.css" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+		
+		<link rel="icon" href="/assets/favicon.png" type="image/x-icon" />
+		<title>Liste des stations - MobiFer</title>
+		<meta name="description" content="La liste des stations disponibles sur MobiFer." />
+		<meta name="theme-color" content="#0b0082" />
+		<meta property="og:title" content="Liste des stations - MobiFer" />
+		<meta property="og:description" content="La liste des stations disponibles sur MobiFer." />
+		<meta property="og:image" content="<% if (Array.isArray(station.img) && station.img.length > 0) { %> <%= station.img[0] %> <% } else { %> <%= station.img %> <% } %>" />
+	</head>
+	<body>
+		<a href="/" class="header"><h1>MobiFer</h1></a>
+		<div class="searchbox">
+			<div class="searchbtn" onclick="hidesearch()">
+				<span class="integrated"><img src="/assets/icons/search.svg"></span>
+			</div>
+			<input type="search" class="stationinput" id="search" placeholder="Rechercher une station...">
+		</div>
+		<div class="box image-center" id="search-results" style="max-width: 700px !important;"></div>
+
+		<div class="box image-center" style="max-width: 800px !important;">
+			<h2 class="centered">Liste des <%= Object.keys(data).length %> stations disponibles</h2>
+			<p class="centered">Cliquez sur le nom d’une station pour en savoir plus.</p>
+
+			<table style="text-align: left;">
+				<tr>
+					<td class="title" style="text-align: left; font-size: 1.4em;">Ligne(s)</td>
+					<td class="title" style="text-align: left; font-size: 1.4em;">Station</td>
+				</tr>
+
+				<% 
+					const stationListe = Object.entries(data)
+						.map(([key, station]) => ({
+							id: `/station/${key}`,
+							nom: station.nom,
+							lignes: station.lignes
+						}))
+						.sort((a, b) => a.nom.localeCompare(b.nom));
+				%>
+
+				<% stationListe.forEach(station => { %>
+					<tr>
+						<td style="font-size: 1.4em;">
+							<%- genererLignesHTML(station.lignes) %>
+						</td>
+
+						<td>
+							<a href="<%= station.id %>" 
+							style="text-decoration: none; color: inherit; font-size: 1.2em;">
+								<%= station.nom.replace(" \u2013 ", "\u2013") %>
+							</a>
+						</td>
+					</tr>
+				<% }) %>
+			</table>
+		</div>
+    </body>
+</html>
