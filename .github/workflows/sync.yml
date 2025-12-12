@@ -26,7 +26,7 @@ jobs:
       run: |
         # Utilisation de rsync pour copier les fichiers du repository mobifer dans mobifer.github.io
         # Exclure les répertoires .git et mobifer.github.io
-        rsync -av --exclude='.git' --exclude='mobifer.github.io' --exclude='.github/workflows/sync.yml' ./ mobifer.github.io/
+        rsync -av --exclude='.git' --exclude='mobifer.github.io' --exclude='.github/workflows/sync.yml' --exclude='.github/workflows/build.yml' ./ mobifer.github.io/
 
     - name: Remove embedded git repository (if any)
       run: |

@@ -21,6 +21,10 @@ jobs:
           node-version: 18
       - run: npm install
       - run: node assets/script/station.mjs
+      
+      - name: Add 404.html file from source repository 
+        run: |
+          cp 404.html stations/404.html
 
       - name: Deploy static pages
         uses: peaceiris/actions-gh-pages@v4
