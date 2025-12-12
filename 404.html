@@ -14,97 +14,22 @@
 <body>
 	<a href="/" class="header"><h1>MobiFer</h1></a>
 
-    <div class="centered">
-        <p class="centered"><span style="font-size: xx-large;"><strong>Erreur 404</strong></span><br>
-        <span class="centered terminus-box">Haxo</span></p>
-        <img src="https://raw.githubusercontent.com/Mobifer/mobifer-images/refs/heads/main/vincent/haxo-1.webp" alt="Photo de la station fantôme Haxo" style="width: auto; max-width: 800px; max-height: 40vh; border-radius: 10px;" class="image-center">
-        <div class="license">CC-BY-SA Vincent</div>
-        <div class="box image-center" style="max-width: 800px !important;">
-        <h2 class="centered">Vous êtes dans un lieu bien étrange.</h2>
-        <p class="justified">Il semblerait que vous vous soyez perdu. La station que vous recherchée n’a pas été trouvée, soit parce qu’elle n’a pas encore été ajoutée au site, soit parce qu’elle n’existe tout simplement pas.</p>
-        <p class="justified">Revenez à l’accueil en cliquant sur le bouton ci-dessous ou cherchez une autre station à l’aide du bouton situé en-dessous de l’en-tête.
-        <div class="buttons">
-        <a href="/" class="button home"><span class="integrated"><img src="/assets/favicon.svg" alt="Logo MobiFer"></span> Revenir à l’accueil</a>
-        <a href="/stations.html" class="button home">Voir la liste des stations</a>
-        </div></p>
-    </div>
+	<div class="centered">
+		<p class="centered"><span style="font-size: xx-large;"><strong>Erreur 404</strong></span><br>
+		<span class="centered terminus-box">Haxo</span></p>
+		<img src="https://raw.githubusercontent.com/Mobifer/mobifer-images/refs/heads/main/vincent/haxo-1.webp" alt="Photo de la station fantôme Haxo" style="width: auto; max-width: 800px; max-height: 40vh; border-radius: 10px;" class="image-center">
+		<div class="license">CC-BY-SA Vincent</div>
+		<div class="box image-center" style="max-width: 800px !important;">
+		<h2 class="centered">Vous êtes dans un lieu bien étrange.</h2>
+		<p class="justified">Il semblerait que vous vous soyez perdu. La station que vous recherchée n’a pas été trouvée, soit parce qu’elle n’a pas encore été ajoutée au site, soit parce qu’elle n’existe tout simplement pas.</p>
+		<p class="justified">Revenez à l’accueil en cliquant sur le bouton ci-dessous ou cherchez une autre station à l’aide du bouton situé en-dessous de l’en-tête.
+		<div class="buttons">
+		<a href="/" class="button home"><span class="integrated"><img src="/assets/favicon.svg" alt="Logo MobiFer"></span> Revenir à l’accueil</a>
+		<a href="/stations/" class="button home">Voir la liste des stations</a>
+		</div></p>
+	</div>
 	<div id="footer-container" style="margin-top: 10px;"></div>
 	<script src="/addons/footer.js"></script>
-	<script>
-		let slideIndex = 0;
-		const slides = document.getElementsByClassName("slide");
-
-		function showSlides() {
-			for (let i = 0; i < slides.length; i++) {
-				slides[i].classList.remove("active");
-			}
-
-			slideIndex++;
-			if (slideIndex > slides.length) { slideIndex = 1; }
-
-			slides[slideIndex - 1].classList.add("active");
-
-			setTimeout(showSlides, 3000); // or any interval you like
-		}
-
-		showSlides();
-	</script>
-	<script>
-		const container = document.getElementById("journal");
-		
-		async function loadArticles() {
-			try {
-				const response = await fetch('data/articles.json');
-				const data = await response.json();
-				displayArticles(data.articles);
-			} catch (error) {
-				console.error('Erreur de chargement des articles :', error);
-				container.innerHTML = '<p>Erreur de chargement des articles</p>';
-			}
-		}
-
-		function displayArticles(articles) {
-			articles = articles.reverse();
-			const article = articles[0];
-			const articleElement = document.createElement('div');
-			articleElement.classList.add('article');
-
-			const p = article.paragraphs[0];
-			// Limit article to the 20 first words
-			const words = p.content.split(' ');
-			if (words.length > 50) {
-				p.content = words.slice(0, 50).join(' ') + '…';
-			}
-
-
-			let html = `
-			<h2>${article.title}</h2>
-			<div class='row-home row-journal'>
-				<div class='item'>
-				<img src="${article.titleImage}" alt="Image principale" class="article-img">
-				<p class="author">Écrit par&nbsp;: ${article.author}
-				${article.lastMod ? `<br>Dernière modification le&nbsp;: ${article.lastMod}</p>` : `<br>Dernière modification le&nbsp;: ${article.date}</p>`}
-				</div>
-				<div class='item'>
-				<h3>${p.title}</h3>
-				<p style='text-align: justify'>
-					${p.content} <a href="/journal.html#${article.id}"><br><strong><em>Lire la suite</em></strong></a>
-				</p>
-				${p.image ? `<img src="${p.image}" alt="Illustration du paragraphe" class="article-img">` : ''}
-				${article.sources ? `<p class="sources">Sources&nbsp;:${article.sources}</p>` : ''}
-				</div>
-			</div>
-			`;
-
-			articleElement.innerHTML += html;
-				
-			container.appendChild(articleElement);
-		}
-
-		window.onload = loadArticles;
-	</script>
-
 	<script src="/assets/script/stationsearch.js" type="module"></script>
-
 </body>
 </html>
