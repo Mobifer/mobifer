@@ -3,7 +3,7 @@ import ejs from "ejs";
 import { genererLignesHTML } from "./genlineicons.js";
 
 const stations = JSON.parse(fs.readFileSync("data/stations.json", "utf-8"));
-const metroListe = JSON.parse(fs.readFileSync("data/metroliste.json", "utf-8"));
+const metroliste = JSON.parse(fs.readFileSync("data/metroliste.json", "utf-8"));
 
 const template = fs.readFileSync("templates/station.ejs", "utf-8");
 const listTemplate = fs.readFileSync("templates/stationList.ejs", "utf-8");
@@ -17,7 +17,7 @@ for (const [id, s] of Object.entries(stations)) {
         genererLignesHTML,
         lignesListe: [s.lignes] ?? [],
         data: stations,
-        metroListe
+        metroliste
     });
 
     html = html.replaceAll(" – ", "–");
