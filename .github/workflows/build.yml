@@ -9,6 +9,7 @@ on:
       - .github/workflows/build.yml
       - assets/script/station.mjs
       - templates/station.ejs
+      - templates/stationList.ejs
 
 jobs:
   build:
