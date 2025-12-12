@@ -36,7 +36,7 @@
 				<% 
 					const stationListe = Object.entries(data)
 						.map(([key, station]) => ({
-							id: `/station/${key}`,
+							id: `/stations/${key}`,
 							nom: station.nom,
 							lignes: station.lignes
 						}))
