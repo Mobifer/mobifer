@@ -25,354 +25,384 @@
 		<div class="box image-center" id="search-results" style="max-width: 700px !important;"></div>
 
 		<div id="station-content">
-			<div class="centered">
-			<p class="centered"><strong>Station</strong><br>
-			<span class="shadowed pictos"><%- genererLignesHTML(station.lignes) %></span><br>
-			<span class="centered terminus-box"><%= station.nom %></span>
-			<% if (station.pti) { %>
-				<br><span class="ptinteret-station"><%= station.pti %></span>
-			<% } %>
-			<% if (station.rep) { %>
-				<br><span class="repere-station"><%= station.rep %></span>
-			<% } %>
-			</p>
+			<% let lignesHTML = genererLignesHTML(station.lignes);
 
-			<% if (station.corresp && station.corresp.length > 0) { %>
-				<p class="centered"><em>Cette station est en correspondance avec&nbsp;: 
-				<% station.corresp.forEach(corresp => { %>
-					<strong><a href="/stations/<%= corresp %>"><%= data[corresp] ? data[corresp].nom : "???" %></a></strong> <%- data[corresp] ? genererLignesHTML(data[corresp].lignes) : "" %>
-					<% if (corresp !== station.corresp[station.corresp.length - 1] && station.corresp.length !== 1) { %>, 
-					<% } %>
-				<% }); %>
-				</em></p>
-			<% } %>
+			// Génération de la liste des lignes (pour les stations suivantes)
+			const lignesListe = [];
+			const types = {
+				metro: line => {
+					if (line.endsWith("bis")) line = "0" + line.replace("bis", "b");
+					return "m" + line.padStart(2, "0");
+				},
+				rer: line => "rer" + line,
+				train: line => "train" + line,
+				tram: line => {
+					if (line.endsWith("a") || line.endsWith("b")) line = "0" + line;
+					return "t" + line.padStart(2, "0");
+				}
+			};
 
-			<div class="row">
-				<div class="item">
-					<div style="break-inside: avoid;">
-						<% if (Array.isArray(station.img) && station.img.length > 0) { %>
-							<div class="slideshow-container">
-							<% station.img.forEach((img, index) => { %>
-								<div class="slide fade">
-									<img src="<%= img %>" alt="Photo de la station">
-									<% if (station.imgsrc?.[index]) { %>
-										<div class="caption">© <%= station.imga[index] %> sur <%= station.imgsrc[index] %></div>
-									<% } else { %>
-										<div class="caption">© <%= station.imga[index] %> sur <a href="<%= station.imgp %>">Wikimedia Commons</a></div>
-									<% } %>
-								</div>
-							<% }); %>
-							</div>
-						<% } else { %>
-							<img src="<%= station.img %>" alt="Photo de la station" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">
-							<% if (station.imgsrc) { %>
-								<div class="license">© <%= station.imga %> sur <%= station.imgsrc %></div>
-							<% } else { %>
-								<div class="license">© <%= station.imga %> sur <a href="<%= station.imgp %>">Wikimedia Commons</a></div>
-							<% } %>
-						<% } %>                       
-					</div>
-				</div>
+			for (const [type, formatter] of Object.entries(types)) {
+				const lignes = station.lignes[type];
+				if (!Array.isArray(lignes)) continue;
+				lignesListe.push(...lignes.map(formatter));
+			};
 
-				<div class="item">
-					<div class="box image-center">
-						<h2 class="centered">Accès</h2>
+			let html = `<div class="centered">
+				<p class="centered"><strong>Station</strong><br>
+				<span class="shadowed pictos">${lignesHTML}</span><br>
+				<span class="centered terminus-box">${station.nom}</span>`;
 
-						<div class="centered">
-							<span class="blue-box" style="padding: 10px !important; text-align: left;">
-								<% function accessoires(sortie) { %>
-									<% if (sortie.acc) { %>
-										<span class="integrated"><img src="/assets/icons/info.svg"></span>
-										<span class="integrated"><img src="/assets/icons/tickets.svg"></span>
-									<% } %>
-									<% if (sortie.asc) { %>
-										<span class="integrated"><img src="/assets/icons/ascenseur.svg"></span>
-									<% } %>
-									<% if (sortie.esc) { %>
-										<span class="integrated"><img src="/assets/icons/escalator.svg"></span>
-									<% } %>
-								<% } %>
-								<% station.sorties.forEach(sortie => { %>
-									<div class="sortie-row">
-										<div class="sortie-left">
-											<span class="num-sortie"><%= sortie.num %></span>
-										</div>
-										<div class="sortie-right">
-											<% let hasDescription = sortie.desc ? "style='margin-top:5px !important;'" : ""; %>
-											<% if (sortie.desc) { %>
-												<%= sortie.desc %>
-												<span style="font-size: 1.25em">
-													<% accessoires(sortie) %>
-												</span><br>
-											<% } %>
-											<% if (sortie.rep) { %>
-												<% (Array.isArray(sortie.rep) ? sortie.rep : [sortie.rep]).forEach((rep, i, arr) => { %>
-													<span class="repere" <%- hasDescription %>><%= rep %></span>
-													<% if (i < arr.length - 1) { %><br><% } %>
-												<% }) %>
-												<% if (!sortie.desc) { %>
-													<span style="font-size: 1.25em">
-														<% accessoires(sortie) %>
-													</span>
-												<% } %>
-												<br>
-											<% } %>
-											<% if (sortie.pti) { %>
-												<% (Array.isArray(sortie.pti) ? sortie.pti : [sortie.pti]).forEach((pti, i, arr) => { %>
-													<span class="ptinteret" <%- hasDescription %>><%= pti %></span>
-													<% if (i < arr.length - 1) { %><br><% } %>
-												<% }) %>
-												<% if (!sortie.desc) { %>
-													<span style="font-size: 1.25em">
-														<% accessoires(sortie) %>
-													</span>
-												<% } %>
-												<br>
-											<% } %>
-										</div>
-									</div>
-								<% }) %>
-							</span>
-						</div>
+			if (station.pti) {
+				html += `<br><span class="ptinteret-station">${station.pti}</span>`;
+			}
 
-						<div id="map"></div>
-					</div>
-				</div>
+			if (station.rep) {
+				html += `<br><span class="repere-station" style="border: 5px solid black !important; font-weight: bold; border-radius: 5px;">${station.rep}</span>`;
+			}
 
-				<div class="item">
-					<div class="box image-center">
-						<h2 class="centered">Statistiques et données</h2>
-						<% station.stats.forEach((stats, index) => { %>
-							<% const lignesTable = genererLignesHTML(stats.lignes); %>
-							<table style="text-align: left;">
-								<% if (stats.lignes) { %>
-									<tr>
-										<td class="title" style="width: 45%;">Ligne(s)</td>
-										<td style="font-size: 1.4em;"><%- lignesTable %></td>
-									</tr>
-								<% } %>
-								<% 
-									const donnees = [
-										{ label: "Ouverture", valeur: stats.ouv },
-										...(stats.inaug !== undefined ? [{ label: "Nom inaugural", valeur: stats.inaug }] : []),
-										{ label: "Voies", valeur: stats.voies },
-										{ label: "Quais", valeur: stats.quais },
-										{ label: "Zone tarifaire", valeur: stats.zt },
-										{ label: "Accessible", valeur: stats.ufr },
-										{ label: "Communes desservies", valeur: stats.communes ? stats.communes.join(", ") : null },
-										{ label: "Fréquentation", valeur: stats.freq }
-									];
-								%>
-								<% donnees.forEach(row => { %>
-									<% if (row.valeur) { %>
-										<tr>
-											<td class="title"><%= row.label %></td>
-											<td style="font-weight: normal;"><%- row.valeur %></td>
-										</tr>
-									<% } %>
-								<% }); %>
-							</table>
+			html += `</p>`
 
-							<% if (index < station.stats.length - 1) { %>
-								<br>
-							<% } %>
-						<% }); %>
-					</div>
-				</div>
-
-				<% if (station.siv && station.siv.length > 0) { %>
-					<% 
-						const transportTypes = {
-							metro: { 
-								items: [], 
-								title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro" title="Métro"></span> <div class="btn-group" title="Modifiez le style des SIEL"><button onclick="switchToPANAM();"><img src="/assets/icons/panam.svg" alt="PANAM" style="height: 1.25em;" id="panam"></button><button onclick="switchToPIQ();"><img src="/assets/icons/piq.svg" alt="PIQ" style="height: 1.25em;" id="piq"></button><button onclick="switchToPIQDark();"><img src="/assets/icons/piq.svg" alt="PIQ" style="height: 1.25em;" id="piq"> (sombre)</button></div>'
-							},
-							train: { 
-								items: [], 
-								title: 'Prochains passages <span class="integrated" style="margin-right: 0px !important;"><img src="/assets/icons/symbole_RER_RVB.svg" alt="RER" title="RER"></span> et <span class="integrated"><img src="/assets/icons/symbole_train_RVB.svg" alt="Transilien" title="Transilien"></span>' 
-							},
-							tram: { 
-								items: [], 
-								title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_tram_RVB.svg" alt="Tramway" title="Tramway"></span>' 
-							}
-						};
-
-						station.siv.forEach(link => {
-							if (link.metro) transportTypes.metro.items.push(link);
-							if (link.train) transportTypes.train.items.push(link);
-							if (link.tram) transportTypes.tram.items.push(link);
-						});
-					%>
-					<% Object.entries(transportTypes).forEach(([type, data]) => { %>
-						<% if (data.items.length > 0) { %>
-
-							<div class="item">
-								<div class="box image-center">
-									<h2 class="centered"><%- data.title %></h2>
-									<% if (type === 'metro') { %>
-										<div class="iframes-container">
-											<div class="iframes">
-									<% } %>
-									<% data.items.forEach(link => { %>
-										<% if (type === 'metro' && link.metro) { %>
-											<div class="item">
-												<iframe src="<%= link.metro %>+&rivoli=false" class="ratp" frameborder="0"></iframe>
-											</div>
-										<% } %>
-										<% if (type === 'train' && link.train) { %>
-											<iframe src="<%= link.train %>" class="sncf" frameborder="0" scrolling="no"></iframe>
-										<% } %>
-										<% if (type === 'tram' && link.tram) { %>
-											<iframe src="/addons/SIEL/tram.html?stop=<%= link.tram %>&line=<%= link.line %>" class="tram"></iframe>
-										<% } %>
-									<% }) %>
-									<% if (type === 'metro') { %>
-											</div>
-										</div>
-									<% } %>
-								</div>
-							</div>
-						<% } %>
-					<% }) %>
-
-					<div class="license">
-						Reproductions des panneaux officiels proposées par 
-						<a href="https://enrail.org">enrail.org</a> (Métro), 
-						<a href="https://prochainstrains.arno.cl">Prochains Trains</a> (RER et Transilien) 
-						et MobiFer (Tramway)
-					</div>
-
-				<% } %>
-
-				<div class="box image-center" id="stations-suivantes" style="max-width: 1500px !important; display: none;">
-					<h2 class="centered">Stations suivantes</h2>
-
-					<%
-					// ---------- Génération des lignes ----------
-					function normaliserNom(str) {
-						return str
-							.replaceAll(" – ", "-")
-							.replaceAll("’", "")
-							.replaceAll(".", "")
-							.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+			// Ajoute des liens à d'éventuelles stations en correspondance en pôle
+			if (station.corresp && station.corresp.length > 0) {
+				html += `<p class="centered"><em>Cette station est en correspondance avec&nbsp;: `
+				station.corresp.forEach(corresp => {
+					const nouvelleStation = data[corresp];
+					if (!nouvelleStation) {
+						return;
 					}
+					html += `<strong><a href="/stations.html?station=${corresp}">${nouvelleStation.nom}</a></strong> ${genererLignesHTML(nouvelleStation.lignes)}`;
+					if (corresp !== station.corresp[station.corresp.length - 1] && station.corresp.length !== 1) {
+						html += `, `
+					}
+				})
+				html += `</em></p>`
+			}
 
-					const lignesListe = [];
-					const types = {
-						metro: line => {
-							if (line.endsWith("bis")) line = "0" + line.replace("bis", "b");
-							return "m" + line.padStart(2, "0");
-						},
-						rer: line => "rer" + line,
-						train: line => "train" + line,
-						tram: line => {
-							if (line.endsWith("a") || line.endsWith("b")) line = "0" + line;
-							return "t" + line.padStart(2, "0");
+			html += `<div class="row">
+			<div class="item">`;
+			html += `<div style="break-inside: avoid;">`
+
+			// Génération du slider d'images ou de l'image selon le cas
+			if (Array.isArray(station.img) && station.img.length > 0) {
+				html += `<div class="slideshow-container">`
+				station.img.forEach((img, index) => {
+					html += `<div class="slide fade">
+						<img src="${img}" alt="Photo de la station">`
+					if (station.imgsrc?.[index]) { // N'exécute que si station.imgsrc[index] existe
+						html += `<div class="caption">© ${station.imga[index]} sur ${station.imgsrc[index]}</div>`
+					} else {
+						html += `<div class="caption">© ${station.imga[index]} sur <a href="${station.imgp}">Wikimedia Commons</a></div>`
+					}
+					html += `</div>`
+				});
+				html += '</div>'
+			} else {
+				html += `<img src="${station.img}" alt="Photo de la station" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">`
+				if (station.imgsrc) {
+					html += `<div class="license">© ${station.imga} sur ${station.imgsrc}</div>`
+				} else {
+					html += `<div class="license">© ${station.imga} sur <a href="${station.imgp}">Wikimedia Commons</a></div>`
+				}
+			}
+			html += `</div></div>`
+
+			// Génération des sorties
+			html += `<div class="item">
+				<div class="box image-center">
+				<h2 class="centered">Accès</h2>
+				<div class="centered"><span class="blue-box" style="padding: 10px !important; text-align: left;">`;
+			
+			let sortieNum = 0;
+
+			// Fonction pour ajouter si besoin la présence d'accueil, ascenseur, escalator
+			function genererAccessoires(sortie) {
+				let html = ` `;
+				if (sortie.acc) {
+					html += `<span class="integrated"><img src="/assets/icons/info.svg"></span><span class="integrated"><img src="/assets/icons/tickets.svg"></span>`;
+				}
+				if (sortie.asc) {
+					html += `<span class="integrated"><img src="/assets/icons/ascenseur.svg"></span>`;
+				}
+				if (sortie.esc) {
+					html += `<span class="integrated"><img src="/assets/icons/escalator.svg"></span>`;
+				}
+				return html;
+			}
+
+			station.sorties.forEach(sortie => {
+				sortieNum += 1;
+				html += `<div class="sortie-row">`;
+
+				html += `<div class="sortie-left">
+				<span class="num-sortie">${sortie.num}</span></div>`;
+
+				html += `<div class="sortie-right">`;
+
+				if (sortie.desc) {
+					html += ` ${sortie.desc} `;
+					html += `<span style="font-size: 1.25em">`
+					html += genererAccessoires(sortie);
+					html += `</span><br>`;
+					var hasDescription = "style='margin-top: 5px !important;'";
+				}
+				else {
+					var hasDescription = "";
+				}
+				if (sortie.rep) {
+					// Si sortie.rep est une liste
+					if (Array.isArray(sortie.rep)) {
+						sortie.rep.forEach((repere, index) => {
+							html += ` <span class="repere" ${hasDescription}>${repere}</span>`;
+							// Si c'est le dernier, n'ajoute pas de saut de ligne
+							if (index < sortie.rep.length - 1) {
+								html += `<br>`;
+							}
+						})
+					} else {
+						html += ` <span class="repere" ${hasDescription}>${sortie.rep}</span>`;
+					}
+					if (!sortie.desc) {
+						html += `<span style="font-size: 1.25em">`
+						html += genererAccessoires(sortie);
+						html += `</span>`
+					}
+					html += `<br>`;
+				}
+				if (sortie.pti) {
+					// If sortie.pti is an array
+					if (Array.isArray(sortie.pti)) {
+						sortie.pti.forEach((pti, index) => {
+							html += ` <span class="ptinteret" ${hasDescription}>${pti}</span>`;
+							// Si c'est le dernier, n'ajoute pas de saut de ligne
+							if (index < sortie.pti.length - 1) {
+								html += `<br>`;
+							}
+						})
+					} else {
+						html += ` <span class="ptinteret" ${hasDescription}>${sortie.pti}</span>`;
+					}
+					
+					if (!sortie.desc) {
+						html += `<span style="font-size: 1.25em">`
+						html += genererAccessoires(sortie);
+						html += `</span>`
+					}
+					html += `<br>`;
+				}
+				html += `</div></div>`
+			});
+			html += `</span></div>`;
+			// Ajoute la carte (sera complétée plus tard dans le code)
+			html += `<div id="map"></div>`;
+			html += `</div></div>`;
+
+			// Génération des statistiques
+			html += `<div class="item">
+			<div class="box image-center">
+			<h2 class="centered">Statistiques et données</h2>`;
+
+			station.stats.forEach(stats => {
+				// Génération des icônes des lignes
+				let lignesTable = genererLignesHTML(stats.lignes);
+
+				html += `<table style="text-align: left;">`;
+
+				// Affichage des lignes si elles existent
+				if (stats.lignes) {
+					html += `<tr><td class="title" style= "width: 45%;">Ligne(s)</td><td style="font-size: 1.4em;">${lignesTable}</td></tr>`;
+				}
+
+				// Affichage des autres données de la station
+				const donnees = [
+					{ label: "Ouverture", valeur: stats.ouv },
+					// Add line "Nom inaugural" if the value stats.inaugural != "undefined", otherwise do not add the line
+					...(stats.inaug !== undefined ? [{ label: "Nom inaugural", valeur: stats.inaug }] : []),
+					{ label: "Voies", valeur: stats.voies },
+					{ label: "Quais", valeur: stats.quais },
+					{ label: "Zone tarifaire", valeur: stats.zt },
+					{ label: "Accessible", valeur: stats.ufr },
+					{ label: "Communes desservies", valeur: stats.communes.join(", ") },
+					{ label: "Fréquentation", valeur: stats.freq }
+				];
+
+				donnees.forEach(row => {
+					// Vérifie que la valeur existe, sinon la ligne n'est pas ajoutée
+					if (row.valeur) {
+						html += `<tr><td class="title">${row.label}</td><td style="font-weight: normal;">${row.valeur}</td></tr>`;
+					}
+				});
+
+				html += `</table>`;
+
+				// Si ce n'est pas le dernier tableau de statistiques, alors saut de ligne
+				if (station.stats.indexOf(stats) < station.stats.length - 1) {
+					html += `<br>`;
+				}
+			});
+
+			html += `</div></div>`;
+			
+			// Génération des SIV
+			if (station.siv && station.siv.length > 0) {
+				const transportTypes = {
+					metro: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro" title="Métro"></span> <div class="btn-group" title="Modifiez le style des SIEL"><button onclick="switchToPANAM();"><img src="/assets/icons/panam.svg" alt="PANAM" style="height: 1.25em;" id="panam"></button><button onclick="switchToPIQ();"><img src="/assets/icons/piq.svg" alt="PIQ" style="height: 1.25em;" id="piq"></button><button onclick="switchToPIQDark();"><img src="/assets/icons/piq.svg" alt="PIQ" style="height: 1.25em;" id="piq"> (sombre)</button></div>' },
+					train: { items: [], title: 'Prochains passages <span class="integrated" style="margin-right: 0px !important;"><img src="/assets/icons/symbole_RER_RVB.svg" alt="RER" title="RER"></span> et <span class="integrated"><img src="/assets/icons/symbole_train_RVB.svg" alt="Transilien" title="Transilien"></span>' },
+					tram: { items: [], title: 'Prochains passages <span class="integrated"><img src="/assets/icons/symbole_tram_RVB.svg" alt="Tramway" title="Tramway"></span>' }
+				};
+
+				// Groupe par mode de transport
+				station.siv.forEach(link => {
+					if (link.metro) transportTypes.metro.items.push(link);
+					if (link.train) transportTypes.train.items.push(link);
+					if (link.tram) transportTypes.tram.items.push(link);
+				});
+
+				// Crée une boîte pour chaque mode qui contient au moins 1 SIV
+				Object.entries(transportTypes).forEach(([type, data]) => {
+					if (data.items.length > 0) {
+						html += `<div class="item"><div class="box image-center">`;
+						html += `<h2 class="centered">${data.title}</h2>`;
+						if (type === 'metro') {
+							html += `<div class="iframes-container"><div class="iframes">`;
 						}
-					};
-
-					for (const [type, formatter] of Object.entries(types)) {
-						if (!Array.isArray(station.lignes[type])) continue;
-						lignesListe.push(...station.lignes[type].map(formatter));
-					}
-
-					// ---------- Génération des prochains arrêts ----------
-					let htmlStations = "";
-
-					lignesListe.forEach(ligne => {
-						const arrets = metroliste[ligne];
-						if (!arrets) return;
-
-						let precedent = null;
-						let suivant = null;
-						let terminus = null;
-
-						// Trouver l'arrêt dans la ligne
-						arrets.forEach((stop, i) => {
-							if (typeof stop === "object") {
-								if (stop.nom === station.nom) {
-									precedent = stop.prec;
-									suivant = stop.suiv;
-									terminus = stop.terminus;
-								}
-							} else if (stop === station.nom) {
-								const prev = arrets[i - 1];
-								const next = arrets[i + 1];
-
-								precedent = typeof prev === "object" ? prev.nom : prev;
-								suivant = typeof next === "object" ? next.nom : next;
-
-								terminus = [
-									arrets[1],
-									arrets[arrets.length - 2]
-								];
+						
+						data.items.forEach(link => {
+							if (type === 'metro' && link.metro) {
+								html += `<div class="item"><iframe src="${link.metro}+&rivoli=false" class="ratp" frameborder="0"></iframe></div>`;
+							}
+							if (type === 'train' && link.train) {
+								html += `<iframe src="${link.train}" class="sncf" frameborder="0" scrolling="no"></iframe>`;
+							}
+							if (type === 'tram' && link.tram) {
+								html += `<iframe src="/addons/SIEL/tram.html?stop=${link.tram}&line=${link.line}" class="tram"></iframe>`;
 							}
 						});
+						
+						if (type === 'metro') {
+							html += `</div></div>`;
+						}
 
-						if (!precedent && !suivant) return;
+						html += `</div></div>`;
+					}
+				});
 
-						const toId = name => "/stations/" + normaliserNom(name);
+				// Ajout de la licence après toutes les boîtes
+				html += `<div class="license">
+				Reproductions des panneaux officiels proposées par <a href="https://enrail.org">enrail.org</a> (Métro), <a href="https://prochainstrains.arno.cl">Prochains Trains</a> (RER et Transilien) et MobiFer (Tramway)
+				</div></div></div>`;
+			}
 
-						const pictos = ligne.startsWith("m")
-							? genererLignesHTML({ metro: [ligne.replace(/^m0?/, "").replace("b", "bis")] })
-							: "";
+			html += `<div class="box image-center" id="stations-suivantes" style="max-width: 1500px !important; display: none;">
+			<h2 class="centered">Stations suivantes</h2>
+			<div id="prochains-arrets" style="width: 100%; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">`;
 
+			// ---------- Génération des lignes ----------
+			function normaliserNom(str) {
+				return str
+					.replaceAll(" – ", "-")
+					.replaceAll("’", "")
+					.replaceAll(".", "")
+					.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+			}
+
+			// ---------- Génération des prochains arrêts ----------
+			let htmlStations = "";
+
+			lignesListe.forEach(ligne => {
+				const arrets = metroliste[ligne];
+				if (!arrets) return;
+
+				let precedent = null;
+				let suivant = null;
+				let terminus = null;
+
+				// Trouver l'arrêt dans la ligne
+				arrets.forEach((stop, i) => {
+					if (typeof stop === "object") {
+						if (stop.nom === station.nom) {
+							precedent = stop.prec;
+							suivant = stop.suiv;
+							terminus = stop.terminus;
+						}
+					} else if (stop === station.nom) {
+						const prev = arrets[i - 1];
+						const next = arrets[i + 1];
+
+						precedent = typeof prev === "object" ? prev.nom : prev;
+						suivant = typeof next === "object" ? next.nom : next;
+
+						terminus = [
+							arrets[1],
+							arrets[arrets.length - 2]
+						];
+					}
+				});
+
+				if (!precedent && !suivant) return;
+
+				const toId = name => "/stations/" + normaliserNom(name);
+
+				const pictos = ligne.startsWith("m")
+					? genererLignesHTML({ metro: [ligne.replace(/^m0?/, "").replace("b", "bis")] })
+					: "";
+
+				htmlStations += `
+				<div style="flex:1;">
+				<table style="text-align:left; min-width:200px;">
+					<tr>
+						<td class="title" style="text-align:center;width:50%;">Direction</td>
+						<td class="title" style="text-align:center;width:50%;">${pictos}</td>
+					</tr>
+				`;
+
+				// PRECEDENT
+				if (Array.isArray(precedent)) {
+					precedent.forEach((n, i) => {
 						htmlStations += `
-						<div style="flex:1;">
-						<table style="text-align:left; min-width:200px;">
-							<tr>
-								<td class="title" style="text-align:center;width:50%;">Direction</td>
-								<td class="title" style="text-align:center;width:50%;">${pictos}</td>
-							</tr>
-						`;
-
-						// PRECEDENT
-						if (Array.isArray(precedent)) {
-							precedent.forEach((n, i) => {
-								htmlStations += `
-								<tr>
-									<td>${terminus[0][i]}</td>
-									<td><a href="${toId(n)}">${n}</a></td>
-								</tr>`;
-							});
-						} else {
-							htmlStations += `
-							<tr>
-								<td>${Array.isArray(terminus[0]) ? terminus[0].join(" • ") : terminus[0]}</td>
-								<td><a href="${toId(precedent)}">${precedent}</a></td>
-							</tr>`;
-						}
-
-						// SUIVANT
-						if (Array.isArray(suivant)) {
-							suivant.forEach((n, i) => {
-								htmlStations += `
-								<tr>
-									<td>${terminus[1][i]}</td>
-									<td><a href="${toId(n)}">${n}</a></td>
-								</tr>`;
-							});
-						} else {
-							htmlStations += `
-							<tr>
-								<td>${Array.isArray(terminus[1]) ? terminus[1].join(" • ") : terminus[1]}</td>
-								<td><a href="${toId(suivant)}">${suivant}</a></td>
-							</tr>`;
-						}
-
-						htmlStations += `</table></div>`;
+						<tr>
+							<td>${terminus[0][i]}</td>
+							<td><a href="${toId(n)}">${n}</a></td>
+						</tr>`;
 					});
-					%>
+				} else {
+					htmlStations += `
+					<tr>
+						<td>${Array.isArray(terminus[0]) ? terminus[0].join(" • ") : terminus[0]}</td>
+						<td><a href="${toId(precedent)}">${precedent}</a></td>
+					</tr>`;
+				}
 
-					<% if (htmlStations.trim() !== "") { %>
-					<div id="prochains-arrets" class="box" style="width: 100%; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-						<%- htmlStations %>
-					</div>
-					<% } %>
-				</div>
-			</div>
-		</div>
-		
+				// SUIVANT
+				if (Array.isArray(suivant)) {
+					suivant.forEach((n, i) => {
+						htmlStations += `
+						<tr>
+							<td>${terminus[1][i]}</td>
+							<td><a href="${toId(n)}">${n}</a></td>
+						</tr>`;
+					});
+				} else {
+					htmlStations += `
+					<tr>
+						<td>${Array.isArray(terminus[1]) ? terminus[1].join(" • ") : terminus[1]}</td>
+						<td><a href="${toId(suivant)}">${suivant}</a></td>
+					</tr>`;
+				}
+
+				htmlStations += `</table></div>`;
+			});
+
+			if (htmlStations.trim() !== "") {
+				html += htmlStations;
+			}
+
+			html += `</div></div></div>`;
+
+			%>
+
+			<%- html %>
+
 		<div id="footer-container" style="padding-top: 10px;"></div>
 
 		<script src="/addons/footer.js"></script>

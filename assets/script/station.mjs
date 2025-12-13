@@ -15,7 +15,6 @@ for (const [id, s] of Object.entries(stations)) {
         station: s, 
         id, 
         genererLignesHTML,
-        lignesListe: [s.lignes] ?? [],
         data: stations,
         metroliste
     });
