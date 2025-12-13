@@ -361,14 +361,14 @@
 					precedent.forEach((n, i) => {
 						htmlStations += `
 						<tr>
-							<td>${terminus[0][i]}</td>
+							<td class="title" style="text-align: right; width: 50%;">${terminus[0][i]}</td>
 							<td><a href="${toId(n)}">${n}</a></td>
 						</tr>`;
 					});
 				} else {
 					htmlStations += `
 					<tr>
-						<td>${Array.isArray(terminus[0]) ? terminus[0].join(" • ") : terminus[0]}</td>
+						<td class="title" style="text-align: right; width: 50%;">${Array.isArray(terminus[0]) ? terminus[0].join(" • ") : terminus[0]}</td>
 						<td><a href="${toId(precedent)}">${precedent}</a></td>
 					</tr>`;
 				}
@@ -378,14 +378,14 @@
 					suivant.forEach((n, i) => {
 						htmlStations += `
 						<tr>
-							<td>${terminus[1][i]}</td>
+							<td class="title" style="text-align: right; width: 50%;">${terminus[1][i]}</td>
 							<td><a href="${toId(n)}">${n}</a></td>
 						</tr>`;
 					});
 				} else {
 					htmlStations += `
 					<tr>
-						<td>${Array.isArray(terminus[1]) ? terminus[1].join(" • ") : terminus[1]}</td>
+						<td class="title" style="text-align: right; width: 50%;"></td>${Array.isArray(terminus[1]) ? terminus[1].join(" • ") : terminus[1]}</td>
 						<td><a href="${toId(suivant)}">${suivant}</a></td>
 					</tr>`;
 				}
