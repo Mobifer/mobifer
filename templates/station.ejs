@@ -293,7 +293,7 @@
 				</div>`;
 			}
 
-			html += `<div class="box image-center" id="stations-suivantes" style="max-width: 1500px !important; display: none;">
+			html += `<div class="box image-center" id="stations-suivantes" style="max-width: 1500px !important;">
 			<h2 class="centered">Stations suivantes</h2>
 			<div id="prochains-arrets" style="width: 100%; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">`;
 
@@ -410,7 +410,7 @@
 		<script src="/assets/script/stationsearch.js" type="module"></script>
 		<script src="/assets/script/searchandsiv.js"></script>
 		<script type="module">
-			const station2 = <%= station.nom %>;
+			const station2 = "<%= station.nom %>";
 			setTimeout(() => {
 				// Génération de la carte
 				const map = L.map('map').setView([48.857, 2.350], 18);
