@@ -290,7 +290,7 @@
 				// Ajout de la licence après toutes les boîtes
 				html += `<div class="license">
 				Reproductions des panneaux officiels proposées par <a href="https://enrail.org">enrail.org</a> (Métro), <a href="https://prochainstrains.arno.cl">Prochains Trains</a> (RER et Transilien) et MobiFer (Tramway)
-				</div></div></div>`;
+				</div>`;
 			}
 
 			html += `<div class="box image-center" id="stations-suivantes" style="max-width: 1500px !important; display: none;">
@@ -410,7 +410,7 @@
 		<script src="/assets/script/stationsearch.js" type="module"></script>
 		<script src="/assets/script/searchandsiv.js"></script>
 		<script type="module">
-			const station = <%= JSON.stringify(station) %>;
+			const station2 = <%= station.nom %>;
 			setTimeout(() => {
 				// Génération de la carte
 				const map = L.map('map').setView([48.857, 2.350], 18);
@@ -432,7 +432,7 @@
 
 						// La carte doit être centrée sur la station de la page
 						// On compare le nom de la station de la page (station.nom), normalisé, sans accent, avec les noms des stations de la carte
-						const stationName = station.nom.normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "").replaceAll(" – ", " ").replaceAll("-", " ").toLowerCase();
+						const stationName = station2.normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "").replaceAll(" – ", " ").replaceAll("-", " ").toLowerCase();
 						const stationPosition = data.features.find(feature => feature.properties.zdaname.normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "").replaceAll(" – ", "-").replaceAll("-", " ").toLowerCase() === stationName);
 						if (stationPosition) {
 							map.setView([stationPosition.geometry.coordinates[1], stationPosition.geometry.coordinates[0]], 17);
