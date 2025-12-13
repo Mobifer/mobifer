@@ -290,7 +290,7 @@
 				// Ajout de la licence après toutes les boîtes
 				html += `<div class="license">
 				Reproductions des panneaux officiels proposées par <a href="https://enrail.org">enrail.org</a> (Métro), <a href="https://prochainstrains.arno.cl">Prochains Trains</a> (RER et Transilien) et MobiFer (Tramway)
-				</div>`;
+				</div></div>`;
 			}
 
 			html += `<div class="box image-center" id="stations-suivantes" style="max-width: 1500px !important;">
@@ -385,7 +385,7 @@
 				} else {
 					htmlStations += `
 					<tr>
-						<td class="title" style="text-align: right; width: 50%;"></td>${Array.isArray(terminus[1]) ? terminus[1].join(" • ") : terminus[1]}</td>
+						<td class="title" style="text-align: right; width: 50%;">${Array.isArray(terminus[1]) ? terminus[1].join(" • ") : terminus[1]}</td>
 						<td><a href="${toId(suivant)}">${suivant}</a></td>
 					</tr>`;
 				}
@@ -397,7 +397,7 @@
 				html += htmlStations;
 			}
 
-			html += `</div></div></div>`;
+			html += `</div></div>`;
 
 			%>
 
