@@ -474,9 +474,14 @@
 
 					const markers = L.geoJSON({ type: 'FeatureCollection', features: visible }, {
 						pointToLayer: function (feature, latlng) {
+							const numSortie = feature.properties.accshortname;
+							const iconUrl = numSortie
+							? `/assets/icons/sortie${numSortie}.svg`
+							: `/assets/icons/sortie.svg`;
+
 							return L.marker(latlng, {
 								icon: L.icon({
-									iconUrl: '/assets/icons/sortie.svg',
+									iconUrl: iconUrl,
 									iconSize: [30, 30],
 									iconAnchor: [0, 0],
 									popupAnchor: [15, 0]
