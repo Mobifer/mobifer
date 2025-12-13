@@ -15,17 +15,11 @@
 	<meta name="description" content="MobiFer vous propose de naviguer dans le réseau ferré d’Île-de-France (Métro, RER, Transilien et Tramway) par des plans de ligne et des pages de stations, réalisés par notre équipe. Ce centre d’informations concentre entre autres, dans le style de la charte graphique RATP et Île-de-France Mobilités, la liste et la position des sorties des stations, les prochains passages des trains, et quelques articles rédigés par des contributeurs.">
 	<meta name="theme-color" content="#0b0082">
 	<style>
-		.row-home {
-			direction: rtl;
-		}
-		.row-home > * {
-			direction: ltr;
-		}
 		@media (max-width: 400px) {
-		.row-journal {
-			column-count: 1;
+			.row-journal {
+				column-count: 1;
+			}
 		}
-}
 	</style>
 </head>
 <body>
@@ -70,6 +64,19 @@
 		MobiFer vous propose ainsi de naviguer dans le réseau ferré d’Île-de-France (Métro, RER, Transilien et Tramway) par des <strong>plans de ligne</strong> et des <strong>pages de stations</strong>, réalisés par notre équipe. Ce centre d’informations concentre de petites galeries photo de notre équipe, la liste et la position des <strong>sorties des stations</strong>, ou encore les <strong>prochains passages</strong> des trains aux stations.</p>
 		<p class="justified"><span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span> <strong>Attention&nbsp;!</strong> Ce site est encore en construction active et certaines pages n’ont pas encore été créées. À terme, le site vous assurera une navigation sans interruption entre lignes et stations, dénuée d’erreurs 404. <span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span></p>
 	</div>
+
+	<div class="box image-center" id="Stations" style="max-width: 1200px !important;">
+			<h2 class="centered">Stations</h2>
+			<div class="searchbox">
+				<input type="search" class="stationinput" id="search" placeholder="Rechercher une station..." style="pointer-events: all; cursor: text; opacity: 1; margin-bottom: 20px;">
+			</div>
+			<div id="search-results"></div>
+			<a href="/stations/"><p class="centered">Voir la liste des stations disponibles</p></a>
+	</div>
+
+	</div>
+	<div class="item">
+
 	<!-- <p class="centered"><em>You can also visit this website in <a href="/en/">English</a>!</em></p> -->
 	<div class="box image-center" id="Métro" style="max-width: 1200px !important;">
 		<h2 class="centered"><span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" title="Métro"></span> Métropolitain</h2>
@@ -152,16 +159,6 @@
 		<div class="svg-container">
 			<a href="lines/c01.html"><img src="/assets/icons/cable_C1_couleur_RVB.svg" alt="Câble C1" class="hovereffect"></a>
 		</div>
-		</div>
-		</div>
-		<div class="item">
-		<div class="box image-center" id="Stations" style="max-width: 1200px !important;">
-			<h2 class="centered">Stations</h2>
-			<div class="searchbox">
-				<input type="search" class="stationinput" id="search" placeholder="Rechercher une station..." style="pointer-events: all; cursor: text; opacity: 1; margin-bottom: 20px;">
-			</div>
-			<div id="search-results"></div>
-			<a href="/stations/"><p class="centered">Voir la liste des stations disponibles</p></a>
 		</div>
 
 		<div class="box image-center" id="Journal" style="max-width: 1200px !important;">
