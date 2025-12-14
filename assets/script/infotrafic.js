@@ -5,11 +5,15 @@ fetch(`https://mobifer-tempsreel.alwaysdata.net/infotrafic.php?line=${currentLin
 .then(response => response.json())
 .then(data => {
 	const infoDiv = document.getElementById('infotrafic');
+	const lastUpdateDate = "";
+	const lastUpdateTime = "";
 	if (data.rpi_last_updated) {
 		lastUpdateDate = getRelativeDateIntl(data.rpi_last_updated);
 		lastUpdateTime = new Date(data.rpi_last_updated).toLocaleTimeString('fr-FR', {hour: '2-digit', minute: '2-digit'});
+		infoDiv.innerHTML = `<p style="text-align: right; margin-top: 5px;"><em>Dernière mise à jour : ${lastUpdateDate} à ${lastUpdateTime}</em></p>`;
+	} else {
+		infoDiv.innerHTML = `<p style="text-align: right; margin-top: 5px;"><em>Dernière mise à jour : ${new Date().toLocaleDateString('fr-FR', {day: '2-digit', month: '2-digit', year: 'numeric'})} à ${new Date().toLocaleTimeString('fr-FR', {hour: '2-digit', minute: '2-digit'})}</em></p>`;
 	}
-	infoDiv.innerHTML = `<p style="text-align: right; margin-top: 5px;"><em>Dernière mise à jour : ${lastUpdateDate} à ${lastUpdateTime}</em></p>`;
 	const results = data.disruptions;
 	let resultCount = 0;
 	if (results && results.length > 0) {
