@@ -1,11 +1,7 @@
 currentURL = window.location.href;
 currentLine = currentURL.substring(currentURL.lastIndexOf('/') + 1).replace(".html", "");
 
-fetch(`https://apitrafic.share.zrok.io/trafic/${currentLine}`, {
-	headers: {
-		'skip_zrok_interstitial': '0'
-	}
-})
+fetch(`https://mobifer-tempsreel.alwaysdata.net/infotrafic.php?line=${currentLine}`)
 .then(response => response.json())
 .then(data => {
 	const infoDiv = document.getElementById('infotrafic');
