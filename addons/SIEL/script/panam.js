@@ -138,12 +138,14 @@ function syncClock() {
 function handleLigne(ligne) {
 	if (!LIGNES_VALIDES.includes(ligne)) return; // Ligne non valide
 
+	ligne = ligne.replace("3b", "3bis").replace("7b", "7bis");
+	
 	const entete = document.getElementById("entete");
 
 	// Ajout du pictogramme de ligne
 	let picto = document.createElement("img");
 	picto.classList.add("picto");
-	picto.src = "assets/m" + ligne + ".svg";
+	picto.src = "/assets/icons/metro_" + ligne + "_couleur_RVB.svg";
 	entete.appendChild(picto);
 
 	// Changement de la couleur du pied
