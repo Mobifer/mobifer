@@ -16,6 +16,6 @@ This GitHub repository hosts the source code for the website https://mobifer.git
 - [x] RER
 - [x] Transilien
 
-- Stations : 216
+- Stations : 332
 
 **Rejoignez le [serveur Discord du projet](https://discord.gg/zWraJq5eE5), et contribuez dès maintenant avec [MobiStation](https://github.com/Mobifer/mobistation) !**
