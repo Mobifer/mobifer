@@ -71,7 +71,7 @@
 					if (!nouvelleStation) {
 						return;
 					}
-					html += `<strong><a href="/stations.html?station=${corresp}">${nouvelleStation.nom}</a></strong> ${genererLignesHTML(nouvelleStation.lignes)}`;
+					html += `<strong><a href="/stations/${corresp}">${nouvelleStation.nom}</a></strong> ${genererLignesHTML(nouvelleStation.lignes)}`;
 					if (corresp !== station.corresp[station.corresp.length - 1] && station.corresp.length !== 1) {
 						html += `, `
 					}
