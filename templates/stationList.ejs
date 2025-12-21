@@ -50,11 +50,11 @@
 						</td>
 
 						<td>
-							<% if (station.nom !== "Terminus") { %>
+							<% if (station.nom === "Terminus") { %>
+								<span style="font-size: 1.2em;">Terminus</span>
+							<% } else { %>
 								<a href="<%= station.id %>" style="text-decoration: none; color: inherit; font-size: 1.2em;">
 								<%= station.nom.replace(" \u2013 ", "\u2013") %></a>
-							<% } else { %>
-								<span style="text-decoration: none; color: inherit; font-size: 1.2em;">Terminus</span>
 							<% } %>
 						</td>
 					</tr>
