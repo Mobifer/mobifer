@@ -341,7 +341,7 @@
 
 				if (!precedent && !suivant) return;
 
-				const toId = name => if (name !== "Terminus") { return "/stations/" + normaliserNom(name) } else { return "#" };
+				const toId = (name) => { if (name !== "Terminus") { return "/stations/" + normaliserNom(name) } else { return "#" } };
 
 				const pictos = ligne.startsWith("m")
 					? genererLignesHTML({ metro: [ligne.replace(/^m0?/, "").replace("b", "bis")] })
